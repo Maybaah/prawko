@@ -667,6 +667,8 @@ function mediaNode(q, wantReplay, onPlayed) {
     v.muted = true;
     v.addEventListener("error", fail);
     v.addEventListener("ended", function () { if (onPlayed) onPlayed(); });
+    var stall = setTimeout(function () { if (v.readyState === 0) fail(); }, 10000);
+    v.addEventListener("loadeddata", function () { clearTimeout(stall); });
     v.src = "media/" + q.media.src;
     wrap.appendChild(v);
     var p = v.play();
