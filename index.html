@@ -670,7 +670,10 @@ function mediaNode(q, wantReplay, onPlayed) {
     v.muted = true;
     v.addEventListener("error", fail);
     v.addEventListener("ended", function () { if (onPlayed) onPlayed(); });
-    var stall = setTimeout(function () { if (v.readyState === 0) fail(); }, 10000);
+    // A hidden tab never decodes media, so only give up when the source is truly gone.
+    var stall = setTimeout(function () {
+      if (v.networkState === 3 || v.error) fail();
+    }, 15000);
     v.addEventListener("loadeddata", function () { clearTimeout(stall); });
     v.src = "media/" + q.media.src;
     wrap.appendChild(v);
