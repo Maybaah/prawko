@@ -152,6 +152,15 @@ def main():
                 item["media"] = media
             out.append(item)
 
+    media_dir = os.path.join(ROOT, "media")
+    have = set(os.listdir(media_dir)) if os.path.isdir(media_dir) else None
+    absent = 0
+    for q in out:
+        m = q.get("media")
+        if m and have is not None and m["src"] not in have:
+            q["absent"] = True
+            absent += 1
+
     out.sort(key=lambda x: int(x["id"]) if x["id"].isdigit() else 0)
 
     stats = {
@@ -162,6 +171,7 @@ def main():
         "image": sum(1 for q in out if q.get("media", {}).get("kind") == "image"),
         "no_media": sum(1 for q in out if "media" not in q),
         "unverified": sum(1 for q in out if not q["verified"]),
+        "absent_media": absent,
         "skipped": skipped,
     }
     for scope in ("P", "S"):

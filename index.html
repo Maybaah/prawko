@@ -507,7 +507,10 @@ function shuffle(arr) {
   return arr;
 }
 function pool() {
-  return state.settings.unverified ? bank : bank.filter(function (q) { return q.verified; });
+  return bank.filter(function (q) {
+    if (q.absent) return false;
+    return state.settings.unverified || q.verified;
+  });
 }
 
 /* ---------- exam construction ---------- */
