@@ -6,251 +6,246 @@
 <title>Prawo jazdy kat. B — egzamin teoretyczny</title>
 <style>
 :root{
-  --asphalt:#1b1a17;
-  --asphalt-soft:#3a3833;
-  --concrete:#e4e5e0;
-  --concrete-dim:#d3d5cd;
-  --plate:#ffffff;
-  --blue:#0b4ea2;
-  --blue-dim:#dbe6f5;
-  --yellow:#f2c300;
-  --red:#c8102e;
-  --red-dim:#f7dee2;
-  --green:#00703c;
-  --green-dim:#d8ece1;
-  --line:#c2c4bb;
+  --bg:#0d0d0d;
+  --surface:#161616;
+  --surface-2:#1d1d1d;
+  --line:#2b2b2b;
+  --line-strong:#454545;
+  --text:#f4f4f2;
+  --muted:#9a9a96;
+  --dim:#6d6d69;
+  --invert-bg:#f4f4f2;
+  --invert-fg:#0d0d0d;
   --display:"Bahnschrift","DIN Alternate","Roboto Condensed",system-ui,sans-serif;
   --body:"Segoe UI",system-ui,-apple-system,sans-serif;
-  --plate-radius:4px;
+  --plate-radius:3px;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
-  background:var(--concrete);
-  color:var(--asphalt);
+  background:var(--bg);
+  color:var(--text);
   font-family:var(--body);
   font-size:16px;
   line-height:1.5;
   -webkit-font-smoothing:antialiased;
 }
 button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
-button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--invert-bg);outline-offset:2px}
 h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;letter-spacing:.01em}
 
 /* ---------- chrome ---------- */
-.topbar{
-  background:var(--asphalt);
-  color:#f2f2ee;
-  border-bottom:4px solid var(--yellow);
-}
+.topbar{background:#000;border-bottom:1px solid var(--line-strong)}
 .topbar-in{
   max-width:1120px;margin:0 auto;padding:12px 20px;
   display:flex;align-items:center;gap:18px;flex-wrap:wrap;
 }
-.brand{font-family:var(--display);font-size:19px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
-.brand span{color:var(--yellow)}
+.brand{font-family:var(--display);font-size:19px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.brand span{color:var(--dim)}
 .topbar-spacer{flex:1}
-.langs{display:flex;gap:2px;background:#2c2b27;padding:3px;border-radius:3px}
+.langs{display:flex;gap:1px;background:var(--line);padding:1px;border-radius:2px}
 .langs button{
   font-family:var(--display);font-size:13px;font-weight:600;letter-spacing:.08em;
-  padding:5px 10px;border-radius:2px;color:#b9b8b2;
+  padding:6px 11px;border-radius:1px;color:var(--muted);background:#000;
 }
-.langs button[aria-pressed="true"]{background:var(--yellow);color:var(--asphalt)}
+.langs button:hover{color:var(--text)}
+.langs button[aria-pressed="true"]{background:var(--invert-bg);color:var(--invert-fg)}
 .ghost{
   font-family:var(--display);font-size:13px;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;padding:7px 12px;border:1px solid #55534d;border-radius:3px;color:#e8e8e4;
+  text-transform:uppercase;padding:7px 12px;border:1px solid var(--line-strong);border-radius:2px;color:var(--muted);
 }
-.ghost:hover{border-color:var(--yellow);color:var(--yellow)}
+.ghost:hover{border-color:var(--invert-bg);color:var(--text)}
 
 main{max-width:1120px;margin:0 auto;padding:26px 20px 60px}
 
 /* ---------- plates ---------- */
-.plate{background:var(--plate);border:1px solid var(--line);border-radius:var(--plate-radius)}
+.plate{background:var(--surface);border:1px solid var(--line);border-radius:var(--plate-radius)}
 .eyebrow{
   font-family:var(--display);font-size:12px;font-weight:600;
-  letter-spacing:.14em;text-transform:uppercase;color:var(--asphalt-soft);
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
 }
 
 /* ---------- home ---------- */
-.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:stretch}
-.hero-main{padding:32px 34px}
-.hero-main h1{font-size:clamp(30px,4.2vw,46px);line-height:1.05}
-.hero-main p{max-width:46ch;color:var(--asphalt-soft);margin:14px 0 0}
+.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:18px;align-items:stretch}
+.hero-main{padding:34px 36px}
+.hero-main h1{font-size:clamp(30px,4.2vw,46px);line-height:1.04}
+.hero-main p{max-width:46ch;color:var(--muted);margin:14px 0 0}
 .rule{height:1px;background:var(--line);margin:26px 0}
-.startrow{display:flex;gap:12px;flex-wrap:wrap}
+.startrow{display:flex;gap:10px;flex-wrap:wrap}
 .btn{
-  font-family:var(--display);font-weight:600;letter-spacing:.05em;text-transform:uppercase;
-  padding:14px 22px;border-radius:3px;border:2px solid transparent;font-size:15px;
+  font-family:var(--display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  padding:13px 20px;border-radius:2px;border:1px solid transparent;font-size:14px;
 }
-.btn-primary{background:var(--blue);color:#fff}
-.btn-primary:hover{background:#093f83}
-.btn-secondary{border-color:var(--asphalt);color:var(--asphalt)}
-.btn-secondary:hover{background:var(--asphalt);color:#fff}
-.btn-quiet{border-color:var(--line);color:var(--asphalt-soft)}
-.btn-quiet:hover{border-color:var(--asphalt);color:var(--asphalt)}
-.btn[disabled]{opacity:.4;cursor:not-allowed}
+.btn-primary{background:var(--invert-bg);color:var(--invert-fg);border-color:var(--invert-bg)}
+.btn-primary:hover{background:#fff;border-color:#fff}
+.btn-secondary{border-color:var(--line-strong);color:var(--text)}
+.btn-secondary:hover{border-color:var(--invert-bg);background:var(--surface-2)}
+.btn-quiet{border-color:var(--line);color:var(--muted)}
+.btn-quiet:hover{border-color:var(--line-strong);color:var(--text)}
+.btn[disabled]{opacity:.35;cursor:not-allowed}
 
-.facts{padding:26px 28px;display:flex;flex-direction:column;gap:0}
-.fact{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.facts{padding:28px 30px;display:flex;flex-direction:column;gap:0}
+.fact{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px solid var(--line)}
 .fact:last-child{border-bottom:0}
-.fact dt{color:var(--asphalt-soft);font-size:14px}
-.fact dd{margin:0;font-family:var(--display);font-weight:600;font-size:16px;white-space:nowrap}
+.fact dt{color:var(--muted);font-size:14px}
+.fact dd{margin:0;font-family:var(--display);font-weight:600;font-size:16px;white-space:nowrap;font-variant-numeric:tabular-nums}
 
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}
-.card{padding:22px 24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:16px}
+.card{padding:24px 26px}
 .card h3{font-size:17px;margin-bottom:8px}
-.card p{margin:0;font-size:14px;color:var(--asphalt-soft)}
+.card p{margin:0;font-size:14px;color:var(--muted)}
 .card .btn{margin-top:16px}
 
 /* ---------- exam layout ---------- */
-.examgrid{display:grid;grid-template-columns:1fr 236px;gap:20px;align-items:start}
+.examgrid{display:grid;grid-template-columns:1fr 236px;gap:18px;align-items:start}
 .qplate{padding:0;overflow:hidden}
 .qhead{
-  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
-  padding:14px 22px;background:var(--asphalt);color:#f2f2ee;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  padding:14px 22px;background:#000;border-bottom:1px solid var(--line);
 }
-.qhead .eyebrow{color:#b9b8b2}
-.qnum{font-family:var(--display);font-size:22px;font-weight:600}
+.qnum{font-family:var(--display);font-size:22px;font-weight:600;font-variant-numeric:tabular-nums}
 .tag{
   font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
-  padding:4px 9px;border-radius:2px;
+  padding:4px 9px;border-radius:1px;border:1px solid var(--line-strong);color:var(--muted);
 }
-.tag-basic{background:var(--blue);color:#fff}
-.tag-spec{background:var(--yellow);color:var(--asphalt)}
-.tag-pts{background:#494740;color:#f2f2ee}
-.tag-warn{background:var(--red);color:#fff}
+.tag-basic{color:var(--text);border-color:var(--text)}
+.tag-spec{background:var(--invert-bg);color:var(--invert-fg);border-color:var(--invert-bg)}
+.tag-pts{color:var(--muted)}
+.tag-warn{border-style:dashed}
 
 .media{
-  background:#101010;display:flex;align-items:center;justify-content:center;
-  min-height:220px;max-height:52vh;position:relative;
+  background:#000;display:flex;align-items:center;justify-content:center;
+  min-height:220px;max-height:52vh;position:relative;border-bottom:1px solid var(--line);
 }
 .media video,.media img{display:block;max-width:100%;max-height:52vh;object-fit:contain}
-.media-none{min-height:0}
+.media-none{min-height:0;border-bottom:0}
 .media-missing{
-  color:#9b9b95;font-family:var(--display);font-size:13px;letter-spacing:.06em;
-  padding:38px 20px;text-align:center;
+  color:var(--dim);font-family:var(--display);font-size:13px;letter-spacing:.08em;
+  padding:44px 20px;text-align:center;text-transform:uppercase;
 }
-.media-missing code{color:#cfcfc8;font-size:12px;display:block;margin-top:6px;word-break:break-all}
+.media-missing code{color:var(--muted);font-size:12px;display:block;margin-top:8px;word-break:break-all;text-transform:none;letter-spacing:0}
 .replay{
   position:absolute;right:12px;bottom:12px;
-  background:rgba(255,255,255,.92);color:var(--asphalt);
+  background:rgba(13,13,13,.85);border:1px solid var(--line-strong);color:var(--text);
   font-family:var(--display);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
-  padding:8px 12px;border-radius:3px;
+  padding:8px 12px;border-radius:2px;
 }
-.replay:hover{background:#fff}
+.replay:hover{background:#000;border-color:var(--invert-bg)}
 
 .qtext{padding:22px;font-size:19px;line-height:1.45}
-.qsrc{padding:0 22px 14px;font-size:13px;color:var(--asphalt-soft)}
-.answers{padding:0 22px 22px;display:flex;flex-direction:column;gap:10px}
+.qsrc{padding:0 22px 14px;font-size:13px;color:var(--dim)}
+.answers{padding:0 22px 22px;display:flex;flex-direction:column;gap:9px}
 .answers-tn{flex-direction:row}
 .ans{
   display:flex;align-items:flex-start;gap:12px;width:100%;text-align:left;
-  border:2px solid var(--line);border-radius:3px;padding:14px 16px;background:var(--plate);
+  border:1px solid var(--line-strong);border-radius:2px;padding:14px 16px;background:var(--surface-2);
 }
-.ans:hover:not([disabled]){border-color:var(--blue);background:var(--blue-dim)}
+.ans:hover:not([disabled]){border-color:var(--invert-bg);background:#242424}
 .ans .key{
   font-family:var(--display);font-weight:600;font-size:15px;
-  min-width:26px;height:26px;border-radius:2px;background:var(--concrete-dim);
+  min-width:26px;height:26px;border-radius:1px;border:1px solid var(--line-strong);color:var(--muted);
   display:flex;align-items:center;justify-content:center;flex:none;
 }
-.answers-tn .ans{justify-content:center;text-align:center;font-family:var(--display);font-size:19px;font-weight:600;letter-spacing:.04em;padding:20px}
-.ans[aria-pressed="true"]{border-color:var(--blue);background:var(--blue-dim)}
-.ans[aria-pressed="true"] .key{background:var(--blue);color:#fff}
-.ans.correct{border-color:var(--green);background:var(--green-dim)}
-.ans.correct .key{background:var(--green);color:#fff}
-.ans.wrong{border-color:var(--red);background:var(--red-dim)}
-.ans.wrong .key{background:var(--red);color:#fff}
+.answers-tn .ans{justify-content:center;text-align:center;font-family:var(--display);font-size:19px;font-weight:600;letter-spacing:.05em;padding:20px}
+.ans[aria-pressed="true"]{border-color:var(--invert-bg);background:var(--invert-bg);color:var(--invert-fg)}
+.ans[aria-pressed="true"] .key{border-color:var(--invert-fg);color:var(--invert-fg)}
+.ans.correct{border-color:var(--invert-bg);background:var(--invert-bg);color:var(--invert-fg)}
+.ans.correct .key{border-color:var(--invert-fg);color:var(--invert-fg)}
+.ans.correct::after{content:"✓";margin-left:auto;font-weight:700}
+.ans.wrong{border-style:dashed;border-color:var(--dim);color:var(--dim);background:transparent}
+.ans.wrong::after{content:"✕";margin-left:auto}
 .ans[disabled]{cursor:default}
 
 .qfoot{display:flex;gap:10px;padding:0 22px 22px;flex-wrap:wrap;align-items:center}
 .qfoot .spacer{flex:1}
-.note{font-size:13px;color:var(--asphalt-soft)}
+.note{font-size:13px;color:var(--muted)}
 
 /* ---------- signature: speed-limit timer ---------- */
 .side{display:flex;flex-direction:column;gap:16px;position:sticky;top:16px}
 .timerbox{padding:20px;display:flex;flex-direction:column;align-items:center;gap:14px}
 .disc{
   --p:1;
-  width:154px;height:154px;border-radius:50%;
-  background:conic-gradient(var(--ring,var(--red)) calc(var(--p) * 360deg), var(--concrete-dim) 0);
+  width:150px;height:150px;border-radius:50%;
+  background:conic-gradient(var(--ring,var(--invert-bg)) calc(var(--p) * 360deg), #242424 0);
   display:flex;align-items:center;justify-content:center;position:relative;
 }
-.disc::after{content:"";position:absolute;inset:15px;border-radius:50%;background:var(--plate)}
+.disc::after{content:"";position:absolute;inset:13px;border-radius:50%;background:var(--surface)}
 .disc-val{position:relative;z-index:1;text-align:center;line-height:1}
 .disc-val b{display:block;font-family:var(--display);font-size:46px;font-weight:600;font-variant-numeric:tabular-nums}
-.disc-val small{display:block;font-family:var(--display);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--asphalt-soft);margin-top:5px}
-.disc.paused{--ring:var(--asphalt-soft)}
-.disc.low{--ring:var(--red)}
-.disc.read{--ring:var(--blue)}
+.disc-val small{display:block;font-family:var(--display);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-top:6px}
+.disc.paused{--ring:var(--dim)}
+.disc.read{--ring:var(--line-strong)}
+.disc.low{--ring:var(--invert-bg)}
 @media (prefers-reduced-motion: no-preference){
   .disc.low .disc-val b{animation:pulse 1s ease-in-out infinite}
 }
-@keyframes pulse{50%{opacity:.45}}
+@keyframes pulse{50%{opacity:.35}}
 
-.sidestat{display:flex;justify-content:space-between;width:100%;font-size:13px;color:var(--asphalt-soft)}
-.sidestat b{font-family:var(--display);color:var(--asphalt);font-variant-numeric:tabular-nums}
+.sidestat{display:flex;justify-content:space-between;width:100%;font-size:13px;color:var(--muted)}
+.sidestat b{font-family:var(--display);color:var(--text);font-variant-numeric:tabular-nums}
 
 /* ---------- progress ---------- */
 .progress{padding:16px 18px}
 .pgrid{display:grid;grid-template-columns:repeat(8,1fr);gap:4px}
 .pcell{
-  aspect-ratio:1;border:1px solid var(--line);border-radius:2px;background:var(--plate);
-  font-family:var(--display);font-size:11px;color:var(--asphalt-soft);
+  aspect-ratio:1;border:1px solid var(--line);border-radius:1px;background:var(--surface-2);
+  font-family:var(--display);font-size:11px;color:var(--dim);
   display:flex;align-items:center;justify-content:center;
 }
-.pcell.done{background:var(--asphalt-soft);border-color:var(--asphalt-soft);color:#fff}
-.pcell.now{border-color:var(--blue);border-width:2px;color:var(--blue);background:var(--blue-dim)}
-.pcell.spec{border-bottom:3px solid var(--yellow)}
-.plegend{display:flex;gap:12px;margin-top:12px;font-size:12px;color:var(--asphalt-soft);flex-wrap:wrap}
+.pcell:hover{border-color:var(--line-strong);color:var(--text)}
+.pcell.done{background:var(--dim);border-color:var(--dim);color:#000}
+.pcell.now{border-color:var(--invert-bg);color:var(--invert-fg);background:var(--invert-bg)}
+.pcell.spec{border-bottom:3px solid var(--line-strong)}
+.plegend{display:flex;gap:12px;margin-top:12px;font-size:12px;color:var(--dim);flex-wrap:wrap}
 
 /* ---------- results ---------- */
-.score{padding:30px 34px;display:grid;grid-template-columns:auto 1fr;gap:30px;align-items:center}
+.score{padding:32px 34px;display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center}
 .scorenum{text-align:center}
-.scorenum b{display:block;font-family:var(--display);font-size:76px;font-weight:600;line-height:.9;font-variant-numeric:tabular-nums}
-.scorenum small{font-family:var(--display);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--asphalt-soft)}
-.verdict{font-family:var(--display);font-size:30px;font-weight:600;letter-spacing:.02em}
-.verdict.pass{color:var(--green)}
-.verdict.fail{color:var(--red)}
-.bar{height:12px;background:var(--concrete-dim);border-radius:2px;overflow:hidden;margin:14px 0 8px;position:relative}
-.bar i{display:block;height:100%;background:var(--asphalt)}
-.bar .thr{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--red)}
+.scorenum b{display:block;font-family:var(--display);font-size:78px;font-weight:600;line-height:.9;font-variant-numeric:tabular-nums}
+.scorenum small{font-family:var(--display);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.verdict{font-family:var(--display);font-size:30px;font-weight:600;letter-spacing:.03em}
+.verdict.pass{color:var(--text)}
+.verdict.fail{color:var(--dim)}
+.bar{height:10px;background:#242424;border-radius:1px;overflow:hidden;margin:14px 0 8px;position:relative}
+.bar i{display:block;height:100%;background:var(--invert-bg)}
+.bar .thr{position:absolute;top:-4px;bottom:-4px;width:1px;background:var(--text)}
 
-.review{margin-top:20px}
-.rhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
-.ritem{padding:16px 18px;margin-bottom:8px;display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:start}
+.review{margin-top:18px}
+.rhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.rhead .spacer{flex:1}
+.ritem{padding:16px 18px;margin-bottom:8px;display:grid;grid-template-columns:40px 1fr auto;gap:14px;align-items:start}
 .rmark{
-  width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-  font-family:var(--display);font-weight:600;font-size:17px;color:#fff;flex:none;
+  width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:600;font-size:17px;flex:none;border:1px solid var(--line-strong);
 }
-.rmark.ok{background:var(--green)}
-.rmark.no{background:var(--red)}
-.rmark.skip{background:var(--asphalt-soft)}
+.rmark.ok{background:var(--invert-bg);color:var(--invert-fg);border-color:var(--invert-bg)}
+.rmark.no{color:var(--text);border-color:var(--text)}
+.rmark.skip{color:var(--dim)}
 .ritem p{margin:0 0 6px;font-size:15px}
-.rmeta{font-size:13px;color:var(--asphalt-soft)}
-.rmeta b{color:var(--asphalt)}
-.rpts{font-family:var(--display);font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.rmeta{font-size:13px;color:var(--muted)}
+.rmeta b{color:var(--text)}
+.rpts{font-family:var(--display);font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--muted)}
 
 /* ---------- settings ---------- */
 .modal{
-  position:fixed;inset:0;background:rgba(27,26,23,.6);
+  position:fixed;inset:0;background:rgba(0,0,0,.72);
   display:flex;align-items:center;justify-content:center;padding:20px;z-index:50;
 }
-.modal-in{background:var(--plate);border-radius:4px;max-width:520px;width:100%;max-height:88vh;overflow:auto}
+.modal-in{background:var(--surface);border:1px solid var(--line-strong);border-radius:3px;max-width:520px;width:100%;max-height:88vh;overflow:auto}
 .modal-head{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;align-items:center}
 .modal-head h2{font-size:19px;flex:1}
 .modal-body{padding:8px 24px 20px}
-.opt{display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line);align-items:flex-start}
+.opt{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);align-items:flex-start}
 .opt:last-child{border-bottom:0}
-.opt input{margin-top:4px;width:18px;height:18px;accent-color:var(--blue);flex:none}
+.opt input{margin-top:4px;width:18px;height:18px;accent-color:#fff;flex:none}
 .opt label{font-size:15px;display:block}
 .opt .note{margin-top:3px}
 .modal-foot{padding:16px 24px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:10px}
 
 .warnbar{
-  background:var(--yellow);color:var(--asphalt);border-radius:3px;
+  background:var(--surface-2);border:1px solid var(--line-strong);border-radius:2px;
   padding:12px 16px;margin-bottom:18px;font-size:14px;
 }
-.warnbar b{font-family:var(--display)}
 
 .hidden{display:none !important}
 
@@ -264,7 +259,6 @@ main{max-width:1120px;margin:0 auto;padding:26px 20px 60px}
 }
 @media (max-width:560px){
   .answers-tn{flex-direction:column}
-  .pgrid{grid-template-columns:repeat(8,1fr)}
 }
 </style>
 </head>
@@ -318,7 +312,7 @@ var T = {
     points:"pkt", question:"Pytanie",
     read:"Czytanie", answer:"Odpowiedź", paused:"Pauza", left:"Zostało",
     yes:"TAK", no:"NIE",
-    toAnswer:"Przejdź do odpowiedzi", prev:"Poprzednie", next:"Następne", finish:"Zakończ egzamin",
+    fixMistakes:"Popraw błędy", backToResult:"Wróć do wyniku", prev:"Poprzednie", next:"Następne", finish:"Zakończ egzamin",
     pause:"Pauza", unpause:"Wznów", replay:"Powtórz nagranie",
     globalLeft:"Czas egzaminu", answered:"Odpowiedzi", scored:"Punkty",
     mediaMissing:"Brak pliku multimedialnego", mediaHint:"Wgraj archiwum do folderu media/",
@@ -355,7 +349,7 @@ var T = {
     points:"pts", question:"Question",
     read:"Reading", answer:"Answer", paused:"Paused", left:"Left",
     yes:"YES", no:"NO",
-    toAnswer:"Go to answer", prev:"Previous", next:"Next", finish:"Finish exam",
+    fixMistakes:"Redo mistakes", backToResult:"Back to result", prev:"Previous", next:"Next", finish:"Finish exam",
     pause:"Pause", unpause:"Resume", replay:"Replay clip",
     globalLeft:"Exam time", answered:"Answered", scored:"Points",
     mediaMissing:"Media file missing", mediaHint:"Unpack the archive into media/",
@@ -392,7 +386,7 @@ var T = {
     points:"Pkt", question:"Frage",
     read:"Lesen", answer:"Antwort", paused:"Pause", left:"Rest",
     yes:"JA", no:"NEIN",
-    toAnswer:"Zur Antwort", prev:"Zurück", next:"Weiter", finish:"Prüfung beenden",
+    fixMistakes:"Fehler wiederholen", backToResult:"Zurück zum Ergebnis", prev:"Zurück", next:"Weiter", finish:"Prüfung beenden",
     pause:"Pause", unpause:"Weiter", replay:"Video wiederholen",
     globalLeft:"Prüfungszeit", answered:"Beantwortet", scored:"Punkte",
     mediaMissing:"Mediendatei fehlt", mediaHint:"Archiv nach media/ entpacken",
@@ -429,7 +423,7 @@ var T = {
     points:"б.", question:"Питання",
     read:"Читання", answer:"Відповідь", paused:"Пауза", left:"Залишилось",
     yes:"ТАК", no:"НІ",
-    toAnswer:"Перейти до відповіді", prev:"Попереднє", next:"Наступне", finish:"Завершити іспит",
+    fixMistakes:"Виправити помилки", backToResult:"Назад до результату", prev:"Попереднє", next:"Наступне", finish:"Завершити іспит",
     pause:"Пауза", unpause:"Далі", replay:"Повторити відео",
     globalLeft:"Час іспиту", answered:"Відповіді", scored:"Бали",
     mediaMissing:"Немає медіафайлу", mediaHint:"Розпакуй архів у папку media/",
@@ -609,16 +603,12 @@ function tick() {
 /* ---------- exam actions ---------- */
 function advance() {
   var ex = state.exam;
+  if (ex.index < ex.items.length - 1) { ex.index++; renderExam(); return; }
   var next = -1;
-  for (var i = ex.index + 1; i < ex.items.length; i++) {
-    if (!ex.items[i].locked) { next = i; break; }
+  for (var i = 0; i < ex.items.length; i++) {
+    if (!ex.items[i].answer && !ex.items[i].locked) { next = i; break; }
   }
-  if (next === -1) {
-    for (var j = 0; j < ex.items.length; j++) {
-      if (!ex.items[j].locked) { next = j; break; }
-    }
-  }
-  if (next === -1) { finishExam(); return; }
+  if (next === -1) { renderExam(); return; }
   ex.index = next;
   renderExam();
 }
@@ -626,19 +616,18 @@ function advance() {
 function answerQuestion(value) {
   var ex = state.exam;
   var it = ex.items[ex.index];
-  if (it.locked || it.phase === "read") return;
+  if (it.locked) return;
+  var changed = it.answer !== value;
   it.answer = value;
-  if (state.settings.auto) {
-    it.locked = true;
-    advance();
-  } else {
-    renderExam();
-  }
+  if (state.settings.auto && changed) advance();
+  else renderExam();
 }
 
 function finishExam() {
   var ex = state.exam;
+  if (ex.finished) return;
   ex.finished = true;
+  ex.endedAt = Date.now();
   ex.items.forEach(function (it) { it.locked = true; });
   stopTicker();
 
@@ -648,7 +637,7 @@ function finishExam() {
     points: res.points,
     passed: res.passed,
     correct: res.correct,
-    seconds: Math.round((Date.now() - ex.startedAt) / 1000)
+    seconds: Math.round((ex.endedAt - ex.startedAt) / 1000)
   });
   state.history = state.history.slice(0, 30);
   save();
@@ -793,7 +782,7 @@ function renderHome() {
   c1.appendChild(el("h3", null, t("learnTitle")));
   c1.appendChild(el("p", null, t("learnLead")));
   var b1 = el("button", "btn btn-secondary", t("learn"));
-  b1.addEventListener("click", startLearn);
+  b1.addEventListener("click", function () { startLearn(); });
   c1.appendChild(b1);
   cards.appendChild(c1);
 
@@ -854,29 +843,20 @@ function examNode() {
   plate.appendChild(el("div", "qtext", q.q[state.lang] || q.q.pl));
   if (state.lang !== "pl") plate.appendChild(el("div", "qsrc", q.q.pl));
 
-  var reading = isBasic && it.phase === "read" && state.settings.timer && !it.locked;
-
   var ans = el("div", "answers" + (q.kind === "tn" ? " answers-tn" : ""));
   if (q.kind === "tn") {
     [["T", t("yes")], ["N", t("no")]].forEach(function (pair) {
-      ans.appendChild(answerButton(it, pair[0], pair[1], null, reading));
+      ans.appendChild(answerButton(it, pair[0], pair[1], null));
     });
   } else {
     var opts = (q.opts && (q.opts[state.lang] || q.opts.pl)) || ["", "", ""];
     ["A", "B", "C"].forEach(function (letter, i) {
-      ans.appendChild(answerButton(it, letter, opts[i], letter, reading));
+      ans.appendChild(answerButton(it, letter, opts[i], letter));
     });
   }
   plate.appendChild(ans);
 
   var foot = el("div", "qfoot");
-  if (reading) {
-    var skip = el("button", "btn btn-primary", t("toAnswer"));
-    skip.addEventListener("click", function () {
-      it.phase = "answer"; it.readLeft = 0; renderExam();
-    });
-    foot.appendChild(skip);
-  }
   if (state.settings.back && ex.index > 0) {
     var prev = el("button", "btn btn-quiet", t("prev"));
     prev.addEventListener("click", function () { ex.index--; renderExam(); });
@@ -902,7 +882,7 @@ function examNode() {
   return grid;
 }
 
-function answerButton(it, value, label, letter, reading) {
+function answerButton(it, value, label, letter) {
   var b = el("button", "ans");
   if (letter) {
     b.appendChild(el("span", "key", letter));
@@ -911,7 +891,7 @@ function answerButton(it, value, label, letter, reading) {
     b.appendChild(document.createTextNode(label));
   }
   b.setAttribute("aria-pressed", it.answer === value ? "true" : "false");
-  if (reading || (it.locked && state.settings.timer)) b.disabled = true;
+  if (it.locked && state.settings.timer) b.disabled = true;
   b.addEventListener("click", function () { answerQuestion(value); });
   return b;
 }
@@ -1051,11 +1031,21 @@ function renderResult() {
   thr.style.left = (RULES.passPoints / RULES.maxPoints * 100) + "%";
   bar.appendChild(thr);
   right.appendChild(bar);
-  right.appendChild(el("div", "note", t("threshold") + " · " + res.correct + " / 32 · " + mmss((Date.now() - ex.startedAt) / 1000)));
+  right.appendChild(el("div", "note", t("threshold") + " · " + res.correct + " / 32 · " + mmss(((ex.endedAt || Date.now()) - ex.startedAt) / 1000)));
 
   var row = el("div", "startrow");
   row.style.marginTop = "18px";
-  var again = el("button", "btn btn-primary", t("again"));
+
+  var missed = ex.items.filter(function (it) { return it.answer !== it.q.correct; });
+  if (missed.length) {
+    var fix = el("button", "btn btn-primary", t("fixMistakes") + " (" + missed.length + ")");
+    fix.addEventListener("click", function () {
+      startLearn(missed.map(function (it) { return it.q; }));
+    });
+    row.appendChild(fix);
+  }
+
+  var again = el("button", "btn " + (missed.length ? "btn-secondary" : "btn-primary"), t("again"));
   again.addEventListener("click", function () {
     state.exam = drawExam();
     state.screen = "exam";
@@ -1117,15 +1107,20 @@ function labelFor(q, value) {
 }
 
 /* ---------- learn mode ---------- */
-function startLearn() {
+function startLearn(fixedList) {
   state.learn = {
     scope: "all",
     media: "any",
     list: [],
     index: 0,
-    answer: null
+    answer: null,
+    fixed: !!fixedList
   };
-  rebuildLearn();
+  if (fixedList) {
+    state.learn.list = fixedList.slice();
+  } else {
+    rebuildLearn();
+  }
   state.screen = "learn";
   stopTicker();
   render();
@@ -1133,6 +1128,7 @@ function startLearn() {
 
 function rebuildLearn() {
   var L = state.learn;
+  if (L.fixed) { L.index = 0; L.answer = null; return; }
   var list = pool().filter(function (q) {
     if (L.scope === "P" && q.scope !== "P") return false;
     if (L.scope === "S" && q.scope !== "S") return false;
@@ -1155,19 +1151,27 @@ function renderLearn() {
   bar.style.gap = "14px";
   bar.style.flexWrap = "wrap";
   bar.style.alignItems = "center";
-  bar.appendChild(el("div", "eyebrow", t("learnTitle")));
+  bar.appendChild(el("div", "eyebrow", L.fixed ? t("fixMistakes") : t("learnTitle")));
 
-  bar.appendChild(select(t("filterScope"), [
-    ["all", t("filterAll")], ["P", t("part1")], ["S", t("part2")]
-  ], L.scope, function (v) { L.scope = v; rebuildLearn(); render(); }));
+  if (!L.fixed) {
+    bar.appendChild(select(t("filterScope"), [
+      ["all", t("filterAll")], ["P", t("part1")], ["S", t("part2")]
+    ], L.scope, function (v) { L.scope = v; rebuildLearn(); render(); }));
 
-  bar.appendChild(select(t("filterMedia"), [
-    ["any", t("anyMedia")], ["video", t("onlyVideo")], ["image", t("onlyImage")], ["none", t("onlyText")]
-  ], L.media, function (v) { L.media = v; rebuildLearn(); render(); }));
+    bar.appendChild(select(t("filterMedia"), [
+      ["any", t("anyMedia")], ["video", t("onlyVideo")], ["image", t("onlyImage")], ["none", t("onlyText")]
+    ], L.media, function (v) { L.media = v; rebuildLearn(); render(); }));
 
-  var sh = el("button", "btn btn-quiet", t("shuffle"));
-  sh.addEventListener("click", function () { rebuildLearn(); render(); });
-  bar.appendChild(sh);
+    var sh = el("button", "btn btn-quiet", t("shuffle"));
+    sh.addEventListener("click", function () { rebuildLearn(); render(); });
+    bar.appendChild(sh);
+  }
+
+  if (L.fixed && state.exam) {
+    var back = el("button", "btn btn-quiet", t("backToResult"));
+    back.addEventListener("click", function () { state.screen = "result"; render(); });
+    bar.appendChild(back);
+  }
 
   var home = el("button", "btn btn-quiet", t("home"));
   home.addEventListener("click", function () { state.screen = "home"; render(); });
