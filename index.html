@@ -669,14 +669,16 @@ function mediaNode(q, wantReplay, onPlayed) {
   var wrap = el("div", "media");
   if (!q.media) { wrap.className = "media media-none"; return wrap; }
 
+  function fail() { showMissing(wrap, q); }
+
   if (q.media.kind === "video") {
     var v = document.createElement("video");
-    v.src = "media/" + q.media.src;
     v.setAttribute("playsinline", "");
     v.preload = "auto";
     v.muted = true;
-    v.addEventListener("error", function () { wrap.replaceWith(missingNode(q)); });
+    v.addEventListener("error", fail);
     v.addEventListener("ended", function () { if (onPlayed) onPlayed(); });
+    v.src = "media/" + q.media.src;
     wrap.appendChild(v);
     var p = v.play();
     if (p && p.catch) p.catch(function () {});
@@ -687,23 +689,21 @@ function mediaNode(q, wantReplay, onPlayed) {
     }
   } else {
     var img = document.createElement("img");
-    img.src = "media/" + q.media.src;
     img.alt = "";
-    img.addEventListener("error", function () { wrap.replaceWith(missingNode(q)); });
+    img.addEventListener("error", fail);
+    img.src = "media/" + q.media.src;
     wrap.appendChild(img);
   }
   return wrap;
 }
 
-function missingNode(q) {
-  var wrap = el("div", "media");
+function showMissing(wrap, q) {
+  clear(wrap);
   var box = el("div", "media-missing");
   box.appendChild(document.createTextNode(t("mediaMissing")));
   box.appendChild(el("div", null, t("mediaHint")));
-  var c = el("code", null, q.media ? q.media.orig : "");
-  box.appendChild(c);
+  box.appendChild(el("code", null, q.media ? q.media.orig : ""));
   wrap.appendChild(box);
-  return wrap;
 }
 
 /* ---------- render: chrome ---------- */
