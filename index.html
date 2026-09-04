@@ -1,0 +1,1404 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prawo jazdy kat. B — egzamin teoretyczny</title>
+<style>
+:root{
+  --asphalt:#1b1a17;
+  --asphalt-soft:#3a3833;
+  --concrete:#e4e5e0;
+  --concrete-dim:#d3d5cd;
+  --plate:#ffffff;
+  --blue:#0b4ea2;
+  --blue-dim:#dbe6f5;
+  --yellow:#f2c300;
+  --red:#c8102e;
+  --red-dim:#f7dee2;
+  --green:#00703c;
+  --green-dim:#d8ece1;
+  --line:#c2c4bb;
+  --display:"Bahnschrift","DIN Alternate","Roboto Condensed",system-ui,sans-serif;
+  --body:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --plate-radius:4px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--concrete);
+  color:var(--asphalt);
+  font-family:var(--body);
+  font-size:16px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;letter-spacing:.01em}
+
+/* ---------- chrome ---------- */
+.topbar{
+  background:var(--asphalt);
+  color:#f2f2ee;
+  border-bottom:4px solid var(--yellow);
+}
+.topbar-in{
+  max-width:1120px;margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+}
+.brand{font-family:var(--display);font-size:19px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.brand span{color:var(--yellow)}
+.topbar-spacer{flex:1}
+.langs{display:flex;gap:2px;background:#2c2b27;padding:3px;border-radius:3px}
+.langs button{
+  font-family:var(--display);font-size:13px;font-weight:600;letter-spacing:.08em;
+  padding:5px 10px;border-radius:2px;color:#b9b8b2;
+}
+.langs button[aria-pressed="true"]{background:var(--yellow);color:var(--asphalt)}
+.ghost{
+  font-family:var(--display);font-size:13px;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;padding:7px 12px;border:1px solid #55534d;border-radius:3px;color:#e8e8e4;
+}
+.ghost:hover{border-color:var(--yellow);color:var(--yellow)}
+
+main{max-width:1120px;margin:0 auto;padding:26px 20px 60px}
+
+/* ---------- plates ---------- */
+.plate{background:var(--plate);border:1px solid var(--line);border-radius:var(--plate-radius)}
+.eyebrow{
+  font-family:var(--display);font-size:12px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--asphalt-soft);
+}
+
+/* ---------- home ---------- */
+.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:stretch}
+.hero-main{padding:32px 34px}
+.hero-main h1{font-size:clamp(30px,4.2vw,46px);line-height:1.05}
+.hero-main p{max-width:46ch;color:var(--asphalt-soft);margin:14px 0 0}
+.rule{height:1px;background:var(--line);margin:26px 0}
+.startrow{display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  font-family:var(--display);font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  padding:14px 22px;border-radius:3px;border:2px solid transparent;font-size:15px;
+}
+.btn-primary{background:var(--blue);color:#fff}
+.btn-primary:hover{background:#093f83}
+.btn-secondary{border-color:var(--asphalt);color:var(--asphalt)}
+.btn-secondary:hover{background:var(--asphalt);color:#fff}
+.btn-quiet{border-color:var(--line);color:var(--asphalt-soft)}
+.btn-quiet:hover{border-color:var(--asphalt);color:var(--asphalt)}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+
+.facts{padding:26px 28px;display:flex;flex-direction:column;gap:0}
+.fact{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.fact:last-child{border-bottom:0}
+.fact dt{color:var(--asphalt-soft);font-size:14px}
+.fact dd{margin:0;font-family:var(--display);font-weight:600;font-size:16px;white-space:nowrap}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}
+.card{padding:22px 24px}
+.card h3{font-size:17px;margin-bottom:8px}
+.card p{margin:0;font-size:14px;color:var(--asphalt-soft)}
+.card .btn{margin-top:16px}
+
+/* ---------- exam layout ---------- */
+.examgrid{display:grid;grid-template-columns:1fr 236px;gap:20px;align-items:start}
+.qplate{padding:0;overflow:hidden}
+.qhead{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  padding:14px 22px;background:var(--asphalt);color:#f2f2ee;
+}
+.qhead .eyebrow{color:#b9b8b2}
+.qnum{font-family:var(--display);font-size:22px;font-weight:600}
+.tag{
+  font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  padding:4px 9px;border-radius:2px;
+}
+.tag-basic{background:var(--blue);color:#fff}
+.tag-spec{background:var(--yellow);color:var(--asphalt)}
+.tag-pts{background:#494740;color:#f2f2ee}
+.tag-warn{background:var(--red);color:#fff}
+
+.media{
+  background:#101010;display:flex;align-items:center;justify-content:center;
+  min-height:220px;max-height:52vh;position:relative;
+}
+.media video,.media img{display:block;max-width:100%;max-height:52vh;object-fit:contain}
+.media-none{min-height:0}
+.media-missing{
+  color:#9b9b95;font-family:var(--display);font-size:13px;letter-spacing:.06em;
+  padding:38px 20px;text-align:center;
+}
+.media-missing code{color:#cfcfc8;font-size:12px;display:block;margin-top:6px;word-break:break-all}
+.replay{
+  position:absolute;right:12px;bottom:12px;
+  background:rgba(255,255,255,.92);color:var(--asphalt);
+  font-family:var(--display);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  padding:8px 12px;border-radius:3px;
+}
+.replay:hover{background:#fff}
+
+.qtext{padding:22px;font-size:19px;line-height:1.45}
+.qsrc{padding:0 22px 14px;font-size:13px;color:var(--asphalt-soft)}
+.answers{padding:0 22px 22px;display:flex;flex-direction:column;gap:10px}
+.answers-tn{flex-direction:row}
+.ans{
+  display:flex;align-items:flex-start;gap:12px;width:100%;text-align:left;
+  border:2px solid var(--line);border-radius:3px;padding:14px 16px;background:var(--plate);
+}
+.ans:hover:not([disabled]){border-color:var(--blue);background:var(--blue-dim)}
+.ans .key{
+  font-family:var(--display);font-weight:600;font-size:15px;
+  min-width:26px;height:26px;border-radius:2px;background:var(--concrete-dim);
+  display:flex;align-items:center;justify-content:center;flex:none;
+}
+.answers-tn .ans{justify-content:center;text-align:center;font-family:var(--display);font-size:19px;font-weight:600;letter-spacing:.04em;padding:20px}
+.ans[aria-pressed="true"]{border-color:var(--blue);background:var(--blue-dim)}
+.ans[aria-pressed="true"] .key{background:var(--blue);color:#fff}
+.ans.correct{border-color:var(--green);background:var(--green-dim)}
+.ans.correct .key{background:var(--green);color:#fff}
+.ans.wrong{border-color:var(--red);background:var(--red-dim)}
+.ans.wrong .key{background:var(--red);color:#fff}
+.ans[disabled]{cursor:default}
+
+.qfoot{display:flex;gap:10px;padding:0 22px 22px;flex-wrap:wrap;align-items:center}
+.qfoot .spacer{flex:1}
+.note{font-size:13px;color:var(--asphalt-soft)}
+
+/* ---------- signature: speed-limit timer ---------- */
+.side{display:flex;flex-direction:column;gap:16px;position:sticky;top:16px}
+.timerbox{padding:20px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.disc{
+  --p:1;
+  width:154px;height:154px;border-radius:50%;
+  background:conic-gradient(var(--ring,var(--red)) calc(var(--p) * 360deg), var(--concrete-dim) 0);
+  display:flex;align-items:center;justify-content:center;position:relative;
+}
+.disc::after{content:"";position:absolute;inset:15px;border-radius:50%;background:var(--plate)}
+.disc-val{position:relative;z-index:1;text-align:center;line-height:1}
+.disc-val b{display:block;font-family:var(--display);font-size:46px;font-weight:600;font-variant-numeric:tabular-nums}
+.disc-val small{display:block;font-family:var(--display);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--asphalt-soft);margin-top:5px}
+.disc.paused{--ring:var(--asphalt-soft)}
+.disc.low{--ring:var(--red)}
+.disc.read{--ring:var(--blue)}
+@media (prefers-reduced-motion: no-preference){
+  .disc.low .disc-val b{animation:pulse 1s ease-in-out infinite}
+}
+@keyframes pulse{50%{opacity:.45}}
+
+.sidestat{display:flex;justify-content:space-between;width:100%;font-size:13px;color:var(--asphalt-soft)}
+.sidestat b{font-family:var(--display);color:var(--asphalt);font-variant-numeric:tabular-nums}
+
+/* ---------- progress ---------- */
+.progress{padding:16px 18px}
+.pgrid{display:grid;grid-template-columns:repeat(8,1fr);gap:4px}
+.pcell{
+  aspect-ratio:1;border:1px solid var(--line);border-radius:2px;background:var(--plate);
+  font-family:var(--display);font-size:11px;color:var(--asphalt-soft);
+  display:flex;align-items:center;justify-content:center;
+}
+.pcell.done{background:var(--asphalt-soft);border-color:var(--asphalt-soft);color:#fff}
+.pcell.now{border-color:var(--blue);border-width:2px;color:var(--blue);background:var(--blue-dim)}
+.pcell.spec{border-bottom:3px solid var(--yellow)}
+.plegend{display:flex;gap:12px;margin-top:12px;font-size:12px;color:var(--asphalt-soft);flex-wrap:wrap}
+
+/* ---------- results ---------- */
+.score{padding:30px 34px;display:grid;grid-template-columns:auto 1fr;gap:30px;align-items:center}
+.scorenum{text-align:center}
+.scorenum b{display:block;font-family:var(--display);font-size:76px;font-weight:600;line-height:.9;font-variant-numeric:tabular-nums}
+.scorenum small{font-family:var(--display);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--asphalt-soft)}
+.verdict{font-family:var(--display);font-size:30px;font-weight:600;letter-spacing:.02em}
+.verdict.pass{color:var(--green)}
+.verdict.fail{color:var(--red)}
+.bar{height:12px;background:var(--concrete-dim);border-radius:2px;overflow:hidden;margin:14px 0 8px;position:relative}
+.bar i{display:block;height:100%;background:var(--asphalt)}
+.bar .thr{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--red)}
+
+.review{margin-top:20px}
+.rhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.ritem{padding:16px 18px;margin-bottom:8px;display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:start}
+.rmark{
+  width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:600;font-size:17px;color:#fff;flex:none;
+}
+.rmark.ok{background:var(--green)}
+.rmark.no{background:var(--red)}
+.rmark.skip{background:var(--asphalt-soft)}
+.ritem p{margin:0 0 6px;font-size:15px}
+.rmeta{font-size:13px;color:var(--asphalt-soft)}
+.rmeta b{color:var(--asphalt)}
+.rpts{font-family:var(--display);font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* ---------- settings ---------- */
+.modal{
+  position:fixed;inset:0;background:rgba(27,26,23,.6);
+  display:flex;align-items:center;justify-content:center;padding:20px;z-index:50;
+}
+.modal-in{background:var(--plate);border-radius:4px;max-width:520px;width:100%;max-height:88vh;overflow:auto}
+.modal-head{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;align-items:center}
+.modal-head h2{font-size:19px;flex:1}
+.modal-body{padding:8px 24px 20px}
+.opt{display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line);align-items:flex-start}
+.opt:last-child{border-bottom:0}
+.opt input{margin-top:4px;width:18px;height:18px;accent-color:var(--blue);flex:none}
+.opt label{font-size:15px;display:block}
+.opt .note{margin-top:3px}
+.modal-foot{padding:16px 24px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:10px}
+
+.warnbar{
+  background:var(--yellow);color:var(--asphalt);border-radius:3px;
+  padding:12px 16px;margin-bottom:18px;font-size:14px;
+}
+.warnbar b{font-family:var(--display)}
+
+.hidden{display:none !important}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .examgrid{grid-template-columns:1fr}
+  .side{position:static;flex-direction:row;flex-wrap:wrap}
+  .timerbox{flex:1;min-width:200px}
+  .progress{flex:2;min-width:260px}
+  .score{grid-template-columns:1fr;gap:18px}
+}
+@media (max-width:560px){
+  .answers-tn{flex-direction:column}
+  .pgrid{grid-template-columns:repeat(8,1fr)}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">Prawo jazdy <span>kat. B</span></div>
+    <div class="topbar-spacer"></div>
+    <div class="langs" id="langs" role="group" aria-label="Language"></div>
+    <button class="ghost" id="btn-settings"></button>
+    <button class="ghost hidden" id="btn-quit"></button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<div class="modal hidden" id="settings-modal">
+  <div class="modal-in">
+    <div class="modal-head"><h2 id="set-title"></h2></div>
+    <div class="modal-body" id="set-body"></div>
+    <div class="modal-foot"><button class="btn btn-primary" id="set-close"></button></div>
+  </div>
+</div>
+
+<script src="data/questions.js"></script>
+<script>
+(function () {
+"use strict";
+
+var RULES = {
+  basic:  { count: 20, draw: { 3: 10, 2: 6, 1: 4 }, read: 20, answer: 15 },
+  spec:   { count: 12, draw: { 3: 6,  2: 4, 1: 2 }, total: 50 },
+  maxPoints: 74,
+  passPoints: 68,
+  examSeconds: 25 * 60
+};
+
+var T = {
+  pl: {
+    code:"PL", name:"Polski",
+    settings:"Ustawienia", quit:"Przerwij",
+    heroTitle:"Egzamin teoretyczny na prawo jazdy",
+    heroLead:"Pełna baza pytań państwowych dla kategorii B, z oryginalnymi filmami i zdjęciami. Zasady jak na egzaminie, ale z pauzą, cofaniem i powtórką nagrania.",
+    factQuestions:"Pytania w bazie", factExam:"Pytań w egzaminie", factTime:"Czas", factPass:"Próg zaliczenia", factPoints:"Maksimum punktów",
+    start:"Rozpocznij egzamin", resume:"Wróć do egzaminu", learn:"Tryb nauki",
+    learnTitle:"Tryb nauki", learnLead:"Bez czasu i bez losowania. Odpowiedź sprawdza się od razu, możesz przeglądać całą bazę.",
+    statsTitle:"Twoje podejścia", statsEmpty:"Jeszcze nie ma żadnego podejścia.",
+    statsLast:"Ostatni wynik", statsBest:"Najlepszy wynik", statsCount:"Liczba podejść", clearStats:"Wyczyść historię",
+    part1:"Część podstawowa", part2:"Część specjalistyczna",
+    points:"pkt", question:"Pytanie",
+    read:"Czytanie", answer:"Odpowiedź", paused:"Pauza", left:"Zostało",
+    yes:"TAK", no:"NIE",
+    toAnswer:"Przejdź do odpowiedzi", prev:"Poprzednie", next:"Następne", finish:"Zakończ egzamin",
+    pause:"Pauza", unpause:"Wznów", replay:"Powtórz nagranie",
+    globalLeft:"Czas egzaminu", answered:"Odpowiedzi", scored:"Punkty",
+    mediaMissing:"Brak pliku multimedialnego", mediaHint:"Wgraj archiwum do folderu media/",
+    timeUp:"Czas na to pytanie minął.", locked:"Pytanie zamknięte.",
+    resultTitle:"Wynik egzaminu", passed:"ZDANY", failed:"NIEZDANY",
+    ofPoints:"z 74 pkt", threshold:"próg 68 pkt",
+    reviewAll:"Wszystkie", reviewWrong:"Tylko błędne", reviewTitle:"Przegląd pytań",
+    yourAnswer:"Twoja odpowiedź", correctAnswer:"Poprawna", noAnswer:"brak odpowiedzi",
+    again:"Nowy egzamin", home:"Strona główna",
+    setTitle:"Ustawienia", setClose:"Gotowe",
+    optPause:"Pauza w czasie egzaminu", optPauseNote:"Na prawdziwym egzaminie nie ma pauzy.",
+    optBack:"Powrót do poprzedniego pytania", optBackNote:"Na prawdziwym egzaminie nie da się cofnąć.",
+    optReplay:"Powtórka nagrania", optReplayNote:"Na prawdziwym egzaminie film leci raz.",
+    optAuto:"Automatyczne przejście po odpowiedzi", optAutoNote:"Wyłącz, jeśli chcesz zatwierdzać ręcznie.",
+    optTimer:"Limity czasu", optTimerNote:"Wyłączenie zamienia egzamin w trening bez zegara.",
+    optUnverified:"Pytania w trakcie weryfikacji", optUnverifiedNote:"164 pytania, które nie weszły jeszcze do katalogu.",
+    quitConfirm:"Przerwać egzamin? Wynik nie zostanie zapisany.",
+    filterScope:"Zakres", filterAll:"Wszystko", filterMedia:"Multimedia",
+    anyMedia:"Dowolne", onlyVideo:"Filmy", onlyImage:"Zdjęcia", onlyText:"Bez multimediów",
+    check:"Sprawdź", shuffle:"Losuj", ofTotal:"z",
+    correctIs:"Poprawna odpowiedź:", goodJob:"Dobrze.", tryAgain:"Źle."
+  },
+  en: {
+    code:"EN", name:"English",
+    settings:"Settings", quit:"Quit",
+    heroTitle:"Polish driving licence theory exam",
+    heroLead:"The full state question bank for category B, with the original videos and photos. Real exam rules, plus pause, going back and video replay.",
+    factQuestions:"Questions in bank", factExam:"Questions per exam", factTime:"Time limit", factPass:"Pass mark", factPoints:"Maximum points",
+    start:"Start exam", resume:"Resume exam", learn:"Practice mode",
+    learnTitle:"Practice mode", learnLead:"No timer, no draw. Answers are checked instantly and you can browse the whole bank.",
+    statsTitle:"Your attempts", statsEmpty:"No attempts yet.",
+    statsLast:"Last score", statsBest:"Best score", statsCount:"Attempts", clearStats:"Clear history",
+    part1:"Basic part", part2:"Specialist part",
+    points:"pts", question:"Question",
+    read:"Reading", answer:"Answer", paused:"Paused", left:"Left",
+    yes:"YES", no:"NO",
+    toAnswer:"Go to answer", prev:"Previous", next:"Next", finish:"Finish exam",
+    pause:"Pause", unpause:"Resume", replay:"Replay clip",
+    globalLeft:"Exam time", answered:"Answered", scored:"Points",
+    mediaMissing:"Media file missing", mediaHint:"Unpack the archive into media/",
+    timeUp:"Time for this question is up.", locked:"Question closed.",
+    resultTitle:"Exam result", passed:"PASSED", failed:"FAILED",
+    ofPoints:"of 74 pts", threshold:"pass mark 68 pts",
+    reviewAll:"All", reviewWrong:"Mistakes only", reviewTitle:"Question review",
+    yourAnswer:"Your answer", correctAnswer:"Correct", noAnswer:"no answer",
+    again:"New exam", home:"Home",
+    setTitle:"Settings", setClose:"Done",
+    optPause:"Pause during the exam", optPauseNote:"The real exam has no pause.",
+    optBack:"Go back to a previous question", optBackNote:"The real exam does not let you go back.",
+    optReplay:"Replay the clip", optReplayNote:"On the real exam the clip plays once.",
+    optAuto:"Advance automatically after answering", optAutoNote:"Turn off to confirm each answer yourself.",
+    optTimer:"Time limits", optTimerNote:"Turning this off makes it untimed practice.",
+    optUnverified:"Questions under verification", optUnverifiedNote:"164 questions not yet in the main catalogue.",
+    quitConfirm:"Quit the exam? The result will not be saved.",
+    filterScope:"Scope", filterAll:"All", filterMedia:"Media",
+    anyMedia:"Any", onlyVideo:"Videos", onlyImage:"Photos", onlyText:"Text only",
+    check:"Check", shuffle:"Shuffle", ofTotal:"of",
+    correctIs:"Correct answer:", goodJob:"Correct.", tryAgain:"Wrong."
+  },
+  de: {
+    code:"DE", name:"Deutsch",
+    settings:"Einstellungen", quit:"Abbrechen",
+    heroTitle:"Theoretische Führerscheinprüfung",
+    heroLead:"Der komplette staatliche Fragenkatalog für Klasse B, mit den originalen Videos und Fotos. Echte Prüfungsregeln, dazu Pause, Zurückblättern und Videowiederholung.",
+    factQuestions:"Fragen im Katalog", factExam:"Fragen pro Prüfung", factTime:"Zeitlimit", factPass:"Bestehensgrenze", factPoints:"Maximale Punktzahl",
+    start:"Prüfung starten", resume:"Prüfung fortsetzen", learn:"Übungsmodus",
+    learnTitle:"Übungsmodus", learnLead:"Ohne Zeit und ohne Auslosung. Die Antwort wird sofort geprüft, der ganze Katalog ist durchblätterbar.",
+    statsTitle:"Deine Versuche", statsEmpty:"Noch keine Versuche.",
+    statsLast:"Letztes Ergebnis", statsBest:"Bestes Ergebnis", statsCount:"Versuche", clearStats:"Verlauf löschen",
+    part1:"Grundteil", part2:"Fachteil",
+    points:"Pkt", question:"Frage",
+    read:"Lesen", answer:"Antwort", paused:"Pause", left:"Rest",
+    yes:"JA", no:"NEIN",
+    toAnswer:"Zur Antwort", prev:"Zurück", next:"Weiter", finish:"Prüfung beenden",
+    pause:"Pause", unpause:"Weiter", replay:"Video wiederholen",
+    globalLeft:"Prüfungszeit", answered:"Beantwortet", scored:"Punkte",
+    mediaMissing:"Mediendatei fehlt", mediaHint:"Archiv nach media/ entpacken",
+    timeUp:"Die Zeit für diese Frage ist abgelaufen.", locked:"Frage geschlossen.",
+    resultTitle:"Prüfungsergebnis", passed:"BESTANDEN", failed:"NICHT BESTANDEN",
+    ofPoints:"von 74 Pkt", threshold:"Grenze 68 Pkt",
+    reviewAll:"Alle", reviewWrong:"Nur Fehler", reviewTitle:"Fragenübersicht",
+    yourAnswer:"Deine Antwort", correctAnswer:"Richtig", noAnswer:"keine Antwort",
+    again:"Neue Prüfung", home:"Startseite",
+    setTitle:"Einstellungen", setClose:"Fertig",
+    optPause:"Pause während der Prüfung", optPauseNote:"In der echten Prüfung gibt es keine Pause.",
+    optBack:"Zurück zur vorherigen Frage", optBackNote:"In der echten Prüfung nicht möglich.",
+    optReplay:"Video wiederholen", optReplayNote:"In der echten Prüfung läuft das Video einmal.",
+    optAuto:"Nach der Antwort automatisch weiter", optAutoNote:"Ausschalten, um selbst zu bestätigen.",
+    optTimer:"Zeitlimits", optTimerNote:"Ausgeschaltet wird daraus ein Training ohne Uhr.",
+    optUnverified:"Fragen in Prüfung", optUnverifiedNote:"164 Fragen, die noch nicht im Katalog stehen.",
+    quitConfirm:"Prüfung abbrechen? Das Ergebnis wird nicht gespeichert.",
+    filterScope:"Bereich", filterAll:"Alles", filterMedia:"Medien",
+    anyMedia:"Beliebig", onlyVideo:"Videos", onlyImage:"Fotos", onlyText:"Ohne Medien",
+    check:"Prüfen", shuffle:"Mischen", ofTotal:"von",
+    correctIs:"Richtige Antwort:", goodJob:"Richtig.", tryAgain:"Falsch."
+  },
+  ua: {
+    code:"UA", name:"Українська",
+    settings:"Налаштування", quit:"Перервати",
+    heroTitle:"Теоретичний іспит на права",
+    heroLead:"Повна державна база питань категорії B з оригінальними відео та фото. Правила як на іспиті, але з паузою, поверненням назад і повтором відео.",
+    factQuestions:"Питань у базі", factExam:"Питань на іспиті", factTime:"Час", factPass:"Прохідний бал", factPoints:"Максимум балів",
+    start:"Почати іспит", resume:"Повернутися до іспиту", learn:"Режим навчання",
+    learnTitle:"Режим навчання", learnLead:"Без часу і без жеребкування. Відповідь перевіряється одразу, можна гортати всю базу.",
+    statsTitle:"Твої спроби", statsEmpty:"Спроб ще не було.",
+    statsLast:"Останній результат", statsBest:"Найкращий результат", statsCount:"Спроб", clearStats:"Очистити історію",
+    part1:"Основна частина", part2:"Спеціалізована частина",
+    points:"б.", question:"Питання",
+    read:"Читання", answer:"Відповідь", paused:"Пауза", left:"Залишилось",
+    yes:"ТАК", no:"НІ",
+    toAnswer:"Перейти до відповіді", prev:"Попереднє", next:"Наступне", finish:"Завершити іспит",
+    pause:"Пауза", unpause:"Далі", replay:"Повторити відео",
+    globalLeft:"Час іспиту", answered:"Відповіді", scored:"Бали",
+    mediaMissing:"Немає медіафайлу", mediaHint:"Розпакуй архів у папку media/",
+    timeUp:"Час на це питання вичерпано.", locked:"Питання закрите.",
+    resultTitle:"Результат іспиту", passed:"СКЛАДЕНО", failed:"НЕ СКЛАДЕНО",
+    ofPoints:"з 74 б.", threshold:"прохідний 68 б.",
+    reviewAll:"Усі", reviewWrong:"Лише помилки", reviewTitle:"Огляд питань",
+    yourAnswer:"Твоя відповідь", correctAnswer:"Правильна", noAnswer:"без відповіді",
+    again:"Новий іспит", home:"Головна",
+    setTitle:"Налаштування", setClose:"Готово",
+    optPause:"Пауза під час іспиту", optPauseNote:"На справжньому іспиті паузи немає.",
+    optBack:"Повернення до попереднього питання", optBackNote:"На справжньому іспиті назад не можна.",
+    optReplay:"Повтор відео", optReplayNote:"На справжньому іспиті відео йде один раз.",
+    optAuto:"Автоперехід після відповіді", optAutoNote:"Вимкни, щоб підтверджувати вручну.",
+    optTimer:"Ліміти часу", optTimerNote:"Без них це тренування без годинника.",
+    optUnverified:"Питання на верифікації", optUnverifiedNote:"164 питання, яких ще немає в каталозі.",
+    quitConfirm:"Перервати іспит? Результат не збережеться.",
+    filterScope:"Розділ", filterAll:"Усе", filterMedia:"Медіа",
+    anyMedia:"Будь-які", onlyVideo:"Відео", onlyImage:"Фото", onlyText:"Без медіа",
+    check:"Перевірити", shuffle:"Перемішати", ofTotal:"з",
+    correctIs:"Правильна відповідь:", goodJob:"Правильно.", tryAgain:"Неправильно."
+  }
+};
+
+var LANGS = ["pl", "en", "de", "ua"];
+var STORE = "prawko.v2";
+
+var app = document.getElementById("app");
+var bank = (window.KATALOG && window.KATALOG.questions) || [];
+
+var state = {
+  lang: "pl",
+  screen: "home",
+  settings: {
+    pause: true, back: true, replay: true, auto: true, timer: true, unverified: false
+  },
+  history: [],
+  exam: null,
+  learn: null
+};
+
+/* ---------- storage ---------- */
+function load() {
+  try {
+    var raw = localStorage.getItem(STORE);
+    if (!raw) return;
+    var d = JSON.parse(raw);
+    if (d.lang && T[d.lang]) state.lang = d.lang;
+    if (d.settings) for (var k in state.settings) if (k in d.settings) state.settings[k] = !!d.settings[k];
+    if (Array.isArray(d.history)) state.history = d.history;
+  } catch (e) {}
+}
+function save() {
+  try {
+    localStorage.setItem(STORE, JSON.stringify({
+      lang: state.lang, settings: state.settings, history: state.history
+    }));
+  } catch (e) {}
+}
+
+function t(key) { return T[state.lang][key] || T.pl[key] || key; }
+
+/* ---------- helpers ---------- */
+function el(tag, cls, text) {
+  var n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text != null) n.textContent = text;
+  return n;
+}
+function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+function mmss(sec) {
+  sec = Math.max(0, Math.round(sec));
+  var m = Math.floor(sec / 60), s = sec % 60;
+  return m + ":" + (s < 10 ? "0" : "") + s;
+}
+function shuffle(arr) {
+  for (var i = arr.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+  }
+  return arr;
+}
+function pool() {
+  return state.settings.unverified ? bank : bank.filter(function (q) { return q.verified; });
+}
+
+/* ---------- exam construction ---------- */
+function drawExam() {
+  var src = pool();
+  var picked = [];
+  var used = {};
+
+  function take(scope, points, n) {
+    var cand = src.filter(function (q) {
+      return q.scope === scope && q.points === points && !used[q.id];
+    });
+    shuffle(cand);
+    var got = cand.slice(0, n);
+    got.forEach(function (q) { used[q.id] = 1; });
+    if (got.length < n) {
+      var fill = src.filter(function (q) { return q.scope === scope && !used[q.id]; });
+      shuffle(fill);
+      got = got.concat(fill.slice(0, n - got.length));
+      got.forEach(function (q) { used[q.id] = 1; });
+    }
+    return got;
+  }
+
+  var basic = [];
+  [3, 2, 1].forEach(function (p) { basic = basic.concat(take("P", p, RULES.basic.draw[p])); });
+  var spec = [];
+  [3, 2, 1].forEach(function (p) { spec = spec.concat(take("S", p, RULES.spec.draw[p])); });
+
+  shuffle(basic); shuffle(spec);
+
+  var items = basic.concat(spec).map(function (q) {
+    var isBasic = q.scope === "P";
+    return {
+      q: q,
+      phase: isBasic ? "read" : "answer",
+      readLeft: isBasic ? RULES.basic.read : 0,
+      ansLeft: isBasic ? RULES.basic.answer : RULES.spec.total,
+      answer: null,
+      locked: false,
+      played: false
+    };
+  });
+
+  return {
+    items: items,
+    index: 0,
+    globalLeft: RULES.examSeconds,
+    paused: false,
+    finished: false,
+    startedAt: Date.now()
+  };
+}
+
+/* ---------- ticking ---------- */
+var ticker = null;
+function startTicker() {
+  stopTicker();
+  ticker = setInterval(tick, 250);
+}
+function stopTicker() { if (ticker) { clearInterval(ticker); ticker = null; } }
+
+var lastTick = 0;
+function tick() {
+  var ex = state.exam;
+  if (!ex || ex.finished || state.screen !== "exam") return;
+  var now = Date.now();
+  var dt = lastTick ? (now - lastTick) / 1000 : 0.25;
+  lastTick = now;
+  if (ex.paused || !state.settings.timer) { renderTimer(); return; }
+
+  ex.globalLeft -= dt;
+  if (ex.globalLeft <= 0) { ex.globalLeft = 0; finishExam(); return; }
+
+  var it = ex.items[ex.index];
+  if (it && !it.locked) {
+    if (it.phase === "read") {
+      it.readLeft -= dt;
+      if (it.readLeft <= 0) { it.readLeft = 0; it.phase = "answer"; renderExam(); return; }
+    } else {
+      it.ansLeft -= dt;
+      if (it.ansLeft <= 0) {
+        it.ansLeft = 0;
+        it.locked = true;
+        advance();
+        return;
+      }
+    }
+  }
+  renderTimer();
+}
+
+/* ---------- exam actions ---------- */
+function advance() {
+  var ex = state.exam;
+  var next = -1;
+  for (var i = ex.index + 1; i < ex.items.length; i++) {
+    if (!ex.items[i].locked) { next = i; break; }
+  }
+  if (next === -1) {
+    for (var j = 0; j < ex.items.length; j++) {
+      if (!ex.items[j].locked) { next = j; break; }
+    }
+  }
+  if (next === -1) { finishExam(); return; }
+  ex.index = next;
+  renderExam();
+}
+
+function answerQuestion(value) {
+  var ex = state.exam;
+  var it = ex.items[ex.index];
+  if (it.locked || it.phase === "read") return;
+  it.answer = value;
+  if (state.settings.auto) {
+    it.locked = true;
+    advance();
+  } else {
+    renderExam();
+  }
+}
+
+function finishExam() {
+  var ex = state.exam;
+  ex.finished = true;
+  ex.items.forEach(function (it) { it.locked = true; });
+  stopTicker();
+
+  var res = scoreExam(ex);
+  state.history.unshift({
+    at: Date.now(),
+    points: res.points,
+    passed: res.passed,
+    correct: res.correct,
+    seconds: Math.round((Date.now() - ex.startedAt) / 1000)
+  });
+  state.history = state.history.slice(0, 30);
+  save();
+  state.screen = "result";
+  render();
+}
+
+function scoreExam(ex) {
+  var points = 0, correct = 0;
+  ex.items.forEach(function (it) {
+    if (it.answer && it.answer === it.q.correct) { points += it.q.points; correct++; }
+  });
+  return { points: points, correct: correct, passed: points >= RULES.passPoints };
+}
+
+/* ---------- media ---------- */
+function mediaNode(q, wantReplay, onPlayed) {
+  var wrap = el("div", "media");
+  if (!q.media) { wrap.className = "media media-none"; return wrap; }
+
+  if (q.media.kind === "video") {
+    var v = document.createElement("video");
+    v.src = "media/" + q.media.src;
+    v.setAttribute("playsinline", "");
+    v.preload = "auto";
+    v.muted = true;
+    v.addEventListener("error", function () { wrap.replaceWith(missingNode(q)); });
+    v.addEventListener("ended", function () { if (onPlayed) onPlayed(); });
+    wrap.appendChild(v);
+    var p = v.play();
+    if (p && p.catch) p.catch(function () {});
+    if (wantReplay) {
+      var b = el("button", "replay", t("replay"));
+      b.addEventListener("click", function () { v.currentTime = 0; v.play(); });
+      wrap.appendChild(b);
+    }
+  } else {
+    var img = document.createElement("img");
+    img.src = "media/" + q.media.src;
+    img.alt = "";
+    img.addEventListener("error", function () { wrap.replaceWith(missingNode(q)); });
+    wrap.appendChild(img);
+  }
+  return wrap;
+}
+
+function missingNode(q) {
+  var wrap = el("div", "media");
+  var box = el("div", "media-missing");
+  box.appendChild(document.createTextNode(t("mediaMissing")));
+  box.appendChild(el("div", null, t("mediaHint")));
+  var c = el("code", null, q.media ? q.media.orig : "");
+  box.appendChild(c);
+  wrap.appendChild(box);
+  return wrap;
+}
+
+/* ---------- render: chrome ---------- */
+function renderChrome() {
+  var box = document.getElementById("langs");
+  clear(box);
+  LANGS.forEach(function (code) {
+    var b = el("button", null, T[code].code);
+    b.setAttribute("aria-pressed", state.lang === code ? "true" : "false");
+    b.title = T[code].name;
+    b.addEventListener("click", function () {
+      state.lang = code;
+      document.documentElement.lang = code === "ua" ? "uk" : code;
+      save();
+      render();
+    });
+    box.appendChild(b);
+  });
+  var s = document.getElementById("btn-settings");
+  s.textContent = t("settings");
+  var q = document.getElementById("btn-quit");
+  q.textContent = t("quit");
+  q.classList.toggle("hidden", state.screen !== "exam");
+}
+
+/* ---------- render: home ---------- */
+function renderHome() {
+  var wrap = el("div");
+
+  var hero = el("div", "hero");
+  var main = el("div", "plate hero-main");
+  main.appendChild(el("div", "eyebrow", "Kategoria B"));
+  main.appendChild(el("h1", null, t("heroTitle")));
+  main.appendChild(el("p", null, t("heroLead")));
+  main.appendChild(el("div", "rule"));
+
+  var row = el("div", "startrow");
+  var start = el("button", "btn btn-primary", state.exam && !state.exam.finished ? t("resume") : t("start"));
+  start.addEventListener("click", function () {
+    if (!state.exam || state.exam.finished) state.exam = drawExam();
+    state.screen = "exam";
+    lastTick = 0;
+    startTicker();
+    render();
+  });
+  row.appendChild(start);
+
+  if (state.exam && !state.exam.finished) {
+    var fresh = el("button", "btn btn-secondary", t("again"));
+    fresh.addEventListener("click", function () {
+      state.exam = drawExam();
+      state.screen = "exam";
+      lastTick = 0;
+      startTicker();
+      render();
+    });
+    row.appendChild(fresh);
+  }
+
+  var learn = el("button", "btn btn-quiet", t("learn"));
+  learn.addEventListener("click", function () {
+    startLearn();
+  });
+  row.appendChild(learn);
+  main.appendChild(row);
+  hero.appendChild(main);
+
+  var facts = el("dl", "plate facts");
+  [
+    [t("factQuestions"), String(pool().length)],
+    [t("factExam"), "32 (20 + 12)"],
+    [t("factTime"), "25 min"],
+    [t("factPoints"), "74"],
+    [t("factPass"), "68"]
+  ].forEach(function (pair) {
+    var d = el("div", "fact");
+    d.appendChild(el("dt", null, pair[0]));
+    d.appendChild(el("dd", null, pair[1]));
+    facts.appendChild(d);
+  });
+  hero.appendChild(facts);
+  wrap.appendChild(hero);
+
+  var cards = el("div", "cards");
+
+  var c1 = el("div", "plate card");
+  c1.appendChild(el("h3", null, t("learnTitle")));
+  c1.appendChild(el("p", null, t("learnLead")));
+  var b1 = el("button", "btn btn-secondary", t("learn"));
+  b1.addEventListener("click", startLearn);
+  c1.appendChild(b1);
+  cards.appendChild(c1);
+
+  var c2 = el("div", "plate card");
+  c2.appendChild(el("h3", null, t("statsTitle")));
+  if (!state.history.length) {
+    c2.appendChild(el("p", null, t("statsEmpty")));
+  } else {
+    var best = state.history.reduce(function (a, b) { return b.points > a.points ? b : a; });
+    var dl = el("dl", "facts");
+    dl.style.padding = "0";
+    [
+      [t("statsLast"), state.history[0].points + " / 74"],
+      [t("statsBest"), best.points + " / 74"],
+      [t("statsCount"), String(state.history.length)]
+    ].forEach(function (pair) {
+      var d = el("div", "fact");
+      d.appendChild(el("dt", null, pair[0]));
+      d.appendChild(el("dd", null, pair[1]));
+      dl.appendChild(d);
+    });
+    c2.appendChild(dl);
+    var clr = el("button", "btn btn-quiet", t("clearStats"));
+    clr.addEventListener("click", function () { state.history = []; save(); render(); });
+    c2.appendChild(clr);
+  }
+  cards.appendChild(c2);
+
+  wrap.appendChild(cards);
+  return wrap;
+}
+
+/* ---------- render: exam ---------- */
+function renderExam() {
+  clear(app);
+  app.appendChild(examNode());
+}
+
+function examNode() {
+  var ex = state.exam;
+  var it = ex.items[ex.index];
+  var q = it.q;
+  var isBasic = q.scope === "P";
+
+  var grid = el("div", "examgrid");
+
+  var plate = el("div", "plate qplate");
+  var head = el("div", "qhead");
+  head.appendChild(el("div", "qnum", (ex.index + 1) + " / 32"));
+  head.appendChild(el("span", "tag " + (isBasic ? "tag-basic" : "tag-spec"), isBasic ? t("part1") : t("part2")));
+  head.appendChild(el("span", "tag tag-pts", q.points + " " + t("points")));
+  if (!q.verified) head.appendChild(el("span", "tag tag-warn", "?"));
+  plate.appendChild(head);
+
+  var showReplay = state.settings.replay && q.media && q.media.kind === "video";
+  plate.appendChild(mediaNode(q, showReplay));
+
+  plate.appendChild(el("div", "qtext", q.q[state.lang] || q.q.pl));
+  if (state.lang !== "pl") plate.appendChild(el("div", "qsrc", q.q.pl));
+
+  var reading = isBasic && it.phase === "read" && state.settings.timer && !it.locked;
+
+  var ans = el("div", "answers" + (q.kind === "tn" ? " answers-tn" : ""));
+  if (q.kind === "tn") {
+    [["T", t("yes")], ["N", t("no")]].forEach(function (pair) {
+      ans.appendChild(answerButton(it, pair[0], pair[1], null, reading));
+    });
+  } else {
+    var opts = (q.opts && (q.opts[state.lang] || q.opts.pl)) || ["", "", ""];
+    ["A", "B", "C"].forEach(function (letter, i) {
+      ans.appendChild(answerButton(it, letter, opts[i], letter, reading));
+    });
+  }
+  plate.appendChild(ans);
+
+  var foot = el("div", "qfoot");
+  if (reading) {
+    var skip = el("button", "btn btn-primary", t("toAnswer"));
+    skip.addEventListener("click", function () {
+      it.phase = "answer"; it.readLeft = 0; renderExam();
+    });
+    foot.appendChild(skip);
+  }
+  if (state.settings.back && ex.index > 0) {
+    var prev = el("button", "btn btn-quiet", t("prev"));
+    prev.addEventListener("click", function () { ex.index--; renderExam(); });
+    foot.appendChild(prev);
+  }
+  if (!state.settings.auto || it.locked || !state.settings.timer) {
+    var next = el("button", "btn btn-secondary", t("next"));
+    next.addEventListener("click", function () {
+      if (!it.locked && it.answer) it.locked = true;
+      if (ex.index < ex.items.length - 1) { ex.index++; renderExam(); } else advance();
+    });
+    foot.appendChild(next);
+  }
+  foot.appendChild(el("div", "spacer"));
+  if (it.locked) foot.appendChild(el("div", "note", t("locked")));
+  var fin = el("button", "btn btn-quiet", t("finish"));
+  fin.addEventListener("click", finishExam);
+  foot.appendChild(fin);
+  plate.appendChild(foot);
+
+  grid.appendChild(plate);
+  grid.appendChild(sideNode());
+  return grid;
+}
+
+function answerButton(it, value, label, letter, reading) {
+  var b = el("button", "ans");
+  if (letter) {
+    b.appendChild(el("span", "key", letter));
+    b.appendChild(el("span", null, label));
+  } else {
+    b.appendChild(document.createTextNode(label));
+  }
+  b.setAttribute("aria-pressed", it.answer === value ? "true" : "false");
+  if (reading || (it.locked && state.settings.timer)) b.disabled = true;
+  b.addEventListener("click", function () { answerQuestion(value); });
+  return b;
+}
+
+function sideNode() {
+  var side = el("div", "side");
+  side.appendChild(timerNode());
+  side.appendChild(progressNode());
+  return side;
+}
+
+function timerNode() {
+  var ex = state.exam;
+  var it = ex.items[ex.index];
+  var box = el("div", "plate timerbox");
+
+  var disc = el("div", "disc");
+  disc.id = "disc";
+  var val = el("div", "disc-val");
+  val.appendChild(el("b", null, "0"));
+  val.appendChild(el("small", null, ""));
+  disc.appendChild(val);
+  box.appendChild(disc);
+
+  if (state.settings.pause && state.settings.timer) {
+    var p = el("button", "btn btn-quiet", ex.paused ? t("unpause") : t("pause"));
+    p.addEventListener("click", function () {
+      ex.paused = !ex.paused;
+      lastTick = 0;
+      renderExam();
+    });
+    p.style.width = "100%";
+    box.appendChild(p);
+  }
+
+  var s1 = el("div", "sidestat");
+  s1.appendChild(el("span", null, t("globalLeft")));
+  var g = el("b", null, mmss(ex.globalLeft));
+  g.id = "gclock";
+  s1.appendChild(g);
+  box.appendChild(s1);
+
+  var done = ex.items.filter(function (x) { return x.answer; }).length;
+  var s2 = el("div", "sidestat");
+  s2.appendChild(el("span", null, t("answered")));
+  s2.appendChild(el("b", null, done + " / 32"));
+  box.appendChild(s2);
+
+  setTimeout(renderTimer, 0);
+  return box;
+}
+
+function renderTimer() {
+  var ex = state.exam;
+  if (!ex) return;
+  var disc = document.getElementById("disc");
+  if (!disc) return;
+  var it = ex.items[ex.index];
+  var num = disc.querySelector("b");
+  var lab = disc.querySelector("small");
+  var gc = document.getElementById("gclock");
+  if (gc) gc.textContent = mmss(ex.globalLeft);
+
+  disc.classList.remove("paused", "low", "read");
+
+  if (!state.settings.timer) {
+    disc.style.setProperty("--p", 1);
+    disc.classList.add("paused");
+    num.textContent = "∞";
+    lab.textContent = "";
+    return;
+  }
+
+  var left, total, mode;
+  if (it.phase === "read" && !it.locked) {
+    left = it.readLeft; total = RULES.basic.read; mode = "read";
+  } else {
+    left = it.ansLeft;
+    total = it.q.scope === "P" ? RULES.basic.answer : RULES.spec.total;
+    mode = "answer";
+  }
+  if (it.locked) left = 0;
+
+  disc.style.setProperty("--p", Math.max(0, Math.min(1, left / total)));
+  num.textContent = String(Math.ceil(left));
+  lab.textContent = ex.paused ? t("paused") : (mode === "read" ? t("read") : t("answer"));
+  if (ex.paused) disc.classList.add("paused");
+  else if (mode === "read") disc.classList.add("read");
+  else if (left <= 5) disc.classList.add("low");
+}
+
+function progressNode() {
+  var ex = state.exam;
+  var box = el("div", "plate progress");
+  var grid = el("div", "pgrid");
+  ex.items.forEach(function (it, i) {
+    var c = el("button", "pcell", String(i + 1));
+    if (it.q.scope === "S") c.classList.add("spec");
+    if (it.answer) c.classList.add("done");
+    if (i === ex.index) c.classList.add("now");
+    c.addEventListener("click", function () {
+      if (!state.settings.back && i !== ex.index) return;
+      ex.index = i;
+      renderExam();
+    });
+    grid.appendChild(c);
+  });
+  box.appendChild(grid);
+  var lg = el("div", "plegend");
+  lg.appendChild(el("span", null, "▬ " + t("part2")));
+  box.appendChild(lg);
+  return box;
+}
+
+/* ---------- render: result ---------- */
+var reviewFilter = "all";
+
+function renderResult() {
+  var ex = state.exam;
+  var res = scoreExam(ex);
+  var wrap = el("div");
+
+  var score = el("div", "plate score");
+  var num = el("div", "scorenum");
+  num.appendChild(el("b", null, String(res.points)));
+  num.appendChild(el("small", null, t("ofPoints")));
+  score.appendChild(num);
+
+  var right = el("div");
+  right.appendChild(el("div", "eyebrow", t("resultTitle")));
+  right.appendChild(el("div", "verdict " + (res.passed ? "pass" : "fail"), res.passed ? t("passed") : t("failed")));
+  var bar = el("div", "bar");
+  var fill = el("i");
+  fill.style.width = (res.points / RULES.maxPoints * 100) + "%";
+  bar.appendChild(fill);
+  var thr = el("div", "thr");
+  thr.style.left = (RULES.passPoints / RULES.maxPoints * 100) + "%";
+  bar.appendChild(thr);
+  right.appendChild(bar);
+  right.appendChild(el("div", "note", t("threshold") + " · " + res.correct + " / 32 · " + mmss((Date.now() - ex.startedAt) / 1000)));
+
+  var row = el("div", "startrow");
+  row.style.marginTop = "18px";
+  var again = el("button", "btn btn-primary", t("again"));
+  again.addEventListener("click", function () {
+    state.exam = drawExam();
+    state.screen = "exam";
+    lastTick = 0;
+    startTicker();
+    render();
+  });
+  row.appendChild(again);
+  var home = el("button", "btn btn-quiet", t("home"));
+  home.addEventListener("click", function () { state.exam = null; state.screen = "home"; render(); });
+  row.appendChild(home);
+  right.appendChild(row);
+  score.appendChild(right);
+  wrap.appendChild(score);
+
+  var review = el("div", "review");
+  var rh = el("div", "rhead");
+  rh.appendChild(el("div", "eyebrow", t("reviewTitle")));
+  rh.appendChild(el("div", "spacer"));
+  [["all", t("reviewAll")], ["wrong", t("reviewWrong")]].forEach(function (pair) {
+    var b = el("button", "btn " + (reviewFilter === pair[0] ? "btn-secondary" : "btn-quiet"), pair[1]);
+    b.addEventListener("click", function () { reviewFilter = pair[0]; render(); });
+    rh.appendChild(b);
+  });
+  review.appendChild(rh);
+
+  ex.items.forEach(function (it, i) {
+    var ok = it.answer === it.q.correct;
+    if (reviewFilter === "wrong" && ok) return;
+    var item = el("div", "plate ritem");
+    var mark = el("div", "rmark " + (ok ? "ok" : (it.answer ? "no" : "skip")), ok ? "✓" : (it.answer ? "✕" : "–"));
+    item.appendChild(mark);
+
+    var mid = el("div");
+    mid.appendChild(el("p", null, (i + 1) + ". " + (it.q.q[state.lang] || it.q.q.pl)));
+    var meta = el("div", "rmeta");
+    meta.appendChild(document.createTextNode(t("yourAnswer") + ": "));
+    meta.appendChild(el("b", null, it.answer ? labelFor(it.q, it.answer) : t("noAnswer")));
+    if (!ok) {
+      meta.appendChild(document.createTextNode(" · " + t("correctAnswer") + ": "));
+      meta.appendChild(el("b", null, labelFor(it.q, it.q.correct)));
+    }
+    mid.appendChild(meta);
+    item.appendChild(mid);
+
+    item.appendChild(el("div", "rpts", (ok ? it.q.points : 0) + " / " + it.q.points));
+    review.appendChild(item);
+  });
+
+  wrap.appendChild(review);
+  return wrap;
+}
+
+function labelFor(q, value) {
+  if (q.kind === "tn") return value === "T" ? t("yes") : t("no");
+  var opts = (q.opts && (q.opts[state.lang] || q.opts.pl)) || [];
+  var idx = { A: 0, B: 1, C: 2 }[value];
+  return value + ". " + (opts[idx] || "");
+}
+
+/* ---------- learn mode ---------- */
+function startLearn() {
+  state.learn = {
+    scope: "all",
+    media: "any",
+    list: [],
+    index: 0,
+    answer: null
+  };
+  rebuildLearn();
+  state.screen = "learn";
+  stopTicker();
+  render();
+}
+
+function rebuildLearn() {
+  var L = state.learn;
+  var list = pool().filter(function (q) {
+    if (L.scope === "P" && q.scope !== "P") return false;
+    if (L.scope === "S" && q.scope !== "S") return false;
+    if (L.media === "video" && !(q.media && q.media.kind === "video")) return false;
+    if (L.media === "image" && !(q.media && q.media.kind === "image")) return false;
+    if (L.media === "none" && q.media) return false;
+    return true;
+  });
+  L.list = shuffle(list.slice());
+  L.index = 0;
+  L.answer = null;
+}
+
+function renderLearn() {
+  var L = state.learn;
+  var wrap = el("div");
+
+  var bar = el("div", "plate card");
+  bar.style.display = "flex";
+  bar.style.gap = "14px";
+  bar.style.flexWrap = "wrap";
+  bar.style.alignItems = "center";
+  bar.appendChild(el("div", "eyebrow", t("learnTitle")));
+
+  bar.appendChild(select(t("filterScope"), [
+    ["all", t("filterAll")], ["P", t("part1")], ["S", t("part2")]
+  ], L.scope, function (v) { L.scope = v; rebuildLearn(); render(); }));
+
+  bar.appendChild(select(t("filterMedia"), [
+    ["any", t("anyMedia")], ["video", t("onlyVideo")], ["image", t("onlyImage")], ["none", t("onlyText")]
+  ], L.media, function (v) { L.media = v; rebuildLearn(); render(); }));
+
+  var sh = el("button", "btn btn-quiet", t("shuffle"));
+  sh.addEventListener("click", function () { rebuildLearn(); render(); });
+  bar.appendChild(sh);
+
+  var home = el("button", "btn btn-quiet", t("home"));
+  home.addEventListener("click", function () { state.screen = "home"; render(); });
+  bar.appendChild(home);
+  wrap.appendChild(bar);
+
+  if (!L.list.length) return wrap;
+
+  var q = L.list[L.index];
+  var plate = el("div", "plate qplate");
+  plate.style.marginTop = "16px";
+
+  var head = el("div", "qhead");
+  head.appendChild(el("div", "qnum", (L.index + 1) + " " + t("ofTotal") + " " + L.list.length));
+  head.appendChild(el("span", "tag " + (q.scope === "P" ? "tag-basic" : "tag-spec"), q.scope === "P" ? t("part1") : t("part2")));
+  head.appendChild(el("span", "tag tag-pts", q.points + " " + t("points")));
+  head.appendChild(el("span", "tag tag-pts", "#" + q.id));
+  plate.appendChild(head);
+
+  plate.appendChild(mediaNode(q, true));
+  plate.appendChild(el("div", "qtext", q.q[state.lang] || q.q.pl));
+  if (state.lang !== "pl") plate.appendChild(el("div", "qsrc", q.q.pl));
+
+  var ans = el("div", "answers" + (q.kind === "tn" ? " answers-tn" : ""));
+  function mk(value, label, letter) {
+    var b = el("button", "ans");
+    if (letter) {
+      b.appendChild(el("span", "key", letter));
+      b.appendChild(el("span", null, label));
+    } else {
+      b.appendChild(document.createTextNode(label));
+    }
+    if (L.answer) {
+      b.disabled = true;
+      if (value === q.correct) b.classList.add("correct");
+      else if (value === L.answer) b.classList.add("wrong");
+    }
+    b.addEventListener("click", function () {
+      if (L.answer) return;
+      L.answer = value;
+      render();
+    });
+    return b;
+  }
+  if (q.kind === "tn") {
+    ans.appendChild(mk("T", t("yes"), null));
+    ans.appendChild(mk("N", t("no"), null));
+  } else {
+    var opts = (q.opts && (q.opts[state.lang] || q.opts.pl)) || ["", "", ""];
+    ["A", "B", "C"].forEach(function (letter, i) { ans.appendChild(mk(letter, opts[i], letter)); });
+  }
+  plate.appendChild(ans);
+
+  var foot = el("div", "qfoot");
+  if (L.answer) {
+    var ok = L.answer === q.correct;
+    var verdict = el("div", "note", ok ? t("goodJob") : t("tryAgain") + " " + t("correctIs") + " " + labelFor(q, q.correct));
+    verdict.style.color = ok ? "var(--green)" : "var(--red)";
+    verdict.style.fontWeight = "600";
+    foot.appendChild(verdict);
+  }
+  foot.appendChild(el("div", "spacer"));
+  var prev = el("button", "btn btn-quiet", t("prev"));
+  prev.disabled = L.index === 0;
+  prev.addEventListener("click", function () { L.index--; L.answer = null; render(); });
+  foot.appendChild(prev);
+  var next = el("button", "btn btn-secondary", t("next"));
+  next.disabled = L.index >= L.list.length - 1;
+  next.addEventListener("click", function () { L.index++; L.answer = null; render(); });
+  foot.appendChild(next);
+  plate.appendChild(foot);
+
+  wrap.appendChild(plate);
+  return wrap;
+}
+
+function select(label, options, value, onChange) {
+  var w = el("label");
+  w.style.display = "flex";
+  w.style.alignItems = "center";
+  w.style.gap = "8px";
+  w.style.fontSize = "14px";
+  w.appendChild(el("span", null, label));
+  var s = document.createElement("select");
+  s.style.font = "inherit";
+  s.style.padding = "8px 10px";
+  s.style.border = "1px solid var(--line)";
+  s.style.borderRadius = "3px";
+  s.style.background = "#fff";
+  options.forEach(function (pair) {
+    var o = document.createElement("option");
+    o.value = pair[0];
+    o.textContent = pair[1];
+    if (pair[0] === value) o.selected = true;
+    s.appendChild(o);
+  });
+  s.addEventListener("change", function () { onChange(s.value); });
+  w.appendChild(s);
+  return w;
+}
+
+/* ---------- settings modal ---------- */
+function renderSettings() {
+  var modal = document.getElementById("settings-modal");
+  document.getElementById("set-title").textContent = t("setTitle");
+  document.getElementById("set-close").textContent = t("setClose");
+  var body = document.getElementById("set-body");
+  clear(body);
+  [
+    ["timer", "optTimer", "optTimerNote"],
+    ["pause", "optPause", "optPauseNote"],
+    ["back", "optBack", "optBackNote"],
+    ["replay", "optReplay", "optReplayNote"],
+    ["auto", "optAuto", "optAutoNote"],
+    ["unverified", "optUnverified", "optUnverifiedNote"]
+  ].forEach(function (row) {
+    var d = el("div", "opt");
+    var cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = state.settings[row[0]];
+    cb.id = "opt-" + row[0];
+    cb.addEventListener("change", function () {
+      state.settings[row[0]] = cb.checked;
+      save();
+      if (state.screen === "exam") renderExam();
+      else if (state.screen === "learn") { rebuildLearn(); render(); }
+      else render();
+    });
+    d.appendChild(cb);
+    var lw = el("div");
+    var lb = el("label", null, t(row[1]));
+    lb.setAttribute("for", cb.id);
+    lw.appendChild(lb);
+    lw.appendChild(el("div", "note", t(row[2])));
+    d.appendChild(lw);
+    body.appendChild(d);
+  });
+  modal.classList.remove("hidden");
+}
+
+/* ---------- keyboard ---------- */
+document.addEventListener("keydown", function (e) {
+  if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
+  var k = e.key.toLowerCase();
+
+  if (state.screen === "exam" && state.exam && !state.exam.finished) {
+    var it = state.exam.items[state.exam.index];
+    if (k === " ") {
+      e.preventDefault();
+      if (state.settings.pause && state.settings.timer) {
+        state.exam.paused = !state.exam.paused;
+        lastTick = 0;
+        renderExam();
+      }
+      return;
+    }
+    if (it.q.kind === "tn") {
+      if (k === "t" || k === "y" || k === "1") { answerQuestion("T"); return; }
+      if (k === "n" || k === "2") { answerQuestion("N"); return; }
+    } else {
+      if (k === "a" || k === "1") { answerQuestion("A"); return; }
+      if (k === "b" || k === "2") { answerQuestion("B"); return; }
+      if (k === "c" || k === "3") { answerQuestion("C"); return; }
+    }
+    if (e.key === "ArrowLeft" && state.settings.back && state.exam.index > 0) {
+      state.exam.index--; renderExam(); return;
+    }
+    if (e.key === "ArrowRight" && state.exam.index < state.exam.items.length - 1) {
+      state.exam.index++; renderExam(); return;
+    }
+  }
+
+  if (state.screen === "learn" && state.learn) {
+    var L = state.learn;
+    var q = L.list[L.index];
+    if (!q) return;
+    if (!L.answer) {
+      if (q.kind === "tn") {
+        if (k === "t" || k === "1") { L.answer = "T"; render(); return; }
+        if (k === "n" || k === "2") { L.answer = "N"; render(); return; }
+      } else {
+        if (k === "a" || k === "1") { L.answer = "A"; render(); return; }
+        if (k === "b" || k === "2") { L.answer = "B"; render(); return; }
+        if (k === "c" || k === "3") { L.answer = "C"; render(); return; }
+      }
+    }
+    if (e.key === "ArrowRight" && L.index < L.list.length - 1) { L.index++; L.answer = null; render(); return; }
+    if (e.key === "ArrowLeft" && L.index > 0) { L.index--; L.answer = null; render(); return; }
+  }
+});
+
+/* ---------- boot ---------- */
+document.getElementById("btn-settings").addEventListener("click", renderSettings);
+document.getElementById("set-close").addEventListener("click", function () {
+  document.getElementById("settings-modal").classList.add("hidden");
+});
+document.getElementById("settings-modal").addEventListener("click", function (e) {
+  if (e.target === this) this.classList.add("hidden");
+});
+document.getElementById("btn-quit").addEventListener("click", function () {
+  if (!confirm(t("quitConfirm"))) return;
+  stopTicker();
+  state.exam = null;
+  state.screen = "home";
+  render();
+});
+
+function render() {
+  renderChrome();
+  clear(app);
+  if (state.screen === "exam" && state.exam && !state.exam.finished) {
+    app.appendChild(examNode());
+  } else if (state.screen === "result" && state.exam) {
+    app.appendChild(renderResult());
+  } else if (state.screen === "learn") {
+    app.appendChild(renderLearn());
+  } else {
+    state.screen = "home";
+    app.appendChild(renderHome());
+  }
+}
+
+load();
+document.documentElement.lang = state.lang === "ua" ? "uk" : state.lang;
+
+if (!bank.length) {
+  app.appendChild(el("div", "warnbar", "data/questions.js nie został wczytany. Uruchom tools/build_questions.py."));
+} else {
+  render();
+}
+})();
+</script>
+</body>
+</html>
