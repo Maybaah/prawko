@@ -1,3 +1,4 @@
 _work/
 data/questions.json
 media/**/*.wmv
+__pycache__/
