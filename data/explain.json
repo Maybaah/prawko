@@ -2336,5 +2336,102 @@
    "pl": "Na tablicy zmiennej treści wyświetlony jest znak ostrzegawczy o śliskiej jezdni razem z komunikatem, żeby jechać ostrożnie. Znak ostrzegawczy zawsze zapowiada miejsce, w którym niebezpieczeństwo występuje lub może wystąpić.",
    "ua": "На табло змінної інформації показано попереджувальний знак про слизьку дорогу разом із закликом їхати обережно. Попереджувальний знак завжди сповіщає про місце, де небезпека є або може виникнути."
   }
+ },
+ "975": {
+  "law": "art. 3 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Über jeder Spur leuchtet das Zeichen A-30, die Warnung vor einer anderen Gefahr. Jedes Gefahrzeichen verpflichtet zu besonderer Vorsicht bis zu der Stelle, auf die es sich bezieht.",
+   "en": "Above every lane the A-30 sign is displayed, a warning of other danger. Every warning sign imposes a duty of particular caution up to the place it refers to.",
+   "pl": "Nad każdym pasem świeci znak A-30, czyli ostrzeżenie o innym niebezpieczeństwie. Każdy znak ostrzegawczy nakłada obowiązek zachowania szczególnej ostrożności aż do miejsca, którego dotyczy.",
+   "ua": "Над кожною смугою світиться знак A-30, тобто попередження про іншу небезпеку. Кожен попереджувальний знак зобов'язує дотримуватися особливої обережності аж до місця, якого він стосується."
+  }
+ },
+ "978": {
+  "text": {
+   "de": "Das Zeichen warnt vor der Einmündung einer Einbahnstraße: Der Pfeil im Symbol zeigt, dass Fahrzeuge von dort nur einbiegen können. Diese Straße ist untergeordnet, dennoch erzwingen Fahrer von dort mitunter die Vorfahrt.",
+   "en": "The sign warns of a one-way road joining: the arrow in the symbol shows that vehicles can only enter your road from there. That road is subordinate, but drivers coming off it still manage to force their way in.",
+   "pl": "Znak ostrzega o wlocie drogi jednokierunkowej: strzałka w symbolu pokazuje, że pojazdy mogą stamtąd tylko wjechać na Twoją drogę. Droga ta jest podporządkowana, ale kierowcy z niej i tak potrafią wymusić pierwszeństwo.",
+   "ua": "Знак попереджає про приєднання дороги з одностороннім рухом: стрілка в символі показує, що транспорт звідти може лише виїхати на твою дорогу. Ця дорога другорядна, але водії з неї все одно часом вимушують перевагу."
+  }
+ },
+ "980": {
+  "text": {
+   "de": "Unter dem Vorfahrt-gewähren-Zeichen hängt ein Zusatzschild T-6, das den tatsächlichen Verlauf der Vorfahrtstraße durch diese Kreuzung zeigt. Die dicke Linie ist die Hauptstraße, die dünne dein Zufahrtsarm.",
+   "en": "Under the give-way sign hangs a T-6 plate, which draws the actual course of the priority road through this junction. The thick line is the main road, the thin one is your approach.",
+   "pl": "Pod znakiem ustąp pierwszeństwa wisi tabliczka T-6, która rysuje rzeczywisty przebieg drogi z pierwszeństwem przez to skrzyżowanie. Gruba linia to droga główna, cienka to Twój wlot.",
+   "ua": "Під знаком «дай дорогу» висить табличка T-6, яка малює справжній хід головної дороги через це перехрестя. Товста лінія це головна дорога, тонка це твій в'їзд."
+  }
+ },
+ "985": {
+  "text": {
+   "de": "Das Zeichen A-9 mit dem Schrankensymbol warnt vor einem Bahnübergang mit Schranken oder Halbschranken. Einen Übergang ohne Schranken kündigt das Zeichen A-10 mit dem Lokomotivsymbol an.",
+   "en": "Sign A-9 with the gate symbol warns of a level crossing with barriers or half-barriers. A crossing without barriers is announced by sign A-10 with the locomotive symbol.",
+   "pl": "Znak A-9 z symbolem zapory ostrzega o przejeździe kolejowym z zaporami lub półzaporami. Przejazd bez zapór zapowiada znak A-10 z symbolem lokomotywy.",
+   "ua": "Знак A-9 із символом шлагбаума попереджає про залізничний переїзд зі шлагбаумами або півшлагбаумами. Переїзд без шлагбаумів позначає знак A-10 із символом локомотива."
+  }
+ },
+ "986": {
+  "text": {
+   "de": "Auf dem Zeichen ist eine Lokomotive, also A-10: Bahnübergang ohne Schranken. Dort sperrt nichts den Weg vor einem Zug, du musst dich selbst vergewissern.",
+   "en": "The sign shows a locomotive, so it is A-10: a level crossing without barriers. Nothing there will close the road in front of a train, so checking is entirely on you.",
+   "pl": "Na znaku jest lokomotywa, czyli A-10: przejazd kolejowy bez zapór. Tam nikt nie zamknie Ci drogi przed pociągiem, więc upewnić się musisz sam.",
+   "ua": "На знаку локомотив, тобто A-10: залізничний переїзд без шлагбаумів. Там ніщо не перекриє тобі дорогу перед потягом, тож переконуватися мусиш сам."
+  }
+ },
+ "987": {
+  "text": {
+   "de": "Das Lokomotivsymbol steht für das Zeichen A-10, also einen Übergang ohne Schranken und ohne Halbschranken. Auf Schranken würde das Zeichen A-9 mit dem Gittersymbol hinweisen.",
+   "en": "The locomotive symbol means sign A-10, a crossing with neither barriers nor half-barriers. Barriers would be announced by sign A-9 with the gate symbol.",
+   "pl": "Symbol lokomotywy oznacza znak A-10, czyli przejazd bez zapór i bez półzapór. O zaporach informowałby znak A-9 z symbolem kraty.",
+   "ua": "Символ локомотива означає знак A-10, тобто переїзд без шлагбаумів і без півшлагбаумів. Про шлагбауми повідомляв би знак A-9 із символом ґратки."
+  }
+ },
+ "988": {
+  "text": {
+   "de": "Das Zeichen A-11 warnt vor unebener Fahrbahn, also vor Querunebenheiten: Spurrillen, Buckeln, Schlaglöchern. Man muss langsamer fahren, denn auf Unebenheiten verliert das Auto Haftung und Stabilität.",
+   "en": "Sign A-11 warns of an uneven road, that is transverse unevenness of the surface: ruts, humps, potholes. Slow down, because on unevenness the car loses grip and stability.",
+   "pl": "Znak A-11 ostrzega o nierównej drodze, czyli o poprzecznych nierównościach nawierzchni: koleinach, garbach, ubytkach. Trzeba zwolnić, bo na nierówności auto traci przyczepność i stabilność.",
+   "ua": "Знак A-11 попереджає про нерівну дорогу, тобто про поперечні нерівності покриття: колії, горби, вибоїни. Треба знизити швидкість, бо на нерівності авто втрачає зчеплення і стійкість."
+  }
+ },
+ "990": {
+  "text": {
+   "de": "Unter dem Zeichen für unebene Fahrbahn hängt ein Zusatzschild T-2 mit der Streckenlänge: Die Unebenheiten ziehen sich über 1,2 km. Ein Längenschild gibt stets an, wie weit die Gefahr reicht, nicht wie weit sie entfernt ist.",
+   "en": "Under the uneven road sign hangs a T-2 plate with the length of the section: the unevenness runs for 1.2 km. A length plate always says how far the hazard extends, not how far away it starts.",
+   "pl": "Pod znakiem nierównej drogi wisi tabliczka T-2 z długością odcinka: nierówności ciągną się przez 1,2 km. Tabliczka z długością zawsze oznacza, jak daleko sięga zagrożenie, a nie jak daleko do niego jest.",
+   "ua": "Під знаком нерівної дороги висить табличка T-2 із довжиною ділянки: нерівності тягнуться 1,2 км. Табличка з довжиною завжди означає, наскільки далеко сягає небезпека, а не наскільки далеко до неї."
+  }
+ },
+ "991": {
+  "text": {
+   "de": "Auf dem Zeichen sind zwei Unebenheiten zu sehen, also A-11: unebene Fahrbahn, beschädigter Belag. Eine Bodenschwelle kündigt A-11a an, auf dem nur eine deutliche Erhebung abgebildet ist.",
+   "en": "The sign shows two bumps, so it is A-11: uneven road, damaged surface. A speed hump is announced by A-11a, which carries a single distinct hump.",
+   "pl": "Na znaku widać dwie nierówności, czyli A-11: nierówna droga, uszkodzona nawierzchnia. Próg zwalniający zapowiada A-11a, na którym jest tylko jedna, wyraźna wypukłość.",
+   "ua": "На знаку видно дві нерівності, тобто A-11: нерівна дорога, пошкоджене покриття. Про лежачого поліцейського попереджає A-11a, на якому лише одна виразна опуклість."
+  }
+ },
+ "992": {
+  "text": {
+   "de": "Das Zeichen A-11a mit einer deutlichen Erhebung steht für eine Bodenschwelle, die zum Langsamfahren zwingen soll. Das Zusatzschild gibt an, dass die Schwelle 25 Meter hinter dem Zeichen liegt.",
+   "en": "Sign A-11a with a single pronounced hump marks a speed bump, laid there to force slower driving. The plate says the bump is 25 metres beyond the sign.",
+   "pl": "Znak A-11a z jedną wyraźną wypukłością to próg zwalniający, ułożony po to, żeby wymusić wolniejszą jazdę. Tabliczka podaje, że próg jest 25 metrów za znakiem.",
+   "ua": "Знак A-11a з однією виразною опуклістю це штучна нерівність, укладена, щоб змусити їхати повільніше. Табличка вказує, що вона за 25 метрів після знака."
+  }
+ },
+ "994": {
+  "text": {
+   "de": "Das Zusatzschild T-1 gibt die Entfernung vom Zeichen bis zur Gefahrenstelle an, hier 25 Meter bis zur Bodenschwelle. Die Länge des Gefahrenabschnitts nennt ein anderes Schild, T-2.",
+   "en": "The T-1 plate gives the distance from the sign to the hazard, here 25 metres to the speed bump. The length of the hazardous section itself is given by a different plate, T-2.",
+   "pl": "Tabliczka T-1 podaje odległość od znaku do miejsca niebezpiecznego, tu 25 metrów do progu zwalniającego. Długość samego niebezpiecznego odcinka podaje inna tabliczka, T-2.",
+   "ua": "Табличка T-1 вказує відстань від знака до небезпечного місця, тут 25 метрів до штучної нерівності. Довжину самої небезпечної ділянки подає інша табличка, T-2."
+  }
+ },
+ "996": {
+  "text": {
+   "de": "Das Zeichen A-12a warnt vor einer beidseitigen Fahrbahnverengung. Eine schmalere Fahrbahn lässt weniger Platz zum Begegnen, also verlangsamen und nötigenfalls Vorrang gewähren.",
+   "en": "Sign A-12a warns of the carriageway narrowing on both sides. A narrower road leaves less room for passing oncoming traffic, so slow down and give way if needed.",
+   "pl": "Znak A-12a ostrzega o zwężeniu jezdni z obu stron. Węższa jezdnia to mniej miejsca na wymijanie, więc trzeba zwolnić i w razie potrzeby ustąpić.",
+   "ua": "Знак A-12a попереджає про звуження проїзної частини з обох боків. Вужча дорога це менше місця для роз'їзду, тож треба знизити швидкість і за потреби поступитися."
+  }
  }
 }
