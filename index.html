@@ -160,6 +160,20 @@ main{max-width:1120px;margin:0 auto;padding:26px 20px 60px}
 .qfoot .spacer{flex:1}
 .note{font-size:13px;color:var(--muted)}
 
+/* ---------- explanation ---------- */
+.why{
+  width:100%;margin-top:12px;padding:14px 16px;
+  background:var(--surface-2);border:1px solid var(--line);border-left:3px solid var(--line-strong);
+  border-radius:2px;
+}
+.why-title{
+  font-family:var(--display);font-size:12px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-bottom:6px;
+}
+.why-body{font-size:14px;line-height:1.55;color:var(--text)}
+.why-law{margin-top:7px;font-size:12px;color:var(--muted)}
+.ritem .why{margin-top:10px}
+
 /* ---------- signature: speed-limit timer ---------- */
 .side{display:flex;flex-direction:column;gap:16px;position:sticky;top:16px}
 .timerbox{padding:20px;display:flex;flex-direction:column;align-items:center;gap:14px}
@@ -333,7 +347,8 @@ var T = {
     filterScope:"Zakres", filterAll:"Wszystko", filterMedia:"Multimedia",
     anyMedia:"Dowolne", onlyVideo:"Filmy", onlyImage:"Zdjęcia", onlyText:"Bez multimediów",
     check:"Sprawdź", shuffle:"Losuj", ofTotal:"z",
-    correctIs:"Poprawna odpowiedź:", goodJob:"Dobrze.", tryAgain:"Źle."
+    correctIs:"Poprawna odpowiedź:", goodJob:"Dobrze.", tryAgain:"Źle.",
+    whyTitle:"Dlaczego", whyLoading:"Wczytywanie wyjaśnienia...", whyNone:"Wyjaśnienie w przygotowaniu."
   },
   en: {
     code:"EN", name:"English",
@@ -370,7 +385,8 @@ var T = {
     filterScope:"Scope", filterAll:"All", filterMedia:"Media",
     anyMedia:"Any", onlyVideo:"Videos", onlyImage:"Photos", onlyText:"Text only",
     check:"Check", shuffle:"Shuffle", ofTotal:"of",
-    correctIs:"Correct answer:", goodJob:"Correct.", tryAgain:"Wrong."
+    correctIs:"Correct answer:", goodJob:"Correct.", tryAgain:"Wrong.",
+    whyTitle:"Why", whyLoading:"Loading explanation...", whyNone:"Explanation coming soon."
   },
   de: {
     code:"DE", name:"Deutsch",
@@ -407,7 +423,8 @@ var T = {
     filterScope:"Bereich", filterAll:"Alles", filterMedia:"Medien",
     anyMedia:"Beliebig", onlyVideo:"Videos", onlyImage:"Fotos", onlyText:"Ohne Medien",
     check:"Prüfen", shuffle:"Mischen", ofTotal:"von",
-    correctIs:"Richtige Antwort:", goodJob:"Richtig.", tryAgain:"Falsch."
+    correctIs:"Richtige Antwort:", goodJob:"Richtig.", tryAgain:"Falsch.",
+    whyTitle:"Warum", whyLoading:"Erklärung wird geladen...", whyNone:"Erklärung folgt."
   },
   ua: {
     code:"UA", name:"Українська",
@@ -444,7 +461,8 @@ var T = {
     filterScope:"Розділ", filterAll:"Усе", filterMedia:"Медіа",
     anyMedia:"Будь-які", onlyVideo:"Відео", onlyImage:"Фото", onlyText:"Без медіа",
     check:"Перевірити", shuffle:"Перемішати", ofTotal:"з",
-    correctIs:"Правильна відповідь:", goodJob:"Правильно.", tryAgain:"Неправильно."
+    correctIs:"Правильна відповідь:", goodJob:"Правильно.", tryAgain:"Неправильно.",
+    whyTitle:"Чому", whyLoading:"Завантаження пояснення...", whyNone:"Пояснення готується."
   }
 };
 
@@ -485,6 +503,51 @@ function save() {
 }
 
 function t(key) { return T[state.lang][key] || T.pl[key] || key; }
+
+/* ---------- explanations ---------- */
+window.EXPLAIN = window.EXPLAIN || {};
+var explainState = {};
+
+function ensureExplain(lang) {
+  if (explainState[lang]) return explainState[lang];
+  explainState[lang] = "loading";
+  var s = document.createElement("script");
+  s.src = "data/explain." + lang + ".js";
+  s.async = true;
+  s.onload = function () { explainState[lang] = "ready"; render(); };
+  s.onerror = function () { explainState[lang] = "failed"; };
+  document.head.appendChild(s);
+  return explainState[lang];
+}
+
+function explainFor(q) {
+  var lang = state.lang;
+  var st = ensureExplain(lang);
+  var pack = window.EXPLAIN[lang];
+  var rec = pack && pack[q.id];
+  if (!rec && lang !== "pl") {
+    ensureExplain("pl");
+    pack = window.EXPLAIN.pl;
+    rec = pack && pack[q.id];
+  }
+  if (rec) return typeof rec === "string" ? { text: rec } : rec;
+  if (st === "loading") return { pending: true };
+  return null;
+}
+
+function whyNode(q) {
+  var rec = explainFor(q);
+  if (!rec) return null;
+  var box = el("div", "why");
+  box.appendChild(el("div", "why-title", t("whyTitle")));
+  if (rec.pending) {
+    box.appendChild(el("div", "why-body", t("whyLoading")));
+    return box;
+  }
+  box.appendChild(el("div", "why-body", rec.text));
+  if (rec.law) box.appendChild(el("div", "why-law", rec.law));
+  return box;
+}
 
 /* ---------- helpers ---------- */
 function el(tag, cls, text) {
@@ -1097,6 +1160,8 @@ function renderResult() {
       meta.appendChild(el("b", null, labelFor(it.q, it.q.correct)));
     }
     mid.appendChild(meta);
+    var rwhy = whyNode(it.q);
+    if (rwhy) mid.appendChild(rwhy);
     item.appendChild(mid);
 
     item.appendChild(el("div", "rpts", (ok ? it.q.points : 0) + " / " + it.q.points));
@@ -1251,6 +1316,14 @@ function renderLearn() {
   next.addEventListener("click", function () { L.index++; L.answer = null; render(); });
   foot.appendChild(next);
   plate.appendChild(foot);
+
+  if (L.answer) {
+    var why = whyNode(q);
+    if (why) {
+      why.style.margin = "0 22px 22px";
+      plate.appendChild(why);
+    }
+  }
 
   wrap.appendChild(plate);
   return wrap;
