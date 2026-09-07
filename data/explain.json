@@ -1442,6 +1442,15 @@
    "ua": "У тумані вночі передусім знижуй швидкість. Дальнє світло відбивається від крапель води і засліплює, а їзда впритул за попереднім авто не лишає місця для гальмування."
   }
  },
+ "352": {
+  "law": "art. 22 ust. 6 pkt 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das Zeichen D-3 kennzeichnet eine Einbahnstraße, und dort ist das Wenden verboten. Nach dem Wenden führe man entgegen der Fahrtrichtung, direkt auf Fahrzeuge zu, die nicht ausweichen können.",
+   "en": "The D-3 sign marks a one-way road, and on such a road turning around is prohibited. After a U-turn you would be driving against the flow, straight at vehicles with no room to avoid you.",
+   "pl": "Znak D-3 oznacza drogę jednokierunkową, a na takiej drodze zawracanie jest zabronione. Po zawróceniu jechałbyś pod prąd, wprost na pojazdy, które nie mają jak Cię ominąć.",
+   "ua": "Знак D-3 позначає дорогу з одностороннім рухом, а на такій дорозі розворот заборонений. Розвернувшись, ти б їхав назустріч потоку, просто на автомобілі, яким нікуди подітися."
+  }
+ },
  "3523": {
   "text": {
    "de": "Eine große Wasserlache durchfährt man nach sanftem Verlangsamen. Kräftiges Bremsen oder Beschleunigen auf Wasser hebt die Reifen von der Fahrbahn ab.",
@@ -1882,6 +1891,91 @@
    "ua": "112 це спільний номер екстреного виклику: він з'єднує зі швидкою, пожежними і поліцією одночасно. Працює по всій Польщі та в усьому Євросоюзі, навіть із телефона без SIM-картки."
   }
  },
+ "469": {
+  "text": {
+   "de": "Rot und Gelb leuchten gemeinsam, das Signal dafür, dass gleich Grün kommt. Losfahren darf man noch nicht, das Fahrzeug aber bereitmachen.",
+   "en": "Red and yellow are lit together, which signals that green is about to come on. You may not move yet, but you can get the car ready to go.",
+   "pl": "Świecą się razem czerwony i żółty, a to sygnał, że za chwilę zapali się zielone. Ruszać jeszcze nie wolno, ale można przygotować pojazd do jazdy.",
+   "ua": "Горять разом червоний і жовтий, а це сигнал, що зараз увімкнеться зелений. Рушати ще не можна, але можна підготувати авто до руху."
+  }
+ },
+ "475": {
+  "law": "sygnalizator S-2, rozporządzenie w sprawie znaków i sygnałów drogowych",
+  "text": {
+   "de": "Neben dem Rotlicht leuchtet der grüne Pfeil für das bedingte Rechtsabbiegen. Er erlaubt das Abbiegen erst nach dem Anhalten vor dem Signal und der Vorrangsgewährung für alle, auch für Fußgänger auf dem Überweg.",
+   "en": "Beside the red light a green arrow for a conditional right turn is lit. It permits the turn only after stopping at the signal and giving way to everyone, pedestrians on the crossing included.",
+   "pl": "Obok czerwonego świeci zielona strzałka warunkowego skrętu w prawo. Zezwala ona na skręt dopiero po zatrzymaniu się przed sygnalizatorem i ustąpieniu pierwszeństwa wszystkim, w tym pieszym na przejściu.",
+   "ua": "Поряд із червоним світиться зелена стрілка умовного повороту праворуч. Вона дозволяє поворот лише після зупинки перед світлофором і поступання всім, зокрема пішоходам на переході."
+  }
+ },
+ "477": {
+  "law": "sygnalizator kierunkowy S-3, rozporządzenie w sprawie znaków i sygnałów drogowych",
+  "text": {
+   "de": "Für deine Spur leuchtet ein Richtungssignal mit grünem Linkspfeil. Ein solches Signal erlaubt nur die Fahrt in Pfeilrichtung, also das Linksabbiegen, nicht aber das Wenden.",
+   "en": "Your lane is controlled by a directional signal showing a green left arrow. Such a signal permits travel only in the direction of the arrow, that is a left turn, but not a U-turn.",
+   "pl": "Dla Twojego pasa świeci sygnalizator kierunkowy z zieloną strzałką w lewo. Taki sygnał zezwala wyłącznie na jazdę w kierunku strzałki, czyli na skręt w lewo, ale nie na zawracanie.",
+   "ua": "Для твоєї смуги горить напрямний світлофор із зеленою стрілкою ліворуч. Такий сигнал дозволяє рух лише в напрямку стрілки, тобто поворот ліворуч, але не розворот."
+  }
+ },
+ "478": {
+  "law": "sygnalizator kierunkowy S-3, rozporządzenie w sprawie znaków i sygnałów drogowych",
+  "text": {
+   "de": "Der grüne Rechtspfeil leuchtet anstelle des grünen Lichts, es handelt sich also um ein Richtungssignal. Richtungssignalisierung ist konfliktfrei: In der angezeigten Richtung kreuzt man keinen anderen Verkehrsstrom, auch keine Fußgänger.",
+   "en": "The green right arrow is lit in place of the green light, so this is a directional signal. Directional signalling is conflict-free: travelling in the indicated direction you cross no other stream, pedestrians included.",
+   "pl": "Zielona strzałka w prawo świeci się w miejscu zielonego światła, czyli to sygnalizator kierunkowy. Sygnalizacja kierunkowa jest bezkolizyjna: jadąc we wskazanym kierunku nie skrzyżujesz się z innym ruchem, w tym z pieszymi.",
+   "ua": "Зелена стрілка праворуч світиться на місці зеленого сигналу, тобто це напрямний світлофор. Напрямна сигналізація безконфліктна: рухаючись у вказаному напрямку, ти не перетнешся з іншим потоком, зокрема з пішоходами."
+  }
+ },
+ "480": {
+  "text": {
+   "de": "Für deine Spur leuchtet Rot, und Rot verbietet das Passieren des Signals ausnahmslos. Anzuhalten ist vor dem Signalgeber oder vor der Haltlinie.",
+   "en": "Your lane is showing a red signal, and red absolutely forbids passing the signal. You must stop before the signal head or before the stop line.",
+   "pl": "Dla Twojego pasa świeci sygnał czerwony, a ten bezwzględnie zabrania wjazdu za sygnalizator. Zatrzymać się trzeba przed sygnalizatorem albo przed linią warunkowego zatrzymania.",
+   "ua": "Для твоєї смуги горить червоний сигнал, а він беззастережно забороняє в'їзд за світлофор. Зупинитися треба перед світлофором або перед стоп-лінією."
+  }
+ },
+ "486": {
+  "law": "sygnalizator kierunkowy S-3, rozporządzenie w sprawie znaków i sygnałów drogowych",
+  "text": {
+   "de": "Das Richtungssignal zeigt einen grünen Pfeil nach oben, erlaubt also nur die Geradeausfahrt. Rechtsabbiegen ist verboten, unabhängig davon, ob es jemanden behindern würde.",
+   "en": "The directional signal shows a green arrow pointing up, so it permits only going straight on. A right turn is prohibited regardless of whether it would obstruct anyone.",
+   "pl": "Sygnalizator kierunkowy pokazuje zieloną strzałkę w górę, więc zezwala tylko na jazdę na wprost. Skręt w prawo jest zabroniony niezależnie od tego, czy komukolwiek by przeszkodził.",
+   "ua": "Напрямний світлофор показує зелену стрілку вгору, тож дозволяє лише рух прямо. Поворот праворуч заборонений незалежно від того, чи завадив би він комусь."
+  }
+ },
+ "544": {
+  "law": "art. 22 ust. 1 i 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Spuren trennt eine unterbrochene Linie, ein Spurwechsel ist also erlaubt. Man muss ihn nur blinkend ankündigen und dem Fahrzeug auf der Zielspur Vorrang gewähren.",
+   "en": "The lanes are separated by a broken line, so changing lanes is allowed. You only have to signal with the indicator and give way to any vehicle already in the lane you are moving into.",
+   "pl": "Pasy rozdziela linia przerywana, więc zmiana pasa jest dozwolona. Trzeba tylko zasygnalizować manewr kierunkowskazem i ustąpić pierwszeństwa pojazdowi jadącemu po pasie, na który wjeżdżasz.",
+   "ua": "Смуги розділяє переривчаста лінія, тож зміна смуги дозволена. Треба лише показати маневр покажчиком повороту і поступитися транспорту, що вже рухається смугою, на яку ти перестроюєшся."
+  }
+ },
+ "589": {
+  "text": {
+   "de": "Unter dem Einbahnstraßenschild hängt ein Zusatzzeichen, das Fahrräder ausnimmt, und am linken Rand verläuft ein Streifen mit Fahrradsymbol. Das ist Radverkehr in Gegenrichtung: Radfahrer kommen hier legal entgegen.",
+   "en": "Under the one-way sign there is a plate excluding bicycles, and along the left edge runs a lane with a bicycle symbol. This is contraflow cycling: cyclists legally ride towards you here.",
+   "pl": "Pod znakiem drogi jednokierunkowej wisi tabliczka wyłączająca rowery, a przy lewej krawędzi widać pas z symbolem roweru. To kontraruch rowerowy: rowerzyści legalnie jadą tu pod prąd.",
+   "ua": "Під знаком дороги з одностороннім рухом висить табличка, що виключає велосипеди, а вздовж лівого краю йде смуга з символом велосипеда. Це велосипедний контрарух: велосипедисти законно їдуть тут назустріч."
+  }
+ },
+ "591": {
+  "text": {
+   "de": "Die linke Spur trennt eine gelbe durchgehende Linie, eine vorübergehende Markierung aus einer Baustelle. Gelbe Markierung geht der weißen vor, und eine durchgezogene Linie darf nicht überfahren werden.",
+   "en": "The lane on the left is separated by a solid yellow line, temporary marking from roadworks. Yellow marking overrides white, and a solid line must not be crossed.",
+   "pl": "Pas po lewej odgradza żółta linia ciągła, czyli oznakowanie tymczasowe z czasu robót drogowych. Oznakowanie żółte ma pierwszeństwo przed białym, a linii ciągłej przekraczać nie wolno.",
+   "ua": "Смугу ліворуч відділяє суцільна жовта лінія, тобто тимчасове розмічення з часів дорожніх робіт. Жовте розмічення має перевагу над білим, а суцільну лінію перетинати не можна."
+  }
+ },
+ "627": {
+  "text": {
+   "de": "Die Fahrbahnmitte trägt eine Doppellinie: auf deiner Seite durchgezogen, auf der Gegenseite unterbrochen. Eine solche Linie darf nur von der Seite überfahren werden, auf der sie unterbrochen ist, du also nicht.",
+   "en": "The centre of the road carries a double line: solid on your side, broken on the other. Such a line may be crossed only from the side where it is broken, so you may not cross it.",
+   "pl": "Oś jezdni wyznacza linia podwójna: od Twojej strony ciągła, od strony przeciwnej przerywana. Taką linię wolno przejechać tylko z tej strony, po której jest przerywana, więc Ty przekroczyć jej nie możesz.",
+   "ua": "Вісь проїзної частини позначена подвійною лінією: з твого боку суцільна, з протилежного переривчаста. Таку лінію дозволено перетинати лише з того боку, де вона переривчаста, тож тобі не можна."
+  }
+ },
  "6318": {
   "text": {
    "de": "Alkohol verändert das Blickfeld: Er verengt es und schwächt das periphere Sehen sowie die Abstandsschätzung. Der Fahrer schaut geradeaus und nimmt einen von der Seite kommenden Fußgänger nicht wahr.",
@@ -2043,6 +2137,15 @@
    "ua": "Автомобіль, залишений на схилі, треба убезпечити від скочування: стоянкове гальмо, увімкнена передача і колеса, повернуті до бордюру. Сама лише передача на крутому підйомі буває недостатньою."
   }
  },
+ "748": {
+  "law": "art. 24 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Du fährst auf einer Fahrbahn mit zwei Spuren in deine Richtung, getrennt durch eine unterbrochene Linie, das Signal ist grün und ein Überholverbot gibt es nicht. Überholt wird auf der linken Spur, nachdem du dich vergewissert hast, dass sie frei ist.",
+   "en": "You are on a carriageway with two lanes in your direction, the lanes are separated by a broken line, the signal is green and no overtaking ban applies. You overtake in the left lane, once you have checked it is clear.",
+   "pl": "Jedziesz jezdnią o dwóch pasach w tym kierunku, pasy rozdziela linia przerywana, sygnał jest zielony i nie ma tu żadnego zakazu wyprzedzania. Wyprzedzasz lewym pasem, po upewnieniu się, że jest wolny.",
+   "ua": "Ти рухаєшся проїзною частиною з двома смугами в цьому напрямку, смуги розділяє переривчаста лінія, сигнал зелений і жодної заборони обгону тут немає. Обганяєш лівою смугою, переконавшись, що вона вільна."
+  }
+ },
  "7512": {
   "law": "art. 31 ust. 1 pkt 2 Prawa o ruchu drogowym",
   "text": {
@@ -2102,6 +2205,15 @@
    "ua": "На сухому покритті рушають на першій передачі, бо вона дає найбільшу тягу. Друга передача підходить лише на дуже слизькій дорозі, коли треба зменшити пробуксовування."
   }
  },
+ "788": {
+  "law": "art. 24 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Wer gerade überholt wurde, darf während des Überholvorgangs und unmittelbar danach nicht beschleunigen. Beschleunigen zwingt den Überholenden, länger auf der Gegenfahrbahn zu bleiben.",
+   "en": "A driver who has just been overtaken must not increase speed during the manoeuvre or directly after it. Accelerating now would keep the overtaking car on the opposite lane for longer.",
+   "pl": "Kierującemu, którego właśnie wyprzedzono, nie wolno zwiększać prędkości w czasie wyprzedzania ani bezpośrednio po nim. Przyspieszenie w tym momencie zmusza wyprzedzającego do dłuższego pobytu na przeciwnym pasie.",
+   "ua": "Водієві, якого щойно обігнали, не можна збільшувати швидкість під час обгону і безпосередньо після нього. Прискорення в цей момент змушує того, хто обганяє, довше залишатися на зустрічній смузі."
+  }
+ },
  "8320": {
   "law": "art. 24 ust. 5 Prawa o ruchu drogowym",
   "text": {
@@ -2109,6 +2221,47 @@
    "en": "A rail vehicle is normally overtaken on the right, but on a one-way carriageway it may also be passed on the left. On a one-way road there is no oncoming traffic, so the manoeuvre is safe.",
    "pl": "Pojazd szynowy wyprzedza się co do zasady z prawej strony, ale na jezdni jednokierunkowej wolno zrobić to także z lewej. Na jezdni jednokierunkowej nie ma ruchu z przeciwka, więc manewr jest bezpieczny.",
    "ua": "Рейковий транспорт за загальним правилом обганяють праворуч, але на дорозі з одностороннім рухом це дозволено робити й ліворуч. На односторонній дорозі немає зустрічного руху, тож маневр безпечний."
+  }
+ },
+ "891": {
+  "text": {
+   "de": "Das Zeichen A-1 warnt vor einer einzelnen gefährlichen Rechtskurve. Gäbe es mehrere Kurven, stünde hier das Zeichen A-3 mit zwei Bögen statt mit einem.",
+   "en": "Sign A-1 warns of one dangerous bend to the right. Were there more bends, the sign here would be A-3 with two curves, not one.",
+   "pl": "Znak A-1 ostrzega o jednym niebezpiecznym zakręcie w prawo. Gdyby zakrętów było więcej, stałby tu znak A-3 z dwoma łukami, a nie z jednym.",
+   "ua": "Знак A-1 попереджає про один небезпечний поворот праворуч. Якби поворотів було більше, тут стояв би знак A-3 із двома дугами, а не з однією."
+  }
+ },
+ "892": {
+  "text": {
+   "de": "Das Zeichen A-2 warnt vor einer einzelnen gefährlichen Linkskurve, nicht vor mehreren. Eine Kurvenfolge kündigt das Zeichen mit zwei Bögen an, A-3 oder A-4.",
+   "en": "Sign A-2 warns of a single dangerous bend to the left, not of several. A series of bends is announced by the sign with two curves, A-3 or A-4.",
+   "pl": "Znak A-2 ostrzega o jednym niebezpiecznym zakręcie w lewo, a nie o kilku. O serii zakrętów informuje znak z dwoma łukami, czyli A-3 albo A-4.",
+   "ua": "Знак A-2 попереджає про один небезпечний поворот ліворуч, а не про кілька. Про серію поворотів інформує знак із двома дугами, тобто A-3 або A-4."
+  }
+ },
+ "893": {
+  "text": {
+   "de": "Unter dem Kurvenzeichen hängt ein Zusatzschild mit der Zahl 3, das angibt, wie viele Kurven folgen. Da es drei sind, ist die Antwort mit zwei Kurven falsch.",
+   "en": "Under the bends sign hangs a plate with the figure 3, which states how many bends lie ahead. Since there are three, the answer about two bends is wrong.",
+   "pl": "Pod znakiem zakrętów wisi tabliczka z liczbą 3, która podaje, ile zakrętów Cię czeka. Skoro jest ich trzy, odpowiedź o dwóch zakrętach jest błędna.",
+   "ua": "Під знаком поворотів висить табличка з цифрою 3, яка вказує, скільки поворотів попереду. Оскільки їх три, відповідь про два повороти хибна."
+  }
+ },
+ "894": {
+  "text": {
+   "de": "Das Zeichen A-4 warnt vor zwei gefährlichen Kurven, deren erste nach links führt. Ohne Zusatzschild mit Zahl bedeutet das Zeichen mit zwei Bögen genau zwei Kurven.",
+   "en": "Sign A-4 warns of two dangerous bends, the first of them to the left. With no number plate, the sign with two curves means exactly two bends.",
+   "pl": "Znak A-4 ostrzega o dwóch niebezpiecznych zakrętach, z których pierwszy prowadzi w lewo. Bez tabliczki z liczbą znak z dwoma łukami oznacza dokładnie dwa zakręty.",
+   "ua": "Знак A-4 попереджає про два небезпечні повороти, перший з яких ліворуч. Без таблички з числом знак із двома дугами означає рівно два повороти."
+  }
+ },
+ "898": {
+  "law": "art. 25 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das Zeichen A-5 warnt vor einer Kreuzung gleichrangiger Straßen, an der keine Zeichen den Vorrang regeln. Dort gilt die Rechts-vor-links-Regel: Vorrang hat, wer von rechts kommt.",
+   "en": "Sign A-5 warns of a crossroads of equal roads, where no signs determine priority. The right-hand rule applies: you give way to a vehicle coming from your right.",
+   "pl": "Znak A-5 ostrzega o skrzyżowaniu dróg równorzędnych, na którym pierwszeństwa nie określają żadne znaki. Obowiązuje tam reguła prawej ręki: ustępujesz pojazdowi nadjeżdżającemu z prawej strony.",
+   "ua": "Знак A-5 попереджає про перехрестя рівнозначних доріг, де перевагу не визначають жодні знаки. Там діє правило правої руки: поступаєшся транспорту, що наближається праворуч."
   }
  },
  "9012": {
@@ -2166,6 +2319,22 @@
    "en": "Several bends one after another are the classic case where the body starts to sway and ESP corrects the line. Holding a steady speed is the job of cruise control, not ESP.",
    "pl": "Kilka zakrętów jeden po drugim to typowa sytuacja, w której nadwozie się rozkołysuje i ESP koryguje tor jazdy. Utrzymanie stałej prędkości to zadanie tempomatu, a nie ESP.",
    "ua": "Кілька поворотів поспіль це типова ситуація, коли кузов розгойдується і ESP коригує траєкторію. Тримати сталу швидкість це завдання круїз-контролю, а не ESP."
+  }
+ },
+ "916": {
+  "text": {
+   "de": "Mit der Zeit am Steuer lässt die Aufmerksamkeit nach, statt zu wachsen: Müdigkeit und Monotonie senken die Fähigkeit, Zeichen und Signale wahrzunehmen. Deshalb legt man auf langer Strecke etwa alle zwei Stunden eine Pause ein.",
+   "en": "With time at the wheel attention falls rather than rises: fatigue and monotony reduce your ability to notice signs and signals. That is why on a long trip you break roughly every two hours.",
+   "pl": "Wraz z czasem za kierownicą uwaga słabnie, a nie rośnie: zmęczenie i monotonia obniżają zdolność dostrzegania znaków i sygnałów. Dlatego w dłuższej trasie robi się przerwy mniej więcej co dwie godziny.",
+   "ua": "З часом за кермом увага слабшає, а не зростає: втома і монотонність знижують здатність помічати знаки та сигнали. Тому в довгій дорозі роблять перерви приблизно кожні дві години."
+  }
+ },
+ "974": {
+  "text": {
+   "de": "Die Wechselverkehrstafel zeigt ein Gefahrzeichen für Schleudergefahr zusammen mit der Aufforderung, vorsichtig zu fahren. Ein Gefahrzeichen kündigt stets eine Stelle an, an der eine Gefahr besteht oder entstehen kann.",
+   "en": "The variable message board is showing a warning sign for a slippery road together with a call to drive carefully. A warning sign always announces a place where danger exists or may arise.",
+   "pl": "Na tablicy zmiennej treści wyświetlony jest znak ostrzegawczy o śliskiej jezdni razem z komunikatem, żeby jechać ostrożnie. Znak ostrzegawczy zawsze zapowiada miejsce, w którym niebezpieczeństwo występuje lub może wystąpić.",
+   "ua": "На табло змінної інформації показано попереджувальний знак про слизьку дорогу разом із закликом їхати обережно. Попереджувальний знак завжди сповіщає про місце, де небезпека є або може виникнути."
   }
  }
 }
