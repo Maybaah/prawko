@@ -1,4 +1,133 @@
 {
+ "10081": {
+  "law": "art. 31 ust. 2 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Fahrzeug mit defekter Lenkung darf gar nicht abgeschleppt werden, weil es hinter dem Zugfahrzeug nicht lenkbar ist. Ein solches Fahrzeug kommt auf den Abschleppwagen.",
+   "en": "A vehicle with faulty steering must not be towed at all, because it cannot be steered behind the towing car. Such a vehicle goes on a flatbed.",
+   "pl": "Pojazdu z niesprawnym układem kierowniczym nie wolno holować w żaden sposób, bo nie da się nim kierować za pojazdem ciągnącym. Taki pojazd przewozi się na lawecie.",
+   "ua": "Автомобіль із несправним кермовим керуванням не можна буксирувати жодним способом, бо ним неможливо керувати за тягачем. Такий транспорт перевозять на евакуаторі."
+  }
+ },
+ "10109": {
+  "law": "art. 31 ust. 2 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein abgeschlepptes Motorrad muss beide Bremsanlagen funktionsfähig haben, vorn und hinten, denn es bremst sich selbst. Die Geschwindigkeit spielt dabei keine Rolle.",
+   "en": "A motorcycle being towed must have both braking systems working, front and rear, because it brakes itself. Speed makes no difference here.",
+   "pl": "Holowany motocykl musi mieć sprawne oba układy hamulcowe, przedni i tylny, bo sam odpowiada za swoje hamowanie. Prędkość nie ma tu znaczenia.",
+   "ua": "Буксирований мотоцикл повинен мати справні обидві гальмівні системи, передню й задню, бо гальмує сам за себе. Швидкість тут значення не має."
+  }
+ },
+ "10805": {
+  "law": "art. 5 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Den Weisungen des Begleitfahrzeugs eines Großraumtransports ist wie denen eines Polizisten zu folgen, denn der Begleiter regelt während der Durchfahrt den Verkehr. Seine Zeichen gehen den Verkehrsschildern vor.",
+   "en": "The signals of the escort of an oversize vehicle must be obeyed like a police officer's, because the escort directs traffic while the load passes. Their signals override the road signs.",
+   "pl": "Poleceń pilota pojazdu nienormatywnego trzeba słuchać tak samo jak sygnałów policjanta, bo pilot kieruje ruchem na czas przejazdu ponadgabarytu. Jego sygnały mają pierwszeństwo przed znakami.",
+   "ua": "Вказівок супроводу негабаритного транспорту треба слухатися так само, як сигналів поліцейського, бо супровід керує рухом на час проїзду. Його сигнали мають перевагу над знаками."
+  }
+ },
+ "10806": {
+  "law": "art. 39 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein rückwärtsgerichteter Kindersitz vorn ist nur bei deaktiviertem Beifahrerairbag zulässig. Ein auslösender Airbag träfe das Kind sonst direkt am Kopf.",
+   "en": "A rear-facing child seat in the front is allowed only with the passenger airbag switched off. A deploying airbag would strike the child straight in the head.",
+   "pl": "Fotelik tyłem do kierunku jazdy na przednim siedzeniu jest dopuszczalny tylko przy wyłączonej poduszce pasażera. Otwierająca się poduszka uderza wtedy prosto w głowę dziecka.",
+   "ua": "Крісло проти напрямку руху на передньому сидінні допустиме лише при вимкненій подушці пасажира. Подушка, що спрацьовує, б'є тоді просто в голову дитини."
+  }
+ },
+ "10815": {
+  "text": {
+   "de": "Der Kindersitz wird genau so montiert, wie der Hersteller es beschreibt, denn nur in dieser Konfiguration hat er den Crashtest bestanden. Bequemlichkeit und Optik spielen keine Rolle.",
+   "en": "A child seat is fitted exactly as the manufacturer describes, because only in that configuration did it pass crash testing. Comfort and looks have nothing to do with it.",
+   "pl": "Fotelik montuje się dokładnie tak, jak opisał producent, bo tylko w tej konfiguracji przeszedł badania zderzeniowe. Wygoda i estetyka nie mają tu nic do rzeczy.",
+   "ua": "Крісло встановлюють точно так, як описав виробник, бо лише в цій конфігурації воно пройшло краш-тести. Зручність і естетика тут ні до чого."
+  }
+ },
+ "10816": {
+  "law": "art. 135 ust. 1 pkt 1a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Polizist zieht den Führerschein ein, wenn innerorts um mehr als 50 km/h zu schnell gefahren wurde. Genau 50 km/h ist dieser Fall noch nicht, und außerorts greift die Vorschrift nicht.",
+   "en": "The officer takes the licence when the limit is exceeded by more than 50 km/h in a built-up area. Exactly 50 km/h is not yet that case, and outside built-up areas the rule does not apply.",
+   "pl": "Policjant zatrzymuje prawo jazdy przy przekroczeniu prędkości o więcej niż 50 km/h w obszarze zabudowanym. Równo 50 km/h to jeszcze nie ten przypadek, a poza obszarem zabudowanym przepis nie działa.",
+   "ua": "Поліцейський вилучає посвідчення при перевищенні швидкості більш ніж на 50 км/год у населеному пункті. Рівно 50 км/год це ще не той випадок, а поза населеним пунктом норма не діє."
+  }
+ },
+ "10819": {
+  "text": {
+   "de": "Der Landrat erlässt den Bescheid über den Führerscheinentzug bei einer Überschreitung um mehr als 50 km/h innerorts. Außerorts gilt diese Vorschrift nicht.",
+   "en": "The starosta issues the decision to withhold the licence for exceeding the limit by more than 50 km/h in a built-up area. Outside built-up areas this rule does not apply.",
+   "pl": "Decyzję o zatrzymaniu prawa jazdy starosta wydaje przy przekroczeniu o więcej niż 50 km/h w obszarze zabudowanym. Poza obszarem zabudowanym ten przepis nie obowiązuje.",
+   "ua": "Рішення про вилучення посвідчення староста видає при перевищенні більш ніж на 50 км/год у населеному пункті. Поза населеним пунктом ця норма не діє."
+  }
+ },
+ "10822": {
+  "text": {
+   "de": "Der Führerschein wird für 3 Monate einbehalten. Fährt der Betroffene trotzdem, verlängert sich die Frist auf 6 Monate, bei erneutem Verstoß droht der Entzug der Fahrerlaubnis.",
+   "en": "The licence is withheld for 3 months. If the driver drives anyway, the period is extended to 6 months, and a further breach can mean the licence being revoked.",
+   "pl": "Prawo jazdy zostaje zatrzymane na 3 miesiące. Jeśli kierowca mimo tego prowadzi, okres wydłuża się do 6 miesięcy, a przy kolejnym złamaniu zakazu grozi cofnięcie uprawnień.",
+   "ua": "Посвідчення затримують на 3 місяці. Якщо водій попри це керує, строк подовжують до 6 місяців, а при новому порушенні загрожує анулювання права керування."
+  }
+ },
+ "10829": {
+  "law": "art. 71 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Zulassung zum Verkehr weist der Fahrzeugschein nach. Die Fahrzeugkarte dokumentiert die Historie, und die Kontrollplakette wird seit 2019 nicht mehr verwendet.",
+   "en": "Admission of a vehicle to traffic is evidenced by the registration certificate. The vehicle card records its history, and the windscreen control sticker has not been used since 2019.",
+   "pl": "Dopuszczenie pojazdu do ruchu stwierdza dowód rejestracyjny. Karta pojazdu dokumentuje jego historię, a nalepki kontrolnej od 2019 roku już się nie stosuje.",
+   "ua": "Допуск транспортного засобу до руху підтверджує свідоцтво про реєстрацію. Картка транспортного засобу фіксує його історію, а контрольну наліпку з 2019 року вже не застосовують."
+  }
+ },
+ "10840": {
+  "law": "art. 39 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Kind unter 150 cm wird in einem Kindersitz oder einer anderen Rückhalteeinrichtung passend zu Größe und Gewicht befördert. Auf dem Schoß eines Mitfahrers darf ein Kind nie mitfahren.",
+   "en": "A child under 150 cm travels in a child seat or another restraint matched to their height and weight. A child must never be carried on a passenger's lap.",
+   "pl": "Dziecko niższe niż 150 cm przewozi się w foteliku lub innym urządzeniu przytrzymującym, dobranym do jego wzrostu i wagi. Na kolanach pasażera nie wolno wozić dziecka nigdy.",
+   "ua": "Дитину, нижчу за 150 см, перевозять у кріслі або іншому пристрої, підібраному за зростом і вагою. На колінах пасажира дитину возити не можна ніколи."
+  }
+ },
+ "10869": {
+  "law": "art. 39 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Kind unter 150 cm muss in einem Kindersitz oder einer anderen Rückhalteeinrichtung fahren, auch vorn. Ohne Rückhalteeinrichtung und ohne angelegten Gurt darf es nirgends mitfahren.",
+   "en": "A child under 150 cm must travel in a child seat or another restraint, in the front seat too. Carrying them with no restraint and no belt fastened is not allowed anywhere in the car.",
+   "pl": "Dziecko niższe niż 150 cm musi jechać w foteliku albo w innym urządzeniu przytrzymującym, także z przodu. Bez urządzenia i bez zapiętych pasów wozić go nie wolno nigdzie.",
+   "ua": "Дитина, нижча за 150 см, має їхати в кріслі або іншому пристрої, зокрема й спереду. Без пристрою і без застебнутих пасів возити її не можна ніде."
+  }
+ },
+ "10871": {
+  "text": {
+   "de": "Der Kindersitz wird nach Herstelleranleitung montiert, denn nur so funktionieren seine Verankerungen und Gurte. Bequemlichkeit ändert die Montageregeln nicht.",
+   "en": "The child seat is installed according to the manufacturer's instructions, because only then do its anchorages and straps work. Nobody's comfort changes the fitting rules.",
+   "pl": "Fotelik montuje się zgodnie z instrukcją producenta, bo tylko tak działają jego zaczepy i pasy. Wygoda dorosłego czy dziecka nie zmienia zasad montażu.",
+   "ua": "Крісло встановлюють згідно з інструкцією виробника, бо лише так працюють його кріплення і паси. Зручність дорослого чи дитини правил монтажу не змінює."
+  }
+ },
+ "10872": {
+  "text": {
+   "de": "Die Rückhalteeinrichtung wird so montiert, wie der Hersteller es empfiehlt, denn so wurde sie geprüft und zugelassen. Improvisation beim Einbau hebt den gesamten Schutz auf.",
+   "en": "A restraint is fitted the way the manufacturer recommends, because that is how it was tested and approved. Improvising the installation cancels out all the protection.",
+   "pl": "Urządzenie przytrzymujące montuje się w sposób zalecany przez producenta, bo tak zostało przebadane i dopuszczone. Improwizacja przy montażu przekreśla całą ochronę.",
+   "ua": "Утримувальний пристрій встановлюють у спосіб, рекомендований виробником, бо саме так його випробували й допустили. Імпровізація при монтажі перекреслює весь захист."
+  }
+ },
+ "10874": {
+  "law": "art. 39 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Kind unter drei Jahren darf nur in einem Auto mit Sicherheitsgurten und in einem Kindersitz befördert werden. Ohne Gurte lässt sich der Sitz nicht befestigen, also fährt das Kind darin nicht mit.",
+   "en": "A child under three may only travel in a car fitted with seat belts and in a child seat. Without belts the seat cannot be secured, so such a vehicle must not carry the child.",
+   "pl": "Dziecko poniżej trzech lat wolno wozić tylko w aucie z pasami bezpieczeństwa i w foteliku. Bez pasów nie da się zamocować fotelika, więc takim pojazdem dziecka się nie przewozi.",
+   "ua": "Дитину віком до трьох років можна возити лише в авто з пасами безпеки і в дитячому кріслі. Без пасів крісло не закріпити, тож таким транспортом дитину не перевозять."
+  }
+ },
+ "10876": {
+  "text": {
+   "de": "Der Kindersitz wird nach technischen Anforderungen ausgewählt: Zulassung, Größe und Gewicht des Kindes. Bequemlichkeit und Aussehen sind zweitrangig, denn der Schutz ergibt sich aus der Normkonformität.",
+   "en": "A child seat is chosen by its technical requirements: approval, and the child's height and weight. Comfort and looks are secondary, because protection comes from meeting the standard.",
+   "pl": "Fotelik dobiera się według warunków technicznych: homologacji, wzrostu i wagi dziecka. Wygoda i wygląd są drugorzędne, bo o ochronie decyduje zgodność z normą.",
+   "ua": "Крісло добирають за технічними умовами: омологацією, зростом і вагою дитини. Зручність і вигляд другорядні, бо захист визначає відповідність нормі."
+  }
+ },
  "1864": {
   "law": "art. 6 ust. 1 pkt 3 ustawy o kierujących pojazdami",
   "text": {
@@ -252,6 +381,679 @@
    "en": "Overtaking a car requires a safe gap, depending on road width and traffic conditions. The fixed 1 metre applies only to bicycles, mopeds, motorcycles and pedestrians.",
    "pl": "Przy wyprzedzaniu samochodu osobowego obowiązuje odstęp bezpieczny, zależny od szerokości jezdni i warunków ruchu. Sztywny 1 metr dotyczy tylko roweru, motoroweru, motocykla i pieszego.",
    "ua": "Під час обгону легкового авто діє безпечний інтервал, що залежить від ширини проїзної частини та умов руху. Жорсткий 1 метр стосується лише велосипеда, мопеда, мотоцикла і пішохода."
+  }
+ },
+ "3629": {
+  "law": "art. 24 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Beim Überholen eines Motorrads ist ein Abstand von mindestens 1 Meter einzuhalten. Dieselbe Regel gilt für Fahrrad, Moped und Fußgänger.",
+   "en": "When overtaking a motorcycle you must leave a gap of at least 1 metre. The same rule covers bicycles, mopeds and pedestrians.",
+   "pl": "Wyprzedzając motocykl trzeba zachować odstęp nie mniejszy niż 1 metr. Ta sama zasada dotyczy roweru, motoroweru i pieszego.",
+   "ua": "Обганяючи мотоцикл, треба тримати інтервал не менше 1 метра. Те саме правило стосується велосипеда, мопеда і пішохода."
+  }
+ },
+ "3630": {
+  "law": "art. 24 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine Fußgängerkolonne wird mit mindestens 1 Meter Abstand überholt, genau wie ein einzelner Fußgänger oder ein Radfahrer.",
+   "en": "A column of pedestrians is overtaken leaving at least 1 metre, exactly as a single pedestrian or a cyclist.",
+   "pl": "Kolumnę pieszych wyprzedza się z odstępem nie mniejszym niż 1 metr, tak samo jak pojedynczego pieszego czy rowerzystę.",
+   "ua": "Колону пішоходів обганяють з інтервалом не менше 1 метра, так само як окремого пішохода чи велосипедиста."
+  }
+ },
+ "3634": {
+  "text": {
+   "de": "Der Bremsweg wächst mit dem Quadrat der Geschwindigkeit, doppelt so schnell heißt also vierfacher Weg. Von 50 auf 100 km/h wird der Bremsweg viermal so lang, nicht zweimal.",
+   "en": "Braking distance grows with the square of speed, so twice the speed means four times the distance. From 50 to 100 km/h the braking distance grows fourfold, not twofold.",
+   "pl": "Droga hamowania rośnie z kwadratem prędkości, więc dwa razy szybciej to cztery razy dłuższa droga. Z 50 na 100 km/h hamowanie wydłuża się czterokrotnie, a nie dwukrotnie.",
+   "ua": "Гальмівний шлях зростає пропорційно квадрату швидкості, тож удвічі швидше означає вчетверо довший шлях. Із 50 до 100 км/год гальмування подовжується вчетверо, а не вдвічі."
+  }
+ },
+ "3650": {
+  "law": "art. 19 ust. 3a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Außerorts in einem Tunnel von mehr als 500 Metern hält ein Pkw mindestens 50 Meter Abstand. Fahrzeuge über 3,5 Tonnen halten 80 Meter.",
+   "en": "Outside a built-up area, in a tunnel longer than 500 metres, a car keeps a gap of at least 50 metres. Vehicles over 3.5 tonnes keep 80 metres.",
+   "pl": "Poza obszarem zabudowanym w tunelu dłuższym niż 500 metrów samochód osobowy utrzymuje odstęp co najmniej 50 metrów. Pojazdy powyżej 3,5 tony mają odstęp 80 metrów.",
+   "ua": "Поза населеним пунктом у тунелі, довшому за 500 метрів, легковик тримає дистанцію щонайменше 50 метрів. Транспорт понад 3,5 тонни тримає 80 метрів."
+  }
+ },
+ "3651": {
+  "text": {
+   "de": "Der Anhalteweg ist Reaktionsweg plus Bremsweg, die Reaktionszeit des Fahrers geht also unmittelbar ein. Das Gewicht der Insassen ist beim Pkw dabei vernachlässigbar.",
+   "en": "Stopping distance is reaction distance plus braking distance, so the driver's reaction time feeds into it directly. In a passenger car the weight of the occupants is negligible here.",
+   "pl": "Droga zatrzymania to droga reakcji plus droga hamowania, więc czas reakcji kierującego wpływa na nią wprost. Masa pasażerów przy samochodzie osobowym jest w tym rachunku pomijalna.",
+   "ua": "Зупинковий шлях це шлях реакції плюс гальмівний шлях, тож час реакції водія впливає на нього прямо. Маса пасажирів у легковику в цьому розрахунку незначна."
+  }
+ },
+ "3652": {
+  "text": {
+   "de": "Auf den Anhalteweg wirken unmittelbar Geschwindigkeit und Fahrbahnzustand, denn sie bestimmen Haftung und abzubauende Energie. Das Gewicht eines Mitfahrers ist vernachlässigbar.",
+   "en": "Stopping distance depends directly on speed and road surface, because they decide the available grip and the energy to be shed. Passenger weight is negligible.",
+   "pl": "Na drogę zatrzymania wprost wpływają prędkość i stan nawierzchni, bo od nich zależy przyczepność i energia, którą trzeba wytracić. Masa pasażera jest pomijalna.",
+   "ua": "На зупинковий шлях прямо впливають швидкість і стан покриття, бо від них залежать зчеплення та енергія, яку треба погасити. Маса пасажира незначна."
+  }
+ },
+ "3658": {
+  "law": "art. 44 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Pflicht zur Hilfeleistung hängt nicht von medizinischer Ausbildung ab. Es genügt, das zu tun, was man kann: Unfallstelle sichern, Hilfe rufen und grundlegende Maßnahmen durchführen.",
+   "en": "The duty to help does not depend on medical qualifications. You do what you can: secure the scene, call for help and carry out basic life support.",
+   "pl": "Obowiązek udzielenia pomocy nie zależy od kwalifikacji medycznych. Wystarczy zrobić to, co umiesz: zabezpieczyć miejsce, wezwać pomoc i wykonać podstawowe czynności ratunkowe.",
+   "ua": "Обов'язок надати допомогу не залежить від медичної кваліфікації. Достатньо зробити те, що вмієш: убезпечити місце, викликати допомогу і виконати базові рятувальні дії."
+  }
+ },
+ "3723": {
+  "text": {
+   "de": "Pflichtausrüstung für einen Pkw in Polen sind Warndreieck und Feuerlöscher. Verbandkasten und Reserverad werden empfohlen, sind aber gesetzlich nicht vorgeschrieben.",
+   "en": "Compulsory equipment for a car in Poland is a warning triangle and a fire extinguisher. A first aid kit and a spare wheel are recommended but not required by law.",
+   "pl": "Obowiązkowym wyposażeniem samochodu osobowego w Polsce są trójkąt ostrzegawczy i gaśnica. Apteczka i koło zapasowe są zalecane, ale nie wymagane przepisami.",
+   "ua": "Обов'язковим оснащенням легковика в Польщі є знак аварійної зупинки і вогнегасник. Аптечка та запасне колесо рекомендовані, але законом не вимагаються."
+  }
+ },
+ "3724": {
+  "text": {
+   "de": "Ein Feuerlöscher gehört zusammen mit dem Warndreieck zur Pflichtausrüstung eines Pkw. Verbandkasten und Reserverad gehören nicht dazu.",
+   "en": "A fire extinguisher is compulsory equipment in a car, together with the warning triangle. A first aid kit and a spare wheel are not.",
+   "pl": "Gaśnica należy do obowiązkowego wyposażenia samochodu osobowego, razem z trójkątem ostrzegawczym. Apteczka i koło zapasowe obowiązkowe nie są.",
+   "ua": "Вогнегасник належить до обов'язкового оснащення легковика разом зі знаком аварійної зупинки. Аптечка і запасне колесо не обов'язкові."
+  }
+ },
+ "3759": {
+  "law": "art. 30 ust. 1 i 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei Nebel dürfen die Nebelscheinwerfer benutzt werden, statt oder zusätzlich zum Abblendlicht. Fernlicht wird vom Nebel zurückgeworfen und blendet, Tagfahrlicht allein reicht nicht.",
+   "en": "In fog you may use front fog lights, instead of or together with dipped beam. Main beam bounces off the fog and dazzles you, and daytime running lights alone are not enough.",
+   "pl": "We mgle wolno używać przednich świateł przeciwmgłowych, zamiast lub razem ze światłami mijania. Światła drogowe odbijają się od mgły i oślepiają, a same światła do jazdy dziennej nie wystarczają.",
+   "ua": "У тумані дозволено вмикати передні протитуманні фари, замість ближнього світла або разом із ним. Дальнє світло відбивається від туману і засліплює, а самих денних вогнів недостатньо."
+  }
+ },
+ "3761": {
+  "law": "art. 30 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei Nebel außerorts muss der Fahrer beim Überholen kurze Schallzeichen geben. Die Nebelschlussleuchte wird erst bei einer Sicht unter 50 Metern eingeschaltet.",
+   "en": "In fog outside a built-up area, a driver overtaking must give short sound signals. Rear fog lights are switched on only when visibility drops below 50 metres.",
+   "pl": "We mgle poza obszarem zabudowanym podczas wyprzedzania kierujący ma obowiązek używać krótkotrwałych sygnałów dźwiękowych. Tylne światła przeciwmgłowe włącza się dopiero przy widoczności poniżej 50 metrów.",
+   "ua": "У тумані поза населеним пунктом під час обгону водій зобов'язаний подавати короткочасні звукові сигнали. Задні протитуманні ліхтарі вмикають лише за видимості менше 50 метрів."
+  }
+ },
+ "3778": {
+  "text": {
+   "de": "Beim nächtlichen Begegnen nach rechts an den Scheinwerfern vorbeischauen und dort den Fahrbahnrand beobachten. Direkt ins Licht zu sehen blendet für Sekunden, und Fernlicht blendet den anderen Fahrer.",
+   "en": "When meeting a car at night, look to the right of its headlights and watch the verge there. Looking straight into the lights blinds you for seconds, and switching to main beam blinds the other driver.",
+   "pl": "Przy wymijaniu nocą patrz w prawo od reflektorów nadjeżdżającego auta i obserwuj tam pobocze. Patrzenie prosto w światła oślepia na kilka sekund, a przełączenie na drogowe oślepia drugiego kierowcę.",
+   "ua": "Роз'їжджаючись уночі, дивись праворуч від фар зустрічного авта і стеж там за узбіччям. Погляд прямо у світло засліплює на кілька секунд, а перемикання на дальнє засліплює іншого водія."
+  }
+ },
+ "3781": {
+  "text": {
+   "de": "Xenon darf nicht in einen für Halogen ausgelegten Scheinwerfer eingesetzt werden. Der Reflektor streut das Licht dann außerhalb der Zulassung und blendet andere, auch wenn der Sockel passt.",
+   "en": "A xenon bulb must not be fitted into a reflector designed for a halogen bulb. The reflector then scatters the light outside its approval and dazzles other drivers, even if the base fits.",
+   "pl": "Ksenonu nie wolno wkładać w reflektor zaprojektowany pod żarówkę halogenową. Reflektor rozprasza wtedy światło niezgodnie z homologacją i oślepia innych kierujących, nawet jeśli trzonek pasuje.",
+   "ua": "Ксенон не можна ставити у фару, розраховану на галогенну лампу. Тоді фара розсіює світло поза межами омологації та засліплює інших водіїв, навіть якщо цоколь підходить."
+  }
+ },
+ "3783": {
+  "law": "art. 45 ust. 2 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Nutzung der Navigation während der Fahrt ist erlaubt. Verboten sind das Öffnen des Gurtes und ein Telefon, das in der Hand gehalten werden muss.",
+   "en": "Using a navigation device while driving is allowed. Unfastening the seat belt and using a phone that has to be held in the hand are prohibited.",
+   "pl": "Korzystanie z nawigacji podczas jazdy jest dozwolone. Zabronione są rozpinanie pasów i telefon wymagający trzymania słuchawki w ręku.",
+   "ua": "Користуватися навігацією під час руху дозволено. Заборонено відстібати пас безпеки і користуватися телефоном, який треба тримати в руці."
+  }
+ },
+ "3784": {
+  "text": {
+   "de": "Die Mindestprofiltiefe beträgt 1,6 Millimeter. Darunter verdrängt der Reifen kein Wasser mehr und die Aquaplaninggefahr steigt stark.",
+   "en": "The minimum tread depth is 1.6 millimetres. Below that the tyre stops clearing water and the risk of aquaplaning rises sharply.",
+   "pl": "Minimalna głębokość bieżnika to 1,6 milimetra. Poniżej tej wartości opona przestaje odprowadzać wodę i gwałtownie rośnie ryzyko aquaplaningu.",
+   "ua": "Мінімальна глибина протектора 1,6 міліметра. Нижче цього шина перестає відводити воду і різко зростає ризик аквапланування."
+  }
+ },
+ "3785": {
+  "text": {
+   "de": "Ein durchgebrannter Blinker ist ein Fehler der Lichtanlage: Andere sehen deine Absicht nicht. Ein verschmutzter Luftfilter oder überhitzte Kerzen kosten Leistung, gefährden aber den Verkehr nicht.",
+   "en": "A burnt-out indicator bulb is a lighting fault: other drivers cannot see what you intend to do. A dirty air filter or overheating plugs hurt performance but do not endanger traffic.",
+   "pl": "Przepalony kierunkowskaz to usterka układu oświetlenia: inni kierujący nie widzą Twojego zamiaru. Brudny filtr powietrza i przegrzane świece psują osiągi, ale nie odbierają bezpieczeństwa ruchu.",
+   "ua": "Перегорілий покажчик повороту це несправність освітлення: інші водії не бачать твого наміру. Брудний фільтр і перегріті свічки псують динаміку, але не позбавляють безпеки руху."
+  }
+ },
+ "3856": {
+  "text": {
+   "de": "Zu geringer Pedaldruck nutzt die Haftung nicht aus und verlängert den Bremsweg. Blockierende Räder und Lenkverlust entstehen bei zu starkem Druck in einem Auto ohne ABS.",
+   "en": "Too little pressure on the pedal wastes the available grip and lengthens the braking distance. Locked wheels and loss of steering come from pressing too hard in a car without ABS.",
+   "pl": "Za słaby nacisk na pedał nie wykorzystuje przyczepności opon i wydłuża drogę hamowania. Blokowanie kół i utrata sterowności to skutek nacisku zbyt mocnego w aucie bez ABS.",
+   "ua": "Замалий тиск на педаль не використовує зчеплення шин і подовжує гальмівний шлях. Блокування коліс і втрата керованості це наслідок надто сильного тиску в авто без ABS."
+  }
+ },
+ "3857": {
+  "text": {
+   "de": "Ohne ABS blockieren bei zu starkem Bremsen die Räder, und blockierte Räder lenken nicht. Die Lenkung wirkt nicht mehr und das Fahrzeug rutscht geradeaus weiter.",
+   "en": "Without ABS, braking too hard locks the wheels, and locked wheels cannot steer the car. The steering stops working and the vehicle slides straight on.",
+   "pl": "Bez ABS zbyt mocne hamowanie blokuje koła, a zablokowane koła nie prowadzą auta. Kierownica przestaje działać i pojazd jedzie prosto tam, gdzie niósł go rozpęd.",
+   "ua": "Без ABS надто сильне гальмування блокує колеса, а заблоковані колеса не керують авто. Кермо перестає діяти, і машина ковзає прямо."
+  }
+ },
+ "3858": {
+  "text": {
+   "de": "Mit ABS wird schnell und kräftig gebremst, das System verhindert selbst das Blockieren. Stotterndes Treten stört das ABS nur, weil es schlechter nachahmt, was es besser kann.",
+   "en": "In a car with ABS you brake fast and hard, and the system keeps the wheels from locking. Pumping the pedal only gets in the ABS's way, repeating badly what it does better.",
+   "pl": "W aucie z ABS hamuje się szybko i mocno, a układ sam pilnuje, żeby koła się nie zablokowały. Pulsacyjne naciskanie tylko przeszkadza ABS, bo powtarza to, co on robi lepiej.",
+   "ua": "В авто з ABS гальмують швидко і сильно, а система сама стежить, щоб колеса не заблокувалися. Переривчасте натискання лише заважає ABS, бо повторює те, що він робить краще."
+  }
+ },
+ "3859": {
+  "text": {
+   "de": "Das Pulsieren des Pedals zeigt, dass das ABS arbeitet, also den Druck bis zum Stillstand halten. Nachlassen verlängert den Bremsweg, Loslassen beendet die Bremsung ganz.",
+   "en": "The pulsing pedal means the ABS is working, so hold the pressure until the car stops. Easing off lengthens the braking distance, and releasing the pedal ends the braking altogether.",
+   "pl": "Pulsowanie pedału to znak, że ABS pracuje, więc trzymaj nacisk do końca hamowania. Zmniejszenie siły nacisku wydłuża drogę hamowania, a puszczenie pedału przerywa je zupełnie.",
+   "ua": "Пульсація педалі означає, що ABS працює, тож тримай тиск до кінця гальмування. Послаблення зусилля подовжує гальмівний шлях, а відпускання педалі взагалі його припиняє."
+  }
+ },
+ "3860": {
+  "text": {
+   "de": "ABS verhindert das Blockieren der Räder, sodass das Auto auch beim Bremsen in einem seitlichen Rutscher lenkbar bleibt. Es wirkt immer, nicht nur auf der Geraden oder nur in der Kurve.",
+   "en": "ABS keeps the wheels from locking, so the car can still be steered even when you brake during a side skid. It works all the time, not only on a straight or only in a bend.",
+   "pl": "ABS nie pozwala kołom się zablokować, więc auto daje się kierować także wtedy, gdy hamujesz podczas bocznego poślizgu. Działa zawsze, nie tylko na prostej albo tylko na łuku.",
+   "ua": "ABS не дає колесам заблокуватися, тож авто лишається керованим навіть коли гальмуєш у бічному заносі. Він працює завжди, а не лише на прямій чи лише в повороті."
+  }
+ },
+ "3861": {
+  "text": {
+   "de": "Am Berg rollt das Auto zurück, wenn die Handbremse gelöst wird, bevor die Kupplung greift. Sie wird erst gelöst, wenn spürbar ist, dass das Fahrzeug anfahren will.",
+   "en": "On a hill, if you release the handbrake before the clutch starts to transmit drive, the car rolls back. Release it only when you feel the car pulling forward.",
+   "pl": "Jeśli na wzniesieniu puścisz hamulec awaryjny, zanim sprzęgło zacznie przenosić napęd, auto stoczy się do tyłu. Hamulec zwalnia się dopiero wtedy, gdy czuć, że pojazd chce ruszyć.",
+   "ua": "На підйомі, якщо відпустити ручне гальмо до того, як зчеплення почне передавати тягу, авто скотиться назад. Гальмо відпускають лише тоді, коли відчутно, що машина рушає."
+  }
+ },
+ "3882": {
+  "text": {
+   "de": "Die rote Bremsenkontrollleuchte bedeutet einen Defekt der Bremsanlage, also anhalten und den Flüssigkeitsstand prüfen. Weiterfahren kann im Totalausfall der Bremsen enden.",
+   "en": "A red brake warning lamp means a brake fault, so stop and check the fluid level. Driving on can end with no braking at all.",
+   "pl": "Czerwona lampka układu hamulcowego oznacza usterkę hamulców, więc trzeba się zatrzymać i sprawdzić poziom płynu. Dalsza jazda może skończyć się brakiem hamulców.",
+   "ua": "Червона лампа гальмівної системи означає несправність гальм, тож треба зупинитися і перевірити рівень рідини. Продовження руху може закінчитися відмовою гальм."
+  }
+ },
+ "3885": {
+  "text": {
+   "de": "Die rote Kühlmittelleuchte warnt, dass das Kühlmittel zu heiß ist. Anhalten und den Motor abkühlen lassen, denn Überhitzung führt zu schweren Schäden.",
+   "en": "The red coolant lamp warns that the coolant is too hot. Stop and let the engine cool, because overheating ends in serious damage.",
+   "pl": "Czerwona lampka układu chłodzenia ostrzega, że płyn chłodniczy jest za gorący. Trzeba się zatrzymać i ostudzić silnik, bo przegrzanie kończy się poważną awarią.",
+   "ua": "Червона лампа системи охолодження попереджає, що охолоджувальна рідина перегріта. Треба зупинитися і дати двигуну охолонути, бо перегрів закінчується серйозною поломкою."
+  }
+ },
+ "3889": {
+  "text": {
+   "de": "Flüssigkeitsflecken am Standplatz deuten auf eine Undichtigkeit hin, etwa an Brems- oder Kühlsystem. Farblose Abgase sind normal, ebenso die Ladekontrollleuchte vor dem Anlassen.",
+   "en": "Fluid stains on the parking spot point to a leak, for example in the brake or cooling system. Colourless exhaust is normal, and so is the charging lamp before the engine is started.",
+   "pl": "Plamy płynów na miejscu postoju to objaw nieszczelności układu, na przykład hamulcowego albo chłodzenia. Bezbarwne spaliny są normalne, a lampka ładowania przed uruchomieniem silnika też.",
+   "ua": "Плями рідин на місці стоянки свідчать про негерметичність системи, наприклад гальмівної чи охолодження. Безбарвні вихлопні гази це норма, як і лампа заряду до запуску двигуна."
+  }
+ },
+ "3890": {
+  "text": {
+   "de": "Dichter schwarzer oder blauer Rauch bedeutet, dass der Motor zu viel Kraftstoff oder Öl verbrennt. Farblose Abgase sind normal, und die Öldruckleuchte leuchtet vor dem Start immer.",
+   "en": "Thick black or blue exhaust smoke means the engine is burning too much fuel or oil. Colourless exhaust is normal, and the oil pressure lamp is always on before the engine starts.",
+   "pl": "Czarne albo niebieskie gęste spaliny oznaczają, że silnik pali za dużo paliwa lub oleju. Bezbarwne spaliny są normalne, a lampka ciśnienia oleju przed uruchomieniem silnika świeci się zawsze.",
+   "ua": "Чорний або синій густий дим означає, що двигун спалює забагато пального чи оливи. Безбарвні гази це норма, а лампа тиску оливи до запуску двигуна горить завжди."
+  }
+ },
+ "3891": {
+  "text": {
+   "de": "Ein Notrad darf kurz und mit begrenzter Geschwindigkeit gefahren werden, genau dafür ist es da. Verschlissene Beläge oder Scheiben und defekte Stoßdämpfer schließen das Fahrzeug vom Verkehr aus.",
+   "en": "A space-saver spare may be used briefly and at reduced speed, that is exactly what it is for. Worn pads or discs and damaged shock absorbers take the car off the road.",
+   "pl": "Koło dojazdowe wolno używać krótko i z ograniczoną prędkością, po to właśnie jest w aucie. Zużyte klocki lub tarcze i uszkodzone amortyzatory wykluczają pojazd z ruchu.",
+   "ua": "Докаткою можна користуватися недовго і з обмеженою швидкістю, саме для цього вона й потрібна. Зношені колодки чи диски та пошкоджені амортизатори виключають авто з руху."
+  }
+ },
+ "4160": {
+  "law": "art. 30 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei einer Sicht unter 50 Metern darf die Nebelschlussleuchte eingeschaltet werden, damit Nachfolgende das Auto früher sehen. Fernlicht wird vom Nebel reflektiert, und den Abstand zu verringern ist schlicht gefährlich.",
+   "en": "With visibility under 50 metres you may switch on the rear fog lights so that drivers behind spot the car sooner. Main beam bounces off the fog, and closing the gap is plainly dangerous.",
+   "pl": "Przy widoczności poniżej 50 metrów wolno włączyć tylne światła przeciwmgłowe, żeby jadący z tyłu zauważyli auto wcześniej. Światła drogowe odbijają się od mgły, a zmniejszanie odstępu jest wprost niebezpieczne.",
+   "ua": "За видимості менше 50 метрів можна ввімкнути задні протитуманні ліхтарі, щоб ті, хто їде позаду, помітили авто раніше. Дальнє світло відбивається від туману, а скорочення дистанції прямо небезпечне."
+  }
+ },
+ "4362": {
+  "text": {
+   "de": "Am rutschigsten ist es zu Beginn des Regens, wenn sich Wasser mit Staub und Öl auf der Fahrbahn mischt. Nach längerem Regen wird dieser Film abgespült und die Haftung kehrt teilweise zurück.",
+   "en": "The road is most slippery at the start of the rain, when water mixes with the dust and oil on the surface. After a longer shower that film is washed away and grip partly returns.",
+   "pl": "Najbardziej ślisko jest na początku deszczu, gdy woda miesza się z kurzem i olejem na jezdni. Po dłuższym opadzie ta warstwa zostaje spłukana i przyczepność częściowo wraca.",
+   "ua": "Найслизькіше на початку дощу, коли вода змішується з пилом і оливою на дорозі. Після тривалого дощу цей шар змивається і зчеплення частково повертається."
+  }
+ },
+ "4364": {
+  "text": {
+   "de": "Je schneller man fährt, desto enger wird das Blickfeld: Der Blick fixiert einen Punkt weit voraus. Deshalb übersieht man bei hohem Tempo leicht einen Fußgänger oder ein Fahrzeug von der Seite.",
+   "en": "The faster you drive, the narrower your field of vision becomes: the eyes focus on a point far ahead. That is why at speed it is easy to miss a pedestrian or a vehicle at the side.",
+   "pl": "Im szybciej jedziesz, tym węższy staje się kąt widzenia: wzrok skupia się na punkcie daleko przed autem. Dlatego przy dużej prędkości łatwo przeoczyć pieszego albo pojazd z boku.",
+   "ua": "Що швидше їдеш, то вужчим стає кут зору: погляд фокусується на точці далеко попереду. Тому на великій швидкості легко не помітити пішохода або транспорт збоку."
+  }
+ },
+ "4367": {
+  "text": {
+   "de": "Das Blickfeld wird durch Blendung entgegenkommender Scheinwerfer eingeschränkt: Das Auge braucht mehrere Sekunden zur Erholung. Innenspiegel und Klimaanlage nehmen keine Sicht.",
+   "en": "The field of vision is cut down by dazzle from oncoming headlights: the eye needs several seconds to recover. The interior mirror and the air conditioning do not take vision away.",
+   "pl": "Pole widzenia ogranicza oślepienie światłami nadjeżdżających pojazdów: oko potrzebuje kilku sekund, żeby wrócić do normy. Lusterko wewnętrzne i klimatyzacja widoczności nie zabierają.",
+   "ua": "Поле зору обмежує засліплення фарами зустрічних автомобілів: оку потрібно кілька секунд, щоб відновитися. Салонне дзеркало і кондиціонер видимості не забирають."
+  }
+ },
+ "4368": {
+  "text": {
+   "de": "Falsch eingestellte Scheinwerfer leuchten zu kurz oder zur Seite, sodass man nachts schlicht nicht sieht, was vor dem Auto liegt. Die Einstellung wird bei der Hauptuntersuchung geprüft.",
+   "en": "Badly aimed headlights light too short a stretch of road or point off to the side, so at night you simply do not see what is ahead. Aim is checked at the periodic inspection.",
+   "pl": "Źle ustawione światła oświetlają za krótki odcinek drogi albo świecą w bok, więc nocą po prostu nie widzisz tego, co przed autem. Ustawienie reflektorów sprawdza się przy badaniu technicznym.",
+   "ua": "Неправильно відрегульовані фари освітлюють закороткий відрізок дороги або світять убік, тож уночі просто не видно того, що попереду. Регулювання перевіряють на техогляді."
+  }
+ },
+ "4369": {
+  "text": {
+   "de": "Alkohol verengt das Blickfeld bis zum sogenannten Tunnelblick, der Fahrer nimmt seitliche Dinge nicht mehr wahr. Blinzeln und eine Pause wirken umgekehrt, sie verbessern die Aufmerksamkeit.",
+   "en": "Alcohol narrows the field of vision into tunnel vision, so the driver stops noticing what is at the sides. Blinking and a rest break work the other way round, they improve attention.",
+   "pl": "Alkohol zawęża pole widzenia do tak zwanego widzenia tunelowego, więc kierowca przestaje dostrzegać to, co po bokach. Mruganie i przerwa na odpoczynek działają odwrotnie, poprawiają uwagę.",
+   "ua": "Алкоголь звужує поле зору до так званого тунельного бачення, тож водій перестає помічати те, що збоку. Кліпання і перерва на відпочинок діють навпаки, вони покращують увагу."
+  }
+ },
+ "4370": {
+  "text": {
+   "de": "Ein zu tief oder zu hoch eingestellter Sitz nimmt einen Teil der Sicht: Säulen und Motorhaube verdecken dann mehr als nötig. Eine Sonnenbrille bei Sonne hilft, statt zu stören.",
+   "en": "A seat set too low or too high takes away part of the view: the pillars and bonnet then hide more than they should. Sunglasses on a sunny day help rather than hinder.",
+   "pl": "Fotel ustawiony za nisko albo za wysoko zabiera część widoku drogi: słupki i maska zasłaniają wtedy więcej, niż powinny. Okulary przeciwsłoneczne w słońcu pomagają, a nie przeszkadzają.",
+   "ua": "Сидіння, виставлене надто низько чи високо, забирає частину огляду: стійки й капот тоді закривають більше, ніж мали б. Сонцезахисні окуляри в сонячний день допомагають, а не заважають."
+  }
+ },
+ "4371": {
+  "text": {
+   "de": "Mit steigender Geschwindigkeit wird der Sichtwinkel enger, weil der Blick immer weiter nach vorn fixiert. Bei 50 km/h sieht man breit, bei 130 km/h praktisch nur einen schmalen Korridor.",
+   "en": "As speed rises the angle of vision narrows, because the eyes focus further and further ahead. At 50 km/h you see wide, at 130 km/h practically only a narrow corridor.",
+   "pl": "Wraz ze wzrostem prędkości kąt widzenia się zwęża, bo wzrok skupia się coraz dalej przed autem. Przy 50 km/h widzisz szeroko, przy 130 km/h praktycznie tylko wąski korytarz.",
+   "ua": "Зі зростанням швидкості кут зору звужується, бо погляд фокусується дедалі далі попереду. На 50 км/год бачиш широко, на 130 км/год практично лише вузький коридор."
+  }
+ },
+ "4374": {
+  "text": {
+   "de": "In jedem Gang so weit beschleunigen, dass der Motor nach dem Hochschalten weder ruckelt noch untertourig läuft. Bis in den Begrenzer zu drehen kostet Sprit, zwei Gänge zu überspringen würgt den Motor.",
+   "en": "On each gear accelerate far enough that after shifting up the engine neither labours nor jerks. Revving to the limiter wastes fuel, and skipping two gears bogs the engine down.",
+   "pl": "Na każdym biegu rozpędzaj się na tyle, żeby po zmianie na wyższy silnik nie dławił się i nie szarpał. Kręcenie do odcięcia to strata paliwa, a przeskakiwanie o dwa biegi dusi silnik.",
+   "ua": "На кожній передачі розганяйся настільки, щоб після переходу на вищу двигун не задихався і не смикався. Крутити до відсічки це витрата пального, а перескакувати через дві передачі душить двигун."
+  }
+ },
+ "4375": {
+  "law": "art. 61 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Fahrräder dürfen auf dem Dachträger transportiert werden, dort verdecken sie weder Leuchten noch Kennzeichen. Ein Heckträger ist nur zulässig, wenn Kennzeichen und Leuchten sichtbar bleiben.",
+   "en": "Bicycles may be carried on a roof rack, because there they cover neither the lights nor the number plate. A rear carrier is allowed only if the plate and lights stay visible.",
+   "pl": "Rowery wolno wozić na bagażniku dachowym, bo nie zasłaniają wtedy świateł ani tablicy rejestracyjnej. Uchwyt z tyłu jest dozwolony tylko wtedy, gdy tablica i światła pozostają widoczne.",
+   "ua": "Велосипеди можна возити на даховому багажнику, бо там вони не закривають ні ліхтарі, ні номерний знак. Задній тримач дозволений лише тоді, коли знак і ліхтарі лишаються видимими."
+  }
+ },
+ "4472": {
+  "law": "art. 81 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Hauptuntersuchung ist über die gesamte Nutzungsdauer wichtig, denn Bremsen, Fahrwerk und Licht verschleißen unabhängig von der Garantie. Die Garantie betrifft Reparaturen, nicht die Verkehrssicherheit.",
+   "en": "Periodic inspections matter throughout the life of the vehicle, because brakes, suspension and lights wear out regardless of any warranty. A warranty covers repairs, not road safety.",
+   "pl": "Badania techniczne mają znaczenie przez cały okres używania pojazdu, bo hamulce, zawieszenie i światła zużywają się niezależnie od gwarancji. Gwarancja dotyczy napraw, nie bezpieczeństwa w ruchu.",
+   "ua": "Технічний огляд має значення протягом усього часу використання авто, бо гальма, підвіска й світло зношуються незалежно від гарантії. Гарантія стосується ремонтів, а не безпеки руху."
+  }
+ },
+ "4495": {
+  "text": {
+   "de": "ABS verhindert das Blockieren der Räder beim Bremsen, sodass das Auto lenkbar und stabil bleibt. Vor Schleudern bei jeder Geschwindigkeit schützt es aber nicht und beim Kurvenfahren hilft es nicht.",
+   "en": "ABS stops the wheels from locking under braking, so the car stays steerable and stable. It does not, however, prevent skidding at any speed and does not help through bends.",
+   "pl": "ABS nie pozwala kołom się zablokować podczas hamowania, dzięki czemu auto daje się kierować i nie traci stabilności. Nie chroni jednak przed poślizgiem przy każdej prędkości i nie pomaga w zakrętach.",
+   "ua": "ABS не дає колесам заблокуватися під час гальмування, завдяки чому авто лишається керованим і стійким. Проте він не рятує від заносу за будь-якої швидкості й не допомагає в поворотах."
+  }
+ },
+ "4534": {
+  "text": {
+   "de": "Auf Schnee wird alles sanft gemacht, ohne hektische Lenkbewegungen, denn die Haftung ist minimal. Traktionskontrolle abzuschalten oder am Anstieg zu beschleunigen endet in durchdrehenden Rädern.",
+   "en": "On snow everything is done smoothly, with no sudden steering, because grip is minimal. Turning traction control off or accelerating on a climb ends in wheelspin and a skid.",
+   "pl": "Na śniegu wszystko robi się płynnie, bez gwałtownych ruchów kierownicą, bo przyczepność jest minimalna. Wyłączanie kontroli trakcji i przyspieszanie na podjeździe kończą się buksowaniem i poślizgiem.",
+   "ua": "На снігу все роблять плавно, без різких рухів кермом, бо зчеплення мінімальне. Вимкнення контролю тяги і розгін на підйомі закінчуються пробуксовуванням і заносом."
+  }
+ },
+ "4562": {
+  "law": "art. 162 Kodeksu karnego",
+  "text": {
+   "de": "Verantwortlich ist jeder, der helfen konnte, ohne sich oder andere in Lebensgefahr oder schwere Gesundheitsgefahr zu bringen. Die Pflicht gilt nicht nur für Ärzte oder Unfallbeteiligte.",
+   "en": "Anyone who could have helped without exposing themselves or others to death or serious harm is liable. The duty is not limited to doctors or to those involved in the crash.",
+   "pl": "Odpowiada każdy, kto mógł pomóc bez narażania siebie lub innych na utratę życia albo ciężki uszczerbek. Obowiązek nie ogranicza się do lekarzy ani do uczestników zdarzenia.",
+   "ua": "Відповідає кожен, хто міг допомогти, не наражаючи себе чи інших на втрату життя або тяжку шкоду здоров'ю. Обов'язок не обмежується лікарями чи учасниками пригоди."
+  }
+ },
+ "4563": {
+  "text": {
+   "de": "Ein Verletzter wird nur dann aus dem Fahrzeug geholt, wenn anders kein Leben zu retten ist, etwa bei Kreislaufstillstand oder Brand. Ohne diesen Grund droht beim Bewegen eine zusätzliche Wirbelsäulenverletzung.",
+   "en": "A casualty is pulled out of the vehicle only when life cannot be saved otherwise, for example in cardiac arrest or a fire. Without that need, moving them risks additional spinal injury.",
+   "pl": "Poszkodowanego wyciąga się z pojazdu tylko wtedy, gdy inaczej nie da się ratować życia, na przykład przy zatrzymaniu krążenia albo pożarze. Bez takiej potrzeby przenoszenie grozi dodatkowym urazem kręgosłupa.",
+   "ua": "Потерпілого витягують з авта лише тоді, коли інакше не врятувати життя, наприклад при зупинці кровообігу чи пожежі. Без такої потреби переміщення загрожує додатковою травмою хребта."
+  }
+ },
+ "4578": {
+  "text": {
+   "de": "Der Disponent muss vor allem wissen, wo es passiert ist und wie viele Verletzte es gibt und in welchem Zustand. Davon hängt ab, wie viele und welche Einsatzkräfte losfahren.",
+   "en": "The dispatcher first needs to know where it happened and how many casualties there are and in what condition. That decides how many units and of what kind are sent.",
+   "pl": "Dyspozytor musi wiedzieć przede wszystkim, gdzie doszło do zdarzenia oraz ilu jest poszkodowanych i w jakim są stanie. Od tego zależy, ile i jakich zespołów wyśle.",
+   "ua": "Диспетчеру передусім потрібно знати, де сталася пригода та скільки потерпілих і в якому вони стані. Від цього залежить, скільки і яких бригад він відправить."
+  }
+ },
+ "4579": {
+  "text": {
+   "de": "Brennende Kleidung löscht man, indem man die Person hinlegt und die Flammen mit Jacke oder Decke erstickt, um die Luft abzuschneiden. Ein Pulverlöscher schädigt zusätzlich Atemwege und verbrannte Haut.",
+   "en": "Burning clothing is put out by laying the person down and smothering the flames with a jacket or blanket to cut off the air. A powder extinguisher would further damage the airways and burnt skin.",
+   "pl": "Płonące ubranie gasi się, kładąc człowieka na ziemi i tłumiąc ogień kurtką lub kocem, żeby odciąć dopływ powietrza. Gaśnica proszkowa dodatkowo uszkadza drogi oddechowe i oparzoną skórę.",
+   "ua": "Одяг, що горить, гасять, поклавши людину на землю і придушивши вогонь курткою чи ковдрою, щоб перекрити доступ повітря. Порошковий вогнегасник додатково пошкоджує дихальні шляхи й обпечену шкіру."
+  }
+ },
+ "4592": {
+  "text": {
+   "de": "Ohne funktionierende Bremsleuchten weiß der Nachfolgende nicht, dass du bremst, das Fahrzeug darf also nicht benutzt werden. Parksensoren und Klimaanlage haben keinen Einfluss auf die Verkehrssicherheit.",
+   "en": "With no working brake lights the driver behind cannot tell that you are braking, so the car must not be used. Parking sensors and air conditioning have no bearing on road safety.",
+   "pl": "Bez działających świateł stop jadący z tyłu nie wie, że hamujesz, więc pojazdu nie wolno używać. Czujniki parkowania i klimatyzacja nie mają wpływu na bezpieczeństwo ruchu.",
+   "ua": "Без справних стоп-сигналів той, хто їде позаду, не знає, що ти гальмуєш, тож користуватися авто не можна. Парктроніки й кондиціонер на безпеку руху не впливають."
+  }
+ },
+ "4593": {
+  "text": {
+   "de": "Die rote Öldruckleuchte bedeutet, dass der Motor ohne Schmierung läuft, also anhalten und ihn sofort abstellen. Schon ein paar weitere Sekunden Fahrt können den Motor festfressen.",
+   "en": "A red oil pressure lamp means the engine is running without lubrication, so stop and switch it off at once. A dozen more seconds of driving can seize the engine.",
+   "pl": "Czerwona lampka ciśnienia oleju oznacza, że silnik pracuje bez smarowania, więc zatrzymaj się i natychmiast go wyłącz. Kilkanaście sekund dalszej jazdy potrafi zatrzeć silnik.",
+   "ua": "Червона лампа тиску оливи означає, що двигун працює без змащення, тож зупинись і негайно заглуши його. Кільканадцять секунд подальшої їзди можуть заклинити двигун."
+  }
+ },
+ "4600": {
+  "text": {
+   "de": "112 ist die gemeinsame Notrufnummer: Sie verbindet zugleich mit Rettungsdienst, Feuerwehr und Polizei. Sie funktioniert in ganz Polen und in der gesamten EU, auch von einem Telefon ohne SIM-Karte.",
+   "en": "112 is the single emergency number: it reaches the ambulance service, the fire brigade and the police at once. It works across Poland and the whole European Union, even from a phone with no SIM card.",
+   "pl": "112 jest wspólnym numerem alarmowym: łączy z pogotowiem, strażą i policją naraz. Działa w całej Polsce i w całej Unii Europejskiej, także z telefonu bez karty SIM.",
+   "ua": "112 це спільний номер екстреного виклику: він з'єднує зі швидкою, пожежними і поліцією одночасно. Працює по всій Польщі та в усьому Євросоюзі, навіть із телефона без SIM-картки."
+  }
+ },
+ "6318": {
+  "text": {
+   "de": "Alkohol verändert das Blickfeld: Er verengt es und schwächt das periphere Sehen sowie die Abstandsschätzung. Der Fahrer schaut geradeaus und nimmt einen von der Seite kommenden Fußgänger nicht wahr.",
+   "en": "Alcohol changes the field of vision: it narrows it and weakens peripheral sight and distance judgement. The driver looks straight ahead and does not register a pedestrian stepping in from the side.",
+   "pl": "Alkohol zmienia pole widzenia: zawęża je i osłabia widzenie peryferyjne oraz ocenę odległości. Kierowca patrzy wprost przed siebie i nie rejestruje pieszego wchodzącego z boku.",
+   "ua": "Алкоголь змінює поле зору: звужує його і послаблює периферійний зір та оцінку відстані. Водій дивиться прямо перед собою і не помічає пішохода, який виходить збоку."
+  }
+ },
+ "6340": {
+  "text": {
+   "de": "Ein Airbag mindert Verletzungen, schützt aber nicht vollständig und wirkt nur zusammen mit angelegtem Gurt. Die Karosserie schützt er gar nicht, dafür gibt es die Knautschzonen.",
+   "en": "An airbag reduces injuries but does not fully protect, and it only works together with a fastened seat belt. It does not protect the bodywork at all, that is what the crumple zones are for.",
+   "pl": "Poduszka powietrzna zmniejsza obrażenia, ale nie chroni w pełni i działa tylko razem z zapiętym pasem. Nadwozia auta poduszka nie chroni w ogóle, od tego są strefy zgniotu.",
+   "ua": "Подушка безпеки зменшує травми, але не захищає повністю і працює лише разом із застебнутим пасом. Кузов авта вона не захищає взагалі, для цього є зони деформації."
+  }
+ },
+ "6361": {
+  "law": "art. 51 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Fernlicht darf nicht benutzt werden, wenn ein Fahrzeug entgegenkommt, weil es dessen Fahrer blendet. Regen oder das Einfahren in eine Ortschaft begründen diese Pflicht für sich genommen nicht.",
+   "en": "Main beam must not be used when another vehicle is coming towards you, because it dazzles its driver. Rain or entering a town do not by themselves create that duty.",
+   "pl": "Świateł drogowych nie wolno używać, gdy z przeciwka nadjeżdża inny pojazd, bo oślepiają jego kierowcę. Deszcz i wjazd do miasta same z siebie takiego obowiązku nie tworzą.",
+   "ua": "Дальнє світло не можна вмикати, коли назустріч їде інший транспорт, бо воно засліплює його водія. Дощ і в'їзд у місто самі собою такого обов'язку не створюють."
+  }
+ },
+ "6362": {
+  "law": "art. 51 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf Abblendlicht wird immer dann umgeschaltet, wenn der Vorausfahrende geblendet werden könnte, auch über seine Spiegel. Ein weit entferntes Fahrzeug allein begründet die Pflicht noch nicht.",
+   "en": "You switch to dipped beam whenever you could dazzle the driver ahead, including through their mirrors. Merely seeing a car far ahead does not yet create that duty.",
+   "pl": "Na światła mijania przełącza się zawsze wtedy, gdy można oślepić kierującego jadącego z przodu, także przez jego lusterka. Sam widok poprzedzającego auta w oddali obowiązku jeszcze nie tworzy.",
+   "ua": "На ближнє світло перемикаються завжди, коли можна засліпити водія попереду, зокрема через його дзеркала. Сам вигляд авта далеко попереду обов'язку ще не створює."
+  }
+ },
+ "6378": {
+  "text": {
+   "de": "Ein richtig eingestellter Außenspiegel zeigt den Bereich hinter dem Fahrzeug und einen schmalen Streifen der eigenen Flanke als Bezugspunkt. Nur die Fahrzeugseite oder nur die Nachbarspur reicht nicht.",
+   "en": "A properly set door mirror shows the area behind the car plus a narrow strip of its own side, which serves as a reference point. Only the side of the car, or only the next lane, is not enough.",
+   "pl": "Dobrze ustawione lusterko zewnętrzne pokazuje obszar za pojazdem i wąski pasek jego boku, który służy za punkt odniesienia. Samego boku auta albo tylko sąsiedniego pasa jest za mało.",
+   "ua": "Правильно виставлене зовнішнє дзеркало показує зону позаду авта і вузьку смужку його борту, яка слугує орієнтиром. Самого лише борту чи лише сусідньої смуги замало."
+  }
+ },
+ "6442": {
+  "text": {
+   "de": "Standlicht zeigt anderen, wo das Fahrzeug steht oder fährt und wie breit es ist. Die Fahrbahn beleuchtet es nicht, für den Spurwechsel gibt es die Blinker.",
+   "en": "Position lights show others where the vehicle is and how wide it is. They do not light the road, and lane changes are signalled with the indicators.",
+   "pl": "Światła pozycyjne pokazują innym, gdzie stoi lub jedzie pojazd i jak jest szeroki. Drogi nie oświetlają, a do sygnalizowania zmiany pasa służą kierunkowskazy.",
+   "ua": "Габаритні вогні показують іншим, де стоїть чи їде транспортний засіб і яка його ширина. Дорогу вони не освітлюють, а для зміни смуги є покажчики повороту."
+  }
+ },
+ "6443": {
+  "text": {
+   "de": "Zu hoch eingestellte Scheinwerfer leuchten entgegenkommenden Fahrern in die Augen. Auf Kraftstoff- oder Lampenverbrauch hat die Einstellung keinen Einfluss.",
+   "en": "Headlights aimed too high shine into the eyes of oncoming drivers. Their aim has no effect on fuel or bulb consumption.",
+   "pl": "Reflektory ustawione za wysoko świecą w oczy kierowcom nadjeżdżającym z przeciwka. Na zużycie paliwa ani żarówek ustawienie reflektorów nie ma wpływu.",
+   "ua": "Фари, виставлені зависоко, світять в очі зустрічним водіям. На витрату пального чи ламп регулювання фар не впливає."
+  }
+ },
+ "6451": {
+  "text": {
+   "de": "Zu tief eingestellte Scheinwerfer beleuchten nur wenige Meter vor dem Auto, nachts sieht man die Straße also deutlich schlechter. Auf Kraftstoff- und Lampenverbrauch wirken sie sich nicht aus.",
+   "en": "Headlights aimed too low light only a few metres ahead, so at night you see the road far worse. They have no effect on fuel or bulb consumption.",
+   "pl": "Reflektory ustawione za nisko oświetlają zaledwie kilka metrów przed autem, więc nocą widzisz drogę znacznie gorzej. Na zużycie paliwa i żarówek nie mają wpływu.",
+   "ua": "Фари, виставлені занизько, освітлюють лише кілька метрів перед авто, тож уночі дорогу видно значно гірше. На витрату пального і ламп вони не впливають."
+  }
+ },
+ "6463": {
+  "text": {
+   "de": "Bei einer unterkühlten Person Hilfe rufen, sie an einen warmen Ort bringen, zudecken und langsam erwärmen. Heißes Getränk und Alkohol weiten die Hautgefäße und beschleunigen den Wärmeverlust aus dem Körperkern.",
+   "en": "For a hypothermic person call help, move them somewhere warm, cover them and rewarm slowly. A hot drink and alcohol widen the skin vessels and speed up heat loss from the body core.",
+   "pl": "Wyziębionego człowieka wezwij pomoc, przenieś w ciepłe miejsce, okryj i ogrzewaj powoli. Gorący napój i alkohol rozszerzają naczynia skóry i przyspieszają utratę ciepła z wnętrza ciała.",
+   "ua": "Переохолодженій людині виклич допомогу, перенеси в тепле місце, вкрий і зігрівай повільно. Гарячий напій і алкоголь розширюють судини шкіри та прискорюють втрату тепла з ядра тіла."
+  }
+ },
+ "7445": {
+  "law": "art. 60 ust. 2 pkt 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Kinder auf einem Schlitten hinter dem Fahrzeug zu ziehen ist verboten. Ein leichter Anhänger ist erlaubt, das Abschleppen eines anderen Pkw innerorts ebenfalls.",
+   "en": "Towing children on a sledge behind the car is prohibited. A light trailer is allowed, and so is towing another car inside a built-up area.",
+   "pl": "Ciągnięcie za pojazdem dzieci na sankach jest zabronione. Przyczepa lekka jest dozwolona, a holowanie innego auta w obszarze zabudowanym również.",
+   "ua": "Буксирувати за автомобілем дітей на санках заборонено. Легкий причіп дозволений, а буксирування іншого авта в населеному пункті теж."
+  }
+ },
+ "7446": {
+  "law": "art. 19 ust. 3b Prawa o ruchu drogowym",
+  "text": {
+   "de": "Im Stau im Tunnel sind mindestens 5 Meter zum Vordermann zu lassen. Dieser Abstand dient den Rettungskräften zur Durchfahrt und erlaubt das Wegfahren, falls ein Brand ausbricht.",
+   "en": "Standing in a tunnel traffic jam you must leave at least 5 metres to the vehicle in front. That gap lets the emergency services through and lets you drive out if a fire breaks out.",
+   "pl": "Stojąc w zatorze w tunelu trzeba zostawić co najmniej 5 metrów do poprzedzającego pojazdu. Ten odstęp służy służbom ratowniczym do dojazdu i pozwala wyjechać, gdyby wybuchł pożar.",
+   "ua": "Стоячи в заторі в тунелі, треба лишити щонайменше 5 метрів до попереднього автомобіля. Цей проміжок потрібен рятувальним службам для проїзду й дозволяє виїхати, якщо спалахне пожежа."
+  }
+ },
+ "7447": {
+  "law": "art. 45 ust. 2 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Telefonieren mit dem Handy in der Hand ist verboten. Radio und Navigation sind erlaubt, solange ihre Bedienung nicht vom Verkehr ablenkt.",
+   "en": "Talking on a hand-held phone is prohibited. The radio and the navigation are allowed, as long as operating them does not take your attention off the road.",
+   "pl": "Zabronione jest rozmawianie przez telefon trzymany w ręku. Radio i nawigacja są dozwolone, o ile ich obsługa nie odrywa uwagi od drogi.",
+   "ua": "Заборонено розмовляти по телефону, тримаючи його в руці. Радіо і навігація дозволені, якщо користування ними не відволікає увагу від дороги."
+  }
+ },
+ "7451": {
+  "law": "art. 61 ust. 8 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine nach hinten überstehende Ladung wird mit einer roten Fahne oder Tafel gekennzeichnet, nach Einbruch der Dunkelheit zusätzlich mit rotem Licht und Rückstrahler. Rot ist im Verkehr die Warnfarbe nach hinten.",
+   "en": "A load protruding at the rear is marked with a red flag or plate, and after dark also with a red light and reflector. Red is the warning colour used at the rear in traffic.",
+   "pl": "Ładunek wystający z tyłu oznacza się czerwoną chorągiewką albo tarczą, a po zmroku dodatkowo czerwonym światłem i odblaskiem. Czerwień jest w ruchu drogowym barwą ostrzegawczą od tyłu.",
+   "ua": "Вантаж, що виступає ззаду, позначають червоним прапорцем або щитком, а в темряві додатково червоним ліхтарем і світлоповертачем. Червоний у дорожньому русі це попереджувальний колір ззаду."
+  }
+ },
+ "7452": {
+  "text": {
+   "de": "Die tatsächliche Gesamtmasse des Anhängers darf die tatsächliche Gesamtmasse des ziehenden Pkw nicht überschreiten. Ein schwererer Anhänger beginnt das Auto zu lenken statt umgekehrt.",
+   "en": "The actual total mass of the trailer must not exceed the actual total mass of the car towing it. A heavier trailer starts steering the car instead of being steered.",
+   "pl": "Rzeczywista masa całkowita przyczepy nie może przekroczyć rzeczywistej masy całkowitej samochodu, który ją ciągnie. Cięższa przyczepa zaczyna prowadzić auto zamiast być prowadzoną.",
+   "ua": "Фактична повна маса причепа не може перевищувати фактичну повну масу автомобіля, що його тягне. Важчий причіп починає керувати авто замість того, щоб бути керованим."
+  }
+ },
+ "7454": {
+  "law": "art. 31 ust. 2 pkt 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf der Autobahn ist Abschleppen verboten, außer durch ein dafür bestimmtes Fahrzeug bis zur nächsten Ausfahrt. Auf der Schnellstraße und in der Wohnzone ist Abschleppen erlaubt.",
+   "en": "Towing is prohibited on a motorway, except by a purpose-built recovery vehicle as far as the nearest exit. On an expressway and in a residential zone towing is allowed.",
+   "pl": "Na autostradzie holowanie jest zabronione, poza odholowaniem pojazdem do tego przeznaczonym do najbliższego wyjazdu. Na drodze ekspresowej i w strefie zamieszkania holować wolno.",
+   "ua": "На автомагістралі буксирування заборонене, крім евакуації спеціальним транспортом до найближчого з'їзду. На швидкісній дорозі та в житловій зоні буксирувати можна."
+  }
+ },
+ "7457": {
+  "law": "art. 61 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ketten werden nur auf schneebedeckter Fahrbahn montiert. Auf blankem Asphalt zerstören sie Belag und Reifen, und weder das Datum noch die Temperatur ist dafür maßgeblich.",
+   "en": "Chains are fitted only on a road covered with snow. On bare tarmac they wreck both the surface and the tyre, and neither the date nor the temperature decides this.",
+   "pl": "Łańcuchy zakłada się tylko na drogę pokrytą śniegiem. Na gołym asfalcie niszczą nawierzchnię i oponę, a sama data w kalendarzu ani temperatura o tym nie decydują.",
+   "ua": "Ланцюги ставлять лише на дорогу, вкриту снігом. На голому асфальті вони руйнують покриття і шину, а сама дата чи температура цього не визначають."
+  }
+ },
+ "7461": {
+  "text": {
+   "de": "Der längste Bremsweg entsteht auf Eis, wo die Reifenhaftung um ein Vielfaches geringer ist als auf trockenem Asphalt. Nasse Fahrbahn verlängert den Bremsweg ebenfalls, aber längst nicht so drastisch.",
+   "en": "The longest braking distance is on ice, where tyre grip is several times lower than on dry tarmac. A wet road lengthens braking too, but nowhere near as drastically.",
+   "pl": "Najdłuższa droga hamowania jest na lodzie, bo przyczepność opon jest tam kilkakrotnie mniejsza niż na suchym asfalcie. Mokra droga wydłuża hamowanie, ale nie tak drastycznie jak oblodzona.",
+   "ua": "Найдовший гальмівний шлях на льоду, бо зчеплення шин там у кілька разів менше, ніж на сухому асфальті. Мокра дорога теж подовжує гальмування, але не так різко."
+  }
+ },
+ "7463": {
+  "text": {
+   "de": "ABS erhält die Kontrolle beim starken Bremsen, weil die Räder nicht blockieren und die Lenkung weiter wirkt. Den Bremsweg verkürzt es nicht immer: Auf Schotter oder Schnee kann er sogar länger werden.",
+   "en": "ABS lets you keep control under hard braking, because the wheels do not lock and the steering keeps working. It does not always shorten the braking distance: on gravel or snow it can even lengthen it.",
+   "pl": "ABS pozwala zachować kontrolę nad autem przy gwałtownym hamowaniu, bo koła się nie blokują i kierownica dalej działa. Drogi hamowania nie skraca zawsze: na żwirze czy śniegu potrafi ją nawet wydłużyć.",
+   "ua": "ABS дозволяє зберегти контроль над авто при різкому гальмуванні, бо колеса не блокуються і кермо продовжує діяти. Гальмівний шлях він скорочує не завжди: на гравії чи снігу може навіть подовжити."
+  }
+ },
+ "7465": {
+  "law": "art. 46 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein am Hang abgestelltes Fahrzeug muss gegen Wegrollen gesichert werden: Feststellbremse, eingelegter Gang und zum Bordstein eingeschlagene Räder. An steilen Anstiegen reicht der Gang allein manchmal nicht.",
+   "en": "A vehicle left on a slope must be secured against rolling away: parking brake, a gear engaged and the wheels turned towards the kerb. On a steep hill a gear alone is sometimes not enough.",
+   "pl": "Pojazd zostawiony na wzniesieniu trzeba zabezpieczyć przed stoczeniem: hamulec postojowy, bieg i koła skręcone w stronę krawężnika. Sam wrzucony bieg na stromym podjeździe bywa za mało.",
+   "ua": "Автомобіль, залишений на схилі, треба убезпечити від скочування: стоянкове гальмо, увімкнена передача і колеса, повернуті до бордюру. Сама лише передача на крутому підйомі буває недостатньою."
+  }
+ },
+ "7512": {
+  "law": "art. 31 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein abgeschlepptes Fahrzeug wird mit einem Warndreieck hinten links gekennzeichnet, bei schlechter Sicht zusätzlich mit eingeschaltetem Licht. Die Warnblinkanlage allein ersetzt das nicht.",
+   "en": "A towed vehicle is marked with a reflective triangle placed at the rear on the left, plus lights on in poor visibility. Hazard lights alone are not a substitute.",
+   "pl": "Holowany pojazd oznacza się trójkątem odblaskowym umieszczonym z tyłu po lewej stronie, a w warunkach ograniczonej widoczności dodatkowo włączonymi światłami. Same światła awaryjne tego nie zastępują.",
+   "ua": "Буксирований автомобіль позначають світлоповертальним трикутником ззаду ліворуч, а в умовах обмеженої видимості додатково ввімкненим світлом. Самі лише аварійні вогні цього не замінюють."
+  }
+ },
+ "7513": {
+  "law": "art. 78 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Halter muss angeben, wem er das Fahrzeug überlassen hat; entschuldigt ist nur, wenn es gegen seinen Willen und ohne sein Wissen benutzt wurde und er das nicht verhindern konnte. Eine gewerbliche Nutzung befreit nicht.",
+   "en": "The owner must say to whom the vehicle was entrusted, and the only excuse is that the car was used against their will and knowledge and they could not prevent it. Running a business is no exemption.",
+   "pl": "Właściciel ma obowiązek wskazać, komu powierzył pojazd, i uwalnia go tylko sytuacja, w której auto zostało użyte wbrew jego woli i wiedzy, a on nie mógł temu zapobiec. Prowadzenie działalności gospodarczej z tego obowiązku nie zwalnia.",
+   "ua": "Власник зобов'язаний вказати, кому довірив авто, і звільняє його лише ситуація, коли машину використали проти його волі та відома і він не міг цьому запобігти. Ведення підприємницької діяльності від обов'язку не звільняє."
+  }
+ },
+ "7515": {
+  "law": "art. 60 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Fahren mit verdecktem Kennzeichen ist verboten, weil das Fahrzeug nicht identifizierbar ist. Eine Ladung, die das Kennzeichen verdeckt, entschuldigt nicht, sie muss anders transportiert werden.",
+   "en": "Driving with an obscured number plate is prohibited, because the vehicle cannot be identified. A load covering the plate is no excuse, the load has to be carried differently.",
+   "pl": "Jazda z niewidoczną tablicą rejestracyjną jest zabroniona, bo pojazdu nie da się zidentyfikować. Zasłonięcie tablicy przez ładunek nie jest usprawiedliwieniem, ładunek trzeba przewieźć inaczej.",
+   "ua": "Їзда з невидимим номерним знаком заборонена, бо автомобіль неможливо ідентифікувати. Закриття знака вантажем не є виправданням, вантаж треба перевозити інакше."
+  }
+ },
+ "7516": {
+  "text": {
+   "de": "Ein Aufkleber mit einem anderen Land als dem Zulassungsstaat ist verboten, weil er über die Herkunft des Fahrzeugs täuscht. Ein Kennzeichen mit dem PL-Symbol ändert daran nichts.",
+   "en": "A sticker showing a country other than the one of registration is prohibited, because it misleads about where the vehicle comes from. A plate with the PL symbol changes nothing here.",
+   "pl": "Nalepka z oznaczeniem innego państwa niż kraj rejestracji jest zabroniona, bo wprowadza w błąd co do pochodzenia pojazdu. Tablica z symbolem PL niczego tu nie zmienia.",
+   "ua": "Наліпка з позначенням іншої держави, ніж країна реєстрації, заборонена, бо вводить в оману щодо походження авта. Знак із символом PL тут нічого не змінює."
+  }
+ },
+ "7518": {
+  "text": {
+   "de": "Schnelleres Blinken der Kontrollleuchte ist das übliche Signal dafür, dass eine Blinkerlampe durchgebrannt ist. Man prüft also die Lampen, nicht die Batterie, denn alles andere funktioniert normal.",
+   "en": "Faster flashing of the tell-tale is the standard signal that one indicator bulb has burnt out. So you check the bulbs, not the battery, because everything else works normally.",
+   "pl": "Szybsze miganie kontrolki to standardowy sygnał, że jedna z żarówek kierunkowskazu się przepaliła. Sprawdza się więc żarówki, a nie akumulator, bo pozostałe odbiorniki działają normalnie.",
+   "ua": "Швидше блимання контрольної лампи це стандартний сигнал, що одна з ламп покажчика повороту перегоріла. Тож перевіряють лампи, а не акумулятор, бо решта споживачів працює нормально."
+  }
+ },
+ "7519": {
+  "text": {
+   "de": "Der Ölstand wird am kalten Motor vor der Fahrt geprüft oder einige Minuten nach dem Abstellen, wenn das Öl in die Wanne zurückgelaufen ist. Direkt nach dem Abstellen oder bei laufendem Motor fällt der Wert zu niedrig aus.",
+   "en": "Check the oil level on a cold engine before setting off, or a few minutes after switching off, once the oil has drained into the sump. Measuring right after shutdown or with the engine running gives too low a reading.",
+   "pl": "Poziom oleju sprawdza się na zimnym silniku przed jazdą albo po kilku minutach od wyłączenia, gdy olej spłynie do miski. Pomiar zaraz po zgaszeniu albo przy pracującym silniku daje zaniżony wynik.",
+   "ua": "Рівень оливи перевіряють на холодному двигуні перед поїздкою або через кілька хвилин після зупинки, коли олива стече в піддон. Вимір одразу після глушіння чи на працюючому двигуні дає занижений результат."
+  }
+ },
+ "7708": {
+  "text": {
+   "de": "Auf trockener Fahrbahn fährt man im ersten Gang an, weil er die größte Zugkraft liefert. Der zweite Gang eignet sich nur auf sehr glatter Straße, wenn man das Durchdrehen begrenzen will.",
+   "en": "On a dry surface you move off in first gear, because it gives the most tractive force. Second gear is only for a very slippery road, when you want to limit wheelspin.",
+   "pl": "Na suchej nawierzchni rusza się na pierwszym biegu, bo daje największą siłę napędową. Drugi bieg nadaje się tylko na bardzo śliskiej drodze, gdy chcesz ograniczyć poślizg kół.",
+   "ua": "На сухому покритті рушають на першій передачі, бо вона дає найбільшу тягу. Друга передача підходить лише на дуже слизькій дорозі, коли треба зменшити пробуксовування."
+  }
+ },
+ "8320": {
+  "law": "art. 24 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Schienenfahrzeug wird grundsätzlich rechts überholt, auf einer Einbahnstraße darf man es aber auch links überholen. Auf der Einbahnstraße gibt es keinen Gegenverkehr, das Manöver ist also sicher.",
+   "en": "A rail vehicle is normally overtaken on the right, but on a one-way carriageway it may also be passed on the left. On a one-way road there is no oncoming traffic, so the manoeuvre is safe.",
+   "pl": "Pojazd szynowy wyprzedza się co do zasady z prawej strony, ale na jezdni jednokierunkowej wolno zrobić to także z lewej. Na jezdni jednokierunkowej nie ma ruchu z przeciwka, więc manewr jest bezpieczny.",
+   "ua": "Рейковий транспорт за загальним правилом обганяють праворуч, але на дорозі з одностороннім рухом це дозволено робити й ліворуч. На односторонній дорозі немає зустрічного руху, тож маневр безпечний."
+  }
+ },
+ "9012": {
+  "text": {
+   "de": "Auf die Sehschärfe wirkt der Fahrer selbst ein: durch Konzentration, Befinden und Gesundheitszustand samt Müdigkeit und Sehkraft. Wetter, Fahrbahn und Tageszeit sind äußere Bedingungen, die er nicht beeinflusst.",
+   "en": "The driver influences visual acuity themselves: through concentration, how they feel and their state of health, including fatigue and eyesight. Weather, road surface and time of day are external conditions they cannot change.",
+   "pl": "Na ostrość widzenia kierowca wpływa sam: przez koncentrację, samopoczucie i stan zdrowia, w tym zmęczenie i wzrok. Pogoda, nawierzchnia i pora doby są warunkami zewnętrznymi, na które wpływu nie ma.",
+   "ua": "На гостроту зору водій впливає сам: через концентрацію, самопочуття і стан здоров'я, зокрема втому та зір. Погода, покриття і час доби це зовнішні умови, на які він не впливає."
+  }
+ },
+ "9035": {
+  "text": {
+   "de": "Je höher das Tempo, desto enger das Blickfeld: Bei 40 km/h umfasst es etwa hundert Grad, bei 130 km/h nur noch wenige Dutzend. Auf schnellen Straßen übersieht man daher leicht, was seitlich passiert.",
+   "en": "The higher the speed, the narrower the field of vision: at 40 km/h it spans about a hundred degrees, at 130 km/h only a few dozen. That is why on a fast road it is easy to miss what happens at the side.",
+   "pl": "Im większa prędkość, tym węższe pole widzenia: przy 40 km/h obejmuje około stu stopni, przy 130 km/h zaledwie kilkadziesiąt. Dlatego na szybkiej drodze łatwo przeoczyć to, co dzieje się z boku.",
+   "ua": "Що більша швидкість, то вужче поле зору: на 40 км/год воно охоплює близько ста градусів, на 130 км/год лише кілька десятків. Тому на швидкій дорозі легко не помітити те, що відбувається збоку."
+  }
+ },
+ "9058": {
+  "law": "art. 60 ust. 2 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Übermäßige Abgas- und Lärmemission sind überall verboten, nicht nur in der Stadt oder in der Wohnzone. Die Vorschrift schützt Umwelt und Menschen im gesamten Straßennetz.",
+   "en": "Excessive exhaust emissions and excessive noise are prohibited everywhere, not only in town or in a residential zone. The rule protects the environment and people across the whole road network.",
+   "pl": "Nadmierna emisja spalin i nadmierny hałas są zabronione wszędzie, nie tylko w mieście czy w strefie zamieszkania. Przepis chroni środowisko i ludzi na całej sieci dróg.",
+   "ua": "Надмірні викиди вихлопних газів і надмірний шум заборонені всюди, а не лише в місті чи житловій зоні. Норма захищає довкілля і людей на всій мережі доріг."
+  }
+ },
+ "9065": {
+  "text": {
+   "de": "ASR greift ein, wenn Antriebskraft auf die Räder gelangt, hilft also beim plötzlichen Beschleunigen auf nasser Fahrbahn. Bergab werden die Räder nicht angetrieben, das System hat nichts zu regeln.",
+   "en": "ASR acts when drive is fed to the wheels, so it helps during sudden acceleration on a wet surface. Going downhill the wheels are not driven and the system has nothing to correct.",
+   "pl": "ASR działa przy przekazywaniu napędu na koła, więc pomaga przy nagłym przyspieszeniu na mokrej nawierzchni. Podczas zjazdu ze wzniesienia koła nie są napędzane i układ nie ma czego korygować.",
+   "ua": "ASR працює при передачі тяги на колеса, тож допомагає при різкому прискоренні на мокрому покритті. Під час спуску колеса не ведучі й системі нічого коригувати."
+  }
+ },
+ "9067": {
+  "text": {
+   "de": "ASR nützt am meisten beim heftigen Anfahren auf glatter Fahrbahn, denn dann drehen die Antriebsräder durch. Bergab oder bei gleichmäßiger Bergfahrt gibt es keinen Schlupf, den es begrenzen könnte.",
+   "en": "ASR is most useful when pulling away hard on a slippery surface, because that is when the driven wheels spin. Going downhill or climbing steadily there is no wheelspin for it to limit.",
+   "pl": "ASR najbardziej przydaje się przy gwałtownym ruszaniu na śliskiej nawierzchni, bo wtedy koła napędowe buksują. Przy zjeździe albo równomiernej jeździe pod górę nie ma poślizgu, który miałby ograniczać.",
+   "ua": "ASR найбільше стає в пригоді при різкому рушанні на слизькому покритті, бо саме тоді ведучі колеса буксують. На спуску чи при рівномірному підйомі немає пробуксовування, яке треба обмежувати."
+  }
+ },
+ "9068": {
+  "text": {
+   "de": "ESP greift dort ein, wo das Auto die gewünschte Linie verliert, also in einer scharfen Kurve. Bei konstanter Geschwindigkeit oder auf der Geraden gibt es nichts zu stabilisieren.",
+   "en": "ESP steps in where the car stops following the intended line, that is in a sharp bend. At a steady speed or on a straight there is nothing to stabilise.",
+   "pl": "ESP wkracza tam, gdzie auto przestaje trzymać zadany tor, czyli na ostrym zakręcie. Przy stałej prędkości albo na prostej nie ma czego stabilizować.",
+   "ua": "ESP втручається там, де авто перестає триматися заданої траєкторії, тобто в крутому повороті. За сталої швидкості або на прямій стабілізувати нічого."
+  }
+ },
+ "9070": {
+  "text": {
+   "de": "Mehrere Kurven hintereinander sind der typische Fall, in dem der Aufbau aufschaukelt und ESP die Fahrspur korrigiert. Eine konstante Geschwindigkeit zu halten ist Aufgabe des Tempomats, nicht des ESP.",
+   "en": "Several bends one after another are the classic case where the body starts to sway and ESP corrects the line. Holding a steady speed is the job of cruise control, not ESP.",
+   "pl": "Kilka zakrętów jeden po drugim to typowa sytuacja, w której nadwozie się rozkołysuje i ESP koryguje tor jazdy. Utrzymanie stałej prędkości to zadanie tempomatu, a nie ESP.",
+   "ua": "Кілька поворотів поспіль це типова ситуація, коли кузов розгойдується і ESP коригує траєкторію. Тримати сталу швидкість це завдання круїз-контролю, а не ESP."
   }
  }
 }
