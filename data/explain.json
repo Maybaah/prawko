@@ -1,4 +1,28 @@
 {
+ "1000": {
+  "text": {
+   "de": "Ein Gefahrzeichen kündigt eine Stelle an, an der der Verkehr behindert wird und mit Verlangsamen oder Anhalten zu rechnen ist. Deshalb verringert man rechtzeitig das Tempo und vergrößert den Abstand.",
+   "en": "A warning sign announces a place where traffic will be disrupted and you must expect to slow down or stop. So you reduce speed and increase the gap in advance.",
+   "pl": "Znak ostrzegawczy zapowiada miejsce, w którym ruch będzie utrudniony i trzeba liczyć się ze zwolnieniem albo zatrzymaniem. Dlatego zawczasu zmniejsza się prędkość i zwiększa odstęp.",
+   "ua": "Попереджувальний знак сповіщає про місце, де рух буде утруднений і треба зважати на зниження швидкості чи зупинку. Тому завчасно зменшують швидкість і збільшують дистанцію."
+  }
+ },
+ "1001": {
+  "text": {
+   "de": "Das Zeichen A-16 warnt vor einem markierten Fußgängerüberweg, dem du dich näherst. Ab diesem Zeichen gelten besondere Vorsicht und die Bereitschaft, Fußgängern Vorrang zu gewähren.",
+   "en": "Sign A-16 warns of a marked pedestrian crossing you are approaching. From that sign on you owe particular caution and readiness to give way to a pedestrian.",
+   "pl": "Znak A-16 ostrzega o wyznaczonym przejściu dla pieszych, do którego właśnie się zbliżasz. Od tego znaku obowiązuje szczególna ostrożność i gotowość do ustąpienia pierwszeństwa pieszemu.",
+   "ua": "Знак A-16 попереджає про позначений пішохідний перехід, до якого ти наближаєшся. Від цього знака діють особлива обережність і готовність поступитися пішоходу."
+  }
+ },
+ "1003": {
+  "text": {
+   "de": "Das Zeichen A-17 warnt vor einer Stelle, die häufig von Kindern genutzt wird, etwa an Schule oder Spielplatz. Ein Kind läuft ohne Vorwarnung auf die Fahrbahn, also verlangsamt man hier auch dann, wenn niemand zu sehen ist.",
+   "en": "Sign A-17 warns of a place frequently used by children, near a school or a playground for instance. A child runs into the road without warning, so you slow down here even when nobody is in sight.",
+   "pl": "Znak A-17 ostrzega o miejscu często uczęszczanym przez dzieci, na przykład przy szkole albo placu zabaw. Dziecko wbiega na jezdnię bez ostrzeżenia, więc tu zwalnia się nawet wtedy, gdy nikogo nie widać.",
+   "ua": "Знак A-17 попереджає про місце, де часто бувають діти, наприклад біля школи чи майданчика. Дитина вибігає на дорогу без попередження, тож тут знижують швидкість навіть коли нікого не видно."
+  }
+ },
  "10081": {
   "law": "art. 31 ust. 2 pkt 1 Prawa o ruchu drogowym",
   "text": {
@@ -8,6 +32,14 @@
    "ua": "Автомобіль із несправним кермовим керуванням не можна буксирувати жодним способом, бо ним неможливо керувати за тягачем. Такий транспорт перевозять на евакуаторі."
   }
  },
+ "1009": {
+  "text": {
+   "de": "Das Zeichen A-20 kündigt einen Abschnitt mit Gegenverkehr an, auf dem entgegenkommende Fahrzeuge auftauchen. Es steht meist dort, wo eine Einbahnfahrbahn endet oder eine Umleitung auf die Gegenfahrbahn führt.",
+   "en": "Sign A-20 announces a stretch of road with two-way traffic, where oncoming vehicles will appear. It usually stands where a one-way carriageway ends or a diversion leads onto the other side.",
+   "pl": "Znak A-20 uprzedza o odcinku jezdni z ruchem dwukierunkowym, na którym pojawią się pojazdy z przeciwka. Najczęściej stoi tam, gdzie kończy się jezdnia jednokierunkowa albo objazd prowadzi na drugą nitkę.",
+   "ua": "Знак A-20 попереджає про ділянку з двостороннім рухом, де з'являться зустрічні автомобілі. Найчастіше він стоїть там, де закінчується односторонній рух або об'їзд виводить на іншу проїзну частину."
+  }
+ },
  "10109": {
   "law": "art. 31 ust. 2 pkt 1 Prawa o ruchu drogowym",
   "text": {
@@ -15,6 +47,87 @@
    "en": "A motorcycle being towed must have both braking systems working, front and rear, because it brakes itself. Speed makes no difference here.",
    "pl": "Holowany motocykl musi mieć sprawne oba układy hamulcowe, przedni i tylny, bo sam odpowiada za swoje hamowanie. Prędkość nie ma tu znaczenia.",
    "ua": "Буксирований мотоцикл повинен мати справні обидві гальмівні системи, передню й задню, бо гальмує сам за себе. Швидкість тут значення не має."
+  }
+ },
+ "1015": {
+  "text": {
+   "de": "Vor einer Steigung warnt das Zeichen A-23, vor einem Gefälle das Zeichen A-22, unterscheidbar daran, in welche Richtung das Dreieck im Symbol ansteigt. Hier betrifft die Warnung etwas anderes, die Antwort lautet also nein.",
+   "en": "A steep ascent is announced by sign A-23 and a steep descent by A-22, told apart by which way the triangle in the pictogram rises. Here the warning is about something else, so the answer is no.",
+   "pl": "O stromym podjeździe ostrzega znak A-23, a o stromym zjeździe znak A-22, i rozpoznaje się je po tym, w którą stronę wznosi się trójkąt na rysunku. Tutaj ostrzeżenie dotyczy czego innego, więc odpowiedź brzmi nie.",
+   "ua": "Про крутий підйом попереджає знак A-23, а про крутий спуск знак A-22, і розрізняють їх за тим, у який бік підноситься трикутник на малюнку. Тут попередження стосується іншого, тож відповідь ні."
+  }
+ },
+ "1018": {
+  "text": {
+   "de": "Das Zeichen A-24 warnt vor einer Stelle, an der Radfahrer auf die Fahrbahn einfahren oder sie queren, meist vor einem Radfahrerüberweg. Dort gilt besondere Vorsicht, und unmittelbar davor sowie darauf darf nicht überholt werden.",
+   "en": "Sign A-24 warns of a place where cyclists enter or cross the road, usually before a cycle crossing. Particular caution applies there, and overtaking is prohibited on the crossing and immediately before it.",
+   "pl": "Znak A-24 ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię albo ją przecinają, zwykle przed przejazdem dla rowerzystów. Obowiązuje tam szczególna ostrożność, a bezpośrednio przed przejazdem i na nim nie wolno wyprzedzać.",
+   "ua": "Знак A-24 попереджає про місце, де велосипедисти виїжджають на дорогу або перетинають її, зазвичай перед велопереїздом. Там діє особлива обережність, а безпосередньо перед переїздом і на ньому обганяти заборонено."
+  }
+ },
+ "1025": {
+  "text": {
+   "de": "Das Zeichen A-28 warnt vor Rollsplitt, der unter den Rädern hervor gegen Scheinwerfer und Scheiben anderer Fahrzeuge geschleudert wird. Man verlangsamt und vergrößert den Abstand, denn auf Splitt wird auch der Bremsweg länger.",
+   "en": "Sign A-28 warns of a road covered with loose gravel, which flies from under the wheels into other vehicles' lights and windows. You slow down and lengthen the gap, because gravel also stretches the braking distance.",
+   "pl": "Znak A-28 ostrzega o drodze pokrytej sypkim żwirem, który spod kół leci w reflektory i szyby innych pojazdów. Zwalnia się i zwiększa odstęp, bo na żwirze rośnie też droga hamowania.",
+   "ua": "Знак A-28 попереджає про дорогу, вкриту сипким гравієм, який з-під коліс летить у фари й шибки інших авто. Знижують швидкість і збільшують дистанцію, бо на гравії подовжується й гальмівний шлях."
+  }
+ },
+ "1028": {
+  "text": {
+   "de": "Das Zeichen A-29 kündigt an, dass der Verkehr an der nächsten Kreuzung durch eine Lichtsignalanlage geregelt wird. Es steht dort, wo der Signalgeber spät sichtbar wird, etwa hinter Kurve oder Kuppe.",
+   "en": "Sign A-29 announces that traffic at the next junction is controlled by light signals. It is placed where the signal head comes into view late, for example beyond a bend or a crest.",
+   "pl": "Znak A-29 uprzedza, że ruchem na najbliższym skrzyżowaniu kieruje sygnalizacja świetlna. Ustawia się go tam, gdzie sygnalizator jest widoczny późno, na przykład za łukiem albo wzniesieniem.",
+   "ua": "Знак A-29 попереджає, що рухом на найближчому перехресті керує світлофор. Його ставлять там, де світлофор видно пізно, наприклад за поворотом чи підйомом."
+  }
+ },
+ "1033": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Seitenstreifen kann weich, abgesackt oder voller Schotter sein, und die Höhendifferenz kann das Auto von der Straße ziehen. Man fährt langsam und ohne hektische Lenkbewegung darauf.",
+   "en": "A shoulder can be soft, sunken or full of gravel, and the drop from the tarmac can pull the car off the road. You move onto it slowly and with no sharp steering.",
+   "pl": "Pobocze bywa miękkie, zapadnięte albo pełne żwiru, a różnica poziomów potrafi ściągnąć auto z drogi. Zjeżdża się na nie powoli i bez gwałtownego ruchu kierownicą.",
+   "ua": "Узбіччя буває м'яким, просілим або засипаним гравієм, а перепад висоти здатен стягнути авто з дороги. Заїжджають на нього повільно і без різкого руху кермом."
+  }
+ },
+ "1035": {
+  "text": {
+   "de": "Ein Zeichen mit Längenschild warnt für den gesamten Abschnitt auf einmal. Einzelne Kurven werden nicht mehr gesondert beschildert, also bleibt man bis zum Ende der angegebenen Länge besonders aufmerksam.",
+   "en": "A sign with a plate giving the length of the section warns about that whole section at once. Individual bends will not be signed separately, so you stay extra cautious to the end of the stated distance.",
+   "pl": "Znak z tabliczką podającą długość odcinka ostrzega o całym tym odcinku naraz. Poszczególne zakręty nie będą już oznakowane osobno, więc do końca podanej długości jedziesz z podniesioną ostrożnością.",
+   "ua": "Знак із табличкою, що вказує довжину ділянки, попереджає про всю цю ділянку одразу. Окремі повороти вже не позначатимуть, тож до кінця вказаної довжини їдеш із підвищеною обережністю."
+  }
+ },
+ "1052": {
+  "text": {
+   "de": "Rote Rückstrahlknöpfe markieren den rechten Fahrbahnrand. Weiße werden am linken Rand und auf der Mittellinie verwendet, sodass man nachts sofort weiß, auf welcher Straßenseite man ist.",
+   "en": "Red road studs mark the right-hand edge of the carriageway. White ones are used at the left edge and on the centre line, so that at night you know at once which side of the road you are on.",
+   "pl": "Czerwone punktowe elementy odblaskowe wyznaczają prawą krawędź jezdni. Białe stosuje się przy lewej krawędzi i na osi, dzięki czemu nocą od razu wiadomo, po której stronie drogi się jest.",
+   "ua": "Червоні точкові світлоповертачі позначають правий край проїзної частини. Білі застосовують біля лівого краю і на осі, завдяки чому вночі одразу зрозуміло, з якого боку дороги ти перебуваєш."
+  }
+ },
+ "1055": {
+  "text": {
+   "de": "Rote Rückstrahler markieren den rechten Fahrbahnrand, dahinter endet also die Fahrbahn. Es folgt der Seitenstreifen oder der Bordstein, keine weitere Fahrspur.",
+   "en": "Red studs mark the right edge of the carriageway, so beyond them the carriageway ends. What follows is the shoulder or the kerb, not another lane.",
+   "pl": "Czerwone elementy odblaskowe oznaczają prawą krawędź jezdni, więc za nimi jezdnia się kończy. Dalej jest pobocze albo krawężnik, a nie kolejny pas ruchu.",
+   "ua": "Червоні світлоповертачі позначають правий край проїзної частини, тож за ними вона закінчується. Далі узбіччя або бордюр, а не ще одна смуга руху."
+  }
+ },
+ "1056": {
+  "text": {
+   "de": "Weiße Rückstrahler markieren nicht den rechten Fahrbahnrand, unmittelbar dahinter beginnt also kein Seitenstreifen. Der rechte Fahrbahnrand wird rot gekennzeichnet.",
+   "en": "White studs do not mark the right edge of the carriageway, so the shoulder does not begin directly beyond them. The right-hand edge is marked in red.",
+   "pl": "Białe punktowe elementy nie wyznaczają prawej krawędzi jezdni, więc bezpośrednio za nimi nie zaczyna się pobocze. Krawędź jezdni po prawej stronie znaczy się kolorem czerwonym.",
+   "ua": "Білі точкові світлоповертачі не позначають правий край проїзної частини, тож одразу за ними узбіччя не починається. Правий край дороги позначають червоним."
+  }
+ },
+ "1058": {
+  "text": {
+   "de": "Die Farbe Weiß steht nicht für den Fahrbahnrand: Weiß markiert Mittellinie und linken Rand sowie den Verlauf der Fahrstreifen. Der rechte Rand wird immer rot markiert.",
+   "en": "White studs do not stand for the edge of the carriageway: white marks the centre line and the left edge, as well as the run of the lanes. The right edge is always marked in red.",
+   "pl": "Barwa biała elementów odblaskowych nie oznacza krawędzi jezdni: białe wyznaczają oś jezdni i lewą krawędź, a także przebieg pasów. Prawą krawędź zawsze znaczy się na czerwono.",
+   "ua": "Білий колір світлоповертачів не означає край проїзної частини: білі позначають вісь і лівий край, а також хід смуг. Правий край завжди позначають червоним."
   }
  },
  "10805": {
@@ -281,6 +394,22 @@
    "ua": "Підставою для вилучення посвідчення є перевезення осіб понад кількість місць, зазначену в тимчасовому посвідченні. Обгін перед переходом із регульованим рухом законний, а роз'їзд на велопереїзді це порушення без втрати документа."
   }
  },
+ "1091": {
+  "text": {
+   "de": "Ein Verbotszeichen gilt ab der Stelle, an der es steht, nicht ab der nächsten Kreuzung oder ab einem Zusatzschild. Soll das Verbot erst später beginnen, sagt das ein Zusatzschild mit Entfernungsangabe.",
+   "en": "A prohibition sign takes effect from the point where it stands, not from the next junction or from a plate. If the ban is to start further on, a plate with the distance says so.",
+   "pl": "Znak zakazu obowiązuje od miejsca, w którym stoi, a nie od najbliższego skrzyżowania czy od tabliczki. Jeśli zakaz ma zacząć się dalej, informuje o tym tabliczka z odległością.",
+   "ua": "Заборонний знак діє від місця, де він стоїть, а не від найближчого перехрестя чи від таблички. Якщо заборона має початися далі, про це повідомляє табличка з відстанню."
+  }
+ },
+ "1092": {
+  "text": {
+   "de": "Ein Zusatzschild mit Längenangabe unter einem Verbotszeichen gibt an, auf welchem Abschnitt das Verbot gilt. Nach dieser Strecke endet das Verbot ohne ein zusätzliches Aufhebungszeichen.",
+   "en": "A plate giving a length under a prohibition sign states over what stretch of road the ban applies. Once that distance is covered the ban ends without any cancelling sign.",
+   "pl": "Tabliczka z podaną długością pod znakiem zakazu określa, na jakim odcinku jezdni zakaz obowiązuje. Po przejechaniu tej długości zakaz przestaje działać bez dodatkowego znaku odwołującego.",
+   "ua": "Табличка із зазначеною довжиною під заборонним знаком визначає, на якій ділянці діє заборона. Після проїзду цієї довжини заборона припиняється без додаткового скасувального знака."
+  }
+ },
  "10930": {
   "text": {
    "de": "Die Quittung berechtigt 24 Stunden ab Einbehaltung des Führerscheins zum Fahren. Danach gilt das Führen des Fahrzeugs als Fahren ohne Fahrerlaubnis.",
@@ -393,6 +522,15 @@
    "ua": "При активній подушці пасажира дитину можна возити спереду лише в кріслі, повернутому за напрямком руху. Будь-яке розташування проти руху вимагає вимкнення подушки."
   }
  },
+ "1127": {
+  "law": "art. 24 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Überholvorgang darf nur begonnen werden, wenn Sicht und Platz reichen, um ohne Behinderung wieder einzuscheren. Fehlt eine dieser Bedingungen, verzichtet man auf das Manöver.",
+   "en": "You may begin overtaking only with enough visibility and room to return to your lane without cutting anyone up. If either condition is missing, you abandon the manoeuvre.",
+   "pl": "Wyprzedzanie wolno zacząć tylko wtedy, gdy masz dość widoczności i miejsca, żeby wrócić na swój pas bez zajeżdżania drogi. Jeśli którykolwiek z tych warunków nie jest spełniony, z manewru się rezygnuje.",
+   "ua": "Обгін можна починати лише тоді, коли вистачає видимості й місця, щоб повернутися на свою смугу, нікого не підрізавши. Якщо бодай одна умова не виконана, від маневру відмовляються."
+  }
+ },
  "11528": {
   "law": "art. 135 ust. 1 pkt 2 Prawa o ruchu drogowym",
   "text": {
@@ -400,6 +538,39 @@
    "en": "Exceeding the number of seats by two people or more costs a 3-month withholding of the licence. A check of driving qualifications is not part of this penalty.",
    "pl": "Przekroczenie liczby miejsc o dwie osoby lub więcej kosztuje zatrzymanie prawa jazdy na 3 miesiące. Kontrolne sprawdzenie kwalifikacji nie jest tu przewidziane.",
    "ua": "Перевищення кількості місць на дві особи чи більше коштує затримання посвідчення на 3 місяці. Контрольної перевірки кваліфікації тут не передбачено."
+  }
+ },
+ "1181": {
+  "law": "art. 24 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Rechts überholt werden darf ein Fahrzeug, das den Linksabbiegevorgang anzeigt und zur Fahrbahnmitte eingeordnet hat. Man nutzt dann den freien Raum rechts, nachdem man sich vergewissert hat, dass dort niemand fährt.",
+   "en": "You may pass on the right a vehicle that is signalling a left turn and has moved towards the centre of the road. You then use the free space on the right, having checked that nobody is coming through it.",
+   "pl": "Z prawej strony wolno wyprzedzić pojazd, który sygnalizuje zamiar skrętu w lewo i zjechał w stronę osi jezdni. Wyprzedza się wtedy po wolnym miejscu z prawej, upewniwszy się, że nikt tamtędy nie jedzie.",
+   "ua": "Праворуч дозволено обганяти транспорт, який сигналізує про намір повернути ліворуч і змістився до осі дороги. Тоді обганяють вільним місцем справа, переконавшись, що там ніхто не рухається."
+  }
+ },
+ "1202": {
+  "text": {
+   "de": "Gefahrzeichen kündigen keinen Schneefall an, denn Wetter wird nicht mit einem festen Zeichen beschildert. Sie warnen vor den Folgen auf der Fahrbahn, etwa Glätte oder Reifbildung.",
+   "en": "Warning signs do not announce snowfall, because weather is not signed with a fixed sign. They warn of the effects on the road, such as a slippery surface or frost.",
+   "pl": "Znaki ostrzegawcze nie zapowiadają opadów śniegu, bo pogody znakiem stałym się nie oznacza. Ostrzegają o skutkach zjawisk na drodze, na przykład o śliskiej nawierzchni albo o oszronieniu.",
+   "ua": "Попереджувальні знаки не сповіщають про снігопад, бо погоду постійним знаком не позначають. Вони попереджають про наслідки на дорозі, наприклад про слизьке покриття чи ожеледь."
+  }
+ },
+ "1203": {
+  "text": {
+   "de": "Das Zeichen A-33 warnt vor einer Stelle, an der häufig Stau entsteht. Dahinter ist mit plötzlichem Stillstand der Kolonne zu rechnen, der Abstand ist zu vergrößern.",
+   "en": "Sign A-33 warns of a place where traffic jams form often. Beyond it you must expect the queue to stop suddenly and keep a bigger gap.",
+   "pl": "Znak A-33 ostrzega o miejscu, w którym często tworzy się zator drogowy. Za takim znakiem trzeba liczyć się z nagłym zatrzymaniem kolumny i trzymać większy odstęp.",
+   "ua": "Знак A-33 попереджає про місце, де часто утворюється затор. За таким знаком треба зважати на раптову зупинку колони і тримати більшу дистанцію."
+  }
+ },
+ "1292": {
+  "text": {
+   "de": "Ein Signal, das die Einfahrt verbietet, gilt unbedingt und lässt sich nicht damit umgehen, dass man niemanden behindert. Niemanden zu behindern ist rechtlich kein Grund, das Signal zu passieren.",
+   "en": "A signal forbidding entry applies unconditionally and cannot be worked around by claiming you obstruct nobody. Not obstructing others is no legal ground for passing the signal.",
+   "pl": "Sygnał zabraniający wjazdu obowiązuje bezwarunkowo i nie da się go obejść tym, że nikomu się nie przeszkodzi. Brak utrudnienia dla innych nie jest w przepisach żadną przesłanką do wjazdu za sygnalizator.",
+   "ua": "Сигнал, що забороняє в'їзд, діє безумовно, і обійти його тим, що нікому не завадиш, не вийде. Відсутність перешкоди для інших не є законною підставою проїхати за світлофор."
   }
  },
  "13052": {
@@ -675,12 +846,36 @@
    "ua": "Наближаючись до переїзду, спостерігають за сигналізацією, шлагбаумами, звуковими сигналами і самою колією в обидва боки. Потяг не встигне загальмувати, тож усе переконання лягає на водія."
   }
  },
+ "1366": {
+  "text": {
+   "de": "Das Zeichen B-1 verbietet den Verkehr aller Fahrzeuge in beiden Richtungen auf der Straße, an der es steht. An einer Fahrbahn einer zweibahnigen Straße gilt es für diese Fahrbahn, dort aber in beide Richtungen.",
+   "en": "Sign B-1 prohibits all vehicles in both directions on the road it stands by. Placed at one carriageway of a dual road it applies to that carriageway, but there it blocks traffic both ways.",
+   "pl": "Znak B-1 zakazuje ruchu wszelkich pojazdów w obu kierunkach na drodze, przy której stoi. Ustawiony przy jednej jezdni drogi dwujezdniowej dotyczy właśnie tej jezdni, ale na niej blokuje ruch w obie strony.",
+   "ua": "Знак B-1 забороняє рух будь-яких транспортних засобів в обох напрямках на дорозі, біля якої стоїть. Встановлений біля однієї проїзної частини двопроїзної дороги, він стосується саме її, але блокує рух в обидва боки."
+  }
+ },
+ "1368": {
+  "text": {
+   "de": "Ein Einfahrverbot gilt unabhängig davon, weshalb man einfahren möchte. Der Fahrtzweck, auch das Erreichen eines Betriebs an der Straße, hebt das Verbot nicht auf, sofern kein Zusatzschild dies tut.",
+   "en": "A no-entry ban applies whatever your reason for going in. The purpose of the trip, including reaching a business by the road, does not lift the ban unless a plate under the sign does.",
+   "pl": "Zakaz wjazdu obowiązuje niezależnie od tego, po co chcesz tam wjechać. Cel podróży, także dojazd do obiektu przy drodze, nie znosi zakazu, chyba że wyłącza go tabliczka pod znakiem.",
+   "ua": "Заборона в'їзду діє незалежно від того, навіщо ти хочеш туди заїхати. Мета поїздки, зокрема під'їзд до об'єкта біля дороги, заборони не скасовує, якщо цього не робить табличка під знаком."
+  }
+ },
  "13684": {
   "text": {
    "de": "Umsicht heißt, die Aufmerksamkeit dort zu erhöhen, wo die Gefahr real ist, also am Fußgängerüberweg. Ständig am Limit zu fahren ignoriert wechselnde Bedingungen, und maximale Beschleunigung mindert keine Gefahr.",
    "en": "Prudence means raising your attention where the risk is real, that is at a pedestrian crossing. Constantly driving at the limit ignores changing conditions, and maximum acceleration reduces no danger.",
    "pl": "Rozwaga to zwiększenie uwagi tam, gdzie zagrożenie jest realne, czyli przy przejściu dla pieszych. Jazda stale na maksymalnym limicie ignoruje zmieniające się warunki, a maksymalne przyspieszenia zagrożenia nie zmniejszają.",
    "ua": "Розважливість це посилення уваги там, де небезпека реальна, тобто біля пішохідного переходу. Постійна їзда на максимальному ліміті ігнорує змінні умови, а максимальні прискорення небезпеки не зменшують."
+  }
+ },
+ "1369": {
+  "text": {
+   "de": "Das Zeichen B-22 verbietet das Rechtsabbiegen dahinter und gilt an der nächsten Kreuzung. Das Verbot besteht unabhängig davon, ob das Abbiegen jemanden behindern würde.",
+   "en": "Sign B-22 prohibits turning right beyond it and applies at the nearest junction. The ban holds regardless of whether the turn would obstruct anyone.",
+   "pl": "Znak B-22 zakazuje skręcania w prawo za tym znakiem i obowiązuje na najbliższym skrzyżowaniu. Zakaz działa bez względu na to, czy manewr komukolwiek by przeszkodził.",
+   "ua": "Знак B-22 забороняє поворот праворуч за ним і діє на найближчому перехресті. Заборона діє незалежно від того, чи завадив би маневр комусь."
   }
  },
  "13769": {
@@ -1238,6 +1433,477 @@
    "en": "You must not ride a personal transport device along a pedestrian crossing; you cross it on foot, wheeling the device. The crossing is meant for walking across, not for riding along.",
    "pl": "Po przejściu dla pieszych nie wolno przejeżdżać wzdłuż urządzeniem transportu osobistego, trzeba przez nie przejść, prowadząc urządzenie. Przejście jest przeznaczone do przechodzenia, a nie do przejazdu.",
    "ua": "Пішохідним переходом не можна їхати вздовж на пристрої персонального транспорту, його переходять пішки, ведучи пристрій. Перехід призначений для переходу, а не для проїзду."
+  }
+ },
+ "1421": {
+  "text": {
+   "de": "Das Zeichen besagt, dass die Querstraße, der du dich näherst, eine Vorfahrtstraße ist. Du musst also den Fahrzeugen darauf Vorrang gewähren, gleich aus welcher Richtung sie kommen.",
+   "en": "The sign says that the crossing road you are approaching is a priority road. You must therefore give way to vehicles on it, whichever side they come from.",
+   "pl": "Znak informuje, że droga poprzeczna, do której się zbliżasz, jest drogą z pierwszeństwem. Musisz więc ustąpić pierwszeństwa pojazdom jadącym tą drogą, niezależnie od tego, z której strony nadjeżdżają.",
+   "ua": "Знак повідомляє, що поперечна дорога, до якої ти наближаєшся, є головною. Тож ти маєш поступитися транспорту, що нею рухається, з якого б боку він не наближався."
+  }
+ },
+ "1423": {
+  "text": {
+   "de": "Das Vorfahrt-gewähren-Zeichen gebietet kein Anhalten: Man hält nur an, wenn anders kein Vorrang gewährt werden kann. Unbedingtes Anhalten an der Linie verlangt erst das Zeichen B-20 Stop.",
+   "en": "A give-way sign does not order a stop: you stop only if there is no other way to yield. An unconditional stop at the line is ordered only by the B-20 stop sign.",
+   "pl": "Znak ustąp pierwszeństwa nie nakazuje zatrzymania: zatrzymujesz się tylko wtedy, gdy inaczej nie da się ustąpić. Bezwarunkowe zatrzymanie przed linią nakazuje dopiero znak B-20 stop.",
+   "ua": "Знак «дай дорогу» не наказує зупинятися: ти зупиняєшся лише тоді, коли інакше поступитися неможливо. Безумовну зупинку перед лінією наказує лише знак B-20 «стоп»."
+  }
+ },
+ "1427": {
+  "text": {
+   "de": "Das Zeichen B-21 verbietet das Linksabbiegen an der nächsten Kreuzung und damit zugleich das Wenden. Das Verbot gilt unabhängig von der Verkehrslage.",
+   "en": "Sign B-21 prohibits turning left at the nearest junction and, along with it, turning around. The ban applies regardless of the traffic situation.",
+   "pl": "Znak B-21 zakazuje skręcania w lewo na najbliższym skrzyżowaniu, a przy okazji zabrania też zawracania. Zakaz obowiązuje bez względu na warunki ruchu.",
+   "ua": "Знак B-21 забороняє поворот ліворуч на найближчому перехресті, а заразом і розворот. Заборона діє незалежно від умов руху."
+  }
+ },
+ "1428": {
+  "text": {
+   "de": "Das Wenden ist hier durch ein Zeichen verboten: B-23 verbietet allein das Wenden, B-21 verbietet das Linksabbiegen und damit auch das Wenden. Das Verbot gilt an der Kreuzung, vor der das Zeichen steht.",
+   "en": "Turning around is prohibited here by a sign: B-23 bans U-turns alone, while B-21 bans the left turn and with it the U-turn. The ban applies at the junction before which the sign stands.",
+   "pl": "Zawracanie jest tu zabronione znakiem: B-23 zakazuje wyłącznie zawracania, a B-21 zakazuje skrętu w lewo i tym samym również zawracania. Zakaz obowiązuje na skrzyżowaniu, przed którym stoi znak.",
+   "ua": "Розворот тут заборонений знаком: B-23 забороняє лише розворот, а B-21 забороняє поворот ліворуч і тим самим розворот. Заборона діє на перехресті, перед яким стоїть знак."
+  }
+ },
+ "1430": {
+  "text": {
+   "de": "Ein innerhalb einer Kreuzung aufgestelltes Verbotszeichen bezieht sich nur auf die Fahrbahn, an der es steht. Auf zweibahnigen Straßen sind die Zeichen deshalb für jede Fahrbahn getrennt zu lesen.",
+   "en": "A prohibition sign placed within a junction refers only to the carriageway it stands by. On a dual road the signs therefore have to be read separately for each carriageway.",
+   "pl": "Znak zakazu ustawiony w obrębie skrzyżowania odnosi się tylko do jezdni, przy której stoi. Na drodze dwujezdniowej trzeba więc czytać znaki osobno dla każdej nitki.",
+   "ua": "Заборонний знак, встановлений у межах перехрестя, стосується лише тієї проїзної частини, біля якої стоїть. На двопроїзній дорозі знаки треба читати окремо для кожної частини."
+  }
+ },
+ "1431": {
+  "text": {
+   "de": "Ein Halteverbot erfasst die gesamte Straßenbreite auf dieser Seite, also auch den Seitenstreifen. Das Verlassen der Fahrbahn hebt das Verbot nicht auf, denn der Seitenstreifen gehört zur Straße.",
+   "en": "A no-stopping ban covers the whole width of the road on that side, the shoulder included. Pulling off the carriageway does not lift the ban, because the shoulder is part of the road.",
+   "pl": "Zakaz zatrzymywania obejmuje całą szerokość drogi po tej stronie, a więc także pobocze. Zjechanie z jezdni nie zwalnia z zakazu, bo pobocze jest częścią drogi.",
+   "ua": "Заборона зупинки охоплює всю ширину дороги з цього боку, а отже й узбіччя. З'їзд із проїзної частини від заборони не звільняє, бо узбіччя є частиною дороги."
+  }
+ },
+ "1433": {
+  "law": "art. 22 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf dem Mittelstreifen darf man halten und auf eine Lücke warten, sofern das Wenden dort nicht verboten ist. Der Mittelstreifen bietet den Platz, und das Auto blockiert dabei keine Fahrspur.",
+   "en": "You may stop on the central reservation and wait for a gap, provided a U-turn is not prohibited there. The reservation gives you the room, and the car then blocks no traffic lane.",
+   "pl": "Na pasie dzielącym jezdnie wolno zatrzymać się i poczekać na lukę, jeśli zawracanie w tym miejscu nie jest zabronione. Pas dzielący daje na to miejsce, a auto nie blokuje wtedy żadnego pasa ruchu.",
+   "ua": "На розділювальній смузі можна зупинитися і почекати проміжок, якщо розворот у цьому місці не заборонений. Розділювальна смуга дає для цього місце, і авто не блокує жодної смуги руху."
+  }
+ },
+ "1439": {
+  "law": "art. 22 ust. 2 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Zum Linksabbiegen ordnet man sich rechtzeitig auf der linken Spur oder möglichst nah an der Fahrbahnmitte ein. Aus der rechten Spur links abzubiegen kreuzt die Bahn der Nebenfahrenden und ist ein Fehler.",
+   "en": "For a left turn you move in advance into the left lane or as close as possible to the centre of the road. Turning left from the right lane cuts across those driving alongside and is simply wrong.",
+   "pl": "Do skrętu w lewo zawczasu zjeżdża się na lewy pas albo jak najbliżej osi jezdni. Skręcanie w lewo z prawego pasa przecina tor jazdy tym, którzy jadą obok, i jest błędem.",
+   "ua": "Для повороту ліворуч завчасно перестроюються в ліву смугу або якнайближче до осі дороги. Поворот ліворуч із правої смуги перетинає траєкторію тим, хто їде поруч, і є помилкою."
+  }
+ },
+ "1448": {
+  "law": "art. 22 ust. 2 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Zum Rechtsabbiegen ordnet man sich rechtzeitig rechts ein, nicht erst kurz vor der Kreuzung. Ein Spurwechsel im letzten Moment überrascht die Nebenfahrenden und zwingt sie zum Bremsen.",
+   "en": "For a right turn you move into the right lane in good time, not just before the junction. A last-second lane change surprises those alongside and forces them to brake.",
+   "pl": "Do skrętu w prawo zjeżdża się na prawy pas zawczasu, a nie tuż przed skrzyżowaniem. Zmiana pasa w ostatniej chwili zaskakuje jadących obok i zmusza ich do hamowania.",
+   "ua": "Для повороту праворуч перестроюються в праву смугу завчасно, а не перед самим перехрестям. Зміна смуги в останню мить заскочує зненацька тих, хто їде поруч, і змушує їх гальмувати."
+  }
+ },
+ "1451": {
+  "text": {
+   "de": "Die Spur wählt man nach der auf dem Schild oder durch Pfeile angegebenen Richtung, nicht nach Gefühl. Da deine Richtung von der befahrenen Spur aus erreichbar ist, ist ein Wechsel nach links nicht nötig.",
+   "en": "You choose the lane by the direction shown on the sign or by the arrows on the road, not by guesswork. Since your destination is served by the lane you are in, moving left is unnecessary.",
+   "pl": "Pas wybiera się według kierunku podanego na znaku albo strzałkami na jezdni, a nie na wyczucie. Skoro Twój kierunek jest dostępny z zajmowanego pasa, zmiana na lewy nie jest potrzebna.",
+   "ua": "Смугу обирають за напрямком, вказаним на знаку чи стрілками на дорозі, а не навмання. Оскільки твій напрямок доступний із зайнятої смуги, перестроюватися ліворуч не потрібно."
+  }
+ },
+ "1452": {
+  "text": {
+   "de": "Im Tunnel fährt man auf der für die jeweilige Richtung bestimmten Spur, auch wenn niemand sonst unterwegs ist. Eine leere Fahrbahn hebt die Pflicht zur richtigen Spurwahl nicht auf.",
+   "en": "In a tunnel you use the lane designated for your direction, even when nobody else is around. An empty road does not lift the duty to stay in the correct lane.",
+   "pl": "W tunelu jedzie się pasem wyznaczonym dla danego kierunku, także wtedy, gdy nikogo obok nie ma. Pusta jezdnia nie znosi obowiązku poruszania się właściwym pasem ruchu.",
+   "ua": "У тунелі рухаються смугою, призначеною для цього напрямку, навіть коли поруч нікого немає. Порожня дорога не скасовує обов'язку триматися правильної смуги."
+  }
+ },
+ "1459": {
+  "law": "art. 49 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Im Bereich einer gekennzeichneten Haltestelle ohne Bucht gilt ein Halteverbot 15 Meter vor und 15 Meter hinter dem Zeichen. Elf Meter liegen darin, dort darf also nicht gehalten werden.",
+   "en": "Around a marked stop without a bay, stopping is prohibited within 15 metres before and 15 metres after the sign. Eleven metres falls inside that range, so you may not stop there.",
+   "pl": "W rejonie oznaczonego przystanku bez zatoki zakaz zatrzymywania sięga 15 metrów przed znakiem i 15 metrów za nim. Odległość 11 metrów mieści się w tym zakresie, więc zatrzymać się tam nie wolno.",
+   "ua": "У зоні позначеної зупинки без кишені заборона зупинки сягає 15 метрів до знака і 15 метрів після нього. Відстань 11 метрів входить у цей проміжок, тож зупинятися там не можна."
+  }
+ },
+ "1460": {
+  "law": "art. 49 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Mittelstreifen ist kein Halteplatz: Er ist nicht zum Abstellen von Fahrzeugen bestimmt, und ein dort stehendes Auto nimmt die Sicht. Halten ist nur zum Warten auf das Wenden zulässig, sofern dieses erlaubt ist.",
+   "en": "The central reservation is not a place to stop: it is not meant for parked vehicles and a car standing there blocks the view. Stopping is allowed only while waiting to turn around, where that is permitted.",
+   "pl": "Pas dzielący jezdnie nie jest miejscem do zatrzymywania się: nie jest przeznaczony do postoju pojazdów i stojące na nim auto zasłania widoczność. Zatrzymać się tam wolno wyłącznie na czas oczekiwania na zawrócenie, jeśli jest ono dozwolone.",
+   "ua": "Розділювальна смуга не місце для зупинки: вона не призначена для стоянки, а авто на ній закриває оглядовість. Зупинятися там дозволено лише на час очікування розвороту, якщо він дозволений."
+  }
+ },
+ "1461": {
+  "text": {
+   "de": "Eine Bucht kann einem bestimmten Zweck vorbehalten sein, etwa Bussen, Taxis oder Einsatzfahrzeugen, dann darf dort nicht geparkt werden. Über die Zweckbestimmung entscheidet das Zeichen oder Zusatzschild an der Bucht.",
+   "en": "A lay-by may be reserved for a specific use, for buses, taxis or service vehicles, and then parking there is prohibited. The sign or plate by the bay decides what it is for.",
+   "pl": "Zatoka bywa przeznaczona do konkretnego celu, na przykład dla autobusów, taksówek albo pojazdów służb, i wtedy parkować w niej nie wolno. O przeznaczeniu decyduje znak albo tabliczka przy zatoce.",
+   "ua": "Кишеня буває призначена для конкретної мети, наприклад для автобусів, таксі чи службового транспорту, і тоді паркуватися в ній не можна. Призначення визначає знак або табличка біля кишені."
+  }
+ },
+ "1462": {
+  "law": "art. 49 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Parkverbot erfasst auch den Seitenstreifen an dieser Fahrbahn, denn er gehört zur Straße. Das Ausweichen auf den Seitenstreifen umgeht das Verbot ebenso wenig wie das teilweise Halten neben der Fahrbahn.",
+   "en": "A no-parking ban also covers the shoulder along that carriageway, because the shoulder is part of the road. Pulling onto it does not dodge the ban, any more than stopping half off the carriageway does.",
+   "pl": "Zakaz postoju obejmuje także pobocze przy tej jezdni, bo pobocze jest częścią drogi. Zjazd na pobocze nie omija zakazu, tak samo jak nie omija go zatrzymanie się częściowo poza jezdnią.",
+   "ua": "Заборона стоянки охоплює також узбіччя вздовж цієї проїзної частини, бо узбіччя є частиною дороги. З'їзд на узбіччя заборони не обходить, як не обходить її і зупинка частково поза проїзною частиною."
+  }
+ },
+ "1464": {
+  "law": "art. 49 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Halteverbot gilt unabhängig davon, ob man jemanden behindert, und erfasst auch den Seitenstreifen. Niemanden zu behindern ist keine Ausnahme von einem durch Zeichen ausgesprochenen Verbot.",
+   "en": "A no-stopping ban applies regardless of whether you obstruct anyone, and it covers the shoulder too. Not getting in the way is no exception to any ban expressed by a sign.",
+   "pl": "Zakaz zatrzymywania obowiązuje niezależnie od tego, czy komuś przeszkodzisz, i obejmuje również pobocze. Nieutrudnianie ruchu nie jest wyjątkiem od żadnego zakazu wyrażonego znakiem.",
+   "ua": "Заборона зупинки діє незалежно від того, чи комусь завадиш, і охоплює також узбіччя. Те, що ти не заважаєш рухові, не є винятком із жодної заборони, вираженої знаком."
+  }
+ },
+ "1466": {
+  "law": "art. 22 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Beim Spurwechsel gewährt man den Fahrzeugen auf der Zielspur Vorrang. Vorrang hat, wer dort bereits fährt, der Wechselnde muss sich einordnen.",
+   "en": "When changing lanes you give way to the vehicles already in that lane. Priority belongs to whoever is travelling there, and the one moving across has to fit in.",
+   "pl": "Zmieniając pas ruchu ustępujesz pierwszeństwa pojazdom jadącym tym pasem. Pierwszeństwo ma ten, kto już nim jedzie, a wjeżdżający dopasowuje się do sytuacji.",
+   "ua": "Змінюючи смугу, ти поступаєшся транспорту, що рухається цією смугою. Перевагу має той, хто вже нею їде, а той, хто перестроюється, пристосовується."
+  }
+ },
+ "1471": {
+  "text": {
+   "de": "Die aus einer Spur zulässigen Richtungen geben die Pfeile auf der Fahrbahn oder das Zeichen über der Spur vor, und daran ist man gebunden. Aus einer Spur, die nicht nach links führt, darf nicht links abgebogen werden.",
+   "en": "The directions available from a lane are set by the arrows on the road or the sign above it, and they must be obeyed. From a lane that does not lead left you may not turn left.",
+   "pl": "Kierunek jazdy z danego pasa wyznaczają strzałki na jezdni albo znak nad pasem i trzeba się do nich zastosować. Z pasa, który nie prowadzi w lewo, skręcić w lewo nie wolno.",
+   "ua": "Напрямки руху з певної смуги задають стрілки на дорозі або знак над смугою, і їх треба дотримуватися. Зі смуги, яка не веде ліворуч, повертати ліворуч не можна."
+  }
+ },
+ "1473": {
+  "text": {
+   "de": "Wenden darf man nur aus einer Spur, aus der das Linksabbiegen erlaubt ist. Da deine Spur in eine andere Richtung führt, ist das Wenden von dort verboten.",
+   "en": "You may turn around only from a lane where a left turn is allowed. Since your lane leads elsewhere, a U-turn from it is prohibited.",
+   "pl": "Zawracać wolno tylko z pasa, z którego dozwolony jest skręt w lewo. Skoro Twój pas prowadzi w innym kierunku, zawrócenie z niego jest zabronione.",
+   "ua": "Розвертатися можна лише зі смуги, з якої дозволений поворот ліворуч. Оскільки твоя смуга веде в інший бік, розворот із неї заборонений."
+  }
+ },
+ "1474": {
+  "text": {
+   "de": "Wenden ist ein Manöver nach links, es erfolgt also nur aus einer Spur, aus der links abgebogen werden darf. Aus anderen Spuren ist es verboten, auch auf leerer Straße.",
+   "en": "A U-turn is a left-hand manoeuvre, so it is made only from a lane where a left turn is allowed. From the other lanes it is prohibited, even on an empty road.",
+   "pl": "Zawracanie jest manewrem w lewo, więc wykonuje się je wyłącznie z pasa, z którego wolno skręcić w lewo. Z pozostałych pasów jest zabronione, nawet gdy droga jest pusta.",
+   "ua": "Розворот це маневр ліворуч, тож його виконують лише зі смуги, з якої дозволено повертати ліворуч. З інших смуг він заборонений, навіть коли дорога порожня."
+  }
+ },
+ "1480": {
+  "law": "art. 24 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf einer Fahrbahn mit mindestens zwei Spuren je Richtung gilt das Vorbeifahren an Fahrzeugen der Nachbarspur nicht als Überholen im Rechtssinn. Man bleibt in der eigenen Spur, das Passieren einer langsameren Kolonne rechts ist also zulässig.",
+   "en": "On a carriageway with at least two lanes in one direction, passing vehicles in the neighbouring lane is not overtaking in the legal sense. You stay in your own lane, so moving past a slower queue on the right is allowed.",
+   "pl": "Na jezdni o co najmniej dwóch pasach w jednym kierunku przejeżdżanie obok pojazdów na sąsiednim pasie nie jest wyprzedzaniem w rozumieniu przepisów. Jedziesz swoim pasem, więc mijanie wolniejszej kolumny z prawej jest dozwolone.",
+   "ua": "На проїзній частині щонайменше з двома смугами в одному напрямку проїзд повз транспорт на сусідній смузі не є обгоном у розумінні закону. Ти рухаєшся своєю смугою, тож випереджання повільнішої колони праворуч дозволене."
+  }
+ },
+ "1482": {
+  "law": "art. 24 ust. 7 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Überholen ist verboten, wo Sicht oder Platz fehlen, und an den gesetzlich genannten Stellen: vor einem Fußgängerüberweg, auf und vor einem Bahnübergang, an Kreuzungen und bei entsprechendem Verbotszeichen. Ein Grund genügt.",
+   "en": "Overtaking is prohibited where visibility or room is lacking, and in places named by the rules: before a pedestrian crossing, on and before a level crossing, at a junction and where a sign forbids it. One of those grounds is enough.",
+   "pl": "Wyprzedzanie jest zabronione tam, gdzie brakuje widoczności albo miejsca, oraz w miejscach wskazanych przez przepisy: przed przejściem dla pieszych, na przejeździe kolejowym i przed nim, na skrzyżowaniu i przy znaku zakazu. Wystarczy jedna z tych przesłanek.",
+   "ua": "Обгін заборонений там, де бракує видимості чи місця, а також у місцях, названих правилами: перед пішохідним переходом, на залізничному переїзді й перед ним, на перехресті та при забороняючому знаку. Достатньо однієї з підстав."
+  }
+ },
+ "1484": {
+  "law": "art. 24 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Überholen ohne Gewissheit über Sicht und freie Strecke endet im Frontalzusammenstoß, denn die Annäherungsgeschwindigkeit ist die Summe beider Geschwindigkeiten. Bei zwei Autos mit je 90 km/h schließt sich eine Lücke von 50 Metern pro Sekunde.",
+   "en": "Overtaking without certainty about visibility and a clear road ends in a head-on crash, because the closing speed is the sum of both speeds. With two cars at 90 km/h you close a 50-metre gap every second.",
+   "pl": "Wyprzedzanie bez pewności co do widoczności i wolnej drogi kończy się czołowym zderzeniem, bo prędkość zbliżania to suma obu prędkości. Przy dwóch autach po 90 km/h zamykacie lukę 50 metrów w sekundę.",
+   "ua": "Обгін без упевненості щодо видимості й вільної дороги закінчується лобовим зіткненням, бо швидкість зближення це сума обох швидкостей. За двох авто по 90 км/год ви закриваєте проміжок у 50 метрів щосекунди."
+  }
+ },
+ "1490": {
+  "law": "art. 22 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Beschilderung dieser Straße schließt das Wenden aus: Entweder verbietet es ein Zeichen oder die Art der Straße, etwa Einbahnstraße, Autobahn oder Schnellstraße. In jedem Fall ist das Manöver unabhängig von den Bedingungen verboten.",
+   "en": "The signing of this road rules out a U-turn: either a sign forbids it or the nature of the road does, a one-way street, a motorway or an expressway. In each case the manoeuvre is prohibited whatever the conditions.",
+   "pl": "Oznakowanie tej drogi wyklucza zawracanie: zakazuje go albo znak, albo charakter drogi, na przykład jednokierunkowa, autostrada czy droga ekspresowa. W każdym z tych przypadków manewr jest zabroniony bez względu na warunki.",
+   "ua": "Позначення цієї дороги виключає розворот: його забороняє або знак, або сам характер дороги, наприклад одностороння, автомагістраль чи швидкісна. У кожному з цих випадків маневр заборонений незалежно від умов."
+  }
+ },
+ "1491": {
+  "law": "art. 22 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Wenden ist verboten im Tunnel, auf Brücke und Viadukt, in Einbahnstraßen, auf Autobahn und Schnellstraße sowie überall dort, wo es die Sicherheit gefährden würde. Auf diesem Abschnitt trifft einer dieser Gründe zu.",
+   "en": "A U-turn is prohibited in a tunnel, on a bridge or viaduct, on a one-way road, on a motorway and an expressway, and anywhere it would endanger safety. One of those grounds applies on this stretch.",
+   "pl": "Zawracania zabrania się w tunelu, na moście i wiadukcie, na drodze jednokierunkowej, na autostradzie i drodze ekspresowej oraz wszędzie tam, gdzie zagrażałoby to bezpieczeństwu. Na tym odcinku zachodzi jedna z tych przesłanek.",
+   "ua": "Розворот заборонений у тунелі, на мосту й естакаді, на дорозі з одностороннім рухом, на автомагістралі та швидкісній дорозі, а також усюди, де це загрожувало б безпеці. На цій ділянці є одна з таких підстав."
+  }
+ },
+ "1492": {
+  "law": "art. 22 ust. 6 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf einer Brücke ist das Wenden ausdrücklich verboten. Eine Brücke ist eng, es gibt weder Seitenstreifen noch Platz für das Manöver, und ein quer stehendes Auto blockiert beide Richtungen.",
+   "en": "On a bridge a U-turn is prohibited by the rules outright. A bridge is narrow, there is no shoulder and no room for the manoeuvre, and a car across it blocks both directions.",
+   "pl": "Na moście zawracanie jest zabronione wprost przez przepis. Most jest wąski, nie ma tam pobocza ani miejsca na manewr, a stojące w poprzek auto blokuje obie strony ruchu.",
+   "ua": "На мосту розворот прямо заборонений правилами. Міст вузький, там немає ні узбіччя, ні місця для маневру, а авто впоперек блокує обидва напрямки."
+  }
+ },
+ "1496": {
+  "text": {
+   "de": "Das Rechtsabbiegen ist hier durch die Beschilderung ausgeschlossen: Die Spurpfeile oder ein Verbotszeichen legen die zulässigen Richtungen fest. Ein Spurwechsel umgeht das Verbot nicht, es gilt an dieser Stelle für die gesamte Fahrbahn.",
+   "en": "A right turn is ruled out here by the signing: the lane arrows or a prohibition sign set the permitted directions. Changing lanes does not dodge the ban, because it applies to the whole carriageway at this point.",
+   "pl": "Skręt w prawo jest tu wykluczony przez oznakowanie: strzałki na pasach albo znak zakazu wyznaczają dozwolone kierunki. Zmiana pasa nie omija zakazu, bo dotyczy on całej jezdni w tym miejscu.",
+   "ua": "Поворот праворуч тут виключений розміткою і знаками: стрілки на смугах або заборонний знак визначають дозволені напрямки. Зміна смуги заборони не обходить, бо вона діє на всю проїзну частину в цьому місці."
+  }
+ },
+ "1497": {
+  "law": "art. 22 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Beim Wechsel auf die Nachbarspur gewährt man den dort Fahrenden Vorrang. Der Blinker kündigt die Absicht an, verschafft aber keinen Vorrang.",
+   "en": "Moving into the adjacent lane you give way to those already in it. The indicator announces your intention, it does not grant you priority.",
+   "pl": "Wjeżdżając na sąsiedni pas ustępujesz pierwszeństwa tym, którzy już nim jadą. Sygnał kierunkowskazem zapowiada zamiar, ale nie daje pierwszeństwa.",
+   "ua": "Виїжджаючи на сусідню смугу, ти поступаєшся тим, хто вже нею їде. Покажчик повороту сповіщає про намір, але переваги не дає."
+  }
+ },
+ "1498": {
+  "law": "art. 22 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Jeder Spurwechsel wird geblinkt, auch das Einordnen nach rechts. Der Blinker wird rechtzeitig gesetzt und sofort nach Abschluss des Manövers ausgeschaltet.",
+   "en": "Every lane change is signalled with the indicator, moving into the right-hand lane included. You switch it on in good time and off as soon as the manoeuvre is complete.",
+   "pl": "Każdą zmianę pasa ruchu sygnalizuje się kierunkowskazem, także zjazd na pas prawy. Sygnał włącza się zawczasu i wyłącza natychmiast po zakończeniu manewru.",
+   "ua": "Кожну зміну смуги показують покажчиком повороту, зокрема й перестроювання праворуч. Сигнал вмикають завчасно і вимикають одразу після завершення маневру."
+  }
+ },
+ "1500": {
+  "law": "art. 22 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Pflicht, den Spurwechsel anzuzeigen, hängt nicht davon ab, wo auf der Fahrbahn man sich befindet. Der Blinker informiert nicht nur die Nachfolgenden, sondern auch die seitlich und voraus Fahrenden sowie Fußgänger.",
+   "en": "The duty to signal a lane change does not depend on where on the carriageway you are. The indicator informs not only those behind, but also those beside and ahead of you, and pedestrians.",
+   "pl": "Obowiązek sygnalizowania zmiany pasa nie zależy od tego, gdzie na jezdni się znajdujesz. Kierunkowskaz informuje nie tylko jadących z tyłu, ale też tych z boku, z przodu i pieszych.",
+   "ua": "Обов'язок сигналізувати про зміну смуги не залежить від того, де саме на проїзній частині ти перебуваєш. Покажчик повороту інформує не лише тих, хто позаду, а й тих, хто збоку, попереду, та пішоходів."
+  }
+ },
+ "1503": {
+  "law": "art. 22 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Absicht zum Spurwechsel wird stets geblinkt, und zwar bevor man hinüberzieht. Ein unangezeigtes Manöver überrascht andere, und die Folgen trägt man selbst.",
+   "en": "The intention to change lanes is always signalled with the indicator, and before you start moving across. An unsignalled manoeuvre surprises others and the consequences are on you.",
+   "pl": "Zamiar zmiany pasa zawsze sygnalizuje się kierunkowskazem, i to zanim zaczniesz zjeżdżać. Manewr bez sygnału zaskakuje innych i to Ty odpowiadasz za skutki.",
+   "ua": "Про намір змінити смугу завжди сигналізують покажчиком повороту, і то до початку перестроювання. Маневр без сигналу заскочує інших зненацька, а відповідальність за наслідки на тобі."
+  }
+ },
+ "1504": {
+  "law": "art. 22 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Wer auf die Nachbarspur wechselt, hat nie Vorrang, denn er ändert seine bisherige Fahrlinie. Er muss eine Lücke finden und die Geschwindigkeit anpassen, statt auf Entgegenkommen zu bauen.",
+   "en": "The driver moving into the adjacent lane never has priority, because it is they who change their course. They must find a gap and match their speed, not count on being let in.",
+   "pl": "Wjeżdżający na sąsiedni pas nigdy nie ma pierwszeństwa, bo to on zmienia dotychczasowy tor jazdy. Musi znaleźć lukę i dopasować prędkość, a nie liczyć na ustąpienie.",
+   "ua": "Той, хто виїжджає на сусідню смугу, ніколи не має переваги, бо саме він змінює свою траєкторію. Він мусить знайти проміжок і підлаштувати швидкість, а не розраховувати, що йому поступляться."
+  }
+ },
+ "1505": {
+  "text": {
+   "de": "Zum Rechtsabbiegen hätte man sich rechtzeitig rechts einordnen müssen, hier ist es dafür zu spät. Das Überfahren der Linien und ein Querweg über die Fahrbahn kurz vor der Kreuzung sind verboten.",
+   "en": "For a right turn you had to move into the right-hand lane in good time, and at this point it is too late. Crossing the lines and cutting across the carriageway right before the junction is prohibited.",
+   "pl": "Do skrętu w prawo trzeba było zjechać na prawy pas zawczasu, a w tym miejscu jest już na to za późno. Przecinanie linii i tor jazdy w poprzek jezdni tuż przed skrzyżowaniem są zabronione.",
+   "ua": "Для повороту праворуч треба було завчасно перестроїтися в праву смугу, а тут уже пізно. Перетинати лінії та йти впоперек проїзної частини перед самим перехрестям заборонено."
+  }
+ },
+ "1510": {
+  "text": {
+   "de": "Ein Spurwechsel scheidet hier wegen der Fahrbahnmarkierung aus: Eine durchgezogene Trennlinie darf nicht überfahren werden. Durchgezogene Linien setzt man genau dort ein, wo das Manöver gefährlich wäre.",
+   "en": "A lane change is ruled out here by the road marking: a solid line between the lanes may not be crossed. Solid lines are used exactly where the manoeuvre would be dangerous.",
+   "pl": "Zmianę pasa wyklucza w tym miejscu oznakowanie poziome: linia ciągła oddzielająca pasy jest nieprzekraczalna. Linię ciągłą stosuje się właśnie tam, gdzie manewr byłby niebezpieczny.",
+   "ua": "Зміну смуги тут виключає горизонтальна розмітка: суцільна лінія між смугами непереборна. Суцільну лінію застосовують саме там, де маневр був би небезпечним."
+  }
+ },
+ "1512": {
+  "law": "art. 22 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Blinker ist immer Pflicht, denn er informiert nicht nur die Nachfolgenden. Dein Zeichen sehen auch Fußgänger, Radfahrer und Fahrer aus der Querstraße, die ihr eigenes Manöver planen.",
+   "en": "The indicator is always compulsory, because it informs more than the drivers behind you. Your signal is also read by pedestrians, cyclists and drivers on the side road planning their own move.",
+   "pl": "Kierunkowskaz jest obowiązkowy zawsze, bo informuje nie tylko jadących z tyłu. Twój sygnał widzą też piesi, rowerzyści i kierowcy z drogi poprzecznej, którzy planują swój manewr.",
+   "ua": "Покажчик повороту обов'язковий завжди, бо інформує не лише тих, хто позаду. Твій сигнал бачать також пішоходи, велосипедисти й водії з поперечної дороги, які планують свій маневр."
+  }
+ },
+ "1514": {
+  "law": "art. 22 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "An einer Kreuzung darf gewendet werden, sofern kein Zeichen es verbietet und es keine Einbahnstraße ist. Das Manöver erfolgt aus einer Spur, aus der links abgebogen werden darf, unter Vorrangsgewährung für den Gegenverkehr.",
+   "en": "At a junction a U-turn is allowed, provided no sign forbids it and the road is not one-way. You make it from a lane where a left turn is permitted, giving way to oncoming traffic.",
+   "pl": "Na skrzyżowaniu zawracać wolno, o ile nie zabrania tego znak i nie jest to jezdnia jednokierunkowa. Manewr wykonuje się z pasa dopuszczającego skręt w lewo, ustępując pierwszeństwa nadjeżdżającym z przeciwka.",
+   "ua": "На перехресті розворот дозволений, якщо його не забороняє знак і це не одностороння дорога. Маневр виконують зі смуги, з якої дозволений поворот ліворуч, поступаючись зустрічним."
+  }
+ },
+ "1516": {
+  "text": {
+   "de": "In die nächste Fahrbahn darf nicht abgebogen werden, weil die Beschilderung es verbietet: ein Abbiegeverbot oder ein Einbahnstraßenzeichen mit Blickrichtung zu dir. Die Einfahrt entgegen der Fahrtrichtung ist einer der gefährlichsten Fehler in der Stadt.",
+   "en": "You may not turn into the nearest carriageway, because the signing forbids it: a no-turn sign or a one-way sign facing you. Entering against the flow is one of the most dangerous mistakes in town.",
+   "pl": "W najbliższą jezdnię skręcić nie wolno, bo zabrania tego oznakowanie: znak zakazu skrętu albo znak drogi jednokierunkowej ustawiony wlotem do Ciebie. Wjazd pod prąd jest jednym z najgroźniejszych błędów w mieście.",
+   "ua": "У найближчу проїзну частину повертати не можна, бо це забороняють знаки: заборона повороту або знак односторонньої дороги, повернутий до тебе. В'їзд назустріч потоку одна з найнебезпечніших помилок у місті."
+  }
+ },
+ "1517": {
+  "text": {
+   "de": "Das Zeichen B-23 verbietet das Wenden ab seinem Standort bis einschließlich der nächsten Kreuzung. Ein Aufhebungszeichen ist nicht nötig, das Verbot endet hinter dieser Kreuzung von selbst.",
+   "en": "Sign B-23 prohibits U-turns from where it stands up to and including the nearest junction. There is no cancelling sign to look for, the ban simply ends past that junction.",
+   "pl": "Znak B-23 zakazuje zawracania od miejsca ustawienia do najbliższego skrzyżowania włącznie. Nie trzeba więc szukać znaku odwołującego, zakaz kończy się sam za tym skrzyżowaniem.",
+   "ua": "Знак B-23 забороняє розворот від місця встановлення до найближчого перехрестя включно. Шукати скасувальний знак не треба, заборона закінчується сама за цим перехрестям."
+  }
+ },
+ "1518": {
+  "text": {
+   "de": "Hier verbietet nichts das Linksabbiegen: Es gibt kein Verbotszeichen, und die befahrene Spur lässt diese Richtung zu. Beim Abbiegen gewährt man dem Gegenverkehr und den Fußgängern am Überweg Vorrang.",
+   "en": "Nothing here forbids a left turn: there is no prohibition sign and your lane permits that direction. When turning you give way to oncoming vehicles and to pedestrians on the crossing.",
+   "pl": "Nic tu nie zabrania skrętu w lewo: nie ma znaku zakazu, a pas, którym jedziesz, dopuszcza ten kierunek. Skręcając ustępujesz pierwszeństwa pojazdom z przeciwka i pieszym na przejściu.",
+   "ua": "Ніщо тут не забороняє поворот ліворуч: немає заборонного знака, а смуга, якою ти їдеш, допускає цей напрямок. Повертаючи, поступаєшся зустрічним і пішоходам на переході."
+  }
+ },
+ "1520": {
+  "law": "art. 24 ust. 1 i 7 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Überholvorgang darf hier nicht begonnen werden: Entweder fehlt die Sicht über die gesamte Manöverlänge, oder es gilt ein Verbot aus Zeichen, Markierung oder Kreuzungsnähe. Zweifel werden stets zugunsten des Verzichts entschieden.",
+   "en": "Starting an overtake is out of the question here: either there is not enough visibility for the whole manoeuvre, or a ban applies from a sign, the road marking or the proximity of a junction. Any doubt is always settled by not going.",
+   "pl": "Rozpoczęcie wyprzedzania jest tu wykluczone: albo brakuje widoczności na całą długość manewru, albo obowiązuje zakaz wynikający ze znaku, oznakowania poziomego lub bliskości skrzyżowania. Wątpliwość zawsze rozstrzyga się na rzecz rezygnacji.",
+   "ua": "Починати обгін тут не можна: або бракує видимості на всю довжину маневру, або діє заборона зі знака, розмітки чи через близькість перехрестя. Сумнів завжди вирішують на користь відмови."
+  }
+ },
+ "1526": {
+  "text": {
+   "de": "Ein Lastkraftwagen mit einer zulässigen Gesamtmasse bis 3,5 Tonnen unterliegt denselben Überholregeln wie ein Pkw. Verbote für Lkw gelten in der Regel für Fahrzeuge über 3,5 Tonnen.",
+   "en": "A goods vehicle with a permissible maximum mass up to 3.5 tonnes follows the same overtaking rules as a car. Bans aimed at lorries normally apply to vehicles over 3.5 tonnes.",
+   "pl": "Samochód ciężarowy o dopuszczalnej masie całkowitej do 3,5 tony podlega tym samym zasadom wyprzedzania co osobowy. Zakazy adresowane do pojazdów ciężarowych dotyczą zwykle pojazdów powyżej 3,5 tony.",
+   "ua": "Вантажний автомобіль із дозволеною максимальною масою до 3,5 тонни підпадає під ті самі правила обгону, що й легковик. Заборони, адресовані вантажівкам, зазвичай стосуються транспорту понад 3,5 тонни."
+  }
+ },
+ "1531": {
+  "text": {
+   "de": "Das Zeichen mit Vorrang an der Engstelle erlaubt die Einfahrt, sofern du keinen Entgegenkommenden zum Anhalten zwingst. Es ist das Gegenstück zum Zeichen B-31, bei dem du Vorrang gewähren musst.",
+   "en": "The sign giving priority at a narrowing lets you enter, provided you do not force an oncoming driver to stop. It is the mirror image of sign B-31, where it is you who yields.",
+   "pl": "Znak informujący o pierwszeństwie na zwężeniu pozwala wjechać, jeśli nie zmusisz nadjeżdżającego z przeciwka do zatrzymania się. To odwrotność znaku B-31, przy którym to Ty ustępujesz.",
+   "ua": "Знак, що дає перевагу на звуженні, дозволяє в'їхати, якщо ти не змусиш зустрічного зупинитися. Це протилежність знака B-31, за яким поступаєшся вже ти."
+  }
+ },
+ "1533": {
+  "text": {
+   "de": "Ein Zusatzschild mit Entfernungsangabe zeigt, wie viele Meter das Zeichen von der Stelle trennt, auf die es sich bezieht. Beim Stoppzeichen ist das die Entfernung bis zum Ort des Pflichthalts.",
+   "en": "A plate under the sign giving a distance shows how many metres separate the sign from the place it refers to. With a stop sign that means the distance to the point where you must stop.",
+   "pl": "Tabliczka pod znakiem z odległością wskazuje, ile metrów dzieli znak od miejsca, którego znak dotyczy. Przy znaku stop oznacza to odległość do miejsca obowiązkowego zatrzymania.",
+   "ua": "Табличка під знаком із відстанню вказує, скільки метрів відділяє знак від місця, якого він стосується. Біля знака «стоп» це відстань до місця обов'язкової зупинки."
+  }
+ },
+ "1540": {
+  "text": {
+   "de": "Ein Verbotszeichen gilt bis zur nächsten Kreuzung, sofern es nicht vorher durch ein Aufhebungszeichen oder das Zonenende aufgehoben wird. Das ist die allgemeine Regel für Verbotszeichen in Polen.",
+   "en": "A prohibition sign applies as far as the nearest junction, unless a cancelling sign or the end of a zone lifts it earlier. That is the general rule for prohibition signs in Poland.",
+   "pl": "Znak zakazu obowiązuje do najbliższego skrzyżowania, chyba że wcześniej odwoła go znak odwołujący albo koniec strefy. Taka jest ogólna zasada dla znaków zakazu w Polsce.",
+   "ua": "Заборонний знак діє до найближчого перехрестя, якщо раніше його не скасує скасувальний знак чи кінець зони. Таке загальне правило для заборонних знаків у Польщі."
+  }
+ },
+ "1541": {
+  "law": "art. 49 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Halteverbot erfasst jedes Anhalten des Fahrzeugs, auch für wenige Sekunden. Ein kurzer Halt, das Aussteigenlassen eines Mitfahrers oder die Warnblinkanlage ändern daran nichts.",
+   "en": "A no-stopping ban covers any halting of the vehicle, even for a few seconds. A brief pause, dropping off a passenger or switching on the hazards changes nothing.",
+   "pl": "Zakaz zatrzymywania obejmuje każde unieruchomienie pojazdu, także na kilkanaście sekund. Krótki postój, wysadzenie pasażera czy włączenie świateł awaryjnych niczego nie zmieniają.",
+   "ua": "Заборона зупинки охоплює будь-яке припинення руху, навіть на кільканадцять секунд. Коротка зупинка, висадка пасажира чи ввімкнені аварійні вогні нічого не змінюють."
+  }
+ },
+ "1542": {
+  "text": {
+   "de": "Ein Gebotszeichen gibt die einzige hinter dem Zeichen zulässige Fahrtrichtung an. Da der Pfeil nach links weist, darf an dieser Kreuzung nur links gefahren werden.",
+   "en": "A mandatory sign shows the only direction allowed beyond it. Since the arrow points left, at this junction you may go left and nowhere else.",
+   "pl": "Znak nakazu wskazuje jedyny dozwolony kierunek jazdy za znakiem. Skoro strzałka prowadzi w lewo, na tym skrzyżowaniu wolno pojechać wyłącznie w lewo.",
+   "ua": "Приписний знак вказує єдиний дозволений напрямок руху за знаком. Оскільки стрілка веде ліворуч, на цьому перехресті можна рухатися лише ліворуч."
+  }
+ },
+ "1578": {
+  "law": "art. 49 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Parkverbot gilt unabhängig davon, wie kurz man stehen will. Fünf Minuten sind bereits Parken und nicht Halten, fallen also vollständig unter das Verbot.",
+   "en": "A no-parking ban applies however briefly you intend to stand. Five minutes is parking rather than stopping, so it falls squarely under the ban.",
+   "pl": "Zakaz postoju obowiązuje bez względu na to, jak krótko chcesz stać. Pięć minut to już postój, a nie zatrzymanie, więc mieści się w zakazie w całości.",
+   "ua": "Заборона стоянки діє незалежно від того, як коротко ти збираєшся стояти. П'ять хвилин це вже стоянка, а не зупинка, тож вона повністю підпадає під заборону."
+  }
+ },
+ "1585": {
+  "law": "art. 49 ust. 1 pkt 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf Brücken, Viadukten und im Tunnel ist das Halten verboten, der Zweck spielt keine Rolle. Das Bauwerk ist eng, es gibt keinen Seitenstreifen, und ein stehendes Auto lässt sich nicht sicher umfahren.",
+   "en": "On a bridge, a viaduct and in a tunnel stopping is prohibited, and the purpose makes no difference. The structure is narrow, there is no shoulder and a standing car cannot be passed safely.",
+   "pl": "Na moście, wiadukcie i w tunelu zatrzymanie jest zabronione, a cel nie ma znaczenia. Konstrukcja jest wąska, nie ma pobocza i nie da się bezpiecznie ominąć stojącego auta.",
+   "ua": "На мосту, естакаді та в тунелі зупинка заборонена, і мета значення не має. Споруда вузька, узбіччя немає, а безпечно об'їхати авто, що стоїть, неможливо."
+  }
+ },
+ "1590": {
+  "law": "art. 49 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das Halten ist auf dem Fußgängerüberweg und 10 Meter davor verboten, auf einer zweistreifigen Straße mit Gegenverkehr auch unmittelbar dahinter. Ein stehendes Auto verdeckt den den Überweg betretenden Fußgänger.",
+   "en": "Stopping is prohibited on a pedestrian crossing and within 10 metres before it, and on a two-way road with two lanes directly after it as well. A standing car hides a pedestrian stepping onto the crossing.",
+   "pl": "Zatrzymanie jest zabronione na przejściu dla pieszych i w odległości 10 metrów przed nim, a na drodze dwukierunkowej o dwóch pasach także bezpośrednio za nim. Stojące auto zasłania pieszego wchodzącego na przejście.",
+   "ua": "Зупинка заборонена на пішохідному переході та за 10 метрів до нього, а на двосмуговій дорозі з двостороннім рухом також безпосередньо за ним. Авто, що стоїть, закриває пішохода, який виходить на перехід."
+  }
+ },
+ "1591": {
+  "text": {
+   "de": "Ein durch Zeichen ausgesprochenes Verbot gilt unbedingt und lässt sich nicht dadurch erfüllen, dass man anderen Platz lässt. Die Bedingung, den Verkehr nicht zu behindern, betrifft das Parken dort, wo kein Verbot besteht.",
+   "en": "A ban expressed by a sign is unconditional and cannot be satisfied by leaving room for others. The condition of not obstructing traffic applies to parking where there is no ban.",
+   "pl": "Zakaz wyrażony znakiem obowiązuje bezwarunkowo i nie da się go spełnić przez zostawienie miejsca innym. Warunek nieutrudniania ruchu dotyczy postoju tam, gdzie zakazu nie ma.",
+   "ua": "Заборона, виражена знаком, діє безумовно, і виконати її, залишивши місце іншим, не вийде. Умова не заважати рухові стосується стоянки там, де заборони немає."
+  }
+ },
+ "1592": {
+  "law": "art. 47 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das Parken auf dem Gehweg ist nur dort zulässig, wo ein Zeichen es erlaubt, und zu den Bedingungen dieses Zeichens. Ohne ein solches Zeichen steht ein Auto auf dem Gehweg illegal, auch wenn für Fußgänger Platz bleibt.",
+   "en": "Parking on a pavement is allowed only where a sign permits it, and on the terms that sign sets. Without such a sign a car on the pavement stands illegally, even if room is left for pedestrians.",
+   "pl": "Parkowanie na chodniku jest dopuszczalne tylko tam, gdzie zezwala na to znak, i na warunkach, które ten znak określa. Bez takiego znaku auto na chodniku stoi nielegalnie, nawet jeśli zostaje miejsce dla pieszych.",
+   "ua": "Паркування на тротуарі дозволене лише там, де це дозволяє знак, і на умовах, які він визначає. Без такого знака авто на тротуарі стоїть незаконно, навіть якщо місце для пішоходів лишається."
+  }
+ },
+ "1600": {
+  "law": "art. 16 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Grundsatz ist das Fahren möglichst weit rechts, die linke Spur dient dem Überholen. Ein Zeichen gebietet nicht das Einordnen links, es sei denn, es weist die Richtung ausschließlich dieser Spur zu.",
+   "en": "The rule is to drive as close to the right edge as practicable, with the left lane kept for overtaking. A sign does not order you into the left lane unless it assigns your direction to that lane only.",
+   "pl": "Zasadą jest jazda możliwie blisko prawej krawędzi jezdni, a lewy pas służy do wyprzedzania. Znak nie nakazuje zajęcia lewego pasa, chyba że wprost wyznacza kierunek tylko z tego pasa.",
+   "ua": "Правило це рух якомога ближче до правого краю, а ліва смуга служить для обгону. Знак не наказує займати ліву смугу, хіба що прямо призначає твій напрямок лише цій смузі."
+  }
+ },
+ "1603": {
+  "law": "art. 16 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Führen mehrere Spuren geradeaus, wählt man die am weitesten rechts liegende. Die linke ohne Not zu belegen behindert das Überholen und ist eine Ordnungswidrigkeit.",
+   "en": "When several lanes lead straight on, you take the rightmost one that is practicable. Occupying the left lane without need blocks overtaking and is an offence.",
+   "pl": "Gdy kilka pasów prowadzi na wprost, wybiera się pas możliwie najbardziej z prawej. Zajmowanie lewego bez potrzeby blokuje wyprzedzanie i jest wykroczeniem.",
+   "ua": "Коли кілька смуг ведуть прямо, обирають максимально праву. Займати ліву без потреби означає блокувати обгін, і це порушення."
+  }
+ },
+ "1647": {
+  "law": "art. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Vertrauensgrundsatz gebietet anzunehmen, dass hinter einem Sichthindernis ein Radfahrer hervorfahren oder ein Fußgänger heraustreten kann. Eine Straßenbahn verdeckt die ganze Nebenspur, also so fahren, dass man rechtzeitig anhalten kann.",
+   "en": "Limited trust tells you to assume that a cyclist may ride out or a pedestrian step out from behind anything blocking your view. A tram hides the whole lane beside it, so drive slowly enough to stop in time.",
+   "pl": "Zasada ograniczonego zaufania każe zakładać, że zza przeszkody zasłaniającej widok może wyjechać rowerzysta albo wyjść pieszy. Tramwaj zasłania cały pas obok, więc trzeba jechać tak, żeby zdążyć zahamować.",
+   "ua": "Принцип обмеженої довіри велить припускати, що з-за перешкоди, яка закриває огляд, може виїхати велосипедист чи вийти пішохід. Трамвай закриває цілу сусідню смугу, тож треба їхати так, щоб устигнути загальмувати."
+  }
+ },
+ "1651": {
+  "law": "art. 24 ust. 1 i 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Radfahrer wird mit mindestens 1 Meter Abstand überholt und nur dann, wenn Platz und Sicht dafür vorhanden sind. Da diese Bedingungen fehlen, unterbleibt das Manöver.",
+   "en": "A cyclist is overtaken with at least 1 metre of clearance and only when there is room and visibility for it. Since those conditions are missing, you do not attempt the manoeuvre.",
+   "pl": "Rowerzystę wyprzedza się z odstępem co najmniej 1 metra i tylko wtedy, gdy jest na to miejsce oraz widoczność. Skoro tych warunków nie ma, manewru się nie podejmuje.",
+   "ua": "Велосипедиста обганяють з інтервалом щонайменше 1 метр і лише тоді, коли для цього є місце й видимість. Оскільки цих умов немає, маневр не починають."
   }
  },
  "1864": {
@@ -2432,6 +3098,14 @@
    "en": "Sign A-12a warns of the carriageway narrowing on both sides. A narrower road leaves less room for passing oncoming traffic, so slow down and give way if needed.",
    "pl": "Znak A-12a ostrzega o zwężeniu jezdni z obu stron. Węższa jezdnia to mniej miejsca na wymijanie, więc trzeba zwolnić i w razie potrzeby ustąpić.",
    "ua": "Знак A-12a попереджає про звуження проїзної частини з обох боків. Вужча дорога це менше місця для роз'їзду, тож треба знизити швидкість і за потреби поступитися."
+  }
+ },
+ "997": {
+  "text": {
+   "de": "Die Zeichen A-6b und A-6c unterscheiden sich nur darin, von welcher Seite die untergeordnete Straße einmündet, und das Symbol zeigt es. Hier liegt die Einmündung nicht rechts, die Antwort lautet also nein.",
+   "en": "Signs A-6b and A-6c differ only in the side the subordinate road joins from, and the pictogram shows which. Here the junction is not on the right, so the answer is no.",
+   "pl": "Znaki A-6b i A-6c różnią się tylko tym, z której strony dochodzi droga podporządkowana, a kierunek pokazuje sam rysunek. Tutaj wlot nie jest po prawej, więc odpowiedź brzmi nie.",
+   "ua": "Знаки A-6b і A-6c різняться лише тим, з якого боку приєднується другорядна дорога, і напрямок показує сам малюнок. Тут приєднання не праворуч, тож відповідь ні."
   }
  }
 }
