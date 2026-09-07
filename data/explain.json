@@ -266,19 +266,19 @@
  "10898": {
   "law": "art. 135 ust. 1 pkt 2 Prawa o ruchu drogowym",
   "text": {
-   "de": "Der Führerschein wird eingezogen, wenn zwei Personen mehr befördert werden als Sitzplätze im Fahrzeugschein stehen. Überholen über die Sperrlinie oder Begegnen am Bahnübergang bringt Geld- und Punktestrafe, aber keinen Dokumentenverlust.",
-   "en": "The licence is taken for carrying two more people than the seats listed in the registration certificate. Crossing a solid line while overtaking or passing on a level crossing brings a fine and points, but not the loss of the document.",
-   "pl": "Prawo jazdy zabiera się za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc w dowodzie rejestracyjnym. Za wyprzedzanie na ciągłej czy wymijanie na przejeździe grozi mandat i punkty, ale nie utrata dokumentu.",
-   "ua": "Посвідчення забирають за перевезення на дві особи більше, ніж місць у свідоцтві про реєстрацію. За обгін через суцільну чи роз'їзд на переїзді загрожує штраф і бали, але не втрата документа."
+   "de": "Der Führerschein wird eingezogen, wenn mehr Personen befördert werden als Sitzplätze im Fahrzeugschein eingetragen sind. Überholen über die Sperrlinie oder Begegnen am Bahnübergang bringt Bußgeld und Punkte, aber keinen Dokumentenverlust.",
+   "en": "The licence is taken for carrying more people than the seats entered in the registration certificate. Overtaking across a solid line or meeting a vehicle on a level crossing brings a fine and points, but not the loss of the document.",
+   "pl": "Prawo jazdy zabiera się za przewożenie osób w liczbie przekraczającej liczbę miejsc wpisaną w dowodzie rejestracyjnym. Wyprzedzanie przez linię ciągłą i wymijanie na przejeździe to mandat i punkty, ale dokumentu za nie nie tracisz.",
+   "ua": "Посвідчення забирають за перевезення осіб у кількості, що перевищує кількість місць у свідоцтві про реєстрацію. Обгін через суцільну і роз'їзд на переїзді це штраф і бали, але документа за них не втрачаєш."
   }
  },
  "10899": {
   "law": "art. 135 ust. 1 pkt 2 Prawa o ruchu drogowym",
   "text": {
-   "de": "Grund für die Einbehaltung ist die Beförderung von zwei Personen über die in der vorläufigen Zulassung eingetragene Sitzzahl hinaus. Überholen vor einem Überweg mit geregeltem Verkehr ist erlaubt, das Begegnen am Radfahrerüberweg kostet das Dokument nicht.",
-   "en": "The reason for retaining the licence is carrying two people over the number of seats in the temporary permit. Overtaking before a crossing where traffic is directed is allowed, and passing on a cycle crossing is an offence but not one costing the document.",
-   "pl": "Powodem zatrzymania prawa jazdy jest przewożenie dwóch osób ponad liczbę miejsc wpisaną w pozwoleniu czasowym. Wyprzedzanie przed przejściem z kierowanym ruchem jest dozwolone, a wymijanie na przejeździe dla rowerzystów to wykroczenie bez utraty dokumentu.",
-   "ua": "Підставою для вилучення посвідчення є перевезення двох осіб понад кількість місць у тимчасовому посвідченні. Обгін перед переходом із регульованим рухом дозволений, а роз'їзд на велопереїзді це порушення без втрати документа."
+   "de": "Grund für die Einbehaltung ist die Beförderung von mehr Personen als Sitzplätzen in der vorläufigen Zulassung. Überholen vor einem geregelten Überweg ist legal, das Begegnen am Radfahrerüberweg kostet das Dokument nicht.",
+   "en": "The ground for taking the licence is carrying more people than the seats entered in the temporary permit. Overtaking before a crossing where traffic is directed is legal, and meeting a vehicle on a cycle crossing is an offence that does not cost the document.",
+   "pl": "Podstawą zatrzymania prawa jazdy jest przewożenie osób ponad liczbę miejsc wpisaną w pozwoleniu czasowym. Wyprzedzanie przed przejściem z kierowanym ruchem jest legalne, a wymijanie na przejeździe dla rowerzystów to wykroczenie bez utraty dokumentu.",
+   "ua": "Підставою для вилучення посвідчення є перевезення осіб понад кількість місць, зазначену в тимчасовому посвідченні. Обгін перед переходом із регульованим рухом законний, а роз'їзд на велопереїзді це порушення без втрати документа."
   }
  },
  "10930": {
@@ -690,6 +690,554 @@
    "en": "The minimum of 1 metre applies to overtaking, not to meeting an oncoming vehicle. Passing something coming the other way requires simply a safe gap.",
    "pl": "Odstęp minimum 1 metra obowiązuje przy wyprzedzaniu, a nie przy wymijaniu. Wymijanie to mijanie pojazdu jadącego z przeciwka i tam wymagany jest po prostu odstęp bezpieczny.",
    "ua": "Інтервал щонайменше 1 метр діє при обгоні, а не при роз'їзді. Роз'їзд це проїзд повз зустрічний транспорт, і там потрібен просто безпечний інтервал."
+  }
+ },
+ "13834": {
+  "law": "art. 24 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Für den E-Scooter gilt dieselbe Regel wie für das Fahrrad: beim Überholen mindestens 1 Meter Abstand. Ein Scooter verliert auf einer Unebenheit leicht die Stabilität, dichtes Vorbeifahren kann ihn umwerfen.",
+   "en": "An electric scooter falls under the same rule as a bicycle: at least 1 metre of clearance when overtaking. A scooter easily loses balance on a bump, so passing close can knock it over.",
+   "pl": "Hulajnoga elektryczna jest objęta tą samą zasadą co rower: przy wyprzedzaniu co najmniej 1 metr odstępu. Hulajnoga łatwo traci stabilność na nierówności, więc bliski przejazd może ją przewrócić.",
+   "ua": "На електросамокат поширюється те саме правило, що й на велосипед: при обгоні щонайменше 1 метр інтервалу. Самокат легко втрачає стійкість на нерівності, тож близький проїзд може його перекинути."
+  }
+ },
+ "13835": {
+  "law": "art. 20 ust. 6 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein E-Scooter darf höchstens 20 km/h fahren, unabhängig davon, wie schnell er könnte. Auf dem Gehweg gilt zusätzlich annähernd Schrittgeschwindigkeit.",
+   "en": "An electric scooter may do at most 20 km/h, whatever it is capable of. On a footway it is additionally limited to something close to walking pace.",
+   "pl": "Hulajnoga elektryczna może jechać najwyżej 20 km/h, niezależnie od tego, ile potrafi rozwinąć. Na drodze dla pieszych obowiązuje ją dodatkowo prędkość zbliżona do prędkości pieszego.",
+   "ua": "Електросамокат може рухатися щонайбільше 20 км/год, незалежно від того, скільки здатен розвинути. На пішохідній доріжці для нього додатково діє швидкість, близька до пішохідної."
+  }
+ },
+ "13850": {
+  "law": "art. 19 ust. 1 i art. 28 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Starkregen oder Schneefall verkürzen die Sicht genau dort, wo man den herannahenden Zug erkennen muss. Deshalb wird vor dem Bahnübergang stärker als sonst verlangsamt, um sich umsehen und anhalten zu können.",
+   "en": "Heavy rain or snow cuts visibility exactly where you need to spot an approaching train. So before a crossing you slow down more than usual, to have time to look and to stop.",
+   "pl": "Ulewa albo śnieżyca skracają widoczność akurat tam, gdzie trzeba dojrzeć nadjeżdżający pociąg. Dlatego przed przejazdem zwalnia się bardziej niż zwykle, żeby zdążyć się rozejrzeć i zatrzymać.",
+   "ua": "Злива чи хуртовина скорочують видимість саме там, де треба помітити потяг. Тому перед переїздом знижують швидкість більше, ніж зазвичай, щоб устигнути роздивитися і зупинитися."
+  }
+ },
+ "13859": {
+  "law": "art. 24 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Vor jedem Überholen ist sicherzustellen, dass Sicht und Platz ausreichen und dass niemand behindert wird. Das ist eine unbedingte Voraussetzung, unabhängig von Straße und Tageszeit.",
+   "en": "Before every overtake you must make sure there is enough visibility and room, and that the manoeuvre will obstruct nobody. That is an absolute condition, whatever the road and the time of day.",
+   "pl": "Przed każdym wyprzedzaniem trzeba upewnić się, że jest dość widoczności i miejsca, i że manewr nikomu nie utrudni ruchu. To warunek bezwzględny, niezależny od rodzaju drogi i pory dnia.",
+   "ua": "Перед кожним обгоном треба переконатися, що вистачає видимості й місця і що маневр нікому не завадить. Це безумовна вимога, незалежна від типу дороги і часу доби."
+  }
+ },
+ "13862": {
+  "law": "art. 24 ust. 7 pkt 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Innerorts ist das Überholen eines Einsatzfahrzeugs verboten. Es kann jederzeit die Spur wechseln oder stark beschleunigen, und Passanten achten auf dieses Fahrzeug, nicht auf dich.",
+   "en": "Inside a built-up area overtaking a privileged vehicle is prohibited. It may change course or accelerate hard at any moment, and passers-by are watching it, not you.",
+   "pl": "W obszarze zabudowanym wyprzedzanie pojazdu uprzywilejowanego jest zabronione. Taki pojazd może w każdej chwili zmienić tor jazdy albo gwałtownie przyspieszyć, a przechodnie patrzą na niego, nie na Ciebie.",
+   "ua": "У населеному пункті обгін транспорту з переважним правом проїзду заборонений. Він будь-якої миті може змінити траєкторію чи різко прискоритися, а перехожі дивляться на нього, а не на тебе."
+  }
+ },
+ "13863": {
+  "law": "art. 24 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Überholen verlangt stets besondere Vorsicht, denn man wechselt auf eine fremde Spur und verliert einen Teil der Sicht. Es ist das unfallträchtigste Manöver im Straßenverkehr.",
+   "en": "Overtaking always demands particular caution, because you move into a lane you were not using and lose part of your view. It is the manoeuvre that causes the most crashes.",
+   "pl": "Wyprzedzanie zawsze wymaga szczególnej ostrożności, bo wjeżdżasz na pas, którym nie jedziesz, i tracisz część widoczności. To najbardziej wypadkowy manewr w ruchu drogowym.",
+   "ua": "Обгін завжди вимагає особливої обережності, бо ти виїжджаєш на смугу, якою не рухався, і втрачаєш частину огляду. Це найаварійніший маневр у дорожньому русі."
+  }
+ },
+ "13866": {
+  "law": "art. 24 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Für eine Fußgängerkolonne gilt dieselbe Regel wie für einen einzelnen Fußgänger: beim Überholen mindestens 1 Meter. Eine Kolonne nimmt mehr Raum ein und ihr Rand kann sich jederzeit verschieben.",
+   "en": "A column of pedestrians falls under the same rule as a single pedestrian: at least 1 metre when overtaking. A column takes more room and its edge can shift at any moment.",
+   "pl": "Kolumna pieszych podlega tej samej zasadzie co pojedynczy pieszy: przy wyprzedzaniu minimum 1 metr odstępu. Kolumna zajmuje więcej miejsca i jej krawędź może się przesunąć w każdej chwili.",
+   "ua": "На колону пішоходів поширюється те саме правило, що й на одного пішохода: при обгоні щонайменше 1 метр. Колона займає більше місця, і її край будь-якої миті може зміститися."
+  }
+ },
+ "13880": {
+  "law": "art. 33a ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Einen E-Scooter mit einem anderen abzuschleppen ist verboten. Beide werden unlenkbar, und das Bremsen des einen wirft den anderen aus der Spur.",
+   "en": "Towing one electric scooter with another is prohibited. Both become uncontrollable, and braking on one throws the other off line.",
+   "pl": "Holowanie jednej hulajnogi elektrycznej przez drugą jest zabronione. Obie stają się wtedy niesterowne, a hamowanie jednej z nich wyrzuca drugą z toru jazdy.",
+   "ua": "Буксирувати один електросамокат іншим заборонено. Обидва стають некерованими, а гальмування одного викидає інший із траєкторії."
+  }
+ },
+ "13882": {
+  "law": "art. 135 ust. 1 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Für eine Ordnungswidrigkeit, die eine erhebliche Gefährdung geschaffen hat, kann das Gericht ein Fahrverbot verhängen und der Polizist den Führerschein einbehalten. Entscheidend ist die Folge, nicht nur die Überschreitung selbst.",
+   "en": "For an offence that created a serious danger to safety a court may impose a driving ban, and the officer may retain the licence. What counts is the consequence, not only the fact of exceeding the limit.",
+   "pl": "Za wykroczenie, którym stworzono poważne zagrożenie bezpieczeństwa, sąd może orzec zakaz prowadzenia pojazdów, a policjant zatrzymać prawo jazdy. Liczy się skutek, nie tylko sam fakt przekroczenia limitu.",
+   "ua": "За порушення, яким створено серйозну загрозу безпеці, суд може призначити заборону керування, а поліцейський вилучити посвідчення. Значення має наслідок, а не лише сам факт перевищення ліміту."
+  }
+ },
+ "13883": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die sichere Geschwindigkeit ergibt sich aus den Bedingungen, nicht aus dem Schild: Auf eisiger Fahrbahn können 30 km/h sicher sein, wo 90 erlaubt sind. Im Limit zu bleiben macht eine Geschwindigkeit für sich genommen nicht sicher.",
+   "en": "Safe speed follows from the conditions, not from the sign: on an icy road 30 km/h may be safe where 90 is allowed. Staying within the limit does not by itself make a speed safe.",
+   "pl": "Prędkość bezpieczna wynika z warunków, a nie z tabliczki: na oblodzonej drodze bezpieczne bywa 30 km/h tam, gdzie wolno jechać 90. Mieszczenie się w limicie samo w sobie nie czyni prędkości bezpieczną.",
+   "ua": "Безпечна швидкість випливає з умов, а не зі знака: на обледенілій дорозі безпечними бувають 30 км/год там, де дозволено 90. Дотримання ліміту саме собою не робить швидкість безпечною."
+  }
+ },
+ "13884": {
+  "text": {
+   "de": "Ja, das ist die Standardsanktion: eine Überschreitung um mehr als 50 km/h innerorts kostet 3 Monate ohne Führerschein. Dazu kommen ein hohes Bußgeld und Punkte.",
+   "en": "Yes, that is the standard penalty: exceeding the limit by more than 50 km/h in a built-up area costs 3 months without the licence. A heavy fine and penalty points come on top.",
+   "pl": "Tak, to standardowa sankcja: przekroczenie o ponad 50 km/h w obszarze zabudowanym kosztuje 3 miesiące bez prawa jazdy. Do tego dochodzi wysoki mandat i punkty karne.",
+   "ua": "Так, це стандартна санкція: перевищення більш ніж на 50 км/год у населеному пункті коштує 3 місяці без посвідчення. До цього додається великий штраф і бали."
+  }
+ },
+ "13885": {
+  "law": "art. 19 ust. 2 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Unbegründet langsames Fahren ist verboten, weil es den Verkehr behindert und riskantes Überholen provoziert. Auf einer Schnellstraße kann ein kriechendes Auto ebenso gefährlich sein wie ein rasendes.",
+   "en": "Driving unreasonably slowly is prohibited, because it holds up traffic and provokes risky overtaking. On a fast road a crawling car can be as dangerous as a speeding one.",
+   "pl": "Jazda bez uzasadnienia zbyt wolno jest zabroniona, bo blokuje ruch i prowokuje ryzykowne wyprzedzanie. Na drodze szybkiego ruchu wolno jadące auto bywa równie groźne jak rozpędzone.",
+   "ua": "Їзда безпідставно повільно заборонена, бо блокує рух і провокує ризикований обгін. На швидкісній дорозі повільне авто буває так само небезпечним, як і розігнане."
+  }
+ },
+ "13886": {
+  "text": {
+   "de": "Der Behindertenparkausweis bringt Parkerleichterungen und erlaubt, bestimmte Verbotszeichen zu missachten, hebt aber kein Tempolimit an. Die Geschwindigkeitsvorschriften ändert kein Dokument.",
+   "en": "A disabled parking card gives parking privileges and allows certain prohibition signs to be disregarded, but it does not raise the speed limit. No document changes the speed rules.",
+   "pl": "Karta parkingowa daje ulgi w parkowaniu i pozwala nie stosować się do wybranych znaków zakazu, ale nie podnosi limitu prędkości. Przepisów o prędkości nie zmienia żaden dokument.",
+   "ua": "Паркувальна картка дає пільги в паркуванні й дозволяє не дотримуватися окремих заборонних знаків, але не підвищує ліміт швидкості. Норм про швидкість не змінює жоден документ."
+  }
+ },
+ "13891": {
+  "law": "art. 39 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Von der Anschnallpflicht befreit ist unter anderem eine behinderte Person, die im Rollstuhl befördert wird. Ein Unbehagen durch den Gurt ist keinerlei Befreiungsgrund.",
+   "en": "Among those exempt from wearing a belt is a disabled person carried in a wheelchair. Feeling uncomfortable in a belt is no exemption at all.",
+   "pl": "Z obowiązku zapinania pasów zwolniona jest między innymi osoba niepełnosprawna przewożona w wózku inwalidzkim. Poczucie skrępowania pasami żadnym zwolnieniem nie jest.",
+   "ua": "Від обов'язку пристібатися звільнена, зокрема, особа з інвалідністю, яку перевозять у візку. Відчуття незручності від паса жодним звільненням не є."
+  }
+ },
+ "13893": {
+  "law": "art. 66 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Fahrzeug wird zum Verkehr zugelassen, wenn es so instand gehalten ist, dass es weder Insassen noch andere gefährdet. Klimaanlage und getönte Scheiben haben damit nichts zu tun.",
+   "en": "A vehicle is admitted to traffic if it is kept in a state that endangers neither its occupants nor other road users. Air conditioning and tinted windows have nothing to do with admission.",
+   "pl": "Pojazd dopuszcza się do ruchu, jeżeli jest utrzymany tak, że nie zagraża jadącym ani innym uczestnikom ruchu. Klimatyzacja i przyciemniane szyby nie mają z dopuszczeniem nic wspólnego.",
+   "ua": "Транспортний засіб допускають до руху, якщо він утримується так, що не загрожує ні тим, хто в ньому, ні іншим учасникам руху. Кондиціонер і тоновані шибки до допуску стосунку не мають."
+  }
+ },
+ "13902": {
+  "law": "art. 19 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf der Autobahn beträgt der Abstand mindestens die Hälfte des Tachowertes in Metern, bei 140 km/h also 70 Meter, nicht 60. Die Regel ist einfach: Geschwindigkeit halbieren.",
+   "en": "On a motorway the gap is at least half the speedometer reading in metres, so at 140 km/h that is 70 metres, not 60. The rule is simple: halve your speed.",
+   "pl": "Na autostradzie odstęp to co najmniej połowa wskazania prędkościomierza w metrach, czyli przy 140 km/h aż 70 metrów, a nie 60. Reguła jest prosta: podziel prędkość na pół.",
+   "ua": "На автомагістралі дистанція це щонайменше половина показника спідометра в метрах, тобто на 140 км/год аж 70 метрів, а не 60. Правило просте: поділи швидкість навпіл."
+  }
+ },
+ "13903": {
+  "law": "art. 19 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf einer zweibahnigen Schnellstraße sind 120 km/h erlaubt, der Abstand beträgt also mindestens 60 Meter, nicht 50. Maßgeblich ist stets die Hälfte des Tachowertes.",
+   "en": "On a dual-carriageway expressway the limit is 120 km/h, so the gap is at least 60 metres, not 50. It is always half the number on the speedometer.",
+   "pl": "Na dwujezdniowej drodze ekspresowej wolno jechać 120 km/h, więc odstęp wynosi co najmniej 60 metrów, a nie 50. Zawsze liczy się połowa liczby z prędkościomierza.",
+   "ua": "На двопроїзній швидкісній дорозі дозволено 120 км/год, тож дистанція щонайменше 60 метрів, а не 50. Завжди рахують половину показника спідометра."
+  }
+ },
+ "13904": {
+  "law": "art. 19 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Halbe-Tacho-Regel gilt auf Autobahn und zweibahniger Schnellstraße und findet beim Überholen keine Anwendung. Andernfalls ließe sich das Manöver überhaupt nicht durchführen.",
+   "en": "The half-the-speed rule applies on motorways and dual-carriageway expressways, and it does not apply while overtaking. If it did, the manoeuvre could never be completed.",
+   "pl": "Reguła połowy prędkości obowiązuje na autostradzie i drodze ekspresowej dwujezdniowej, i nie stosuje się jej podczas wyprzedzania. Gdyby stosować ją przy wyprzedzaniu, manewru nie dałoby się w ogóle wykonać.",
+   "ua": "Правило половини швидкості діє на автомагістралі й двопроїзній швидкісній дорозі та не застосовується під час обгону. Інакше маневр було б неможливо виконати взагалі."
+  }
+ },
+ "13909": {
+  "text": {
+   "de": "Ein abgefahrenes Profil verdrängt viel weniger Wasser als ein neues, der Reifen verliert also früher den Kontakt zum Asphalt. Mit Restprofil beginnt Aquaplaning bei Geschwindigkeiten, bei denen ein neuer Reifen noch haftet.",
+   "en": "A worn tread clears far less water than a new one, so the tyre loses contact with the tarmac sooner. With little tread left, aquaplaning starts at a speed where a new tyre still grips.",
+   "pl": "Zużyty bieżnik odprowadza znacznie mniej wody niż nowy, więc opona wcześniej traci kontakt z asfaltem. Przy resztce bieżnika aquaplaning zaczyna się przy prędkości, przy której nowa opona jeszcze trzyma.",
+   "ua": "Зношений протектор відводить значно менше води, ніж новий, тож шина раніше втрачає контакт з асфальтом. При залишковому протекторі аквапланування починається на швидкості, за якої нова шина ще тримає."
+  }
+ },
+ "13910": {
+  "text": {
+   "de": "Bei starkem Regen bildet sich ein Wasserfilm zwischen Reifen und Asphalt, und das Auto reagiert weder auf Lenkung noch auf Bremse. Genau das ist Aquaplaning und es endet im Kontrollverlust.",
+   "en": "In heavy rain a film of water builds between tyre and tarmac and the car stops responding to steering and brakes. That is aquaplaning, and it ends in loss of control.",
+   "pl": "Przy obfitym deszczu między oponą a asfaltem tworzy się warstwa wody i auto przestaje reagować na kierownicę oraz hamulec. To właśnie aquaplaning i kończy się utratą panowania nad pojazdem.",
+   "ua": "При рясному дощі між шиною й асфальтом утворюється шар води, і авто перестає реагувати на кермо та гальма. Це і є аквапланування, і воно закінчується втратою керування."
+  }
+ },
+ "13911": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das Limit ist eine Obergrenze, keine Sicherheitsgarantie: Bei Nebel oder Glatteis kann selbst eine erlaubte Geschwindigkeit zu hoch sein. Die Pflicht zur Beherrschung des Fahrzeugs gilt unabhängig von Schildern.",
+   "en": "The limit is an upper bound, not a guarantee of safety: in fog or on black ice even a speed within the rules can be too high. The duty to keep control applies regardless of the signs.",
+   "pl": "Limit to górna granica, a nie gwarancja bezpieczeństwa: przy mgle albo gołoledzi nawet prędkość w granicach przepisu bywa za duża. Obowiązek panowania nad pojazdem działa niezależnie od znaków.",
+   "ua": "Ліміт це верхня межа, а не гарантія безпеки: у тумані чи ожеледицю навіть швидкість у межах норми буває завеликою. Обов'язок контролювати авто діє незалежно від знаків."
+  }
+ },
+ "13912": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Vorschrift nennt ausdrücklich unter anderem die Verkehrsdichte, neben Geländeform, Zustand und Sicht der Straße, Fahrzeugzustand und Witterung. Wettervorhersage und eigene Erfahrung stehen nicht in diesem Katalog.",
+   "en": "The law expressly lists traffic intensity, alongside terrain, the state and visibility of the road, the state of the vehicle and the weather. A weather forecast and one's own experience are not in that list.",
+   "pl": "Przepis wymienia wprost między innymi natężenie ruchu, obok rzeźby terenu, stanu i widoczności drogi, stanu pojazdu i warunków atmosferycznych. Prognoza pogody i własne doświadczenie w tym katalogu nie występują.",
+   "ua": "Норма прямо називає, зокрема, інтенсивність руху, поряд із рельєфом, станом і видимістю дороги, станом транспорту та погодними умовами. Прогнозу погоди й власного досвіду в цьому переліку немає."
+  }
+ },
+ "13915": {
+  "text": {
+   "de": "Bei hohem Tempo fixiert der Blick weit voraus und das Blickfeld verengt sich stark. Deshalb nimmt ein Fahrer auf schnellen Straßen Seitenstreifen und Einmündungen nicht mehr wahr.",
+   "en": "At high speed the eyes fix far ahead and the field of vision narrows sharply. That is why a driver on a fast road stops registering the verge and the side entrances.",
+   "pl": "Przy dużej prędkości wzrok skupia się daleko przed autem i pole widzenia gwałtownie się zawęża. To dlatego kierowca na szybkiej drodze przestaje rejestrować pobocze i wjazdy z boku.",
+   "ua": "На великій швидкості погляд фокусується далеко попереду, і поле зору різко звужується. Саме тому водій на швидкій дорозі перестає помічати узбіччя і бічні виїзди."
+  }
+ },
+ "13916": {
+  "law": "art. 26 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Gegenüber einer Person mit sichtbar eingeschränkter Beweglichkeit ist die Anhaltepflicht unbedingt und gilt auch abseits eines Überwegs. Für die Einschätzung, ob sie es schafft, ist kein Raum.",
+   "en": "For a person with visibly limited mobility the duty to stop is unconditional and applies away from a crossing as well. There is no room here to judge whether they will make it across.",
+   "pl": "Wobec osoby o widocznie ograniczonej sprawności ruchowej obowiązek zatrzymania jest bezwarunkowy i działa również poza przejściem. Nie ma tu miejsca na ocenę, czy zdąży ona przejść.",
+   "ua": "Щодо особи з видимо обмеженою рухливістю обов'язок зупинитися є безумовним і діє також поза переходом. Тут немає місця для оцінки, чи встигне вона перейти."
+  }
+ },
+ "13917": {
+  "text": {
+   "de": "Ein Behindertenstellplatz ist genau deshalb breiter, damit die Tür geöffnet und der Rollstuhl herausgefahren werden kann. Auch nur einen Teil davon zu belegen macht den Sinn des Platzes zunichte.",
+   "en": "A disabled bay is wider precisely so that a door can be opened and a wheelchair rolled out. Taking even part of it destroys the whole point of the bay.",
+   "pl": "Miejsce dla osoby z niepełnosprawnością jest szersze właśnie po to, żeby dało się otworzyć drzwi i wyjechać wózkiem. Zajęcie nawet jego części niweczy cały sens takiego stanowiska.",
+   "ua": "Місце для особи з інвалідністю ширше саме для того, щоб можна було відчинити двері й виїхати візком. Зайняти навіть його частину означає звести нанівець увесь сенс такого місця."
+  }
+ },
+ "13918": {
+  "text": {
+   "de": "Die Fliehkraft wächst mit dem Quadrat der Geschwindigkeit, in der Kurve drückt also jede Beschleunigung das Auto nach außen. Übersteigt sie die Reifenhaftung, verlässt das Fahrzeug seine Spur.",
+   "en": "Centrifugal force grows with the square of speed, so in a bend every increase pushes the car outwards. Once it exceeds tyre grip, the vehicle leaves its line.",
+   "pl": "Siła odśrodkowa rośnie z kwadratem prędkości, więc na łuku każde przyspieszenie wypycha auto na zewnątrz zakrętu. Gdy przekroczy przyczepność opon, pojazd zjeżdża z toru jazdy.",
+   "ua": "Відцентрова сила зростає пропорційно квадрату швидкості, тож у повороті будь-яке прискорення виштовхує авто назовні. Коли вона перевищить зчеплення шин, машина зійде з траєкторії."
+  }
+ },
+ "13919": {
+  "text": {
+   "de": "Die Verdopplung der Kurvengeschwindigkeit vervierfacht die Fliehkraft, denn sie hängt vom Quadrat der Geschwindigkeit ab. Deshalb macht etwas mehr Gas in der Kurve einen weit größeren Unterschied als erwartet.",
+   "en": "Doubling the speed in a bend quadruples the centrifugal force, because it depends on the square of speed. That is why a small dab of throttle mid-corner makes a far bigger difference than it seems.",
+   "pl": "Podwojenie prędkości na zakręcie zwiększa siłę odśrodkową czterokrotnie, bo zależy ona od kwadratu prędkości. Dlatego niewielkie dodanie gazu w zakręcie robi znacznie większą różnicę, niż się wydaje.",
+   "ua": "Подвоєння швидкості в повороті збільшує відцентрову силу вчетверо, бо вона залежить від квадрата швидкості. Тому невелике додавання газу в повороті дає значно більшу різницю, ніж здається."
+  }
+ },
+ "13920": {
+  "text": {
+   "de": "Die Räder eines Lkw werfen eine Wasserwand zur Seite, die die Scheibe für einen Moment völlig verdeckt. Deshalb verlangsamt man vor der Begegnung und stellt die Wischer auf die höchste Stufe.",
+   "en": "The wheels of a lorry throw out a wall of water that blanks the windscreen for a moment. So before meeting one you slow down and set the wipers to their fastest speed.",
+   "pl": "Koła ciężarówki wyrzucają na bok ścianę wody, która na moment całkowicie zasłania szybę. Dlatego przed wymijaniem zwalnia się i przygotowuje wycieraczki na najwyższy bieg.",
+   "ua": "Колеса вантажівки викидають убік стіну води, яка на мить повністю закриває лобове скло. Тому перед роз'їздом знижують швидкість і вмикають двірники на максимум."
+  }
+ },
+ "13921": {
+  "text": {
+   "de": "Die Arme am Lenkrad sollen leicht angewinkelt sein: Nur so lässt sich voll einschlagen, ohne den Rücken von der Lehne zu nehmen. Gestreckte Arme kosten Präzision, stark angewinkelte Kraft.",
+   "en": "The arms on the wheel should be slightly bent at the elbows: only then can you turn the wheel fully without lifting your back off the seat. Straight arms cost precision, sharply bent ones cost strength.",
+   "pl": "Ręce na kierownicy powinny być lekko ugięte w łokciach: wtedy da się wykonać pełny obrót kierownicą bez odrywania pleców od oparcia. Wyprostowane ręce odbierają precyzję, a mocno zgięte siłę.",
+   "ua": "Руки на кермі мають бути злегка зігнуті в ліктях: лише тоді можна повністю провернути кермо, не відриваючи спину від спинки. Випрямлені руки забирають точність, а сильно зігнуті силу."
+  }
+ },
+ "13923": {
+  "text": {
+   "de": "Eine auf Hinterkopfhöhe eingestellte Kopfstütze begrenzt das Zurückschnellen des Kopfes beim Heckaufprall und schützt die Halswirbelsäule. Eine bis zum Nacken abgesenkte Stütze wirkt selbst als Hebel.",
+   "en": "A head restraint level with the back of the head limits the whip of the head in a rear-end impact and protects the neck. One dropped to the level of the nape becomes a lever instead.",
+   "pl": "Zagłówek ustawiony na wysokość potylicy ogranicza gwałtowny odchył głowy przy uderzeniu w tył auta i chroni przed urazem kręgosłupa szyjnego. Zagłówek opuszczony do poziomu karku sam staje się dźwignią.",
+   "ua": "Підголівник на рівні потилиці обмежує різкий закид голови при ударі ззаду і захищає шийний відділ хребта. Опущений до рівня шиї підголівник сам стає важелем."
+  }
+ },
+ "13924": {
+  "text": {
+   "de": "Eine schlecht gewählte Sitzposition erschwert das Manövrieren: zu weit hinten lässt sich die Kupplung nicht durchtreten, zu nah behindert sie die Armbewegung. Die Einstellung ist individuell, nicht nur eine Frage der Extremlagen.",
+   "en": "A badly chosen position hampers control: a seat too far back stops you pressing the clutch fully, one too close blocks arm movement. The setting is individual, not just a matter of the extremes.",
+   "pl": "Źle dobrana pozycja utrudnia manewrowanie: za daleko odsunięty fotel nie pozwala wcisnąć sprzęgła do końca, a za blisko blokuje ruch rąk. Ustawienie dobiera się indywidualnie, nie tylko w skrajnych położeniach.",
+   "ua": "Погано підібрана посадка ускладнює керування: надто відсунуте сидіння не дає вичавити зчеплення до кінця, а надто близьке блокує рух рук. Налаштування добирають індивідуально, а не лише в крайніх положеннях."
+  }
+ },
+ "13925": {
+  "text": {
+   "de": "Die Sitzeinstellung entscheidet, ob man die Pedale erreicht und voll einschlagen kann, und auch, wie Gurt und Airbag wirken. Das ist ein Sicherheitsaspekt, keine Frage der Bequemlichkeit.",
+   "en": "The seat setting decides whether you reach the pedals and can turn the wheel fully, and also how the belt and airbag will work. It is a safety item, not a matter of comfort.",
+   "pl": "Ustawienie fotela decyduje o tym, czy dosięgniesz pedałów i wykonasz pełny obrót kierownicą, a także o tym, jak zadziała pas i poduszka. To element bezpieczeństwa, nie kwestia wygody.",
+   "ua": "Регулювання сидіння визначає, чи дістанеш до педалей і чи зможеш повністю провернути кермо, а також як спрацюють пас і подушка. Це елемент безпеки, а не питання зручності."
+  }
+ },
+ "13926": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Geschwindigkeit allein reicht nicht: Auch Kurvenradius, Fahrbahnzustand und Neigung, Beladung und Sicht hinter der Kurve zählen. Eine Kurve fährt man nach dem, was man sieht, nicht nach dem Tacho.",
+   "en": "Speed alone is not enough: the radius of the bend, the surface and its camber, the load and the view round the corner all count. You take a bend by what you can see, not by the speedometer.",
+   "pl": "Sama prędkość to za mało: liczy się też promień łuku, stan i pochylenie nawierzchni, obciążenie auta i widoczność za zakrętem. Zakręt pokonuje się według tego, co widać, a nie według prędkościomierza.",
+   "ua": "Самої швидкості замало: важать також радіус повороту, стан і нахил покриття, завантаження авта і видимість за поворотом. Поворот проходять за тим, що видно, а не за спідометром."
+  }
+ },
+ "13927": {
+  "text": {
+   "de": "Eine Kurve sicher zu nehmen beginnt davor: Man verlangsamt auf der Geraden, wählt die Linie und lenkt erst dann ein. Die Linie wird so gewählt, dass man den Kurvenausgang möglichst lange sieht.",
+   "en": "Taking a bend safely starts before it: you slow on the straight, choose your line and only then turn in. The line is chosen so as to see the exit of the bend for as long as possible.",
+   "pl": "Bezpieczne pokonanie zakrętu zaczyna się przed nim: zwalniasz na prostej, wybierasz tor i dopiero wtedy skręcasz. Tor jazdy dobiera się tak, żeby jak najdłużej widzieć wyjście z zakrętu.",
+   "ua": "Безпечне проходження повороту починається до нього: гальмуєш на прямій, обираєш траєкторію і лише тоді повертаєш. Траєкторію добирають так, щоб якнайдовше бачити вихід із повороту."
+  }
+ },
+ "13928": {
+  "text": {
+   "de": "Eine Hand am Lenkrad verbessert die Präzision nicht, sie nimmt sie: Man kann weder schnell zurücklenken noch auf ein Rucken reagieren. Das Lenkrad wird mit beiden Händen gehalten, auf neun und drei Uhr.",
+   "en": "One hand on the wheel does not improve precision, it removes it: you can neither unwind the wheel quickly nor react to a snatch. The wheel is held with both hands, at the nine and three o'clock positions.",
+   "pl": "Jedna ręka na kierownicy nie poprawia precyzji, tylko ją odbiera: nie da się szybko oddać kierownicy ani zareagować na szarpnięcie. Kierownicę trzyma się obiema rękami, w pozycji jak wskazówki na godzinie dziewiątej i trzeciej.",
+   "ua": "Одна рука на кермі не покращує точність, а забирає її: неможливо ні швидко повернути кермо назад, ні зреагувати на ривок. Кермо тримають обома руками, у положенні на дев'яту і третю годину."
+  }
+ },
+ "13929": {
+  "text": {
+   "de": "Eine ins Lenkrad gesteckte Hand wird vom auslösenden Airbag getroffen und verliert bei einem Ruck den Kontakt zum Kranz. Das gilt in jeder Situation, nicht nur beim Parken.",
+   "en": "A hand put through the wheel is struck by the deploying airbag and loses contact with the rim when the wheel snatches. This applies to every situation, not only parking.",
+   "pl": "Ręka włożona do wewnątrz koła kierownicy zostaje uderzona przez otwierającą się poduszkę i traci kontakt z kierownicą przy szarpnięciu. Dotyczy to każdej sytuacji, nie tylko parkowania.",
+   "ua": "Рука, просунута всередину керма, отримує удар подушкою, що спрацьовує, і втрачає контакт із кермом при ривку. Це стосується будь-якої ситуації, а не лише паркування."
+  }
+ },
+ "13932": {
+  "law": "art. 135 ust. 1 pkt 1a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ja, bei einer Überschreitung um mehr als 50 km/h innerorts zieht der Polizist den Führerschein an Ort und Stelle gegen Quittung ein. Die Quittung erlaubt noch 24 Stunden Fahrt.",
+   "en": "Yes, for exceeding the limit by more than 50 km/h in a built-up area the officer takes the licence on the spot, against a receipt. The receipt allows another 24 hours of driving.",
+   "pl": "Tak, przy przekroczeniu o więcej niż 50 km/h w obszarze zabudowanym policjant zatrzymuje prawo jazdy na miejscu, za pokwitowaniem. Pokwitowanie pozwala jechać jeszcze 24 godziny.",
+   "ua": "Так, при перевищенні більш ніж на 50 км/год у населеному пункті поліцейський вилучає посвідчення на місці, під квитанцію. Квитанція дозволяє їхати ще 24 години."
+  }
+ },
+ "13936": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das Limit sagt nur, wie schnell man höchstens fahren darf, nicht wie schnell es gerade sicher ist. Bei Nebel, auf nassem Asphalt oder im Gedränge liegt die beherrschbare Geschwindigkeit deutlich niedriger.",
+   "en": "The limit only says how fast you may go at most, not how fast is safe right now. In fog, on wet tarmac or in dense traffic the speed that keeps the car under control is much lower.",
+   "pl": "Limit mówi tylko, ile najwyżej wolno, a nie ile w danej chwili jest bezpiecznie. We mgle, na mokrym asfalcie albo w tłoku prędkość zapewniająca panowanie nad autem jest znacznie niższa.",
+   "ua": "Ліміт каже лише, скільки щонайбільше можна, а не скільки безпечно саме зараз. У тумані, на мокрому асфальті чи в заторі швидкість, що забезпечує контроль, значно нижча."
+  }
+ },
+ "13941": {
+  "law": "art. 4 i art. 45 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Wer gefährliches Verhalten auf der Straße bemerkt, warnt andere, etwa mit der Warnblinkanlage, und beseitigt die Gefahr nach Möglichkeit. Der Vertrauensgrundsatz wirkt in beide Richtungen: vorausschauen und warnen.",
+   "en": "Seeing dangerous behaviour on the road you warn others, for example with the hazard lights, and remove the danger where you can. Limited trust works both ways: you anticipate and you warn.",
+   "pl": "Widząc niebezpieczne zachowanie na drodze, ostrzegasz innych, na przykład światłami awaryjnymi, i w miarę możliwości usuwasz zagrożenie. Zasada ograniczonego zaufania działa w obie strony: przewidujesz i uprzedzasz.",
+   "ua": "Побачивши небезпечну поведінку на дорозі, попереджаєш інших, наприклад аварійними вогнями, і за можливості усуваєш загрозу. Принцип обмеженої довіри діє в обидва боки: передбачаєш і попереджаєш."
+  }
+ },
+ "13942": {
+  "law": "art. 2 pkt 47b Prawa o ruchu drogowym",
+  "text": {
+   "de": "Per Definition hat ein E-Scooter keinen Sitz, gefahren wird im Stehen. Ein Fahrzeug mit Sitz gehört bereits in eine andere Kategorie, etwa Moped, und unterliegt anderen Vorschriften.",
+   "en": "By definition an electric scooter has no seat, it is ridden standing. A machine with a seat is a different category, a moped for instance, and falls under different rules.",
+   "pl": "Z definicji hulajnoga elektryczna nie ma siedzenia, jazda odbywa się na stojąco. Pojazd z siedzeniem to już inna kategoria, na przykład motorower, i podlega innym przepisom.",
+   "ua": "За визначенням електросамокат не має сидіння, їзда відбувається стоячи. Транспорт із сидінням це вже інша категорія, наприклад мопед, і на нього поширюються інші норми."
+  }
+ },
+ "13943": {
+  "law": "art. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine Warnung verschafft anderen Reaktionszeit und kann Folgeereignisse verhindern, etwa das Auffahren auf ausgelaufenes Öl. Sie befreit jedoch nicht von der Haftung und garantiert nichts.",
+   "en": "A warning gives others time to react and can prevent further incidents, for example a car running onto spilt oil. It does not, however, remove liability or guarantee that nothing will happen.",
+   "pl": "Ostrzeżenie daje innym czas na reakcję i może zapobiec kolejnym zdarzeniom, na przykład najechaniu na rozlany olej. Nie zwalnia jednak z odpowiedzialności i nie gwarantuje, że nic się nie stanie.",
+   "ua": "Попередження дає іншим час зреагувати й може запобігти наступним подіям, наприклад наїзду на розлиту оливу. Проте воно не звільняє від відповідальності й не гарантує, що нічого не станеться."
+  }
+ },
+ "13944": {
+  "law": "art. 3a ust. 2 ustawy o kierujących pojazdami",
+  "text": {
+   "de": "Außerhalb der Wohnzone darf einen E-Scooter ab 10 Jahren fahren, wer einen Fahrradausweis hat. Ab 18 ist kein Dokument mehr nötig, in der Wohnzone gilt keine Altersgrenze.",
+   "en": "Outside a residential zone an electric scooter may be ridden from the age of 10 by someone holding a cycling card. From 18 no document is needed, and inside a residential zone no age applies.",
+   "pl": "Poza strefą zamieszkania hulajnogą elektryczną może jechać osoba od 10 lat, która ma kartę rowerową. Od 18 lat żaden dokument nie jest już potrzebny, a w strefie zamieszkania wieku się nie wymaga.",
+   "ua": "Поза житловою зоною електросамокатом може керувати особа від 10 років, яка має велосипедну картку. Із 18 років жодного документа вже не потрібно, а в житловій зоні віку не вимагають."
+  }
+ },
+ "13945": {
+  "text": {
+   "de": "Versicherer berücksichtigen die Verstoßhistorie, Geschwindigkeitsstrafen erhöhen also bei der Verlängerung die Haftpflichtprämie. Der Verlust des Schadenfreiheitsrabatts trifft oft härter als das Bußgeld.",
+   "en": "Insurers take the offence history into account, so speeding tickets push up the third-party premium at renewal. Losing a no-claims discount often costs more than the fine itself.",
+   "pl": "Ubezpieczyciele biorą pod uwagę historię wykroczeń, więc mandaty za prędkość podnoszą składkę OC przy odnowieniu. Utrata zniżek bywa dotkliwsza niż sam mandat.",
+   "ua": "Страховики враховують історію порушень, тож штрафи за швидкість підвищують внесок ОЦВ при поновленні. Втрата знижок буває відчутнішою за сам штраф."
+  }
+ },
+ "13950": {
+  "text": {
+   "de": "Eine Behinderung bedeutet nicht, dass jemand die Vorschriften bricht, eine solche Annahme trifft man nicht. Zu berücksichtigen ist aber, dass diese Person mehr Zeit braucht und nicht schnell ausweichen kann.",
+   "en": "A disability does not mean someone will break the rules, and no such assumption is made. What you must allow for is that the person may need more time and cannot get out of the way quickly.",
+   "pl": "Niepełnosprawność nie znaczy, że ktoś złamie przepisy, i takiego założenia się nie robi. Trzeba natomiast liczyć się z tym, że taka osoba może potrzebować więcej czasu i nie zdąży ustąpić.",
+   "ua": "Інвалідність не означає, що людина порушить правила, і такого припущення не роблять. Натомість треба зважати, що така особа може потребувати більше часу і не встигне відійти."
+  }
+ },
+ "13951": {
+  "law": "art. 24 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Beim Überholen eines E-Scooters gilt mindestens 1 Meter, nicht 0,5 Meter. Derselbe Abstand gilt für Fahrrad, Moped, Motorrad und Fußgänger.",
+   "en": "Overtaking an electric scooter requires at least 1 metre, not 0.5. The same distance covers bicycles, mopeds, motorcycles and pedestrians.",
+   "pl": "Przy wyprzedzaniu hulajnogi elektrycznej obowiązuje co najmniej 1 metr, a nie 0,5 metra. Ta sama odległość dotyczy roweru, motoroweru, motocykla i pieszego.",
+   "ua": "При обгоні електросамоката діє щонайменше 1 метр, а не 0,5 метра. Та сама відстань стосується велосипеда, мопеда, мотоцикла і пішохода."
+  }
+ },
+ "13962": {
+  "law": "art. 24 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Fortbewegungsmittel wie Rollschuhe oder Skateboard fällt unter dieselbe Regel: beim Überholen mindestens 1 Meter. Eine Person darauf ist noch weniger stabil als ein Radfahrer.",
+   "en": "A mobility device such as skates or a skateboard falls under the same rule: at least 1 metre when overtaking. Someone on such a device is even less stable than a cyclist.",
+   "pl": "Urządzenie wspomagające ruch, jak rolki czy deskorolka, jest objęte tą samą regułą: minimum 1 metr przy wyprzedzaniu. Osoba na takim urządzeniu ma jeszcze mniej stabilności niż rowerzysta.",
+   "ua": "Пристрій для пересування, як-от ролики чи скейтборд, підпадає під те саме правило: щонайменше 1 метр при обгоні. Людина на такому пристрої ще менш стійка, ніж велосипедист."
+  }
+ },
+ "13975": {
+  "law": "art. 26 ust. 3 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf einem nicht geregelten Fußgängerüberweg und unmittelbar davor ist das Überholen verboten. Der Überholende verdeckt die Sicht: Er sieht den Fußgänger nicht und der Fußgänger ihn nicht.",
+   "en": "On an unregulated pedestrian crossing and immediately before it overtaking is prohibited. The overtaking car blocks the view: it cannot see the pedestrian and the pedestrian cannot see it.",
+   "pl": "Na przejściu dla pieszych o ruchu niekierowanym i bezpośrednio przed nim wyprzedzanie jest zabronione. Wyprzedzający zasłania widok i ani on nie widzi pieszego, ani pieszy jego.",
+   "ua": "На нерегульованому пішохідному переході й безпосередньо перед ним обгін заборонений. Той, хто обганяє, закриває огляд: ані він не бачить пішохода, ані пішохід його."
+  }
+ },
+ "13976": {
+  "law": "art. 26 ust. 3 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das Verbot betrifft ungeregelte Überwege, dort wo eine Ampel oder ein Polizist den Verkehr regelt, ist Überholen zulässig. Die Signalisierung trennt Fußgänger und Fahrzeuge zeitlich.",
+   "en": "The ban covers unregulated crossings, so where traffic is directed by lights or an officer overtaking is permitted. The signals separate pedestrians and vehicles in time.",
+   "pl": "Zakaz dotyczy przejść o ruchu niekierowanym, więc tam, gdzie ruchem kieruje sygnalizacja albo policjant, wyprzedzanie jest dopuszczalne. Sygnalizacja rozdziela ruch pieszych i pojazdów w czasie.",
+   "ua": "Заборона стосується нерегульованих переходів, тож там, де рухом керує світлофор або поліцейський, обгін допустимий. Сигналізація розділяє рух пішоходів і транспорту в часі."
+  }
+ },
+ "13985": {
+  "law": "art. 26 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Wer ein Fortbewegungsmittel schiebt, gilt als Fußgänger und hat beim Betreten des Überwegs Vorrang. Ein Fahrrad oder einen Roller neben sich zu schieben ändert den Fußgängerstatus nicht.",
+   "en": "A person pushing a mobility device counts as a pedestrian, so stepping onto the crossing they have priority. Wheeling a bike or a scooter alongside does not change that pedestrian status.",
+   "pl": "Osoba pchająca urządzenie wspomagające ruch jest pieszym, więc wchodząc na przejście ma pierwszeństwo. Prowadzenie roweru czy hulajnogi obok siebie nie zmienia statusu pieszego.",
+   "ua": "Особа, яка веде пристрій для пересування, вважається пішоходом, тож, ступаючи на перехід, має перевагу. Ведення велосипеда чи самоката поруч статусу пішохода не змінює."
+  }
+ },
+ "13986": {
+  "law": "art. 26 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Gegenüber einem Fußgänger auf dem Überweg gelten besondere Vorsicht und Vorrang. Wer ein Fortbewegungsmittel schiebt, wird wie jeder andere Fußgänger behandelt.",
+   "en": "Towards a pedestrian on the crossing you owe particular caution and priority. A person pushing a mobility device is treated exactly like any other pedestrian.",
+   "pl": "Wobec pieszego znajdującego się na przejściu obowiązuje szczególna ostrożność i ustąpienie pierwszeństwa. Osoba pchająca urządzenie wspomagające ruch jest traktowana jak każdy inny pieszy.",
+   "ua": "Щодо пішохода, який перебуває на переході, діють особлива обережність і обов'язок поступитися. Особа, яка веде пристрій для пересування, прирівнюється до будь-якого іншого пішохода."
+  }
+ },
+ "13987": {
+  "law": "art. 51 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Fernlicht darf nicht benutzt werden, wenn es irgendjemanden blenden kann, auch Fußgänger in einer Kolonne. Eine geblendete Kolonne verliert die Orientierung und kann auf die Fahrbahn geraten.",
+   "en": "Main beam must not be used if it can dazzle anyone, pedestrians walking in a column included. A dazzled column loses its bearings and may drift onto the roadway.",
+   "pl": "Świateł drogowych nie wolno używać, jeśli mogą oślepić kogokolwiek, także pieszych idących w kolumnie. Oślepiona kolumna traci orientację i może zejść na jezdnię.",
+   "ua": "Дальнє світло не можна вмикати, якщо воно може засліпити будь-кого, зокрема пішоходів у колоні. Засліплена колона втрачає орієнтацію і може зійти на проїзну частину."
+  }
+ },
+ "13991": {
+  "law": "art. 26 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das besondere Zeichen, ein weißer Stock oder eine Armbinde mit drei Punkten, kennzeichnet einen blinden Menschen. Ihm gegenüber gilt die Anhaltepflicht überall, auch abseits eines Überwegs.",
+   "en": "The special sign, a white cane or an armband with three dots, marks a blind person. Towards them the duty to stop applies everywhere, away from a crossing as well.",
+   "pl": "Specjalny znak, czyli biała laska lub opaska z trzema kropkami, oznacza osobę niewidomą. Wobec niej obowiązek zatrzymania pojazdu działa wszędzie, także poza przejściem.",
+   "ua": "Спеціальний знак, тобто біла тростина чи пов'язка з трьома крапками, позначає незрячу людину. Щодо неї обов'язок зупинитися діє всюди, зокрема й поза переходом."
+  }
+ },
+ "13992": {
+  "law": "art. 26 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine Person mit sichtbar eingeschränkter Beweglichkeit darf queren, der Fahrer muss anhalten. Die Vorschrift verlangt weder einen Überweg noch ein Dokument.",
+   "en": "A person with visibly limited mobility has the right to cross, and the driver has the duty to stop. The rule requires neither a marked crossing nor any document.",
+   "pl": "Osoba o widocznej ograniczonej sprawności ruchowej ma prawo przejść, a kierujący ma obowiązek się zatrzymać. Przepis nie wymaga tu ani przejścia dla pieszych, ani żadnego dokumentu.",
+   "ua": "Особа з видимо обмеженою рухливістю має право перейти, а водій зобов'язаний зупинитися. Норма не вимагає ні пішохідного переходу, ні жодного документа."
+  }
+ },
+ "13993": {
+  "text": {
+   "de": "Ein empfohlener Übergang ist kein Fußgängerüberweg im Sinne der Vorschriften, dort besteht also kein Vorrang. Das entbindet nicht von der Vorsicht, denn ein Fußgänger kann dort trotzdem die Fahrbahn betreten.",
+   "en": "A suggested crossing is not a pedestrian crossing in the legal sense, so there is no priority there. That does not excuse a lack of caution, because a pedestrian may step out there anyway.",
+   "pl": "Przejście sugerowane nie jest przejściem dla pieszych w rozumieniu przepisów, więc pierwszeństwa tam nie ma. Nie zwalnia to jednak z ostrożności, bo pieszy i tak może tam wejść na jezdnię.",
+   "ua": "Рекомендований перехід не є пішохідним переходом у розумінні правил, тож переваги там немає. Це, однак, не звільняє від обережності, бо пішохід усе одно може там вийти на дорогу."
+  }
+ },
+ "13994": {
+  "law": "art. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein empfohlener Übergang sieht wie eine Querungsstelle aus, ein Fußgänger betritt ihn daher oft ohne Zögern. Der Vertrauensgrundsatz gebietet, genau damit zu rechnen und rechtzeitig zu verlangsamen.",
+   "en": "A suggested crossing looks like a place to cross, so a pedestrian often steps out there without hesitating. Limited trust tells you to assume exactly that and slow down in advance.",
+   "pl": "Przejście sugerowane wygląda jak miejsce do przechodzenia, więc pieszy często wchodzi tam bez wahania. Zasada ograniczonego zaufania każe założyć, że tak właśnie zrobi, i zawczasu zwolnić.",
+   "ua": "Рекомендований перехід виглядає як місце для переходу, тож пішохід часто виходить там без вагань. Принцип обмеженої довіри велить припустити саме це і завчасно знизити швидкість."
+  }
+ },
+ "13995": {
+  "law": "art. 23 ust. 1 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Beim Begegnen eines Fußgängers muss man nötigenfalls nach rechts ausweichen, verlangsamen und sogar anhalten. Auf schmaler Straße kann der Fußgänger nirgends hin, also weicht der Fahrer aus.",
+   "en": "When meeting a pedestrian you must, if needed, move to the right, slow down and even stop. On a narrow road the pedestrian has nowhere to go, so it is the driver who gives way.",
+   "pl": "Wymijając pieszego trzeba w razie potrzeby zjechać w prawo, zwolnić, a nawet się zatrzymać. Pieszy na wąskiej drodze nie ma dokąd uciec, więc to kierujący ustępuje miejsca.",
+   "ua": "Роз'їжджаючись із пішоходом, треба за потреби взяти праворуч, знизити швидкість і навіть зупинитися. На вузькій дорозі пішоходу нікуди подітися, тож поступається водій."
+  }
+ },
+ "14002": {
+  "law": "art. 26 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Wer ein Fortbewegungsmittel schiebt, ist Fußgänger, und ein den Überweg betretender Fußgänger hat Vorrang. Der Fahrer muss Vorrang gewähren, nicht abschätzen, ob er noch durchkommt.",
+   "en": "A person pushing a mobility device is a pedestrian, and a pedestrian stepping onto the crossing has priority. The driver must give way, not judge whether they can slip through first.",
+   "pl": "Osoba pchająca urządzenie wspomagające ruch to pieszy, a pieszy wchodzący na przejście ma pierwszeństwo. Kierujący ma obowiązek ustąpić, a nie ocenić, czy zdąży przejechać.",
+   "ua": "Особа, яка веде пристрій для пересування, це пішохід, а пішохід, що ступає на перехід, має перевагу. Водій зобов'язаний поступитися, а не оцінювати, чи встигне проскочити."
+  }
+ },
+ "14007": {
+  "law": "art. 4 i art. 45 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ausgelaufenes Öl ist besonders für Motorradfahrer eine tödliche Falle, also warnt man andere und ruft die Einsatzkräfte. Wegzufahren und zu schweigen heißt, eine selbst geschaffene Gefahr zurückzulassen.",
+   "en": "Spilt oil is a lethal trap, especially for motorcyclists, so you warn others and call the services. Driving off and saying nothing means abandoning a hazard you created yourself.",
+   "pl": "Rozlany olej to śmiertelna pułapka zwłaszcza dla motocyklistów, więc trzeba ostrzec innych i wezwać służby. Odjechanie i milczenie jest porzuceniem zagrożenia, które sam stworzyłeś.",
+   "ua": "Розлита олива це смертельна пастка передусім для мотоциклістів, тож треба попередити інших і викликати служби. Поїхати геть і промовчати означає покинути небезпеку, яку сам створив."
+  }
+ },
+ "14015": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Müdigkeit, Krankheit oder Stress verlängern die Reaktionszeit, die sichere Geschwindigkeit desselben Fahrers ändert sich also von Tag zu Tag. Nach einer Nachtschicht liegt sie niedriger als nach Erholung.",
+   "en": "Fatigue, illness or stress lengthen reaction time, so the safe speed for the same driver changes from day to day. After a night shift the safe speed is lower than after a good rest.",
+   "pl": "Zmęczenie, choroba czy stres wydłużają czas reakcji, więc prędkość bezpieczna dla tego samego kierowcy zmienia się z dnia na dzień. Po nocnej zmianie bezpieczna prędkość jest niższa niż po wypoczynku.",
+   "ua": "Втома, хвороба чи стрес подовжують час реакції, тож безпечна швидкість для того самого водія змінюється день у день. Після нічної зміни вона нижча, ніж після відпочинку."
+  }
+ },
+ "14062": {
+  "law": "art. 102 ust. 1d ustawy o kierujących pojazdami",
+  "text": {
+   "de": "Wer trotz der auf sechs Monate verlängerten Einbehaltung fährt, dem wird die Fahrerlaubnis für 5 Jahre entzogen. Danach muss der Führerschein komplett neu erworben werden, mit allen Prüfungen.",
+   "en": "Driving despite the withholding extended to six months ends with the entitlement being revoked for 5 years. After that the licence has to be earned again, with all the exams.",
+   "pl": "Jazda mimo przedłużonego do sześciu miesięcy zatrzymania kończy się cofnięciem uprawnień na 5 lat. Po tym okresie prawo jazdy trzeba zdobyć od nowa, ze wszystkimi egzaminami.",
+   "ua": "Керування попри подовжене до шести місяців затримання закінчується анулюванням права керування на 5 років. Після цього посвідчення доводиться здобувати заново, з усіма іспитами."
+  }
+ },
+ "14063": {
+  "law": "art. 102 ust. 1d ustawy o kierujących pojazdami",
+  "text": {
+   "de": "Die Folge ist dieselbe, unabhängig vom Grund der Einbehaltung: Entzug der Fahrerlaubnis für 5 Jahre. Entscheidend ist, dass trotz geltenden Verbots gefahren wurde.",
+   "en": "The consequence is the same whatever the licence was taken for: the entitlement is revoked for 5 years. What counts is that the driver drove despite a ban in force.",
+   "pl": "Skutek jest ten sam niezależnie od tego, za co prawo jazdy zabrano: cofnięcie uprawnień na 5 lat. Liczy się to, że kierowca prowadził mimo obowiązującego zakazu.",
+   "ua": "Наслідок той самий, незалежно від того, за що забрали посвідчення: анулювання права керування на 5 років. Значення має те, що водій керував попри чинну заборону."
+  }
+ },
+ "14064": {
+  "law": "art. 135 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Führerschein wird eingezogen, wenn die Zahl der beförderten Personen die Sitzplätze um mehr als zwei übersteigt, also um drei oder mehr. Ein oder zwei zu viel bringen Bußgeld und Punkte, aber keinen Dokumentenverlust.",
+   "en": "The licence is taken when the number of people carried exceeds the seats by more than two, that is by three or more. One or two extra means a fine and points, but not the loss of the document.",
+   "pl": "Prawo jazdy zabiera się, gdy liczba przewożonych osób przekracza liczbę miejsc o więcej niż dwie, czyli o trzy i więcej. Jedna czy dwie osoby ponad stan to mandat i punkty, ale bez utraty dokumentu.",
+   "ua": "Посвідчення забирають, коли кількість перевезених осіб перевищує кількість місць більш ніж на дві, тобто на три і більше. Одна чи дві особи понад норму це штраф і бали, але без втрати документа."
+  }
+ },
+ "14107": {
+  "law": "art. 33b ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Über einen Fußgängerüberweg darf man mit einem Elektrokleinstfahrzeug nicht längs fahren, man überquert ihn zu Fuß und schiebt das Gerät. Der Überweg ist zum Überqueren gedacht, nicht zum Befahren.",
+   "en": "You must not ride a personal transport device along a pedestrian crossing; you cross it on foot, wheeling the device. The crossing is meant for walking across, not for riding along.",
+   "pl": "Po przejściu dla pieszych nie wolno przejeżdżać wzdłuż urządzeniem transportu osobistego, trzeba przez nie przejść, prowadząc urządzenie. Przejście jest przeznaczone do przechodzenia, a nie do przejazdu.",
+   "ua": "Пішохідним переходом не можна їхати вздовж на пристрої персонального транспорту, його переходять пішки, ведучи пристрій. Перехід призначений для переходу, а не для проїзду."
   }
  },
  "1864": {
