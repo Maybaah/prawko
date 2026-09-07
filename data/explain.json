@@ -128,6 +128,570 @@
    "ua": "Крісло добирають за технічними умовами: омологацією, зростом і вагою дитини. Зручність і вигляд другорядні, бо захист визначає відповідність нормі."
   }
  },
+ "10878": {
+  "law": "art. 39 ust. 3a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Kind ab 135 cm darf auf der Rückbank nur mit Gurt fahren, wenn Größe und Gewicht einen Kindersitz unmöglich machen. Die Grenze liegt bei 135 cm, nicht bei 125 cm, und ein Tempolimit gibt es dafür nicht.",
+   "en": "A child at least 135 cm tall may travel on the rear seat on belts alone if their height and weight make a child seat unusable. The threshold is 135 cm, not 125 cm, and no speed limit applies here.",
+   "pl": "Dziecko o wzroście co najmniej 135 cm wolno wozić na tylnym siedzeniu w samych pasach, jeżeli jego wzrost i masa uniemożliwiają użycie fotelika. Granicą jest 135 cm, nie 125 cm, i nie ma tu żadnego limitu prędkości.",
+   "ua": "Дитину зростом щонайменше 135 см можна возити на задньому сидінні лише в пасах, якщо її зріст і вага унеможливлюють використання крісла. Межа це 135 см, а не 125 см, і жодного обмеження швидкості тут немає."
+  }
+ },
+ "10880": {
+  "law": "art. 39 ust. 3a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Voraussetzung sind mindestens 135 cm Größe und dass Größe und Gewicht des Kindes eine Rückhalteeinrichtung ausschließen. Eine Geschwindigkeitsbegrenzung hat damit nichts zu tun.",
+   "en": "The condition is a height of at least 135 cm and that the child's height and weight rule out a restraint. A speed limit has nothing to do with it.",
+   "pl": "Warunkiem jest wzrost co najmniej 135 cm i to, że wzrost oraz masa dziecka uniemożliwiają użycie urządzenia przytrzymującego. Ograniczenie prędkości nie ma z tym nic wspólnego.",
+   "ua": "Умова це зріст щонайменше 135 см і те, що зріст та вага дитини унеможливлюють використання утримувального пристрою. Обмеження швидкості до цього стосунку не має."
+  }
+ },
+ "10882": {
+  "law": "art. 39 ust. 3 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Sitzen bereits zwei Kinder in Kindersitzen und lässt sich kein dritter montieren, darf ein drittes Kind über 3 Jahren nur mit dem Gurt gesichert werden. Auf dem Schoß eines Erwachsenen fährt ein Kind nie mit.",
+   "en": "If two children are already in child seats and a third seat cannot be fitted, a third child over 3 may be secured with the belts alone. A child is never carried on an adult's lap.",
+   "pl": "Jeżeli dwoje dzieci jedzie już w fotelikach i trzeciego nie da się zamocować, trzecie dziecko powyżej 3 lat wolno przypiąć samymi pasami. Na kolanach dorosłego dziecka nie wozi się nigdy.",
+   "ua": "Якщо двоє дітей уже їдуть у кріслах і третє встановити неможливо, третю дитину віком понад 3 роки можна пристебнути лише пасами. На колінах дорослого дитину не возять ніколи."
+  }
+ },
+ "10883": {
+  "law": "art. 39 ust. 3 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das dritte Kind, für das kein Platz für eine Rückhalteeinrichtung bleibt, wird mit dem Sicherheitsgurt gesichert. Eine Fußstütze oder der Mittelplatz ändern daran nichts.",
+   "en": "The third child, for whom there is no room for a restraint, is secured with the seat belts. A footrest or the middle seat changes nothing.",
+   "pl": "Trzecie dziecko, dla którego zabrakło miejsca na urządzenie przytrzymujące, zabezpiecza się pasami bezpieczeństwa. Podstawka pod nogi ani miejsce na środku kanapy niczego nie zmieniają.",
+   "ua": "Третю дитину, для якої не лишилося місця під утримувальний пристрій, фіксують пасами безпеки. Підставка під ноги чи місце посередині дивана нічого не змінюють."
+  }
+ },
+ "10885": {
+  "law": "art. 38 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Mitzuführen ist die Quittung über den einbehaltenen Fahrzeugschein, solange sie zum Fahren berechtigt. Den Fahrzeugschein selbst und den Versicherungsbeleg muss man in Polen nicht dabeihaben, die Daten stehen im Register.",
+   "en": "You must carry the receipt for a retained registration certificate for as long as it authorises driving. The certificate itself and proof of insurance payment need not be carried in Poland, the data is in the register.",
+   "pl": "Trzeba mieć przy sobie pokwitowanie zatrzymania dowodu rejestracyjnego, dopóki uprawnia ono do jazdy. Samego dowodu rejestracyjnego ani potwierdzenia opłaty OC wozić w Polsce nie trzeba, dane są w bazie.",
+   "ua": "Треба мати при собі квитанцію про вилучення свідоцтва про реєстрацію, доки вона дозволяє керувати. Саме свідоцтво і підтвердження оплати ОЦВ у Польщі возити не потрібно, дані є в реєстрі."
+  }
+ },
+ "10886": {
+  "law": "art. 38 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Mitzuführen ist die Quittung über die einbehaltene vorläufige Zulassung, solange sie zur Nutzung berechtigt. Die Kaskoversicherung ist freiwillig, und die Untersuchungsbescheinigung muss nicht dabei sein.",
+   "en": "You carry the receipt for a retained temporary permit for as long as it allows the vehicle to be used. Comprehensive insurance is voluntary, and the inspection certificate need not be carried.",
+   "pl": "Wozi się pokwitowanie zatrzymania pozwolenia czasowego, dopóki uprawnia ono do używania pojazdu. Polisa AC jest dobrowolna, a zaświadczenia o badaniu technicznym nie trzeba mieć przy sobie.",
+   "ua": "Возять квитанцію про вилучення тимчасового посвідчення, доки воно дозволяє користуватися транспортом. Каско добровільне, а довідку про техогляд мати при собі не треба."
+  }
+ },
+ "10887": {
+  "law": "art. 38 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Seit 2018 muss der Fahrzeugschein nicht mitgeführt werden, die Quittung über seine Einbehaltung dagegen schon, denn sie ersetzt dann das Fahrzeugdokument. Der Polizist prüft die Daten im zentralen Fahrzeugregister.",
+   "en": "Since 2018 the registration certificate need not be carried, but the receipt for its retention must be, because it then stands in for the vehicle document. The officer checks the data in the central vehicle register.",
+   "pl": "Od 2018 roku dowodu rejestracyjnego nie trzeba wozić, ale pokwitowanie jego zatrzymania już tak, bo to ono zastępuje wtedy dokument pojazdu. Policjant sprawdza dane w Centralnej Ewidencji Pojazdów.",
+   "ua": "Із 2018 року свідоцтво про реєстрацію возити не треба, а от квитанцію про його вилучення так, бо саме вона тоді замінює документ на авто. Поліцейський перевіряє дані в центральному реєстрі."
+  }
+ },
+ "10888": {
+  "law": "art. 38 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Pflicht ist die Quittung über die einbehaltene vorläufige Zulassung, solange sie zum Fahren berechtigt. Weder die EG-Übereinstimmungsbescheinigung noch der Fahrzeugschein müssen mitgeführt werden.",
+   "en": "What is compulsory is the receipt for a retained temporary permit during the period it authorises driving. Neither the EC certificate of conformity nor the registration certificate has to be carried.",
+   "pl": "Obowiązkowe jest pokwitowanie zatrzymania pozwolenia czasowego w okresie, w którym uprawnia ono do jazdy. Świadectwa zgodności WE ani dowodu rejestracyjnego wozić nie trzeba.",
+   "ua": "Обов'язковою є квитанція про вилучення тимчасового посвідчення в період, коли воно дозволяє керувати. Ні сертифіката відповідності ЄС, ні свідоцтва про реєстрацію возити не треба."
+  }
+ },
+ "10889": {
+  "law": "art. 38 pkt 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Beim Führen eines im Ausland zugelassenen Fahrzeugs ist das Zulassungsdokument mitzuführen, denn dieses Fahrzeug steht nicht in den polnischen Registern. Die Unfallversicherung ist freiwillig, eine Kopie der Untersuchungsbescheinigung ersetzt nichts.",
+   "en": "Driving a foreign-registered car you must carry the document admitting it to traffic, because that vehicle is not in the Polish registers. Accident insurance is voluntary, and a copy of the inspection certificate replaces nothing.",
+   "pl": "Kierując autem zarejestrowanym za granicą trzeba mieć dokument dopuszczający pojazd do ruchu, bo polskich baz danych ten pojazd nie ma. Ubezpieczenie NW jest dobrowolne, a kopia badania technicznego niczego nie zastępuje.",
+   "ua": "Керуючи авто, зареєстрованим за кордоном, треба мати документ про допуск до руху, бо цього транспорту немає в польських базах. Страхування від нещасних випадків добровільне, а копія техогляду нічого не замінює."
+  }
+ },
+ "10890": {
+  "law": "art. 38 pkt 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei einem im Ausland zugelassenen Fahrzeug ist der Nachweis der Pflichthaftpflichtversicherung mitzuführen. Die polnischen Register enthalten keine Versicherungsdaten für ein solches Auto.",
+   "en": "With a foreign-registered vehicle you carry the document confirming compulsory third-party cover. The Polish registers hold no insurance data for such a car.",
+   "pl": "Przy pojeździe zarejestrowanym za granicą wozi się dokument potwierdzający zawarcie obowiązkowego OC. Polskie bazy nie zawierają danych o ubezpieczeniu takiego auta.",
+   "ua": "При транспорті, зареєстрованому за кордоном, возять документ про укладення обов'язкового ОЦВ. Польські бази не містять даних про страхування такого авта."
+  }
+ },
+ "10891": {
+  "law": "art. 38 pkt 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei einem im Ausland zugelassenen Auto ist der Nachweis der gezahlten Haftpflichtprämie mitzuführen. Autobahnmaut und Eigentumsnachweis gehören nicht zu den bei einer Kontrolle geforderten Dokumenten.",
+   "en": "With a foreign-registered car you must have proof that the third-party premium has been paid. Motorway tolls and proof of ownership are not documents required at a roadside check.",
+   "pl": "Przy aucie zarejestrowanym za granicą trzeba mieć dowód opłacenia składki OC. Opłaty za autostrady i dowód własności nie są dokumentami wymaganymi w kontroli drogowej.",
+   "ua": "При авто, зареєстрованому за кордоном, треба мати доказ сплати внеску ОЦВ. Плата за автомагістралі й документ про власність не належать до потрібних під час перевірки."
+  }
+ },
+ "10892": {
+  "law": "art. 38 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Den polnischen Führerschein muss man nicht mitführen, da die Berechtigung im Register steht, ein ausländisches Dokument dagegen schon. Die Qualifikationsbescheinigung betrifft nur Berufskraftfahrer.",
+   "en": "A Polish licence need not be carried, since the entitlement is in the register, but a foreign document must be with you. A certificate of professional competence concerns professional drivers only.",
+   "pl": "Polskiego prawa jazdy nie trzeba wozić, bo uprawnienia widnieją w ewidencji, ale dokument zagraniczny trzeba mieć przy sobie. Świadectwo kwalifikacji dotyczy tylko kierowców zawodowych.",
+   "ua": "Польське посвідчення возити не треба, бо право керування є в реєстрі, а от іноземний документ мати при собі обов'язково. Свідоцтво кваліфікації стосується лише професійних водіїв."
+  }
+ },
+ "10893": {
+  "law": "art. 38 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Quittung über den einbehaltenen Führerschein ist mitzuführen, weil sie in dieser Zeit das Berechtigungsdokument ersetzt. Ärztliche und psychologische Gutachten betreffen Berufskraftfahrer.",
+   "en": "The receipt for a retained driving licence must be carried, because during that time it stands in for the entitlement document. Medical and psychological certificates concern professional drivers.",
+   "pl": "Pokwitowanie zatrzymania prawa jazdy trzeba mieć przy sobie, bo w tym czasie zastępuje ono dokument uprawniający do kierowania. Orzeczenia lekarskie i psychologiczne dotyczą kierowców zawodowych.",
+   "ua": "Квитанцію про вилучення посвідчення треба мати при собі, бо в цей час вона замінює документ на право керування. Медичні та психологічні висновки стосуються професійних водіїв."
+  }
+ },
+ "10894": {
+  "law": "art. 38 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Fahrer führt die Quittung über den einbehaltenen Führerschein mit, solange sie zum Fahren berechtigt. Psychologisches und ärztliches Gutachten stehen für einen normalen Fahrer nicht auf dieser Liste.",
+   "en": "The driver carries the receipt for the retained licence throughout the period it authorises driving. Psychological and medical certificates are not on that list for an ordinary driver.",
+   "pl": "Kierowca ma przy sobie pokwitowanie zatrzymania prawa jazdy przez okres, w którym ono uprawnia do jazdy. Orzeczenie psychologiczne i lekarskie nie są w tym wykazie dla zwykłego kierowcy.",
+   "ua": "Водій має при собі квитанцію про вилучення посвідчення протягом строку, коли вона дає право керувати. Психологічний і медичний висновки для звичайного водія до цього переліку не входять."
+  }
+ },
+ "10895": {
+  "law": "art. 38 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Pflicht ist ein Berechtigungsdokument, das kein polnischer Führerschein ist, etwa ein ausländischer oder internationaler. Kursbescheinigungen sind keine Kontrolldokumente.",
+   "en": "What is compulsory is an entitlement document other than a Polish licence, for example a foreign or international one. Course certificates are not roadside check documents.",
+   "pl": "Obowiązkowy jest dokument uprawniający do kierowania inny niż polskie prawo jazdy, na przykład zagraniczne albo międzynarodowe. Zaświadczenia o kursach nie są dokumentami kontroli drogowej.",
+   "ua": "Обов'язковим є документ на право керування, інший ніж польське посвідчення, наприклад іноземне чи міжнародне. Довідки про курси не є документами дорожньої перевірки."
+  }
+ },
+ "10898": {
+  "law": "art. 135 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Führerschein wird eingezogen, wenn zwei Personen mehr befördert werden als Sitzplätze im Fahrzeugschein stehen. Überholen über die Sperrlinie oder Begegnen am Bahnübergang bringt Geld- und Punktestrafe, aber keinen Dokumentenverlust.",
+   "en": "The licence is taken for carrying two more people than the seats listed in the registration certificate. Crossing a solid line while overtaking or passing on a level crossing brings a fine and points, but not the loss of the document.",
+   "pl": "Prawo jazdy zabiera się za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc w dowodzie rejestracyjnym. Za wyprzedzanie na ciągłej czy wymijanie na przejeździe grozi mandat i punkty, ale nie utrata dokumentu.",
+   "ua": "Посвідчення забирають за перевезення на дві особи більше, ніж місць у свідоцтві про реєстрацію. За обгін через суцільну чи роз'їзд на переїзді загрожує штраф і бали, але не втрата документа."
+  }
+ },
+ "10899": {
+  "law": "art. 135 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Grund für die Einbehaltung ist die Beförderung von zwei Personen über die in der vorläufigen Zulassung eingetragene Sitzzahl hinaus. Überholen vor einem Überweg mit geregeltem Verkehr ist erlaubt, das Begegnen am Radfahrerüberweg kostet das Dokument nicht.",
+   "en": "The reason for retaining the licence is carrying two people over the number of seats in the temporary permit. Overtaking before a crossing where traffic is directed is allowed, and passing on a cycle crossing is an offence but not one costing the document.",
+   "pl": "Powodem zatrzymania prawa jazdy jest przewożenie dwóch osób ponad liczbę miejsc wpisaną w pozwoleniu czasowym. Wyprzedzanie przed przejściem z kierowanym ruchem jest dozwolone, a wymijanie na przejeździe dla rowerzystów to wykroczenie bez utraty dokumentu.",
+   "ua": "Підставою для вилучення посвідчення є перевезення двох осіб понад кількість місць у тимчасовому посвідченні. Обгін перед переходом із регульованим рухом дозволений, а роз'їзд на велопереїзді це порушення без втрати документа."
+  }
+ },
+ "10930": {
+  "text": {
+   "de": "Die Quittung berechtigt 24 Stunden ab Einbehaltung des Führerscheins zum Fahren. Danach gilt das Führen des Fahrzeugs als Fahren ohne Fahrerlaubnis.",
+   "en": "The receipt authorises driving for 24 hours from the moment the licence was taken. After that, driving counts as driving without a licence.",
+   "pl": "Pokwitowanie uprawnia do jazdy przez 24 godziny od zatrzymania prawa jazdy. Po tym czasie kierowanie pojazdem jest już jazdą bez uprawnień.",
+   "ua": "Квитанція дає право керувати протягом 24 годин від моменту вилучення посвідчення. Після цього керування вважається їздою без права керування."
+  }
+ },
+ "10931": {
+  "text": {
+   "de": "Auch hier gilt die Quittung 24 Stunden, unabhängig davon, weswegen der Führerschein einbehalten wurde. Die Frist läuft ab dem Zeitpunkt der Einbehaltung.",
+   "en": "Here too the receipt is good for 24 hours, whatever the licence was taken for. The clock starts at the moment the document is retained.",
+   "pl": "Także tutaj pokwitowanie działa 24 godziny, niezależnie od tego, za co prawo jazdy zabrano. Termin liczy się od chwili zatrzymania dokumentu.",
+   "ua": "І тут квитанція діє 24 години, незалежно від того, за що посвідчення забрали. Строк рахують від моменту вилучення документа."
+  }
+ },
+ "10960": {
+  "law": "art. 135 ust. 1a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Führerschein wird nicht einbehalten, wenn die Geschwindigkeitsüberschreitung der Rettung von Leben oder Gesundheit diente. Das Gesetz nimmt Handeln im Notstand ausdrücklich aus.",
+   "en": "The licence is not taken if the speeding served to save life or health. The law expressly excludes acting out of necessity.",
+   "pl": "Prawa jazdy nie zabiera się, jeśli przekroczenie prędkości służyło ratowaniu życia lub zdrowia. Przepis wprost wyłącza sytuacje działania w stanie wyższej konieczności.",
+   "ua": "Посвідчення не забирають, якщо перевищення швидкості служило порятунку життя чи здоров'я. Норма прямо виключає дії в стані крайньої необхідності."
+  }
+ },
+ "10961": {
+  "law": "art. 135 ust. 1a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Polizist sieht von der Einbehaltung ab, weil der Fahrer handelte, um ein Menschenleben zu retten. Weder eine Verwarnung mit Nachprüfung noch eine Zusatzschulung ist hier vorgesehen.",
+   "en": "The officer will refrain from taking the licence, because the driver acted to save a human life. There is no caution with a re-test here, and no extra training either.",
+   "pl": "Policjant odstąpi od zatrzymania prawa jazdy, bo kierujący działał, żeby ratować ludzkie życie. Nie ma tu ani pouczenia z egzaminem kontrolnym, ani dodatkowego szkolenia.",
+   "ua": "Поліцейський не вилучатиме посвідчення, бо водій діяв заради порятунку людського життя. Ні попередження з контрольним іспитом, ні додаткового навчання тут немає."
+  }
+ },
+ "10992": {
+  "law": "art. 39 ust. 3 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Das dritte Kind darf nur dann allein mit dem Gurt gesichert werden, wenn zwei bereits in Kindersitzen sitzen, ein dritter nicht montierbar ist und das Kind über 3 Jahre alt ist. Weder 100 cm Größe noch 15 Jahre sind hier die Bedingung.",
+   "en": "The third child may be secured with belts alone only when two are already in child seats, a third seat cannot be fitted, and the child is over 3. A height of 100 cm or an age of 15 is not the condition here.",
+   "pl": "Trzecie dziecko wolno przypiąć samymi pasami tylko wtedy, gdy dwoje już siedzi w fotelikach, trzeciego nie da się zamontować, a dziecko ukończyło 3 lata. Sam wzrost 100 cm ani wiek 15 lat nie są tu warunkiem.",
+   "ua": "Третю дитину можна пристебнути лише пасами тоді, коли двоє вже сидять у кріслах, третє встановити неможливо, а дитині виповнилося 3 роки. Ні зріст 100 см, ні вік 15 років тут умовою не є."
+  }
+ },
+ "10994": {
+  "law": "art. 39 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine Ausnahme begründet allein eine ärztliche Bescheinigung über eine Gegenanzeige zum Kindersitz. Platzmangel oder 135 cm Größe befreien auf dem Beifahrersitz nicht von der Pflicht.",
+   "en": "The only exemption comes from a medical certificate stating a contraindication to a child seat. No room for a seat, or a height of 135 cm, does not lift the requirement in the front seat.",
+   "pl": "Odstępstwo daje wyłącznie zaświadczenie lekarskie o przeciwwskazaniu do przewozu w foteliku. Brak miejsca na fotelik ani wzrost 135 cm nie zwalniają z obowiązku na przednim siedzeniu.",
+   "ua": "Виняток дає виключно медична довідка про протипоказання до перевезення в кріслі. Брак місця під крісло чи зріст 135 см від обов'язку на передньому сидінні не звільняють."
+  }
+ },
+ "11001": {
+  "law": "art. 38 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Fahrer, dessen Berechtigung auf ein Fahrzeug mit Alkohol-Wegfahrsperre beschränkt ist, muss die entsprechende Untersuchungsbescheinigung mitführen. Fahrzeugschein und Versicherungsnachweis sind nicht mitzuführen.",
+   "en": "A driver whose entitlement is limited to a car with an alcohol interlock must carry the inspection certificate covering that device. The registration certificate and proof of insurance need not be carried.",
+   "pl": "Kierowca z uprawnieniem ograniczonym do auta z blokadą alkoholową musi wozić zaświadczenie o badaniu technicznym w tym zakresie. Dowodu rejestracyjnego ani potwierdzenia OC wozić nie trzeba.",
+   "ua": "Водій, чиє право керування обмежене авто з алкоблокуванням, мусить возити довідку про технічний огляд у цій частині. Свідоцтво про реєстрацію і підтвердження ОЦВ возити не треба."
+  }
+ },
+ "11003": {
+  "text": {
+   "de": "Der Inspektor der Straßentransportaufsicht hat insoweit dieselben Befugnisse wie die Polizei und darf das Fahrzeug im zentralen Fahrzeugregister prüfen. Eine Kontrolle ohne Zugriff auf diese Daten wäre wirkungslos.",
+   "en": "A road transport inspector has the same powers as the police here and may check the vehicle in the central vehicle register. A transport check with no access to that data would be pointless.",
+   "pl": "Inspektor transportu drogowego ma w tym zakresie takie same uprawnienia jak policja i może sprawdzić pojazd w Centralnej Ewidencji Pojazdów. Kontrola transportu bez dostępu do tych danych byłaby pozorna.",
+   "ua": "Інспектор автомобільного транспорту має в цій частині такі самі повноваження, як поліція, і може перевірити авто в центральному реєстрі. Перевірка транспорту без доступу до цих даних була б формальною."
+  }
+ },
+ "11005": {
+  "law": "art. 132 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Den Fahrzeugschein gibt die Prüfstelle nach einer Untersuchung zurück, die dem Einbehaltungsgrund entspricht. Erst die Bestätigung, dass der Mangel behoben ist, stellt das Dokument wieder her.",
+   "en": "The registration certificate is returned by the vehicle testing station after an inspection matching the reason it was taken. Only confirmation that the fault is gone brings the document back.",
+   "pl": "Dowód rejestracyjny zwraca stacja kontroli pojazdów po badaniu odpowiadającym przyczynie zatrzymania. Dopiero potwierdzenie, że usterka zniknęła, przywraca dokument.",
+   "ua": "Свідоцтво про реєстрацію повертає станція технічного контролю після огляду, що відповідає причині вилучення. Лише підтвердження усунення несправності повертає документ."
+  }
+ },
+ "11017": {
+  "text": {
+   "de": "Für eine Überschreitung um mehr als 50 km/h innerorts wird der Führerschein für 3 Monate einbehalten. Wer trotzdem fährt, verlängert die Frist auf 6 Monate.",
+   "en": "For exceeding the limit by more than 50 km/h in a built-up area the licence is withheld for 3 months. Driving despite the ban extends that to 6 months.",
+   "pl": "Za przekroczenie prędkości o więcej niż 50 km/h w obszarze zabudowanym prawo jazdy zatrzymuje się na 3 miesiące. Jazda mimo zatrzymania wydłuża ten okres do 6 miesięcy.",
+   "ua": "За перевищення швидкості більш ніж на 50 км/год у населеному пункті посвідчення затримують на 3 місяці. Керування попри заборону подовжує цей строк до 6 місяців."
+  }
+ },
+ "11018": {
+  "text": {
+   "de": "Die Quittung erlaubt das Fahren für 24 Stunden ab Einbehaltung des Führerscheins. Sie soll die Heimfahrt ermöglichen, nicht den normalen Weiterbetrieb.",
+   "en": "The receipt allows driving for 24 hours from the moment the licence was taken. It is meant to let you get home, not to carry on driving as usual.",
+   "pl": "Pokwitowanie pozwala kierować przez 24 godziny od zatrzymania prawa jazdy. Ma to umożliwić dojazd do domu, a nie dalszą normalną jazdę.",
+   "ua": "Квитанція дозволяє керувати протягом 24 годин від вилучення посвідчення. Це потрібно, щоб дістатися додому, а не щоб їздити далі як зазвичай."
+  }
+ },
+ "11022": {
+  "law": "art. 135 ust. 1a Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Ausnahme ist das Handeln zur Abwendung einer unmittelbaren Gefahr für ein rechtlich geschütztes Gut, also der Notstand. Druck eines anderen Fahrers oder der Wunsch, die Kreuzung schneller zu räumen, entschuldigt nichts.",
+   "en": "The exception is acting to avert an immediate danger to a legally protected interest, that is necessity. Pressure from another driver or wanting to clear a junction faster excuses nothing.",
+   "pl": "Wyjątkiem jest działanie w celu uchylenia bezpośredniego niebezpieczeństwa grożącego dobru chronionemu prawem, czyli stan wyższej konieczności. Presja innego kierowcy ani chęć szybszego zjechania ze skrzyżowania nie usprawiedliwiają niczego.",
+   "ua": "Винятком є дія задля усунення безпосередньої небезпеки для правоохоронюваного блага, тобто крайня необхідність. Тиск іншого водія чи бажання швидше звільнити перехрестя нічого не виправдовують."
+  }
+ },
+ "11028": {
+  "law": "art. 39 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei aktivem Beifahrerairbag darf ein Kind vorn nur in einem vorwärtsgerichteten Kindersitz mitfahren. Jede rückwärtsgerichtete Position verlangt das Abschalten des Airbags.",
+   "en": "With the passenger airbag active a child may travel in front only in a forward-facing child seat. Any rear-facing arrangement requires the airbag to be switched off.",
+   "pl": "Przy aktywnej poduszce pasażera dziecko wolno wozić z przodu tylko w foteliku ustawionym przodem do kierunku jazdy. Każde ustawienie tyłem wymaga wyłączenia poduszki.",
+   "ua": "При активній подушці пасажира дитину можна возити спереду лише в кріслі, повернутому за напрямком руху. Будь-яке розташування проти руху вимагає вимкнення подушки."
+  }
+ },
+ "11528": {
+  "law": "art. 135 ust. 1 pkt 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine Überschreitung der Sitzplatzzahl um zwei oder mehr Personen kostet den Führerschein für 3 Monate. Eine Überprüfung der Fahrqualifikation ist hier nicht vorgesehen.",
+   "en": "Exceeding the number of seats by two people or more costs a 3-month withholding of the licence. A check of driving qualifications is not part of this penalty.",
+   "pl": "Przekroczenie liczby miejsc o dwie osoby lub więcej kosztuje zatrzymanie prawa jazdy na 3 miesiące. Kontrolne sprawdzenie kwalifikacji nie jest tu przewidziane.",
+   "ua": "Перевищення кількості місць на дві особи чи більше коштує затримання посвідчення на 3 місяці. Контрольної перевірки кваліфікації тут не передбачено."
+  }
+ },
+ "13052": {
+  "law": "art. 19 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein fest definierter Mindestabstand gilt auf Autobahn und Schnellstraße: mindestens die Hälfte des Tachowertes, ausgedrückt in Metern. Auf anderen Straßen muss der Abstand einfach sicher sein.",
+   "en": "A strictly defined minimum gap applies on motorways and expressways: at least half the number shown on the speedometer, expressed in metres. On other roads the gap simply has to be safe.",
+   "pl": "Sztywno określony minimalny odstęp obowiązuje na autostradzie i drodze ekspresowej: co najmniej połowa liczby wskazanej przez prędkościomierz, wyrażona w metrach. Na innych drogach odstęp ma być po prostu bezpieczny.",
+   "ua": "Жорстко визначена мінімальна дистанція діє на автомагістралі та швидкісній дорозі: щонайменше половина показника спідометра, виражена в метрах. На інших дорогах дистанція має бути просто безпечною."
+  }
+ },
+ "13054": {
+  "law": "art. 20 ust. 5 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein Fahrzeug mit einem mehr als 1,5 m vor dem Fahrersitz überstehenden Gerät darf innerorts höchstens 30 km/h und außerorts 60 km/h fahren. Der Überstand verdeckt die Fahrbahn direkt vor dem Auto, daher das niedrigere Limit.",
+   "en": "A vehicle with a device sticking out more than 1.5 m ahead of the driver's seat may do at most 30 km/h in a built-up area and 60 km/h outside it. The protruding part hides the road right in front, hence the lower limit.",
+   "pl": "Pojazd z urządzeniem wystającym do przodu ponad 1,5 m od siedzenia kierowcy może jechać najwyżej 30 km/h w obszarze zabudowanym i 60 km/h poza nim. Wystający element zasłania drogę tuż przed autem, stąd obniżony limit.",
+   "ua": "Транспорт із пристроєм, що виступає вперед більш ніж на 1,5 м від сидіння водія, може рухатися щонайбільше 30 км/год у населеному пункті і 60 км/год поза ним. Виступ закриває дорогу просто перед авто, звідси й знижений ліміт."
+  }
+ },
+ "13058": {
+  "law": "art. 19 ust. 1 i art. 20 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Auf der Autobahn darf ein Pkw höchstens 140 km/h fahren, und auch nur, wenn die Bedingungen die Beherrschung des Fahrzeugs zulassen. Das Limit ist eine Obergrenze, keine empfohlene Geschwindigkeit.",
+   "en": "On a motorway a car may do at most 140 km/h, and only when conditions still let you keep control. The limit is an upper bound, not a recommended speed.",
+   "pl": "Na autostradzie samochód osobowy może jechać najwyżej 140 km/h, i to tylko wtedy, gdy warunki pozwalają panować nad pojazdem. Limit jest górną granicą, a nie prędkością zalecaną.",
+   "ua": "На автомагістралі легковик може рухатися щонайбільше 140 км/год, і лише тоді, коли умови дозволяють контролювати авто. Ліміт це верхня межа, а не рекомендована швидкість."
+  }
+ },
+ "13064": {
+  "law": "art. 20 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Innerorts gilt 50 km/h, auch für ein Vierradfahrzeug, unabhängig von seiner Masse. Die Masse verändert die Limits erst außerorts und bei Gespannen mit Anhänger.",
+   "en": "In a built-up area the limit is 50 km/h and it applies to a quadricycle too, whatever its weight. Weight changes the limits only outside built-up areas and for combinations with a trailer.",
+   "pl": "W obszarze zabudowanym obowiązuje 50 km/h i dotyczy to również czterokołowca, niezależnie od jego masy. Masa zmienia limity dopiero poza obszarem zabudowanym i przy zestawach z przyczepą.",
+   "ua": "У населеному пункті діє 50 км/год, і це стосується також квадроцикла, незалежно від його маси. Маса змінює ліміти лише поза населеним пунктом і для составів із причепом."
+  }
+ },
+ "13088": {
+  "law": "art. 31 ust. 1 pkt 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Abgeschleppt werden darf mit höchstens 30 km/h innerorts und 60 km/h außerorts. Das gezogene Fahrzeug hat oft schwächere Bremsen und keine Servounterstützung, schneller ist schlicht gefährlich.",
+   "en": "Towing is allowed at up to 30 km/h in a built-up area and 60 km/h outside it. The towed car often has weaker brakes and no servo assistance, so going faster is simply dangerous.",
+   "pl": "Holować wolno najwyżej z prędkością 30 km/h w obszarze zabudowanym i 60 km/h poza nim. Pojazd holowany często ma słabsze hamulce i nie ma wspomagania, więc szybciej jest po prostu niebezpiecznie.",
+   "ua": "Буксирувати дозволено щонайбільше 30 км/год у населеному пункті і 60 км/год поза ним. Буксирований автомобіль часто має слабші гальма і не має підсилювача, тож швидше просто небезпечно."
+  }
+ },
+ "13382": {
+  "law": "art. 39 ust. 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die einzige Ausnahme ist eine ärztliche Bescheinigung über eine Gegenanzeige zum Kindersitz. Langsameres Fahren oder ein Aufkleber mit Kind an Bord befreit nicht von der Pflicht.",
+   "en": "The only exemption is a medical certificate stating a contraindication to a child seat. Driving slower or a sticker announcing a child on board does not lift the requirement.",
+   "pl": "Jedyny wyjątek daje zaświadczenie lekarskie o przeciwwskazaniu do przewożenia w foteliku. Wolniejsza jazda ani naklejka informująca o dziecku nie zwalniają z obowiązku.",
+   "ua": "Єдиний виняток дає медична довідка про протипоказання до перевезення в кріслі. Повільніша їзда чи наліпка про дитину в салоні від обов'язку не звільняють."
+  }
+ },
+ "13402": {
+  "law": "art. 26 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein weißer Stock kennzeichnet einen blinden Menschen, dann muss der Fahrer anhalten und das Überqueren ermöglichen, auch abseits eines Überwegs. Ein Hupsignal verwirrt diese Person nur.",
+   "en": "A white cane marks a blind person, and then the driver must stop the vehicle and let them cross, including away from a marked crossing. A horn only disorients such a person.",
+   "pl": "Biała laska oznacza osobę niewidomą, a wtedy kierujący ma obowiązek zatrzymać pojazd i umożliwić przejście, także poza przejściem dla pieszych. Sygnał dźwiękowy taką osobę tylko dezorientuje.",
+   "ua": "Біла тростина позначає незрячу людину, і тоді водій зобов'язаний зупинити авто і дати їй перейти, зокрема й поза переходом. Звуковий сигнал таку людину лише дезорієнтує."
+  }
+ },
+ "13404": {
+  "law": "art. 26 ust. 1 i 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine Person mit sichtbarer Behinderung braucht mehr Zeit, man muss also von vornherein mit dem Anhalten rechnen. Sich dem Überweg mit einem Tempo zu nähern, das das Anhalten unmöglich macht, ist der Fehler.",
+   "en": "A person with a visible disability needs more time, so you have to assume in advance that you will have to stop. Approaching the crossing at a speed that makes stopping impossible is the mistake.",
+   "pl": "Osoba z widoczną niepełnosprawnością potrzebuje więcej czasu, więc trzeba z góry założyć, że pojazd trzeba będzie zatrzymać. Dojeżdżanie do przejścia z prędkością, która na to nie pozwala, jest błędem.",
+   "ua": "Людині з видимою інвалідністю потрібно більше часу, тож треба заздалегідь припускати, що доведеться зупинитися. Під'їжджати до переходу зі швидкістю, яка цього не дозволяє, це помилка."
+  }
+ },
+ "13460": {
+  "law": "art. 28 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Lässt sich das Fahrzeug nicht vom Gleis entfernen, muss der Triebfahrzeugführer gewarnt werden, denn ein Zug hat hunderte Meter Bremsweg. Gewarnt wird aus ausreichender Entfernung mit einem aus dem Führerstand sichtbaren Zeichen.",
+   "en": "If the vehicle cannot be cleared off the track, you must warn the train driver, because a train takes hundreds of metres to stop. You warn from a suitable distance, with a clear signal visible from the cab.",
+   "pl": "Jeżeli pojazdu nie da się usunąć z torowiska, trzeba ostrzec maszynistę, bo pociąg hamuje setki metrów. Ostrzega się z odpowiedniej odległości, dając wyraźny sygnał widoczny z lokomotywy.",
+   "ua": "Якщо автомобіль неможливо прибрати з колії, треба попередити машиніста, бо потяг гальмує сотні метрів. Попереджають із належної відстані, подаючи чіткий сигнал, видимий із локомотива."
+  }
+ },
+ "13461": {
+  "law": "art. 28 ust. 5 i 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Zuerst ist das Fahrzeug vom Bahnübergang zu entfernen, erst wenn das misslingt, wird der Triebfahrzeugführer gewarnt. Die Reihenfolge ergibt sich daraus, dass ein freier Übergang das Problem löst, die Warnung es nur meldet.",
+   "en": "The first thing to do is get the vehicle off the crossing, and only if that fails do you warn the train driver. The order is such because a clear crossing solves the problem, while a warning only announces it.",
+   "pl": "W pierwszej kolejności trzeba usunąć pojazd z przejazdu, a dopiero gdy się nie da, ostrzegać maszynistę. Kolejność jest taka, bo pusty przejazd rozwiązuje problem, a ostrzeżenie tylko go sygnalizuje.",
+   "ua": "Насамперед треба прибрати автомобіль із переїзду, і лише якщо це не вдається, попереджати машиніста. Порядок саме такий, бо вільний переїзд розв'язує проблему, а попередження лише сигналізує про неї."
+  }
+ },
+ "13463": {
+  "text": {
+   "de": "Schranken sind so gebaut, dass man sie durchbrechen kann, wenn ein Auto zwischen ihnen eingeschlossen ist. Besser die Schranke zerstören als vor einem heranfahrenden Zug auf den Gleisen bleiben.",
+   "en": "Barriers are built so that they can be broken through if a car is trapped between them. Better to wreck a barrier than to stay on the track in front of an approaching train.",
+   "pl": "Zapory są tak zbudowane, żeby dało się je wyłamać, jeśli auto utknęło między nimi. Lepiej zniszczyć zaporę niż zostać na torach przed nadjeżdżającym pociągiem.",
+   "ua": "Шлагбауми зроблені так, щоб їх можна було зламати, якщо авто застрягло між ними. Краще зруйнувати шлагбаум, ніж лишитися на колії перед потягом."
+  }
+ },
+ "13464": {
+  "law": "art. 28 ust. 3 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Sobald sich die Halbschranken senken, ist die Einfahrt auf den Bahnübergang verboten, ganz gleich wie vorsichtig man fährt. Das Senken bedeutet, dass ein Zug unterwegs ist und gleich da sein wird.",
+   "en": "Once the half-barriers start coming down, entering the crossing is prohibited, however carefully you drive. Their lowering means a train is on its way and will be there in moments.",
+   "pl": "Gdy półzapory zaczynają się opuszczać, wjazd na przejazd jest już zabroniony, bez względu na ostrożność. Opuszczanie oznacza, że pociąg jest w drodze i za chwilę będzie na przejeździe.",
+   "ua": "Коли півшлагбауми починають опускатися, в'їзд на переїзд уже заборонений, попри будь-яку обережність. Опускання означає, що потяг у дорозі і за мить буде на переїзді."
+  }
+ },
+ "13522": {
+  "law": "art. 26 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Gegenüber einer Person mit sichtbar eingeschränkter Beweglichkeit gilt die Anhaltepflicht auch abseits eines Überwegs. Diese Person kann weder ausweichen noch vor einem herannahenden Auto zurücktreten.",
+   "en": "For a person with visibly limited mobility the duty to stop applies away from a marked crossing as well. Such a person cannot get out of the way or step back in front of an approaching car.",
+   "pl": "Wobec osoby o widocznie ograniczonej sprawności ruchowej obowiązek zatrzymania działa także poza przejściem dla pieszych. Taka osoba nie zdąży ustąpić drogi ani cofnąć się przed nadjeżdżającym autem.",
+   "ua": "Щодо особи з видимо обмеженою рухливістю обов'язок зупинитися діє також поза пішохідним переходом. Така людина не встигне ні відійти, ні відступити перед авто."
+  }
+ },
+ "13540": {
+  "law": "art. 23 ust. 1 pkt 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Beim Vorbeifahren an einem Fußgänger ist ein sicherer Abstand zu halten und nötigenfalls die Geschwindigkeit zu verringern. Ein Fußgänger kann zur Seite treten, dichtes Vorbeifahren mit voller Geschwindigkeit scheidet aus.",
+   "en": "When passing a pedestrian you must keep a safe gap and, if needed, slow down. A pedestrian may step aside, so passing close at full speed is out of the question.",
+   "pl": "Omijając pieszego trzeba zachować bezpieczny odstęp, a w razie potrzeby zmniejszyć prędkość. Pieszy może zrobić krok w bok, więc bliski przejazd z pełną prędkością jest wykluczony.",
+   "ua": "Об'їжджаючи пішохода, треба тримати безпечний інтервал, а за потреби знизити швидкість. Пішохід може зробити крок убік, тож близький проїзд на повній швидкості виключений."
+  }
+ },
+ "13551": {
+  "law": "art. 30 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei Nebel außerorts gibt der Führer eines Kraftfahrzeugs beim Überholen kurze Schallzeichen, auch beim Überholen eines Fußgängers. Ein Fußgänger hört ein leises Auto nicht und tritt nicht rechtzeitig beiseite.",
+   "en": "In fog outside a built-up area the driver of a motor vehicle gives short sound signals when overtaking, including when overtaking a pedestrian. A pedestrian will not hear a quiet car and will not step aside in time.",
+   "pl": "We mgle poza obszarem zabudowanym kierujący pojazdem silnikowym daje krótkotrwałe sygnały dźwiękowe podczas wyprzedzania, także wyprzedzając pieszego. Pieszy nie usłyszy cichego auta i nie zdąży zejść z drogi.",
+   "ua": "У тумані поза населеним пунктом водій механічного транспорту подає короткочасні звукові сигнали під час обгону, зокрема й обганяючи пішохода. Пішохід не почує тихого авта і не встигне зійти з дороги."
+  }
+ },
+ "13552": {
+  "law": "art. 30 ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Dieselbe Pflicht gilt beim Vorbeifahren: Bei Nebel außerorts werden kurze Schallzeichen gegeben. Der Fußgänger soll das Fahrzeug hören, bevor es neben ihm ist.",
+   "en": "The same duty covers passing a stationary pedestrian: in fog outside a built-up area you give short sound signals. The point is that the pedestrian hears the vehicle before it draws level.",
+   "pl": "Ten sam obowiązek dotyczy omijania: we mgle poza obszarem zabudowanym daje się krótkotrwałe sygnały dźwiękowe. Chodzi o to, żeby pieszy usłyszał pojazd, zanim ten znajdzie się obok niego.",
+   "ua": "Той самий обов'язок стосується об'їзду: у тумані поза населеним пунктом подають короткочасні звукові сигнали. Ідеться про те, щоб пішохід почув авто, перш ніж воно порівняється з ним."
+  }
+ },
+ "13553": {
+  "law": "art. 26 ust. 6 Prawa o ruchu drogowym",
+  "text": {
+   "de": "An einer Haltestelle ohne Insel steigen die Fahrgäste direkt auf die Fahrbahn, der Fahrer muss also so anhalten, dass sie ungehindert zum Fahrzeug gelangen. An einem stehenden Bus ohne Anhalten vorbeizufahren ist eine Ordnungswidrigkeit.",
+   "en": "At a stop with no island the passengers step straight onto the roadway, so the driver must stop in a place that leaves them free access to the vehicle. Driving past a standing bus without stopping is an offence.",
+   "pl": "Na przystanku bez wyspy pasażerowie wysiadają wprost na jezdnię, więc kierujący musi zatrzymać się tak, by mieli swobodne dojście do pojazdu. Przejazd obok stojącego autobusu bez zatrzymania jest wykroczeniem.",
+   "ua": "На зупинці без острівця пасажири виходять просто на проїзну частину, тож водій мусить зупинитися так, щоб вони мали вільний прохід до транспорту. Проїзд повз автобус, що стоїть, без зупинки це порушення."
+  }
+ },
+ "13560": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die Pflicht, mit beherrschbarer Geschwindigkeit zu fahren, gilt für jeden Fahrzeugführer, auch für Radfahrer und Fuhrleute. Sie hängt weder von der Fahrzeugart noch vom Gebiet ab.",
+   "en": "The duty to drive at a speed that keeps the vehicle under control applies to every driver, a cyclist and a cart driver included. It depends neither on the type of vehicle nor on the area.",
+   "pl": "Obowiązek jazdy z prędkością zapewniającą panowanie nad pojazdem dotyczy każdego kierującego, także rowerzysty i woźnicy. Nie zależy ani od rodzaju pojazdu, ani od obszaru.",
+   "ua": "Обов'язок рухатися зі швидкістю, що забезпечує контроль над транспортом, стосується кожного водія, зокрема велосипедиста і візника. Він не залежить ні від типу транспорту, ні від зони."
+  }
+ },
+ "13561": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Die sichere Geschwindigkeit ist jene, bei der man das Fahrzeug unter den gegebenen Bedingungen beherrscht. Sie liegt oft deutlich unter der zulässigen, etwa auf Eis oder bei Nebel.",
+   "en": "A safe speed is the one at which you keep control of the vehicle in the current conditions. It is often far below the legal limit, for instance on ice or in fog.",
+   "pl": "Prędkość bezpieczna to ta, przy której panujesz nad pojazdem w danych warunkach. Bywa znacznie niższa od dopuszczalnej, na przykład na oblodzonej drodze albo we mgle.",
+   "ua": "Безпечна швидкість це та, за якої ти контролюєш транспорт у наявних умовах. Вона часто значно нижча за дозволену, наприклад на кризі чи в тумані."
+  }
+ },
+ "13562": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Man fährt nur so schnell, dass man innerhalb der überschaubaren Strecke vor einem Hindernis anhalten kann, unabhängig vom Limit. Nachts oder bei Nebel bedeutet das deutlich weniger als erlaubt.",
+   "en": "You drive slowly enough to stop before an obstacle within the stretch of road you can see, whatever the limit says. At night or in fog that means far below the legal maximum.",
+   "pl": "Jedziesz tak szybko, żeby zatrzymać się przed przeszkodą na widocznym odcinku drogi, niezależnie od limitu. W nocy albo we mgle oznacza to prędkość znacznie niższą niż dopuszczalna.",
+   "ua": "Їдеш настільки швидко, щоб зупинитися перед перешкодою на видимому відрізку дороги, незалежно від ліміту. Уночі чи в тумані це означає швидкість значно нижчу за дозволену."
+  }
+ },
+ "13569": {
+  "text": {
+   "de": "Je schneller man fährt, desto weniger Zeit bleibt, eine Gefahr zu erkennen und zu reagieren. Die Reaktionszeit ist etwa konstant, bei höherem Tempo legt das Auto in dieser Zeit einen längeren Weg zurück.",
+   "en": "The faster you go, the less time is left to notice a hazard and react. Reaction time is roughly constant, so at higher speed the car covers a longer distance during it.",
+   "pl": "Im szybciej jedziesz, tym mniej czasu zostaje na dostrzeżenie zagrożenia i reakcję. Czas reakcji jest w przybliżeniu stały, więc przy większej prędkości auto przejeżdża w tym czasie dłuższy odcinek.",
+   "ua": "Що швидше їдеш, то менше часу лишається помітити небезпеку і зреагувати. Час реакції приблизно сталий, тож на більшій швидкості авто долає за цей час довшу відстань."
+  }
+ },
+ "13570": {
+  "text": {
+   "de": "Die Aufprallenergie wächst mit dem Quadrat der Geschwindigkeit, das Tempo entscheidet also über die Folgen jedes Unfalls, nicht nur eines Frontalzusammenstoßes. Zwischen 50 und 70 km/h liegt der Unterschied zwischen Blechschaden und Todesfall.",
+   "en": "Impact energy grows with the square of speed, so speed decides the outcome of every crash, not only a head-on one. The gap between 50 and 70 km/h is the gap between a dented wing and a fatality.",
+   "pl": "Energia zderzenia rośnie z kwadratem prędkości, więc prędkość decyduje o skutkach każdego wypadku, nie tylko czołowego. Różnica między 50 a 70 km/h to różnica między stłuczką a wypadkiem śmiertelnym.",
+   "ua": "Енергія удару зростає пропорційно квадрату швидкості, тож швидкість визначає наслідки будь-якої аварії, а не лише лобової. Різниця між 50 і 70 км/год це різниця між пом'ятим крилом і загибеллю."
+  }
+ },
+ "13580": {
+  "law": "art. 19 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Nachts auf kurviger unbeleuchteter Straße reicht das Licht weniger weit als der Anhalteweg beim Höchsttempo. Man muss so fahren, dass man innerhalb der eigenen Lichtreichweite anhalten kann.",
+   "en": "At night on a winding unlit road the headlights reach less far than the stopping distance at the maximum limit. You have to drive so as to stop within the range of your own lights.",
+   "pl": "Nocą na krętej, nieoświetlonej drodze światła sięgają krócej niż droga zatrzymania przy maksymalnym limicie. Trzeba jechać tak, żeby zatrzymać się w zasięgu własnych świateł.",
+   "ua": "Уночі на звивистій неосвітленій дорозі світло сягає ближче, ніж зупинковий шлях на максимальному ліміті. Треба їхати так, щоб зупинитися в межах власного світла."
+  }
+ },
+ "13592": {
+  "text": {
+   "de": "Ein sehr schnelles Fahrzeug wird schwerer wahrgenommen, weil andere Entfernung und Ankunftszeit nach üblichen Geschwindigkeiten einschätzen. Deshalb fährt ein Einbiegender direkt vor ein rasendes Auto.",
+   "en": "A very fast vehicle is harder to spot, because others judge distance and closing time from typical speeds. That is why a driver joining the road pulls out right in front of a speeding car.",
+   "pl": "Pojazd jadący bardzo szybko trudniej zauważyć, bo inni oceniają odległość i czas dojazdu na podstawie typowych prędkości. Dlatego kierowca włączający się do ruchu wyjeżdża wprost przed rozpędzone auto.",
+   "ua": "Транспорт, що рухається дуже швидко, важче помітити, бо інші оцінюють відстань і час під'їзду за типовими швидкостями. Тому водій, який виїжджає на дорогу, опиняється просто перед розігнаним авто."
+  }
+ },
+ "13593": {
+  "text": {
+   "de": "Bei 120 km/h legt ein Auto etwa 33 Meter pro Sekunde zurück, eine Sekunde Verzögerung verlängert den Anhalteweg also um über dreißig Meter. Das genügt, damit der Zusammenstoß nicht mehr vermeidbar ist.",
+   "en": "At 120 km/h a car covers about 33 metres per second, so one second of delay adds over thirty metres to the stopping distance. That alone can be the difference between avoiding and hitting.",
+   "pl": "Przy 120 km/h auto pokonuje około 33 metry na sekundę, więc sekunda zwłoki to ponad trzydzieści metrów dłuższa droga zatrzymania. Tyle wystarczy, żeby zderzenia nie dało się już uniknąć.",
+   "ua": "На 120 км/год авто долає близько 33 метрів за секунду, тож секунда зволікання це понад тридцять метрів довший зупинковий шлях. Цього досить, щоб зіткнення вже не вдалося уникнути."
+  }
+ },
+ "13594": {
+  "text": {
+   "de": "100 km/h sind etwa 28 Meter pro Sekunde, denn man teilt Kilometer pro Stunde durch 3,6. Die Umrechnung lohnt sich zu merken: Bei 50 km/h legt das Auto rund 14 Meter pro Sekunde zurück.",
+   "en": "100 km/h is about 28 metres per second, since you divide kilometres per hour by 3.6. The conversion is worth remembering: at 50 km/h a car covers roughly 14 metres a second.",
+   "pl": "100 km/h to około 28 metrów na sekundę, bo dzieli się kilometry na godzinę przez 3,6. Warto pamiętać ten przelicznik: przy 50 km/h auto robi około 14 metrów na sekundę.",
+   "ua": "100 км/год це близько 28 метрів за секунду, бо кілометри на годину ділять на 3,6. Цей перерахунок варто запам'ятати: на 50 км/год авто долає приблизно 14 метрів за секунду."
+  }
+ },
+ "13604": {
+  "law": "art. 33a ust. 3 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Ein E-Scooter ist für eine Person ausgelegt, die Mitnahme eines Passagiers ist verboten. Eine zweite Person verschiebt den Schwerpunkt und verlängert den Bremsweg eines ohnehin schwach bremsenden Fahrzeugs.",
+   "en": "An electric scooter is built for one person and carrying a passenger is prohibited. A second rider shifts the centre of gravity and lengthens the braking distance of a vehicle that brakes poorly anyway.",
+   "pl": "Hulajnoga elektryczna jest przeznaczona dla jednej osoby i przewożenie pasażera jest zabronione. Druga osoba zmienia środek ciężkości i wydłuża drogę hamowania pojazdu, który i tak hamuje słabo.",
+   "ua": "Електросамокат розрахований на одну особу, і перевозити пасажира заборонено. Друга людина зміщує центр ваги й подовжує гальмівний шлях транспорту, який і так гальмує слабко."
+  }
+ },
+ "13609": {
+  "law": "art. 60 ust. 2 pkt 4 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Eine Person auf einem Fortbewegungsmittel wie Roller oder Rollschuhen hinter dem Fahrzeug herzuziehen ist verboten. Diese Person kann weder bremsen noch auf die Handlungen des Fahrers reagieren.",
+   "en": "Towing behind the vehicle a person on a mobility device, such as a scooter or skates, is prohibited. That person has no way to brake or to react to what the driver does.",
+   "pl": "Ciągnięcie za pojazdem osoby na urządzeniu wspomagającym ruch, jak na hulajnodze czy rolkach, jest zabronione. Taka osoba nie ma jak hamować ani reagować na to, co robi kierowca.",
+   "ua": "Буксирувати за транспортом особу на пристрої для пересування, як-от самокаті чи роликах, заборонено. Така людина не має змоги ні гальмувати, ні реагувати на дії водія."
+  }
+ },
+ "13615": {
+  "law": "art. 33a ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Gehweg darf ausnahmsweise benutzt werden, wenn kein Radweg vorhanden ist und die zulässige Geschwindigkeit auf der Fahrbahn über 30 km/h liegt. Dann fährt man in Schrittgeschwindigkeit und gewährt Fußgängern Vorrang.",
+   "en": "A footway may be used exceptionally, when there is no cycle path and the speed limit on the road exceeds 30 km/h. You then ride at walking pace and give way to pedestrians.",
+   "pl": "Z drogi dla pieszych wolno korzystać wyjątkowo, gdy nie ma drogi dla rowerów, a dopuszczalna prędkość na jezdni przekracza 30 km/h. Wtedy jedzie się z prędkością pieszego i ustępuje mu pierwszeństwa.",
+   "ua": "Пішохідною доріжкою можна користуватися у виняткових випадках, коли немає велодоріжки, а дозволена швидкість на проїзній частині перевищує 30 км/год. Тоді рухаються зі швидкістю пішохода і поступаються йому."
+  }
+ },
+ "13618": {
+  "law": "art. 28 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Geöffnete Schranken befreien nicht von der Pflicht, sich zu vergewissern, dass kein Zug kommt. Sicherungsanlagen können gestört sein, und die Verantwortung für die Einfahrt trägt stets der Fahrer.",
+   "en": "Raised barriers do not remove the duty to make sure no train is coming. Safety devices do fail, and responsibility for entering the crossing always rests with the driver.",
+   "pl": "Podniesione zapory nie zwalniają z obowiązku upewnienia się, czy pociąg nie nadjeżdża. Urządzenia zabezpieczające bywają uszkodzone, a odpowiedzialność za wjazd zawsze spoczywa na kierującym.",
+   "ua": "Підняті шлагбауми не звільняють від обов'язку переконатися, що потяг не наближається. Пристрої безпеки бувають несправні, а відповідальність за в'їзд завжди на водієві."
+  }
+ },
+ "13623": {
+  "law": "art. 28 ust. 1 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Bei der Annäherung an den Bahnübergang beobachtet man Signale, Schranken, akustische Warnungen und das Gleis in beide Richtungen. Ein Zug kann nicht rechtzeitig bremsen, die gesamte Vergewisserung liegt beim Fahrer.",
+   "en": "Approaching a crossing you watch the signals, the barriers, the audible warnings and the track itself in both directions. A train cannot brake in time, so the whole check falls on the driver.",
+   "pl": "Zbliżając się do przejazdu obserwuje się sygnalizację, zapory, sygnały dźwiękowe i sam tor w obie strony. Pociąg nie jest w stanie wyhamować, więc całe upewnienie się spoczywa na kierowcy.",
+   "ua": "Наближаючись до переїзду, спостерігають за сигналізацією, шлагбаумами, звуковими сигналами і самою колією в обидва боки. Потяг не встигне загальмувати, тож усе переконання лягає на водія."
+  }
+ },
+ "13684": {
+  "text": {
+   "de": "Umsicht heißt, die Aufmerksamkeit dort zu erhöhen, wo die Gefahr real ist, also am Fußgängerüberweg. Ständig am Limit zu fahren ignoriert wechselnde Bedingungen, und maximale Beschleunigung mindert keine Gefahr.",
+   "en": "Prudence means raising your attention where the risk is real, that is at a pedestrian crossing. Constantly driving at the limit ignores changing conditions, and maximum acceleration reduces no danger.",
+   "pl": "Rozwaga to zwiększenie uwagi tam, gdzie zagrożenie jest realne, czyli przy przejściu dla pieszych. Jazda stale na maksymalnym limicie ignoruje zmieniające się warunki, a maksymalne przyspieszenia zagrożenia nie zmniejszają.",
+   "ua": "Розважливість це посилення уваги там, де небезпека реальна, тобто біля пішохідного переходу. Постійна їзда на максимальному ліміті ігнорує змінні умови, а максимальні прискорення небезпеки не зменшують."
+  }
+ },
+ "13769": {
+  "law": "art. 24 ust. 2 Prawa o ruchu drogowym",
+  "text": {
+   "de": "Der Mindestabstand von 1 Meter gilt beim Überholen, nicht beim Begegnen. Beim Begegnen eines entgegenkommenden Fahrzeugs ist schlicht ein sicherer Abstand nötig.",
+   "en": "The minimum of 1 metre applies to overtaking, not to meeting an oncoming vehicle. Passing something coming the other way requires simply a safe gap.",
+   "pl": "Odstęp minimum 1 metra obowiązuje przy wyprzedzaniu, a nie przy wymijaniu. Wymijanie to mijanie pojazdu jadącego z przeciwka i tam wymagany jest po prostu odstęp bezpieczny.",
+   "ua": "Інтервал щонайменше 1 метр діє при обгоні, а не при роз'їзді. Роз'їзд це проїзд повз зустрічний транспорт, і там потрібен просто безпечний інтервал."
+  }
+ },
  "1864": {
   "law": "art. 6 ust. 1 pkt 3 ustawy o kierujących pojazdami",
   "text": {
